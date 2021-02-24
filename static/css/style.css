@@ -1,0 +1,46 @@
+body{
+    background-color: beige;
+}
+
+.cabecalho{
+   margin: -7px;
+    width: auto;
+    height: 570px;
+    background-image: url(../imagens/background/principalfull.jpg);
+    /*background-attachment: fixed;*/
+    background-size: cover ;
+}
+nav{
+    margin-top: -8px;
+    position: fixed;
+    
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, alp0.7ha);
+   
+}
+ul{
+    padding: 0px;
+    margin: 7px;
+}
+li{
+    padding: 10px;
+    font-family: Arial;
+    font-size: 17px;
+    margin: 1px;
+    display: inline-block;
+}
+li:hover{
+    background-color:#5C7FAA;
+    border-radius: 5px;
+  
+}
+a{
+    color: #D9A25F;
+    text-decoration: none;
+
+
+}
+a:hover{
+    color:#403222;
+}
