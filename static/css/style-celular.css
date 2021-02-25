@@ -8,7 +8,7 @@ body{
 nav{
 
   
-    margin-top: -8px;
+    margin-top: 0px;
     position: fixed;
     
     width: auto;
@@ -17,6 +17,7 @@ nav{
    
 }
 ul{
+    
     
     padding: 0px;
     margin: 7px;
@@ -123,13 +124,12 @@ a:hover{
     border: 1px solid #F21616;
     display: grid;
     grid-template-columns: 1fr;
+   
 }  
 .grid >div:nth-child(2){
     color: #8C0D0D;
     padding: 40px;
     margin: 0px;
-    
-  
     margin-right: 60px;
     margin-left: 0px;
   
@@ -140,7 +140,6 @@ a:hover{
     border-radius: 30px;
     color: #8C0D0D;
     padding: 40px;
-
     width: auto;
     height: 550px;
     align-items: center;
