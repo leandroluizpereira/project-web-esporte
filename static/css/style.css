@@ -119,26 +119,49 @@ a:hover{
     min-width: 600px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid #F21616;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
 }  
 .grid >div:nth-child(2){
-    color: red;
-    padding: 40px;
+    color: #8C0D0D;
+    padding: 20px;
+    padding-left: 70px;
     margin: 0px;
-    
+    padding-top: -3px;
   
-    margin-right: 60px;
-    margin-left: 0px;
+    
   
     border-radius: 30px;
 }
 .grid>div:nth-child(n+3){
     background-color: white;
     border-radius: 30px;
-    color: red;
+    color: #8C0D0D;
     padding: 40px;
-    height: 250px;
-    align-items: center;
+    padding:25px;
+    margin: 10px;
+    height: 390px;
+   
+
     
 }
+.grid>div h1:nth-child(n+1){
+    color:#D9AD5B;
+  
+
+   
+}
+.grid>div p:nth-child(n+1){
+
+    text-indent: 23px;
+}
+.grid>div h3:nth-child(n+1){
+    text-indent: 20px;
+   
+ 
+    
+ }
 
 }
