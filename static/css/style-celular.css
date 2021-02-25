@@ -1,6 +1,7 @@
 
+@charset "UTF-8";
 
-@media screen and (min-width:140px) and(max-width:440px){
+@media screen and (min-width:0px) and (max-width:500px){
 body{
     background-color: beige;
 }
@@ -23,7 +24,7 @@ ul{
 .li{
     padding: 10px;
     font-family: Arial;
-    font-size: 5px;
+    font-size: 10px;
     margin: 1px;
     display: inline-block;
 }
@@ -104,15 +105,15 @@ a:hover{
 }
 
 .secao{
-    margin-left:100px;
-    margin-right: 100px;
+    margin-left:35px;
+    margin-right: 35px;
     width: auto;
     height: auto;
     
 }
 .imagem-basquete{
-    width: 100px;
-    height: 100px;
+    width: 280px;
+    height: 460px;
 }
 .grid {
     align-items: center;
