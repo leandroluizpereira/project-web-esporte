@@ -123,7 +123,7 @@ p{
     margin-right: 100px;
     width: auto;
     height: auto;
-    background-color: #8C0D0D;
+   
     border-radius: 20px;
     
 }
@@ -134,6 +134,7 @@ p{
     min-width: 250px;
     width: 89%;
     height: auto;
+    border-radius: 10%;
 
  
     padding-top: 20px;
@@ -141,7 +142,7 @@ p{
 /*grid dividindo em 3 colunas com 1fr deixando proporcional a largura da tela 100%*/
 .grid {
     align-items: center;
-    
+   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border: 1px solid #D9A25F;
@@ -235,7 +236,7 @@ p{
     margin-right: 100px;
     width: auto;
     height: auto;
-    background-color: rgb(215, 255, 255);
+ 
     
 }
 
