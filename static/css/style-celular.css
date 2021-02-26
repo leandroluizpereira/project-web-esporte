@@ -3,7 +3,7 @@
 
 @media screen and (min-width:0px) and (max-width:700px){
 body{
-    background-color: beige;
+    background-color: white;
 }
 nav{
     margin-top: 0px;
@@ -108,11 +108,13 @@ p{
     background-size: cover ;
 }
 
-.secao{
-    margin-left:35px;
-    margin-right: 35px;
+.secao-basquete{
+    margin-left:20px;
+    margin-right: 20px;
     width: auto;
     height: auto;
+    background-color:#8C0D0D;
+    border-radius: 20px;
     
 }
 .imagem-basquete{
@@ -122,14 +124,15 @@ p{
     border-radius: 10px;
     width: 89%;
     height: auto;
- 
+
     padding-top: 20px;
 }
 .grid {
     align-items: center;
-    border-top: 1px solid #F21616;
-    border-left:1px solid #F21616 ;
-    border-right: 1px solid #F21616;
+    border-top: 1px solid #D9A25F;
+    border-left:1px solid #D9A25F ;
+    border-right: 1px solid #D9A25F;
+    margin: 10px;
     display: grid;
     grid-template-columns: 1fr;
     border-radius: 20px;
@@ -146,13 +149,13 @@ p{
 }
 .grid >div:nth-child(2){
  
-    color: #8C0D0D;
+    color:#D9A25F;
     padding: 13%;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 10px;
     margin-right: 10px;
-    border: 1px solid #F21616;
+    border: 1px solid #D9A25F;
     border-radius: 10px;
   
 
@@ -167,11 +170,12 @@ p{
     padding: 23px;
 
     width: auto;
-    height: 800px;
+    height: auto;
     align-items: center;
-    overflow: scroll;
+
    
 }
+
 .grid>div h1:nth-child(n+1){
     color:#D9AD5B;
    
@@ -192,6 +196,23 @@ p{
 
      
  }
+ .informacao{
+    background-color: white;
+ 
+}
+
+
+.secao-surf{
+    margin-left:20px;
+    margin-right: 20px;
+    width: auto;
+    height: auto;
+    background-color:rgb(151, 228, 228);
+    border-radius: 20px;
+
+  
+    
+}
 /*adicionando chave para animaçâo */
  @keyframes bola-movimento {
      from{

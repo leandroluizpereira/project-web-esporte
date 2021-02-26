@@ -7,7 +7,7 @@
 
 body{
    
-    background-color: beige;
+    background-color: white;
     /*se expande no minimo 990 pixel */
     min-width: 990px;
 }
@@ -118,11 +118,13 @@ p{
    
 }
 
-.secao{
+.secao-basquete{
     margin-left:100px;
     margin-right: 100px;
     width: auto;
     height: auto;
+    background-color: #8C0D0D;
+    border-radius: 20px;
     
 }
 .imagem-basquete{
@@ -132,6 +134,7 @@ p{
     min-width: 250px;
     width: 89%;
     height: auto;
+
  
     padding-top: 20px;
 }
@@ -141,7 +144,7 @@ p{
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid #F21616;
+    border: 1px solid #D9A25F;
     border-radius: 20px;
     margin: 10px;
     padding: 20px;
@@ -157,7 +160,7 @@ p{
 .grid >div:nth-child(2){
     
     
-    color: #8C0D0D;
+    color: #D9AD5B;
     padding: 60px;
   
     margin-left: 0px;
@@ -220,6 +223,24 @@ p{
 
      
  }
+ .informacao{
+     background-color: white;
+  
+}
+
+
+
+.secao-surf{
+    margin-left:100px;
+    margin-right: 100px;
+    width: auto;
+    height: auto;
+    background-color: rgb(215, 255, 255);
+    
+}
+
+
+
 /*adicionando chave para animaçâo */
  @keyframes bola-movimento {
      from{
