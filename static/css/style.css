@@ -176,6 +176,26 @@ a:hover{
  
     
  }
+      /*usando a chave da animação definindo transição linear infinito*/
+ .img-basquete{
+     animation: bola-movimento 1s linear infinite;
+
+     
+ }
+/*adicionando chave para animaçâo */
+ @keyframes bola-movimento {
+     from{
+     
+          transform: translateY(0px);
+     }
+     to{
+
+        transform: translateY(-7px);
+     }
+  
+     
+ }
+
 
 
 }

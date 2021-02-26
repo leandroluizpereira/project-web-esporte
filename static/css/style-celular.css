@@ -6,8 +6,6 @@ body{
     background-color: beige;
 }
 nav{
-
-  
     margin-top: 0px;
     position: fixed;
     
@@ -50,7 +48,6 @@ a:hover{
      padding-bottom: 10px;
     width: auto;
     height: auto;
-    /*background-color: rgba(0, 0, 0, 0.2);*/
     color: white;
 }
 .header-titulo h1{
@@ -147,20 +144,33 @@ a:hover{
 }
 .grid>div h1:nth-child(n+1){
     color:#D9AD5B;
-
-  
-
    
 }
 .grid>div h3:nth-child(n+1){
    text-indent: 20px;
-  
-
    
 }
 .grid>div p:nth-child(n+1){
 
     text-indent: 23px;
 }
+.img-basquete{
+     /*usando a chave da animação definindo transição linear infinito*/
+     animation: bola-movimento 1s linear infinite;
+
+     
+ }
+/*adicionando chave para animaçâo */
+ @keyframes bola-movimento {
+     from{
+          transform: translateY(0px);
+     }
+     to{
+
+        transform: translateY(-7px);
+     }
+  
+     
+ }
 
 }
