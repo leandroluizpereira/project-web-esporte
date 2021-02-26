@@ -32,12 +32,13 @@ ul{
     border-radius: 5px;
   
 }
-a:hover{
-    color: #D9A25F;
+a{
+    color: white;
+    text-decoration: none;
    
 }
 a:hover{
-    color:#403222;
+    color:#D9A25F;
 }
 p{
     text-align: justify;
@@ -72,12 +73,10 @@ p{
 
 }
 .header-titulo2{
+    
+    text-align: center;
 
-     float: right;
-    padding-left: 80px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-    width:350px;
+    width:auto;
     height: auto;
     background-color: rgba(0, 0, 0, 0);
     color: white;
@@ -91,6 +90,7 @@ p{
     text-shadow:4px 2px 2px #403222;
 }
 .header-titulo2 h2{
+    text-align: center;
     padding-left: 10px;
     font-size: 25px;
     color: white;
@@ -114,39 +114,58 @@ p{
     
 }
 .imagem-basquete{
-
-    width: 230px;
-    height: 360px;
-    padding-left: 20px;
-    border-radius: 12px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 7%;
+    border-radius: 10px;
+    width: 89%;
+    height: auto;
+ 
     padding-top: 20px;
 }
 .grid {
     align-items: center;
-    border: 1px solid #F21616;
+    border-top: 1px solid #F21616;
+    border-left:1px solid #F21616 ;
+    border-right: 1px solid #F21616;
     display: grid;
     grid-template-columns: 1fr;
+    border-radius: 20px;
    
 }  
+.grid >div:nth-child(1){
+    
+      align-items: center;
+      position: center;
+ 
+   
+
+}
 .grid >div:nth-child(2){
    
     color: #8C0D0D;
-    padding: 40px;
-    margin: 0px;
-    margin-right: 60px;
-    margin-left: 0px;
+    padding: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #F21616;
+    border-radius: 10px;
   
-    border-radius: 30px;
+
 }
-.grid>div:nth-child(n+3){
+
+.grid>div:nth-child(3){
+    margin:-5px;
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
     background-color: white;
-    border-radius: 30px;
+    border-radius: 0px 0px 0px 0px ;
     color: #8C0D0D;
-    padding: 40px;
+    padding: 23px;
     width: auto;
-    height: 550px;
+    height: 800px;
     align-items: center;
+    overflow: scroll;
    
 }
 .grid>div h1:nth-child(n+1){
