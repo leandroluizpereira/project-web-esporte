@@ -32,10 +32,10 @@ ul{
     margin: 1px;
     display: inline-block;
 }
-.li:hover{
-    background-color:#5C7FAA;
+.li:hover {
+    background-color:white;
     border-radius: 5px;
-  
+
 }
 a{
     color: white;
@@ -44,7 +44,8 @@ a{
 
 }
 a:hover{
-    color:#403222;
+    color: #D9A25F;
+   
 }
 .header-titulo{
    
@@ -100,6 +101,7 @@ a:hover{
 }
 
 .cabecalho{
+ 
    margin: -8px;
     width: auto;
     height: 570px;
@@ -118,7 +120,7 @@ a:hover{
 /*grid dividindo em 3 colunas com 1fr deixando proporcional a largura da tela 100%*/
 .grid {
     align-items: center;
-    min-width: 600px;
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border: 1px solid #F21616;
