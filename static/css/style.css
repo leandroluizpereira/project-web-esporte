@@ -47,6 +47,9 @@ a:hover{
     color: #D9A25F;
    
 }
+p{
+    text-align: justify;
+}
 .header-titulo{
    
     padding-left: 80px;
