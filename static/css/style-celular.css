@@ -114,8 +114,7 @@ p{
     
 }
 .imagem-basquete{
-    border: 3px solid #590A0A ;
-    border-radius: 50%;
+
     width: 230px;
     height: 360px;
     padding-left: 20px;
@@ -130,6 +129,7 @@ p{
    
 }  
 .grid >div:nth-child(2){
+   
     color: #8C0D0D;
     padding: 40px;
     margin: 0px;
@@ -163,6 +163,8 @@ p{
 .img-basquete{
      /*usando a chave da animação definindo transição linear infinito*/
      animation: bola-movimento 1s linear infinite;
+     border: 3px solid #590A0A ;
+     border-radius: 50%;
 
      
  }
