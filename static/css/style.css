@@ -154,7 +154,7 @@ a:hover{
    
 }
 .grid>div p:nth-child(n+1){
-
+   
     text-indent: 23px;
 }
 .grid>div h3:nth-child(n+1){
@@ -163,5 +163,6 @@ a:hover{
  
     
  }
+
 
 }
