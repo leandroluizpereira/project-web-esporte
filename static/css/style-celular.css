@@ -1,7 +1,7 @@
 
 @charset "UTF-8";
 
-@media screen and (min-width:0px) and (max-width:500px){
+@media screen and (min-width:0px) and (max-width:700px){
 body{
     background-color: beige;
 }
@@ -73,11 +73,12 @@ p{
 
 }
 .header-titulo2{
-    
-    text-align: center;
 
-    width:auto;
-    height: auto;
+    text-align: center;
+   margin-left: 14%;
+   margin-right: 14%;
+    width:70%;
+    height: 40%;
     background-color: rgba(0, 0, 0, 0);
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255,0.3);
@@ -85,6 +86,7 @@ p{
    
 }
 .header-titulo2 h1{
+    text-align: center;
     font-size: 50px;
     color: white;
     text-shadow:4px 2px 2px #403222;
@@ -100,7 +102,7 @@ p{
 .cabecalho{
    margin: -8px;
     width: auto;
-    height: 570px;
+    height: auto;
     background-image: url(../imagens/background/principalfull.jpg);
     /*background-attachment: fixed;*/
     background-size: cover ;
@@ -131,6 +133,7 @@ p{
     display: grid;
     grid-template-columns: 1fr;
     border-radius: 20px;
+
    
 }  
 .grid >div:nth-child(1){
@@ -142,9 +145,9 @@ p{
 
 }
 .grid >div:nth-child(2){
-   
+ 
     color: #8C0D0D;
-    padding: 32px;
+    padding: 13%;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 10px;
@@ -162,6 +165,7 @@ p{
     border-radius: 0px 0px 0px 0px ;
     color: #8C0D0D;
     padding: 23px;
+
     width: auto;
     height: 800px;
     align-items: center;
