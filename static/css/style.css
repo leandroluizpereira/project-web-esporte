@@ -111,6 +111,7 @@ p{
     background-image: url(../imagens/background/principalfull.jpg);
     /*background-attachment: fixed;*/
     background-size: cover ;
+   
 }
 
 .secao{
@@ -192,7 +193,8 @@ p{
  .img-basquete{
     border: 3px solid #590A0A ;
      border-radius: 50%;
-     animation: bola-movimento 1s linear infinite;
+     
+     animation:  bola-movimento 2s 2s linear infinite;
 
      
  }
@@ -208,6 +210,21 @@ p{
      }
   
      
+     
+ }
+ /*animação circular crescente do ponto ao maximo da imagem */
+ @keyframes scale {
+     from {
+         border-radius: 50%;
+        transform: scale(0);
+        opacity: 0;
+     }
+     to{
+         border-radius: 50%;
+        transform:scale (3.0);
+        opacity: 1;
+     }
+
  }
 
 
