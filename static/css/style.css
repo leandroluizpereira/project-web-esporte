@@ -180,6 +180,8 @@ a:hover{
  }
       /*usando a chave da animação definindo transição linear infinito*/
  .img-basquete{
+    border: 3px solid #590A0A ;
+     border-radius: 50%;
      animation: bola-movimento 1s linear infinite;
 
      
