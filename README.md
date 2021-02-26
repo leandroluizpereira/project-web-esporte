@@ -1,7 +1,7 @@
 # project-web
  Projeto : sétimo semestre  .
  
- # Acesso ao meu site:
+ # Acesso ao site:
  ## https://leandroluizpereira.github.io/project-web/
  
  as imagens utilizada neste site tenho total permissâo para fim de editar e usa-las para uso comercial .
