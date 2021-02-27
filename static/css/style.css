@@ -16,7 +16,7 @@ body{
     
 }
 nav{
-
+    z-index: 1;
    
     margin-top: 0px;
     position: fixed;
@@ -28,7 +28,7 @@ nav{
 }
 nav:hover{
     background-color: rgb(0,0,0);
-    
+    animation: opacidade 1.1s ease-in;
 }
 ul{
     
@@ -171,8 +171,8 @@ height: 500px;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 7%;
-    min-width: 250px;
-    width: 89%;
+   
+    width: 300px;
     height: auto;
     border-radius: 10%;
 
@@ -259,7 +259,7 @@ height: 500px;
  .img-basquete{
     border: 3px solid #590A0A ;
      border-radius: 50%;
-     
+     z-index :0;
      animation:  bola-movimento 2s 2s linear infinite;
 
      
@@ -331,6 +331,20 @@ height: 500px;
     
     
 }
+@keyframes opacidade {
+    from{
+    
+        opacity: 0;
+    }
+    to{
+
+      opacity: 1;
+    }
+ 
+    
+    
+}
+
 
 
 

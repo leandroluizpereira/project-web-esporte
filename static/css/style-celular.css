@@ -233,6 +233,46 @@ p{
      
  }
 }
+ /*animação circular crescente do ponto ao maximo da imagem */
+@keyframes scale {
+    from {
+        border-radius: 50%;
+       transform: scale(0);
+       opacity: 0;
+    }
+    to{
+        border-radius: 50%;
+       transform:scale (3.0);
+       opacity: 1;
+    }
+
+}
+@keyframes move {
+   from{
+   
+        transform: translateX(0px);
+   }
+   to{
+
+      transform: translateX(100%);
+   }
+
+   
+   
+}
+@keyframes opacidade {
+   from{
+   
+       opacity: 0;
+   }
+   to{
+
+     opacity: 1;
+   }
+
+   
+   
+}
 
 
 
