@@ -1,7 +1,7 @@
 @charset  "UTF-8";
 
 @media screen and (min-width:430px) and (max-width:1400px){
-.secao-surf{
+.secao-futebol{
     margin-left:100px;
     margin-right: 100px;
     width: auto;
@@ -9,18 +9,17 @@
  
     
 }
-.imagem-surf{
+.imagem-futebol{
     padding-left: 10px;
     width: 280px;
     height: auto;
   border-radius: 20px;
 
-    background:url(../imagens/EsporteSurf-300px3.jpg);
+    background:url(../imagens/futebol-girl-320px-gimp.webp);
 }
 
-
 /*grid dividindo em 3 colunas com 1fr deixando proporcional a largura da tela 100%*/
-.grid-surf {
+.grid-futebol {
     align-items: center;
    
     display: grid;
@@ -34,11 +33,11 @@
 }  
 
 /*:th-child ele pega o filho da tag declarado */
-.grid-surf >div:nth-child(1){
+.grid-futebol >div:nth-child(1){
   color:white;
 
 }
-.grid-surf >div:nth-child(2){
+.grid-futebol>div:nth-child(2){
     
     
     color: #D9AD5B;
@@ -52,7 +51,7 @@
     border-radius: 30px;
 }
 
-.grid-surf>div:nth-child(3){
+.grid-futebol>div:nth-child(3){
     background-color: white;
     border-radius: 30px;
     color: #8C0D0D;
@@ -76,7 +75,7 @@
 
 
 /*(n+3) ele pega os filhos aparte do 3 */
-.grid-surf>div h1:nth-child(n+1){
+.grid-futebol>div h1:nth-child(n+1){
     color:#D9AD5B;
 
    
@@ -85,18 +84,18 @@
 
 
 
-.grid-surf>div p:nth-child(n+1){
+.grid-futebol>div p:nth-child(n+1){
    
     text-indent: 23px;
 }
-.grid-surf>div h3:nth-child(n+1){
+.grid-futebol>div h3:nth-child(n+1){
     text-indent: 20px;
    
  
     
  }
       /*usando a chave da animação definindo transição linear infinito*/
- .img-basquete{
+ .img-futebol{
     border: 3px solid #590A0A ;
      border-radius: 50%;
      z-index :0;
@@ -107,15 +106,14 @@
 
      
  }
- .img-basquete:hover{
+ .img-futebol:hover{
 
      animation: bola-movimento 0.5s  linear infinite    ;
     
  }
- .surf-informacao{
+ .futebol-informacao{
      background-color: white;
   
 }
-
 
 }
