@@ -18,13 +18,17 @@ body{
 nav{
 
    
-    margin-top: -8px;
+    margin-top: 0px;
     position: fixed;
     
-    width: auto;
+    width: 100%;
     height: auto;
     background-color: rgba(0, 0, 0, 0);
    
+}
+nav:hover{
+    background-color: rgb(0,0,0);
+    
 }
 ul{
     
@@ -38,17 +42,22 @@ ul{
     margin: 1px;
     display: inline-block;
 }
-.li:hover {
+.li:hover{
     background-color:white;
     border-radius: 5px;
+    animation: bola-movimento 1s linear infinite;
+    color: #D9A25F;
+
 
 }
 a{
-    color: white;
+    color:white;
+    text-shadow: 2px 2px 2px 4px black;
     text-decoration: none;
 
 
 }
+
 a:hover{
     color: #D9A25F;
    
@@ -309,6 +318,19 @@ height: 500px;
      }
 
  }
+ @keyframes move {
+    from{
+    
+         transform: translateX(0px);
+    }
+    to{
+
+       transform: translateX(100%);
+    }
+ 
+    
+    
+}
 
 
 
