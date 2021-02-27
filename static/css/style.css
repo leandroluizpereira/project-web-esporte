@@ -141,6 +141,7 @@ height: 500px;
    margin: -8px;
     width: 1400px;
     height: 650px;
+  
 
    background: url(../imagens/background/paisagemfull.jpg);
    background-position-y: -250px;
@@ -154,6 +155,9 @@ height: 500px;
 
 
 
+   
+}
+.cabecalho :hover{
    
 }
 
@@ -261,9 +265,13 @@ height: 500px;
      border-radius: 50%;
      z-index :0;
      
-     animation: bola-movimento 4s  linear infinite ,girar 6s linear   ;
+     animation: bola-movimento 0.5s  linear infinite    ;
 
      
+ }
+ .img-basquete:hover{
+     animation: girar 0.7s linear infinite;
+
  }
  .informacao{
      background-color: white;
@@ -355,10 +363,12 @@ height: 500px;
     from{
     
         transform: rotate(0deg);
+       
     }
     to{
  
         transform: rotate(35deg);
+ 
     }
  
     
