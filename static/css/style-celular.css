@@ -103,9 +103,15 @@ p{
    margin: -8px;
     width: auto;
     height: auto;
-    background-image: url(../imagens/background/principalfull.jpg);
-    /*background-attachment: fixed;*/
-    background-size: cover ;
+   
+    background-attachment: fixed;
+
+    background: url(../imagens/background/paisagemfull.jpg)no-repeat;
+    background-position-y: -0px;
+    background-position-x: -160px;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .secao-basquete{
