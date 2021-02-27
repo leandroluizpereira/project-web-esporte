@@ -102,15 +102,14 @@ p{
 }
 
 .cabecalho{
-   margin: -8px;
+ 
     width: auto;
     height: auto;
    
-    background-attachment: fixed;
+  
 
-    background: url(../imagens/background/paisagemfull.jpg)no-repeat;
-    background-position-y: -0px;
-    background-position-x: -160px;
+    background: url(../imagens/background/paisagem-320px-548px-gimp.webp)no-repeat;
+  
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;

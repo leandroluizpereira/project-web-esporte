@@ -272,9 +272,10 @@ height: 500px;
 }
 .imagem-surf{
     width: 300px;
-    height: 440px;
+    height: 520px;
+  
 
-    background:url(../imagens/EsporteSurf.jpg);
+    background:url(../imagens/EsporteSurf-300px3.jpg);
 }
 }
 
