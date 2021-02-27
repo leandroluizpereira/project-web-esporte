@@ -284,7 +284,7 @@ height: 500px;
  }
  .img-basquete:hover{
 
-     animation: bola-movimento 0.5s  linear infinite    ;
+     animation: bola-movimento 0.5s  linear infinite ;
     
  }
  .informacao{
