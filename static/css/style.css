@@ -264,14 +264,14 @@ height: 500px;
     border: 3px solid #590A0A ;
      border-radius: 50%;
      z-index :0;
-     
-     animation: bola-movimento 0.5s  linear infinite    ;
+     animation: girar 0.7s linear infinite;
+  
 
      
  }
  .img-basquete:hover{
-     animation: girar 0.7s linear infinite;
 
+     animation: bola-movimento 0.5s  linear infinite    ;
  }
  .informacao{
      background-color: white;
@@ -308,7 +308,7 @@ height: 500px;
      }
      to{
 
-        transform: translateY(-7px);
+        transform: translateY(-8px);
   
      }
   

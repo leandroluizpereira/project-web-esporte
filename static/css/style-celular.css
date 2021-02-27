@@ -199,15 +199,15 @@ p{
 }
 .img-basquete{
      /*usando a chave da animação definindo transição linear infinito*/
-     animation: bola-movimento 0.7s linear infinite , girar 6s linear ;
+
      border: 3px solid #590A0A ;
      border-radius: 50%;
      z-index:0;
-
+     animation: girar 0.7s linear infinite;
      
  }
  .img-basquete:hover{
-    animation: girar 0.7s linear infinite;
+    animation: bola-movimento 0.7s infinite;
 
 }
  .informacao{
