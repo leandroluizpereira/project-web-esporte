@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@media screen and (min-width:0px) and (max-width:700px){
+.secao-surf{
+    margin-left:20px;
+    margin-right: 20px;
+    width: auto;
+    height: auto;
+
+    border-radius: 20px;
+    
+}
+.imagem-surf{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 7%;
+    border-radius: 10px;
+    width: 89%;
+    height: auto;
+    border-radius: 7%;
+    padding-top: 20px;
+}
+.grid-surf {
+    align-items: center;
+    border-top: 1px solid #D9A25F;
+    border-left:1px solid #D9A25F ;
+    border-right: 1px solid #D9A25F;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 20px;
+
+   
+}  
+
+.grid-surf >div:nth-child(1){
+    
+      align-items: center;
+      position: center;
+ 
+   
+
+}
+.grid-surf >div:nth-child(2){
+ 
+    color:#D9A25F;
+    padding: 13%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #D9A25F;
+    border-radius: 10px;
+  
+
+}
+
+.grid-surf>div:nth-child(3){
+    margin:-5px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 0px 0px 0px 0px ;
+    color: #8C0D0D;
+    padding: 23px;
+
+    width: auto;
+    height: auto;
+    align-items: center;
+
+   
+}
+
+.grid-surf>div h1:nth-child(n+1){
+    color:#D9AD5B;
+   
+}
+.grid-surf>div h3:nth-child(n+1){
+   text-indent: 20px;
+   
+}
+.grid-surf>div p:nth-child(n+1){
+
+    text-indent: 23px;
+}
+.img-surf{
+ 
+      /*deixa o cursor do mouse a mão aberta */
+     cursor: grab;
+     border: 3px solid #590A0A ;
+     border-radius: 50%;
+     z-index:0;
+         /*usando a chave da animação definindo transição linear infinito*/
+     animation: girar 0.7s linear infinite;
+     
+ }
+ .img-surf:hover{
+    animation: bola-movimento 0.7s infinite;
+
+}
+ .informacao{
+    background-color: white;
+ 
+}
+
+
+}
