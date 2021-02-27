@@ -12,10 +12,16 @@ body{
 
     background-color: white;
     /*se expande no minimo 990 pixel */
-    min-width: 1100px;
+    min-width:1000px;
     
 }
 nav{
+   
+    padding-left: 31%;
+    padding-right: 31%;
+
+ 
+  
     z-index: 1;
    
     margin-top: 0px;
@@ -23,29 +29,35 @@ nav{
     
     width: 100%;
     height: auto;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.2);
    
 }
 nav:hover{
     background-color: rgb(0,0,0);
-    animation: opacidade 0.5s ease-in ;
+    animation: opacidade 0.7s ease-in ;
 }
 ul{
+ 
     
     padding: 0px;
-    margin: 7px;
+    margin: 5px;
 }
 .li{
+
+   /*deixa o cursor:pointer design  com mão com o dedo indicador  */
+    cursor: pointer;
     padding: 10px;
     font-family: Arial;
     font-size: 17px;
-    margin: 1px;
+    margin: 2px;
     display: inline-block;
 }
 .li:hover{
+ 
+
     background-color:white;
     border-radius: 5px;
-    animation: bola-movimento 1s linear infinite;
+    animation: bola-movimento 0.3s linear ;
     color: #D9A25F;
 
 
@@ -138,9 +150,9 @@ height: 500px;
 
 .cabecalho{
 
-   margin: -8px;
+    margin: -8px;
     width: 1400px;
-    height: 650px;
+    height: 600px;
   
 
    background: url(../imagens/background/paisagemfull.jpg);
@@ -264,7 +276,9 @@ height: 500px;
     border: 3px solid #590A0A ;
      border-radius: 50%;
      z-index :0;
-     animation: girar 0.7s linear infinite;
+     animation: girar 0.6s linear infinite;
+     /*deixa o cursor do mouse a mão aberta */
+     cursor: grab;
   
 
      
@@ -272,6 +286,7 @@ height: 500px;
  .img-basquete:hover{
 
      animation: bola-movimento 0.5s  linear infinite    ;
+    
  }
  .informacao{
      background-color: white;

@@ -23,6 +23,8 @@ ul{
     margin: 7px;
 }
 .li{
+       /*deixa o cursor:pointer design  com mão com o dedo indicador  */
+       cursor: pointer;
     padding: 10px;
     font-family: Arial;
     font-size: 10px;
@@ -198,11 +200,13 @@ p{
     text-indent: 23px;
 }
 .img-basquete{
-     /*usando a chave da animação definindo transição linear infinito*/
-
+ 
+      /*deixa o cursor do mouse a mão aberta */
+     cursor: grab;
      border: 3px solid #590A0A ;
      border-radius: 50%;
      z-index:0;
+         /*usando a chave da animação definindo transição linear infinito*/
      animation: girar 0.7s linear infinite;
      
  }
