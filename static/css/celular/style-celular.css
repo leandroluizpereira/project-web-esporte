@@ -46,6 +46,12 @@ a:hover{
 }
 p{
     text-align: justify;
+
+    text-indent: 23px;
+   word-break: break-all;
+/*para não espaços entre letras */
+  letter-spacing: 0px;
+  word-spacing: 0px;
 }
 .header-titulo{
     margin-top: 0%;
@@ -200,10 +206,7 @@ p{
    text-indent: 20px;
    
 }
-.grid>div p:nth-child(n+1){
 
-    text-indent: 23px;
-}
 .img-basquete{
  
       /*deixa o cursor do mouse a mão aberta */

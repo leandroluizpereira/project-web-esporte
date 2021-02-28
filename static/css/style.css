@@ -72,7 +72,16 @@ a:hover{
    
 }
 p{
+   
     text-align: justify;
+  
+    text-indent: 23px;
+   word-break: break-all;
+/*para não espaços entre letras */
+  letter-spacing: 0px;
+  word-spacing: 0px
+
+  
 }
 .header-titulo{
     z-index: 1;
@@ -237,10 +246,6 @@ height: 500px;
     padding-bottom: 10px;
     margin: 10px;
     height: 420px;
-  
-    
-    
- 
  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
     overflow: scroll ;
     
@@ -257,13 +262,6 @@ height: 500px;
    
 }
 
-
-
-
-.grid>div p:nth-child(n+1){
-   
-    text-indent: 23px;
-}
 .grid>div h3:nth-child(n+1){
     text-indent: 20px;
    
