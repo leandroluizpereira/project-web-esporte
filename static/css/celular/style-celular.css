@@ -5,6 +5,7 @@
 body{
     background-color: white;
     margin:0;
+    overflow-x: hidden;
 }
 nav{
     z-index :1;
@@ -232,7 +233,7 @@ p{
       margin-top: 8%;
   }
   .img-nba{
- 
+        
       width: 100%;
       height: 120px;
       background: url(../../imagens/background/nba01-690px-200px.webp);
