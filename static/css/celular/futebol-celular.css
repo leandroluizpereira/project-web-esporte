@@ -95,12 +95,12 @@
     animation: bola-movimento 0.7s infinite;
 
 }
- .futebol-informacao{
-    background-color: white;
+
+
+.futebol-informacao{
     margin-left: 10%;
     margin-right: 10%;
- 
-}
+ }
 .div-card-futebol{
     width: auto;
     height: 200px;
