@@ -10,21 +10,17 @@ nav{
     z-index :1;
     margin-top: 0px;
     position: fixed;
-    
     width: 100%;
     height: auto;
-    background-color: rgba(0, 0, 0, 1);
-   
+    background-color: rgba(0, 0, 0, 1); 
 }
-ul{
-    
-    
+ul{  
     padding: 0px;
     margin: 7px;
 }
 .li{
-       /*deixa o cursor:pointer design  com mão com o dedo indicador  */
-       cursor: pointer;
+    /*deixa o cursor:pointer design  com mão com o dedoindicador  */
+    cursor: pointer;
     padding: 10px;
     font-family: Arial;
     font-size: 10px;
@@ -45,9 +41,7 @@ a:hover{
     color:#D9A25F;
 }
 p{
- 
     text-align: justify;
-
     text-indent: 23px;
    word-break: break-all;
 /*para não espaços entre letras */
