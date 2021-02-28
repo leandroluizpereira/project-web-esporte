@@ -96,22 +96,7 @@
     
  }
       /*usando a chave da animação definindo transição linear infinito*/
- .img-basquete{
-    border: 3px solid #590A0A ;
-     border-radius: 50%;
-     z-index :0;
-     animation: girar 0.6s linear infinite;
-     /*deixa o cursor do mouse a mão aberta */
-     cursor: grab;
-  
 
-     
- }
- .img-basquete:hover{
-
-     animation: bola-movimento 0.5s  linear infinite    ;
-    
- }
 
  .surf-informacao{
      margin-left: 10%;
