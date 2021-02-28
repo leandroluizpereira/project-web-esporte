@@ -112,19 +112,6 @@
      animation: bola-movimento 0.5s  linear infinite    ;
     
  }
- .surf-informacao{
-    background-color: #0a1866;
-     height: 250px;
-     width: auto;
-     padding: 5%;
-     margin-top: 5%;
-     margin-left: -10%;
-     margin-right: -10%;
-     margin-bottom: 5%;
-
-    color:black ;
-  
-}
 
 
 }
