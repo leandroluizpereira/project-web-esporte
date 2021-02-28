@@ -100,6 +100,24 @@
     background-color: white;
  
 }
+.div-card-futebol{
+    width: auto;
+    height: 200px;
+    background-color: black;
+    overflow-x:  scroll;
+
+  
+}
+.card-01,.card-02,.card-03,.card-04,.card-05,.card-06{
+   display:  inline-block;
+
+    margin: 24px;
+    width:150px ;
+    height: 150px;
+    background-color:rgba(255,255,255,0.1);
+    border-radius: 50%;
+   
+}
 
 
 }
