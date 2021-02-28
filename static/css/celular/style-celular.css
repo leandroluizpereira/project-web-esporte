@@ -48,19 +48,24 @@ p{
     text-align: justify;
 }
 .header-titulo{
-   
-    padding-left: 90px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-    width: auto;
-    height: auto;
+    margin-top: 0%;
+    text-align: center;
+   margin-left: 14%;
+   margin-right: 14%;
+   padding-top: 15%;
+    width:70%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0);
     color: white;
+    border-bottom: 1px solid rgba(255, 255, 255,0.3);
 
 }
 .header-titulo h1{
+    text-align: center;
     font-size: 70px;
+   
     color: #D9A25F;
-    padding-left: 10px;
+ 
     text-shadow:4px 2px 2px #403222;
     border-top: 1px solid rgba(255, 255, 255,0.3);
     border-left: 1px solid rgba(255, 255, 255,0.3);
@@ -71,7 +76,7 @@ p{
 .header-titulo h2{
     font-size: 50px;
     color: #D9A25F;
-    padding-left: 10px;
+    padding-left: 7%;
     text-shadow:4px 2px 2px #403222;
 
 
@@ -91,7 +96,7 @@ p{
 }
 .header-titulo2 h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     text-shadow:4px 2px 2px #403222;
 }
