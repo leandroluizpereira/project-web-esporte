@@ -320,8 +320,50 @@ height: 500px;
     margin-top: 3%;
     margin-left: 11%;
     margin-right: 11%;
+    margin-bottom: 3%;
 }
+.nba-estatistica-time{
+    
+ align-items: center;
+ background-color: rgb(139, 22, 22);
+ width: 100%;
+ height: 290px;
+}
+.container-time-nba{
 
+    margin-left: 18%;
+    margin-right: 21%;
+    width: 100%;
+    height: 100%;
+}
+.time-01{
+    margin-right: 5%;
+    margin-top: 1.7%;
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #590A0A;
+
+}
+.time-02{
+    margin-right: 5%;
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #590A0A;
+
+}
+.time-03{
+    margin-right: 5%;
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #590A0A;
+
+}
 
 
 /*adicionando chave para animaçâo */
