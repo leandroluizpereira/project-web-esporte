@@ -89,7 +89,7 @@
      border-radius: 50%;
      z-index:0;
          /*usando a chave da animação definindo transição linear infinito*/
-     animation: girar 0.7s linear infinite;
+
      
  }
  .img-surf:hover{
