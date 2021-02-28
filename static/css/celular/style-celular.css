@@ -263,22 +263,24 @@ p{
     align-items: center;
     background-color: rgb(139, 22, 22);
     width: 100%;
-    height: auto;
+    height: 100%;
    }
    .container-time-nba{
-   
-       margin-left: 23%;
-       margin-right: 23%;
-       width: 100%;
-       height: 100%;
+       
+        margin-left: 27%;
+        margin-right: 10%;
+      
+       width: auto;
+       height: 780px;
    }
    .time-01{
      
        margin-right: 5%;
-       margin-top: 10%;
+       margin-top: 20%;
+       margin-bottom: 20%;
        display: inline-block;
-       width: 200px;
-       height: 200px;
+       width: 180px;
+       height: 180px;
        border-radius: 50%;
        background-color: #590A0A;
    
@@ -293,8 +295,9 @@ p{
     margin-top: 5%;
        margin-right: 5%;
        display: inline-block;
-       width: 200px;
-       height: 200px;
+       width: 180px;
+       height: 180px;
+       margin-bottom: 20%;
        border-radius: 50%;
        background-color: #590A0A;
    
@@ -309,8 +312,8 @@ p{
        margin-right: 5%;
        margin-bottom: 10%;
        display: inline-block;
-       width: 200px;
-       height: 200px;
+       width: 180px;
+       height: 180px;
        border-radius: 50%;
        background-color: #590A0A;
    
