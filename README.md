@@ -9,7 +9,7 @@
 
 
  # Planejamento - 7° semestre - 2021
- ## lista de tarefas 
+ ## lista de tarefas  
  
 - [x] menu de navegaçâo 
 - [x] navegaçâo interno e externo
