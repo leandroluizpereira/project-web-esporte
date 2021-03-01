@@ -258,6 +258,11 @@ p{
       margin-right: 11%;
       margin-bottom: 3%;
   }
+
+  .h1-destaques{
+      margin-top: 40px;
+      font-size: 20px;
+  }
 .nba-estatistica-time{
     
     align-items: center;
