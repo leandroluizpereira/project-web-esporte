@@ -12,12 +12,12 @@
  
  Federal n.º 9.610/98 (Lei de Direitos Autorais)
  
- # Planejamento projeto web 
+ # Planejamento para o projeto web -7° semestre
  ## lista de tarefas 
  
-- [x] menu navegaçâo 
-- [x] navegaçâo interno e externo 
-- [x] animaçâo com keyframe 
+- [x] menu de navegaçâo 
+- [x] navegaçâo interno e externo
+- [x] animaçâo com keyframe css
 - [ ] Javascripts
 - [ ] json
 - [x] css
