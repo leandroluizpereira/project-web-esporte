@@ -17,7 +17,10 @@
  
 - [x] menu de navegaçâo 
 - [x] navegaçâo interno e externo
-- [x] animaçâo com keyframe css
+- [x] criçâo keyframe css
+  * - [X] keyframe opacidade - transform - 
+  * - [X] keyframe rotate - transform -
+  * - [x]  keyframe scale - transform - 
 - [ ] Javascripts
 - [ ] json
 - [x] css
