@@ -12,7 +12,7 @@
  
  Federal n.º 9.610/98 (Lei de Direitos Autorais)
  
- # Planejamento para o projeto web -7° semestre
+ # Planejamento para o projeto web - 7° semestre - 2021
  ## lista de tarefas 
  
 - [x] menu de navegaçâo 
