@@ -3,7 +3,7 @@
  
  # Acesso ao site:
  ## https://leandroluizpereira.github.io/project-web/
- ### layount : livre
+ ### Layount : livre
  ### Tema : livre 
  ### Tema escolhido : Esporte 
 
