@@ -129,7 +129,34 @@ p{
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
+   position: relative;
  
+}
+.fundo-img{
+    top: 37%;
+    left: 42%;
+   position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 166, 151);
+    border-radius: 50%;
+
+}
+.logo-01{
+    width: 100%;
+    height: 100%;
+    background: url(../imagens/faviconIo/android-chrome-192x192.png)no-repeat;
+    background-position-x:29px;
+    background-position-y:29px ;
+    /*animation: girar 2s linear infinite;*/
+ 
+  
+}
+.logo-02{
+  width: 200px;
+  height: 100%;
+    background: url(../imagens/png/chicago-bulls-logo.png)no-repeat;
+
 }
 @keyframes bola-movimento {
     from{
