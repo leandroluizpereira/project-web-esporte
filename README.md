@@ -5,7 +5,7 @@
  ## https://leandroluizpereira.github.io/project-web/
  
 
- # Planejamento para o projeto web - 7° semestre - 2021
+ # Planejamento - 7° semestre - 2021
  ## lista de tarefas 
  
 - [x] menu de navegaçâo 
