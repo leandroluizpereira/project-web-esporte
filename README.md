@@ -25,6 +25,7 @@
 - [x] Responsivel mobile
 - [ ] versão app android studio ou flutter
 - [x] download arquivos pdfs [paletas de cores]
+- [ ] Fontes externas , e internos 
 - [X] imagens de lincença
 - [X] imagens sem licença
 
