@@ -337,8 +337,8 @@ z-index: 0;
 .container-time-nba{
  
     margin-left: 16%;
-    margin-right: 21%;
-    width: 1200px;
+    margin-right: 16%;
+    width: 1050px;
     height: 100%;
 
 
@@ -379,11 +379,13 @@ z-index: -2;
 .time-02{
     position: relative;
     margin-right: 7%;
+    margin-top: 2.7%;
     display: inline-block;
     width: 240px;
     height: 240px;
     border-radius: 50%;
-    background-color: #590A0A;
+    background-color: #590a0a;
+
     z-index:0;
 }
 
@@ -404,15 +406,18 @@ z-index: -2;
 }
 .time-03{
     position: relative;
-    margin-right: 5%;
+    margin-right: 7%;
+    margin-top: 2.7%;
     display: inline-block;
     width: 240px;
     height: 240px;
     border-radius: 50%;
-    background-color: #590A0A;
-    z-index: 0;
+    background-color: #590a0a;
+
+    z-index:0;
 }
 .h1-3{
+
     right: 124px;
     top: -300px;
  position: absolute;
@@ -425,6 +430,17 @@ z-index: -2;
 .boston-celtics{
     width: 100%;
     height: 100%;
+}
+.logo-a{
+color: white;
+}
+
+.a-nba{
+    border-radius: 50%;
+ 
+    
+    
+
 }
 
 /*adicionando chave para animaçâo */
