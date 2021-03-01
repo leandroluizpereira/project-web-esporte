@@ -336,7 +336,7 @@ z-index: 0;
 }
 .container-time-nba{
  
-    margin-left: 18%;
+    margin-left: 16%;
     margin-right: 21%;
     width: 1200px;
     height: 100%;
@@ -349,7 +349,7 @@ z-index: 0;
 .time-01{
     
     position: relative;
-    margin-right: 5%;
+    margin-right: 7%;
     margin-top: 2.7%;
     display: inline-block;
     width: 240px;
@@ -378,7 +378,7 @@ z-index: -2;
 }
 .time-02{
     position: relative;
-    margin-right: 5%;
+    margin-right: 7%;
     display: inline-block;
     width: 240px;
     height: 240px;

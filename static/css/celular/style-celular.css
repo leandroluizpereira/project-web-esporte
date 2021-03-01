@@ -273,16 +273,16 @@ p{
    .container-time-nba{
   
         margin-left: 27%;
-        margin-right: 10%;
+        margin-right: 27%;
       
        width: auto;
-       height: 860px;
+       height: 880px;
    }
    .time-01{
        position: relative;
        margin-right: 5%;
-       margin-top: 20%;
-       margin-bottom: 30%;
+       margin-top: 30%;
+       margin-bottom: 55%;
        display: inline-block;
        width: 180px;
        height: 180px;
@@ -314,7 +314,7 @@ z-index: -2;
        display: inline-block;
        width: 180px;
        height: 180px;
-       margin-bottom: 30%;
+       margin-bottom: 55%;
        border-radius: 50%;
        background-color: #590A0A;
 z-index: 0;
@@ -338,7 +338,7 @@ z-index: -2;
    .time-03{
        
     position: relative;
-    margin-top: 20%;
+    margin-top: 10%;
        margin-right: 5%;
        display: inline-block;
        width: 180px;
