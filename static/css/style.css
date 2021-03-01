@@ -357,6 +357,15 @@ z-index: -2;
     height: 100%;
 
 }
+.a-nba{
+    color: yellow;
+    display: inline-block;
+    margin-bottom: 20%;
+}
+.a-nba:hover{
+    animation: bola-movimento 0.7s  linear infinite ;
+
+}
 .time-02{
     position: relative;
     margin-right: 7%;
