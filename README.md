@@ -21,7 +21,8 @@
   * - [X] keyframe opacidade - transform - 
   * - [X] keyframe rotate - transform -
   * - [x]  keyframe scale - transform - 
-- [ ] Javascripts
+- [ ] Funçôes com Javascripts
+- [ ] PHP
 - [ ] json
 - [x] css
 - [ ] banco de dados
@@ -29,5 +30,7 @@
 - [x] Responsivel Desktop
 - [ ] Responsivel tablet
 - [x] Responsivel mobile
+- [ ] versão app android studio ou flutter
+- [x] download arquivos pdfs [paletas de cores]
 
 
