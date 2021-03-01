@@ -1,17 +1,10 @@
 # project-web
- Projeto : sétimo semestre  .
+
  
  # Acesso ao site:
  ## https://leandroluizpereira.github.io/project-web/
  
- as imagens utilizada neste site tenho total permissâo para fim de editar e usa-las para uso comercial .
- 
-  as imagens que não são permitidas para uso comercial são :
-   * logotipos dos times : SPN sport.
- 
- ## Sobre a Lei 
- 
- Federal n.º 9.610/98 (Lei de Direitos Autorais)
+
  
  # Planejamento para o projeto web - 7° semestre - 2021
  ## lista de tarefas 
@@ -36,4 +29,11 @@
 - [X] imagens de lincença
 - [X] imagens sem licença
 
-
+ as imagens utilizada neste site tenho total permissâo para fim de editar e usa-las para uso comercial .
+ 
+  as imagens que não são permitidas para uso comercial são :
+   * logotipos dos times : SPN sport.
+ 
+ ## Sobre a Lei 
+ 
+ Federal n.º 9.610/98 (Lei de Direitos Autorais)
