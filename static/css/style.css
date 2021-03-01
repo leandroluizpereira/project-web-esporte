@@ -343,6 +343,9 @@ z-index: 0;
 
 
 }
+
+/*Design inspiração netflix */
+
 .time-01{
     
     position: relative;
@@ -374,13 +377,25 @@ z-index: -2;
 
 }
 .time-02{
+    position: relative;
     margin-right: 5%;
     display: inline-block;
     width: 240px;
     height: 240px;
     border-radius: 50%;
     background-color: #590A0A;
+    z-index:0;
+}
 
+.h1-2{
+    right: 124px;
+    top: -300px;
+ position: absolute;
+    font-size:340px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
+
+z-index: -2;
 }
 .golden-state{
     width: 100%;
@@ -388,13 +403,24 @@ z-index: -2;
 
 }
 .time-03{
+    position: relative;
     margin-right: 5%;
     display: inline-block;
     width: 240px;
     height: 240px;
     border-radius: 50%;
     background-color: #590A0A;
+    z-index: 0;
+}
+.h1-3{
+    right: 124px;
+    top: -300px;
+ position: absolute;
+    font-size:340px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
 
+z-index: -2;
 }
 .boston-celtics{
     width: 100%;
