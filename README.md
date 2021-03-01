@@ -1,11 +1,10 @@
-# project-web
-
+# projeto web integrado
+ 
  
  # Acesso ao site:
  ## https://leandroluizpereira.github.io/project-web/
  
 
- 
  # Planejamento para o projeto web - 7° semestre - 2021
  ## lista de tarefas 
  
