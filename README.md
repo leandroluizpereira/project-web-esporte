@@ -6,7 +6,8 @@
  
  as imagens utilizada neste site tenho total permissâo para fim de editar e usa-las para uso comercial .
  
-  as imagens que não são permitidas para uso comercial são  logotipos dos times que são tiradas da SPN sport.
+  as imagens que não são permitidas para uso comercial são :
+   * logotipos dos times que são tiradas da SPN sport.
  
  ## Sobre a Lei 
  
