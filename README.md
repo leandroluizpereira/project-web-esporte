@@ -29,6 +29,9 @@
 - [ ] versão app android studio ou flutter
 - [x] download arquivos pdfs [paletas de cores]
 - [ ] Fontes externas , e internos 
+- [X] Ferramentas utilizadas para redirecionamento de imagem
+     * - [X] Gimp
+     * - [X] Krita
 - [X] imagens de lincença
 - [X] imagens sem licença
 
