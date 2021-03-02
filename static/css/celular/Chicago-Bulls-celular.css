@@ -89,7 +89,7 @@ p{
  
 }
 .fundo-img{
-    top: 54%;
+    top: 57%;
     left: 16%;
    position: absolute;
     width: 250px;
@@ -110,11 +110,12 @@ p{
   
 }
 .logo-02{
-  width: 200px;
-  height: 100%;
-    background: url(../../imagens/png/chicago-bulls-logo.png)no-repeat;
-
-}
+  
+    width: 100%;
+    height: 100%;
+      background: url(../../imagens/png/chicago-bulls-logo-250px-gimp.png);
+      
+  }
 @keyframes bola-movimento {
     from{
     
