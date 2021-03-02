@@ -272,7 +272,7 @@ p{
     padding-bottom: 10%;
    }
    .container-time-nba{
-  
+     position: relative;
         margin-left: 27%;
         margin-right: 27%;
       
@@ -280,7 +280,7 @@ p{
        height: 440%;
    }
    .time-01{
-       position: relative;
+  
        margin-right: 5%;
        margin-top: 30%;
        margin-bottom: 55%;
@@ -293,7 +293,9 @@ p{
    
    }
    .h1-1{
-    right: 48%;
+       width: 100%;
+       height: 100%;
+       right: 29%;
     top: -130%;
  position: absolute;
     font-size:260px;
@@ -322,7 +324,9 @@ z-index: 0;
    }
    
 .h1-2{
-    right: 49%;
+    width: 100%;
+    height: 100%;
+    right: 29%;
     top: -130%;
  position: absolute;
     font-size:260px;
@@ -350,6 +354,8 @@ z-index: -2;
 z-index: 0;
    }
    .h1-3{
+    width: auto;
+    height: auto;
     right: 49%;
     top: -130%;
  position: absolute;
