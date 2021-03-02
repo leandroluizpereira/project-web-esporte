@@ -343,7 +343,7 @@ z-index: 0;
 }
 .h1-1{
     right: 124px;
-    top: -125%;
+    top: -300px;
  position: absolute;
     font-size:340px;
     color: rgb(255, 255, 255);
@@ -360,11 +360,6 @@ z-index: -2;
 .a-nba{
     color: yellow;
     display: inline-block;
-    margin-bottom: 20%;
-}
-.a-nba:hover{
-    animation: bola-movimento 0.7s  linear infinite ;
-
 }
 .time-02{
     position: relative;
@@ -381,7 +376,7 @@ z-index: -2;
 
 .h1-2{
     right: 124px;
-    top: -125%;
+    top: -300px;
  position: absolute;
     font-size:340px;
     color: rgb(255, 255, 255);
@@ -409,13 +404,13 @@ z-index: -2;
 .h1-3{
 
     right: 124px;
-    top: -125%;
+    top: -300px;
  position: absolute;
     font-size:340px;
     color: rgb(255, 255, 255);
     z-index: -2;
 
-z-index: -2;
+
 }
 .boston-celtics{
     width: 100%;
