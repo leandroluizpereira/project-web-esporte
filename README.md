@@ -3,9 +3,6 @@
  
  # Acesso ao site:
  ## https://leandroluizpereira.github.io/project-web/
- ### Layount : livre
- ### Tema : livre 
- ### Tema escolhido : Esporte 
 
 
  # Planejamento - 7° semestre - 2021
