@@ -2,19 +2,20 @@
 
 @media screen and (min-width:430px) and (max-width:1390px){
 .secao-futebol{
-    margin-left:100px;
-    margin-right: 100px;
+    margin-left:200px;
+    margin-right: 200px;
     width: auto;
     height: auto;
+
+    border-radius: 20px;
  
     
 }
 .imagem-futebol{
-    width: 100%;
-    height: auto;
+    width: 330px;
+    height: 500px;
      border-radius: 5% 0% 0% 5% ;
-  margin-top: 1%;
-  margin-left: 1%;
+
 
   
 
@@ -48,10 +49,8 @@
     color: #D9AD5B;
     padding: 60px;
   
-    margin-left: 0px;
-  
-  
-    
+
+    margin-left: 10%;
   
     border-radius: 30px;
 }
