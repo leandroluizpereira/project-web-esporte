@@ -274,7 +274,7 @@ p{
    .container-time-nba{
         margin-top: 3%;
         margin-left: 25%;
-        margin-right: 20%;
+        margin-right: 25%;
       
        width: auto;
        height: auto;
@@ -295,15 +295,17 @@ p{
    
    }
    .h1-1{
-
-       margin-bottom: 0%;
+        width: 300px;
+        height: 300px;
+   
        width: auto;
        height: auto;
-       right: 47%;
-       margin-top: 95%;
-    top: -130%;
+       right: 57%;
+    
+        top: -100%;
+      
  position: absolute;
- font-size:260px;
+ font-size:210px;
     color: rgb(255, 255, 255);
  
 
