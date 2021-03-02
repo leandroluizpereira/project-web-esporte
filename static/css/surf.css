@@ -63,7 +63,7 @@
     border-radius: 30px;
 }
 
-.grid-surf>div:nth-child(3){
+.grid-surf >div:nth-child(3){
     background-color: white;
     border-radius: 30px;
     color: #8C0D0D;

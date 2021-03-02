@@ -219,7 +219,7 @@ height: 500px;
 
 }
 
-.grid>div:nth-child(3){
+.grid >div:nth-child(3){
     background-color: white;
     border-radius: 30px;
     color: #8C0D0D;

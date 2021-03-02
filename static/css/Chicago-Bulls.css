@@ -122,7 +122,7 @@ p{
 
 .cabecalho{
     width: 100%;
-    height: 250px;
+    height: 180px;
    background-color: #590a0a;;
    background-position-y: -250px;
    -webkit-background-size: cover;
@@ -134,10 +134,10 @@ p{
 }
 .fundo-img{
     top: 37%;
-    left: 42%;
+    left: 43%;
    position: absolute;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background-color: rgb(255, 166, 151);
     border-radius: 50%;
 
@@ -154,10 +154,28 @@ p{
 }
 .logo-02{
   
-  width: 100%;
-  height: 100%;
-    background: url(../imagens/png/chicago-bulls-logo-250px-gimp.png);
+  width: 100%;  /*se expandde a largura do pai*/
+  height: 100%; /*se  expande a largura do pai*/
+    background: url(../imagens/png/chicago-bulls-logo-250px-gimp.png)center center;
+    background-size: cover;
+  
     
+}
+
+.grid-chicago-bulls{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.grid-chicago-bulls > div:nth-child(1){
+    width: 100%;
+    height: 600px;
+    background-color:  rgb(43, 43, 43);
+
+}
+.grid-chicago-bulls >div:nth-child(2){
+    width: 100%;
+    height: 600px;
+    background-color: black;
 }
 @keyframes bola-movimento {
     from{
