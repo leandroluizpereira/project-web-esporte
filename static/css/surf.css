@@ -34,9 +34,11 @@
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 1px solid #D9A25F;
+    border: 5px solid #825D84
+    ;
     border-radius: 20px;
-   
+    background-color: #4E8BBF
+    ;
    margin-bottom: 5%;
 
 
@@ -48,19 +50,24 @@
 /*:th-child ele pega o filho da tag declarado */
 .grid-surf >div:nth-child(1){
   color:white;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 0.5%;
 
 
 }
 .grid-surf >div:nth-child(2){
     
     
-    color: #D9AD5B;
-    padding: 60px;
-  
+    color:#BFC7D9;
+   
+    background-color:#034C8C;
+   
+    padding: 30px;
+    font-size: 13px;
 
-    margin-left: 10%;
-  
-    border-radius: 30px;
+    margin-left: 0%;
+    margin-right: -3.2%;
 }
 
 .grid-surf >div:nth-child(3){
@@ -87,8 +94,8 @@
 
 
 /*(n+3) ele pega os filhos aparte do 3 */
-.grid-surf>div h1:nth-child(n+1){
-    color:#D9AD5B;
+.grid-surf>div .h1-surf:nth-child(n+1){
+    color:#825D84;
 
    
 }
@@ -97,7 +104,8 @@
 
 
 .grid-surf>div p:nth-child(n+1){
-   
+     color: #034C8C
+     ;
     text-indent: 23px;
 }
 .grid-surf>div h3:nth-child(n+1){

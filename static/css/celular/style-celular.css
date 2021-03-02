@@ -150,7 +150,7 @@ p{
     align-items: center;
     border-top: 1px solid #D9A25F;
     border-left:1px solid #D9A25F ;
-    border-right: 1px solid #D9A25F;
+    border-right: 2px solid #D9A25F;
     margin: 10px;
     display: grid;
     grid-template-columns: 1fr;
@@ -175,7 +175,7 @@ p{
     margin-bottom: 0px;
     margin-left: 10px;
     margin-right: 10px;
-    border: 1px solid #D9A25F;
+    border: 2px solid #D9A25F;
     border-radius: 10px;
     background-color: #590A0A;
   
