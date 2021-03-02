@@ -260,6 +260,8 @@ p{
   }
 
   .h1-destaques{
+      margin-left: 5%;
+      margin-right: 5%;
       margin-top: 40px;
       font-size: 20px;
   }
@@ -386,7 +388,7 @@ color: rgb(255, 255, 255);
 
 z-index: -2;
 }
-}
+
    .boston-celtics{
        width: 100%;
        height: 100%;
@@ -406,7 +408,7 @@ z-index: -2;
      }
      
  }
-}
+
  /*animação circular crescente do ponto ao maximo da imagem */
 @keyframes scale {
     from {
