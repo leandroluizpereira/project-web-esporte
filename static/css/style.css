@@ -343,7 +343,7 @@ z-index: 0;
 }
 .h1-1{
     right: 124px;
-    top: -300px;
+    top: -125%;
  position: absolute;
     font-size:340px;
     color: rgb(255, 255, 255);
@@ -381,7 +381,7 @@ z-index: -2;
 
 .h1-2{
     right: 124px;
-    top: -300px;
+    top: -125%;
  position: absolute;
     font-size:340px;
     color: rgb(255, 255, 255);
@@ -409,7 +409,7 @@ z-index: -2;
 .h1-3{
 
     right: 124px;
-    top: -300px;
+    top: -125%;
  position: absolute;
     font-size:340px;
     color: rgb(255, 255, 255);
