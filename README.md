@@ -3,10 +3,13 @@
  
  # Acesso ao site:
  ## https://leandroluizpereira.github.io/project-web/
- 
+ ### Layount : livre
+ ### Tema : livre 
+ ### Tema escolhido : Esporte 
+
 
  # Planejamento - 7° semestre - 2021
- ## lista de tarefas 
+ ## lista de tarefas  
  
 - [x] menu de navegaçâo 
 - [x] navegaçâo interno e externo
@@ -26,6 +29,9 @@
 - [ ] versão app android studio ou flutter
 - [x] download arquivos pdfs [paletas de cores]
 - [ ] Fontes externas , e internos 
+- [X] Ferramentas utilizadas para ediçâo e redirecionamento de imagem
+     * - [X] Gimp
+     * - [X] Krita
 - [X] imagens de lincença
 - [X] imagens sem licença
 
