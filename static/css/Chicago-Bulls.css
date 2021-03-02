@@ -165,7 +165,7 @@ p{
 }
 
 .grid-chicago-bulls{
-    position: relative;
+ 
     display: grid;
     grid-template-columns: 1fr 1fr ;
 }
@@ -191,7 +191,7 @@ p{
     border-radius: 10%;
     background-color: rgba(245, 185, 185,0.3);
     height: 900px;
-
+}
 @keyframes bola-movimento {
     from{
     
