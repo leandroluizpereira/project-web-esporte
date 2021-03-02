@@ -277,7 +277,7 @@ p{
         margin-right: 27%;
       
        width: auto;
-       height: 440%;
+       height: auto;
    }
    .time-01{
   
@@ -290,6 +290,7 @@ p{
        border-radius: 50%;
        background-color: #590A0A;
        z-index: 0;
+       position: relative;
    
    }
    .h1-1{
