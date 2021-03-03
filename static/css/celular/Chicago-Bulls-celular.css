@@ -154,6 +154,7 @@ p{
     height: 284px;
     background-color: rgb(59, 9, 2);
     border-radius: 10px;
+    animation: scale 2s linear ;
 
 }
 .img-michael-jordan{
