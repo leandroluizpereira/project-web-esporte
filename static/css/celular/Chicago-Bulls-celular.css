@@ -144,6 +144,24 @@ p{
     background-color: rgba(255, 255, 255, 0.2);
     height: 900px;
 }
+
+.container-img-jordan{
+    width: 300px;
+    height: 284px;
+    background-color: rgb(59, 9, 2);
+    border-radius: 10px;
+
+}
+.img-michael-jordan{
+    margin-top: -18%;
+   margin-left:-220px;
+    width: 600px;
+    height: auto;
+
+   
+
+
+}
 @keyframes bola-movimento {
     from{
     
