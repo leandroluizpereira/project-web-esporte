@@ -15,16 +15,7 @@
     width: 100%;
     height: auto;
    padding-top: -25%;
- 
-   
     border-radius: 5% 0% 0% 5%; 
-  
- 
-
- 
-   
-
-    background:url(../imagens/EsporteSurf-300px3.jpg);
 }
 
 
@@ -127,8 +118,9 @@
         display: relative;
         width: auto;
         height: 260px;
-        background: url(../imagens/homen-surfando-full.jpg);
+        background: url(../imagens/homen-surfando-full.jpg)center center;
         opacity: 0.6;
+        background-size: cover;
       
        
         
