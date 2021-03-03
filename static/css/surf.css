@@ -117,10 +117,11 @@
       .img-surf{
         display: relative;
         width: auto;
-        height: 260px;
+        height: 400px;
         background: url(../imagens/homen-surfando-full.jpg)center center;
-        opacity: 0.6;
+        /*opacity: 0.6;*/
         background-size: cover;
+        background-position-y:-140px;
       
        
         

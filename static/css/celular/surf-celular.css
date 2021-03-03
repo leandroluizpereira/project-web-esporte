@@ -112,7 +112,7 @@
     width: auto;
     height: 140px;
     background: url(../../imagens/homen-surfando-full.jpg)center center;
-    opacity: 0.6;
+    /*opacity: 0.6;*/
     background-size: cover;
     margin-top: 6%;
 

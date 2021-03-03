@@ -272,9 +272,9 @@ height: 500px;
 .img-nba{
     display: relative;
     width: auto;
-    height: 260px;
+    height: 380px;
     background: url(../imagens/background/nba02-1200px.webp);
-    opacity: 0.6;
+   /* opacity: 0.6;*/
     
     
 
