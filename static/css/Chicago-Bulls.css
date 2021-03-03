@@ -207,11 +207,19 @@ p{
     height: 600px;
     background-color:#D9A25F;
 }
-.img-michael-jordan{
-   
+.container-img-jordan{
     width: 300px;
-    height: 300px;
-    border-radius: 3%;
+    height: 284px;
+    background-color: rgb(59, 9, 2);
+    border-radius: 10px;
+
+}
+.img-michael-jordan{
+    margin-top: -18%;
+   margin-left:-220px;
+    width: 600px;
+    height: auto;
+
    
 
 
