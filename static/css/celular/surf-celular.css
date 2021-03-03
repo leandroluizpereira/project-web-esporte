@@ -23,9 +23,9 @@
 }
 .grid-surf {
     align-items: center;
-    border-top: 1px solid #D9A25F;
-    border-left:1px solid #D9A25F ;
-    border-right: 2px solid #825D84
+    border-top: 3px solid #D9A25F;
+    border-left:3px solid #D9A25F ;
+    border-right: 3px solid #825D84
 
     ;
     margin: 10px;
@@ -89,7 +89,7 @@
    
 }
 .grid-surf>div p:nth-child(n+1){
-   color: #034C8C
+   color:  #022a4d
    ;
     text-indent: 23px;
 }
