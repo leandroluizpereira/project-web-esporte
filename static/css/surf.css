@@ -116,16 +116,21 @@
  }
       /*usando a chave da animação definindo transição linear infinito*/
 
-      
+
 /*=================================================
 ====================================================
 =================================================*/
+.container-img-surf{
+    
+}
       .img-surf{
         display: relative;
         width: auto;
         height: 260px;
         background: url(../imagens/homen-surfando-full.jpg);
         opacity: 0.6;
+      
+       
         
         
     
