@@ -154,7 +154,7 @@ p{
     height: 284px;
     background-color: rgb(59, 9, 2);
     border-radius: 10px;
-    animation: scale 2s linear ;
+    animation: scale 2s linear , transition-color 3s ;
 
 }
 .img-michael-jordan{
@@ -245,6 +245,15 @@ p{
     }
     to{
         transform: scale(1);
+    }
+}
+
+@keyframes transition-color {
+    from{
+        background-color: #c2baba;
+    }
+    to{
+        background-color: #000000;
     }
 }
 }
