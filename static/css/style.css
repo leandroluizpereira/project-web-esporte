@@ -272,11 +272,11 @@ height: 500px;
 .img-nba{
     display: relative;
     width: auto;
-    height: 380px;
-    background: url(../imagens/background/nba02-1200px.webp);
+    height: 400px;
+    background: url(../imagens/background/nba02-1200px.webp)center center;
    /* opacity: 0.6;*/
     
-    
+    background-size: cover;
 
  
 }
