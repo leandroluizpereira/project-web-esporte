@@ -22,13 +22,14 @@
 }
 .grid-futebol {
     align-items: center;
-    border-top: 1px solid #D9A25F;
-    border-left:1px solid #D9A25F ;
-    border-right: 1px solid #D9A25F;
+    border-top: 2px solid #6BD425;
+    border-left:2px solid #6BD425 ;
+    border-right: 2px solid #6BD425;
     margin: 10px;
     display: grid;
     grid-template-columns: 1fr;
     border-radius: 20px;
+    background-color: #8A8C4A;
 
    
 }  
@@ -43,15 +44,15 @@
 }
 .grid-futebol >div:nth-child(2){
  
-    color:#D9A25F;
+    color:#d8f192;
     padding: 13%;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 10px;
     margin-right: 10px;
-    border: 1px solid #D9A25F;
+    border: 2px solid #6BD425;
     border-radius: 10px;
-  
+    background-color: #4F5D2F;
 
 }
 
@@ -71,7 +72,7 @@
 }
 
 .grid-futebol>div h1:nth-child(n+1){
-    color:#D9AD5B;
+    color: #6BD425;
    
 }
 .grid-futebol>div h3:nth-child(n+1){
@@ -79,7 +80,8 @@
    
 }
 .grid-futebol>div p:nth-child(n+1){
-
+    /*color: #889174;*/
+    color: black;
     text-indent: 23px;
 }
 .img-futebol{

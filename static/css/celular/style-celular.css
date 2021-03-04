@@ -206,6 +206,11 @@ p{
    
 }
 
+.grid>div p:nth-child(n+1){
+color: black;
+
+}
+
 .img-basquete{
  
       /*deixa o cursor do mouse a mão aberta */

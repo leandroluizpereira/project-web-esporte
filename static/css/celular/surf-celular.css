@@ -89,8 +89,10 @@
    
 }
 .grid-surf>div p:nth-child(n+1){
-   color:  #022a4d
-   ;
+   /*color:  #022a4d
+   ; */
+   color: black;
+   
     text-indent: 23px;
 }
 .img-surf{
