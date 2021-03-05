@@ -200,12 +200,12 @@ p{
 .grid-chicago-bulls > div:nth-child(1){
     width: 100%;
     height: 1400px;
-  background-color: white;
+  background-color: rgb(165, 136, 136);
 
 }
 .grid-chicago-bulls >div:nth-child(2){
     width: 100%;
-    height: 1400px;
+    height: auto;
     background-color: #590a0a;
 
 
@@ -224,7 +224,7 @@ p{
     margin-right: 6%;
 
     width: 88%;
-    height: 1300px;
+    height: auto;
     border-radius: 1%;
     box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.301);
     background-color: rgba(255, 255, 255, 1);
@@ -240,7 +240,7 @@ p{
 
 .grid-fotos >div:nth-child(1){
     width: 100%;
-    height: 1150px;
+    height: auto;
     background-color:#D9A25F;
 }
 .container-img-jordan{
