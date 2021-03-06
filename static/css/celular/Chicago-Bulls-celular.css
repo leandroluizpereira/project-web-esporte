@@ -153,13 +153,17 @@ p{
     width: 90%;
     height: auto;
 
-    border-radius: 1%;
+    border-radius: 0.5%;
     background-color: rgba(255, 255, 255, 0.2);
   
 }
 
 .h1-titulo-michael{
-    margin-top: 20%;
+    margin-top: 25%;
+    color: #590a0a;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 1px 3px 3px black;
 }
 .grid-fotos{
     width: 100%;
@@ -171,6 +175,9 @@ p{
     height: auto;
  
 }
+hr{
+    border-bottom:1px solid white;
+}
 .container-img-jordan{
     padding: 10%;
 
@@ -181,6 +188,8 @@ p{
     border-radius: 10px;
     animation: scale 2s linear , transition-color 3s ;
 
+    border:1px solid red;
+
 }
 .img-michael-jordan{
     
@@ -189,6 +198,7 @@ p{
 
     width: 400px;
     height: auto;
+
     
   
 

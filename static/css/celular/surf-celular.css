@@ -117,17 +117,18 @@
     /*opacity: 0.6;*/
     background-size: cover;
     margin-top: 6%;
+    background-position-y:-40px ;
 
  
 }
 
 .titulo-img-surf{
-    padding-left: 42%;
-    padding-top: 5%;
+    padding-left: 32%;
+    padding-top: 2%;
     display: absolute;
     right: 100px;
     width: 100px;
-    height: 100px;
+    height: 170px;
     font-size: 100px;
     
     color: white;
