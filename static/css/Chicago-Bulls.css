@@ -234,7 +234,7 @@ p{
 .grid-fotos{
     display: grid;
       background-color: black;
-    grid-template-columns: 50% 1fr;
+    grid-template-columns: 70% 1fr;
 
 }
 .legado-micahel{
@@ -282,12 +282,14 @@ p{
 
 
 .div-estatistica{
+
     width: auto;
-    height: auto;
+    height: 1000px ;
     padding-top: 1%;
     padding-bottom: 8%;
     background-color:white;
     padding: 15px;
+    overflow: scroll;
 
 }
 .quadro-01,.quadro-02,.quadro-03,.quadro-04,.quadro-05,.quadro-06,.quadro-07{
