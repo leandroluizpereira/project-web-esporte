@@ -224,6 +224,8 @@ height: 500px;
 
 .grid >div:nth-child(3){
     background-color: white;
+    width: auto;
+
     border-radius: 7px;
     color: #8C0D0D;
     padding-top: 5px;
