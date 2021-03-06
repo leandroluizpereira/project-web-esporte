@@ -192,7 +192,6 @@ height: 500px;
 /*grid dividindo em 3 colunas com 1fr deixando proporcional a largura da tela 100%*/
 .grid {
     align-items: center;
-   
     display: grid;
     grid-template-columns: 1fr 1fr 1.2fr;
     border: 2px solid #D9AD5B;

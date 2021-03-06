@@ -14,8 +14,11 @@
 .imagem-futebol{
     width: 330px;
     height: auto;
-     border-radius: 5% 0% 0% 5% ;
-
+    border: 1px solid #6BD425;
+     margin-top: 2.5%;
+     margin-left: 2.5%;
+     border-radius: 7px;
+     margin-bottom: 2.5%;
 
   
 
@@ -27,10 +30,11 @@
    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 5px solid #6BD425;
-    border-radius: 20px;
-    margin: 10px;
+    border: 2px solid #6BD425;
+
+    margin-bottom: 5%;
  
+    border-radius: 7px;
    background-color: #8A8C4A;
 
 
@@ -39,9 +43,7 @@
 /*:th-child ele pega o filho da tag declarado */
 .grid-futebol >div:nth-child(1){
   color:white;
-  margin-left: 1%;
-  margin-top: 1%;
-  margin-bottom: 0.5%;
+
 }
 .grid-futebol>div:nth-child(2){
     
@@ -51,13 +53,13 @@
     padding: 30px;
     font-size: 13px;
 
-    margin-left: 1%;
+    margin-left: 3%;
     margin-right: -3.2%;
 }
 
 .grid-futebol>div:nth-child(3){
     background-color: white;
-    border-radius: 30px;
+    border-radius: 7px;
     color: #8C0D0D;
     padding-top: 5px;
     padding-left: 20px;
@@ -65,10 +67,6 @@
     padding-bottom: 10px;
     margin: 10px;
     height: 420px;
-  
-    
-    
- 
  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
     overflow: scroll ;
     
@@ -82,7 +80,7 @@
 .grid-futebol>div h1:nth-child(n+1){
     color: #6BD425;
 
-   
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 
