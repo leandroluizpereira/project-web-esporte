@@ -123,7 +123,7 @@ p{
 }
 
 .secao-basquete{
-    /*mexeee*/
+   
   
     width: auto;
     height: auto;
@@ -132,7 +132,7 @@ p{
     
 }
 .imagem-basquete{
-        /*mexeee*/
+  
   
     border: 1.5px solid #D9A25F;
    width: 100%;
@@ -142,7 +142,7 @@ p{
  
 }
 .grid {
-    /*mexeee*/
+    
 
     align-items: center;
     border-top: 3px solid #D9A25F;
@@ -155,7 +155,7 @@ p{
 }  
 
 .grid >div:nth-child(1){
-      /*mexeee*/
+  
      padding: 4%;
       align-items: center;
       position: center;
@@ -164,7 +164,7 @@ p{
 
 }
 .grid >div:nth-child(2){
-    /*meeeecce*/
+
     color:#D9A25F;
     padding: 8%;
     margin-left:6%;
@@ -185,12 +185,12 @@ p{
 }
 
 .grid >div:nth-child(3){
-    margin:-5px;
+    margin:-7px;
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
     background-color: white;
     border-radius: 0px 0px 0px 0px ;
     color: #8C0D0D;
-    padding: 20px;
+    padding: 25px;
 
     width: auto;
     height: auto;
@@ -202,7 +202,7 @@ p{
 .grid>div h1:nth-child(n+1){
     color:#D9AD5B;
      font-size: 30px;
-     text-shadow: 1px 1px 2px rgb(0, 0, 0);
+     text-shadow: 0px 1px 2px rgb(0, 0, 0);
    
 }
 .grid>div h3:nth-child(n+1){
