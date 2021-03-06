@@ -245,6 +245,7 @@ p{
     width: 100%;
     height: auto;
     margin: 0px;
+
     
     background-color:#D9A25F;
 }
@@ -255,6 +256,7 @@ p{
     border-radius: 10px;
     border:2px solid rgb(255, 0, 0);
     animation: scale 2s linear , transition-color 3s ;
+ 
    
 
 }
