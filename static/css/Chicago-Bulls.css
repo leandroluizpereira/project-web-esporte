@@ -234,7 +234,7 @@ p{
 .grid-fotos{
     display: grid;
       background-color: black;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 50% 1fr;
 
 }
 .legado-micahel{
@@ -250,20 +250,22 @@ p{
     background-color:#D9A25F;
 }
 .container-img-jordan{
-    width: auto;
-    height: 284px;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
     background-color: rgb(59, 9, 2);
     border-radius: 10px;
     border:2px solid rgb(255, 0, 0);
     animation: scale 2s linear , transition-color 3s ;
- 
+   position: relative;
    
 
 }
 .img-michael-jordan{
-    margin-top: -18%;
-   margin-left:-200px;
-    width: 600px;
+      top:-63px;
+     left: -190px;
+    position: absolute;
+    width: 550px;
     height: auto;
     
 
