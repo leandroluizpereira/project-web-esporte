@@ -12,7 +12,7 @@
     
 }
 .imagem-futebol{
-    width: 330px;
+    width: 300px;
     height: auto;
     border: 1px solid #6BD425;
      margin-top: 2.5%;
@@ -53,7 +53,7 @@
     padding: 30px;
     font-size: 13px;
 
-    margin-left: 3%;
+    margin-left: -1%;
     margin-right: -3.2%;
 }
 
