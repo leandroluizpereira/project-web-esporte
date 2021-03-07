@@ -2,6 +2,8 @@
 
 @media screen and (min-width:430px) and (max-width:1390px){
 .secao-surf{
+     
+    margin-bottom: 8%;
     margin-left:200px;
     margin-right: 200px;
     width: auto;
@@ -33,9 +35,8 @@
     border-radius: 7px;
     background-color: #4E8BBF
     ;
-   margin-bottom: 5%;
 
-
+    
 
 
 
@@ -111,28 +112,23 @@
       .img-surf{
         display: relative;
         width: auto;
-        height: 400px;
+        height: 330px;
         background: url(../imagens/homen-surfando-full.jpg)center center;
         /*opacity: 0.6;*/
         background-size: cover;
-        background-position-y:-140px;
-      
-       
-        
-        
-    
+        background-position-y:-160px;
+        margin-bottom: 3%;
      
     }
     
     .titulo-img-surf{
         padding-left: 42%;
-        padding-top: 7%;
+        padding-top: 8%;
         display: absolute;
         right: 100px;
         width: 100px;
         height: 100px;
-        font-size: 140px;
-        
+       font-size: 100px;   
         color: white;
     }
  .surf-informacao{

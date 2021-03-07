@@ -161,6 +161,7 @@ height: 500px;
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover;
+   margin-bottom: 5%;
  
 }
 .cabecalho :hover{
@@ -181,8 +182,7 @@ height: 500px;
 .imagem-basquete{
     width: 300px;
     height: auto;
-
-     border: 1px solid #D9AD5B;
+    border: 1px solid #D9AD5B;
   margin-top: 2.5%;
   margin-left: 2.5%;
   border-radius: 7px;
@@ -195,13 +195,9 @@ height: 500px;
     display: grid;
     grid-template-columns: 1fr 1fr 1.2fr;
     border: 2px solid #D9AD5B;
-    
- 
     border-radius: 7px;
-    margin-bottom: 5%;
-  
-
-
+    margin-bottom: 8%;
+    
 }  
 
 /*:th-child ele pega o filho da tag declarado */
@@ -277,7 +273,7 @@ height: 500px;
 .img-nba{
     display: relative;
     width: auto;
-    height: 400px;
+    height: 330px;
     background: url(../imagens/background/nba02-1200px.webp)center center;
    /* opacity: 0.6;*/
     
@@ -288,21 +284,19 @@ height: 500px;
 
 .titulo-img-nba{
     padding-left: 42%;
-    padding-top: 11%;
+    padding-top: 9%;
     display: absolute;
     right: 100px;
     width: 100px;
     height: 100px;
-    font-size: 100px;
-    
+    font-size: 100px; 
     color: white;
 }
 .informacao-nba{
     margin-top: 3%;
     margin-left: 11%;
     margin-right: 11%;
-    margin-bottom: 3%;
-  
+    margin-bottom: 8%;
 }
 
 
