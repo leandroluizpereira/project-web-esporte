@@ -113,6 +113,34 @@
  
     
  }
+
+
+ .img-copa{
+    display: relative;
+    width: auto;
+    height: 400px;
+    background: url(../imagens/background/copa-do-mundo-full.jpg)center center;
+   /* opacity: 0.6;*/
+    
+    background-size: cover;
+
+ 
+}
+
+.titulo-img-copa{
+    padding-left: 25%;
+    padding-top: 10%;
+    display: absolute;
+    right: 100px;
+    width: 700px;
+    height: 200px;
+    font-size: 100px;
+    
+    color: white;
+}
+
+
+
  .futebol-informacao{
     margin-left: 10%;
     margin-right: 10%;
