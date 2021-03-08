@@ -76,7 +76,7 @@ a:hover{
     color: #D9A25F;
    
 }
-.block-menu{
+#block-menu{
     display: none;
     visibility: hidden;
 }
