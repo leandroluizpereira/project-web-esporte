@@ -8,18 +8,30 @@ body{
     overflow-x: hidden;
 }
 nav{
+
+    display: none;
+    visibility: hidden;
+ 
+}
+
+.nav-celular-tablet{
+    display: block;
+    visibility: visible;
     z-index :1;
  
     position: fixed;
     width: 100%;
     height: auto;
     background-color: rgba(0, 0, 0, 1); 
+
 }
-ul{  
+
+.ul-celular-tablet{
     padding: 0px;
     margin: 7px;
 }
-.li{
+
+.li-celular-tablet{
     /*deixa o cursor:pointer design  com mão com o dedoindicador  */
     cursor: pointer;
     padding: 10px;
@@ -28,19 +40,34 @@ ul{
     margin: 1px;
     display: inline-block;
 }
-.li:hover{
+
+.li-celular-tablet:hover{
     background-color:white;
     border-radius: 5px;
-  
 }
+
+
 a{
     color: white;
     text-decoration: none;
    
 }
+
 a:hover{
     color:#D9A25F;
 }
+
+#block-menu{
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    left:-100px;
+}
+
+
+
 p{
     text-align: justify;
     text-indent: 23px;

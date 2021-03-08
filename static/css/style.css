@@ -56,6 +56,11 @@ ul{
     animation: bola-movimento 0.9s linear infinite ;
     
 
+
+}
+.nav-celular-tablet{
+    display: none;
+    visibility:hidden;
 }
 a{
 
@@ -70,6 +75,10 @@ a:hover{
    
     color: #D9A25F;
    
+}
+.block-menu{
+    display: none;
+    visibility: hidden;
 }
 p{
    
