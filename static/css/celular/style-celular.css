@@ -8,7 +8,7 @@ body{
     overflow-x: hidden;
 }
 .navBar {
-    height: 100px;
+    height: 70px;
 	position: fixed;
   min-width: 100%;
   z-index: 3;
@@ -19,7 +19,7 @@ body{
     color: white;
   display: inline-block;
   height: 13px;
-  margin: 45px 20px ;
+  margin: 29px 20px ;
   width: 187px;
 }
 
@@ -116,7 +116,7 @@ nav .wrapper {
     display: block;
     float: right;
     height: 22px;
-    margin-top: 2.5em;
+    margin-top: 1.6em;
     margin-right: 2em;
     width: 26px;
   }
