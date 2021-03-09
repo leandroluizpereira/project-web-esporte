@@ -99,6 +99,7 @@ nav .wrapper {
     width: 100%;
     visibility: hidden;
     margin: 0%;
+    margin-left: -2%;
 
   }
   nav li {
