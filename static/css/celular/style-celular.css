@@ -60,7 +60,10 @@ nav ul li:last-child a{
     color: #00E4D9;
 }
 
-#menu-icon { display: none; /* hide menu icon initially */}
+#menu-icon { 
+    display: none; 
+    /* hide menu icon initially */
+}
 
 nav ul li:last-child a:hover{
     color: #00ABAF;
@@ -111,6 +114,7 @@ nav .wrapper {
     background:#006cfa8a; 
   }
   nav .label-toggle {
+      /*ciando três traço com background */
     background: linear-gradient(to bottom, #FFF 0%, #FFF 20%, transparent 20%, transparent 40%, #FFF 40%, #FFF 60%, transparent 60%, transparent 80%, #FFF 80%, #FFF 100%);
     cursor: pointer;
     display: block;
