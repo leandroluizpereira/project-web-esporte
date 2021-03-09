@@ -19,9 +19,11 @@ body{
     color: white;
   display: inline-block;
   height: 13px;
-  margin: 18px 20px ;
+  margin: 17px 20px ;
   width: 187px;
 }
+
+.wrapper {
 
   margin: 0 auto;
   max-width: 100%;
