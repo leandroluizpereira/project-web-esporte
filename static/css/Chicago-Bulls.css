@@ -216,6 +216,12 @@ p{
     font-size: 45px;
     color: #590a0a;
 }
+.h2-titulo-michael{
+    margin-bottom: 5%;
+    text-indent: 5%;
+    font-size: 30px;
+    color: #590a0a;
+}
 .section-bulls{
     width: auto;
     margin-top: -6%;
@@ -263,7 +269,7 @@ p{
 
     margin-bottom: -1%;
     width: 97%;
-    height: 25%;
+    height: 23.5%;
     background-color: rgb(59, 9, 2);
     border-radius: 10px;
     border:2px solid rgb(255, 0, 0);
