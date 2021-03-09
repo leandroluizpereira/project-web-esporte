@@ -8,7 +8,7 @@ body{
     overflow-x: hidden;
 }
 .navBar {
-    height: 70px;
+    height: 50px;
 	position: fixed;
   min-width: 100%;
   z-index: 3;
@@ -19,11 +19,9 @@ body{
     color: white;
   display: inline-block;
   height: 13px;
-  margin: 29px 20px ;
+  margin: 18px 20px ;
   width: 187px;
 }
-
-.wrapper {
 
   margin: 0 auto;
   max-width: 100%;
@@ -31,6 +29,8 @@ body{
 }
 
 nav ul {
+    padding: 0px;
+    margin: 7px;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -45,9 +45,6 @@ nav ul a:hover {
   color: #AAA;
 }
 nav li {
-    display: inline-block;
-    padding: 6px 17px;
-    font-size: 20px;
     font-family: 'Brandon Grotesque';
     font-weight: normal;
   font-style: normal;
@@ -81,6 +78,10 @@ nav .wrapper {
   display: flex;
   justify-content: space-between;
 }
+nav .wrapper {
+    display: block;
+
+  }
 @media screen and (max-width: 768px) {
   nav nav ul a {
     color: #FFF;
@@ -95,7 +96,6 @@ nav .wrapper {
     transition: all 1s ease;
     width: 100%;
     visibility: hidden;
-  
     margin: -2%;
 
   }
@@ -105,7 +105,10 @@ nav .wrapper {
     font-size: 1.5em;
     padding: 1em 0;
     text-align: center;
+   
+
   }
+
   nav #menu-toggle:checked ~ ul {
     opacity: 1;
     height: 100vh;
@@ -113,21 +116,20 @@ nav .wrapper {
     visibility: visible;
     background:#006cfa8a; 
   }
+
+
   nav .label-toggle {
-      /*ciando três traço com background */
+
     background: linear-gradient(to bottom, #FFF 0%, #FFF 20%, transparent 20%, transparent 40%, #FFF 40%, #FFF 60%, transparent 60%, transparent 80%, #FFF 80%, #FFF 100%);
     cursor: pointer;
     display: block;
     float: right;
     height: 22px;
-    margin-top: 1.6em;
+    margin-top: 0.9em;
     margin-right: 2em;
     width: 26px;
   }
-  nav .wrapper {
-    display: block;
-
-  }
+ 
 }
 nav{
     z-index :1;
@@ -137,32 +139,13 @@ nav{
 
     background-color: rgba(0, 13, 83, 0.185); 
 }
-ul{  
-    padding: 0px;
-    margin: 7px;
-}
-.li{
-    /*deixa o cursor:pointer design  com mão com o dedoindicador  */
-    cursor: pointer;
-    padding: 10px;
-    font-family: Arial;
-    font-size: 10px;
-    margin: 1px;
-    display: inline-block;
-}
+
 .li:hover{
     background-color:white;
     border-radius: 5px;
   
 }
-a{
-    color: white;
-    text-decoration: none;
-   
-}
-a:hover{
-    color:#D9A25F;
-}
+
 p{
     text-align: justify;
     text-indent: 23px;
