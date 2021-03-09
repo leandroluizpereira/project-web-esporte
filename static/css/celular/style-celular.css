@@ -8,10 +8,11 @@ body{
     overflow-x: hidden;
 }
 .navBar {
+    height: 100px;
 	position: fixed;
   min-width: 100%;
   z-index: 3;
-  background:#006eff42;
+  background:black;
 }
 
 .logo {
@@ -23,6 +24,7 @@ body{
 }
 
 .wrapper {
+  margin-top: -10%;
   margin: 0 auto;
   max-width: 100%;
   padding: 0 2%;
@@ -71,6 +73,7 @@ nav .label-toggle {
   display: none;
 }
 nav .wrapper {
+
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -89,6 +92,8 @@ nav .wrapper {
     transition: all 1s ease;
     width: 100%;
     visibility: hidden;
+  
+    margin: -2%;
 
   }
   nav li {
@@ -101,6 +106,7 @@ nav .wrapper {
   nav #menu-toggle:checked ~ ul {
     opacity: 1;
     height: 100vh;
+  
     visibility: visible;
     background:#006cfa8a; 
   }
@@ -116,14 +122,15 @@ nav .wrapper {
   }
   nav .wrapper {
     display: block;
+
   }
 }
 nav{
     z-index :1;
- 
+    height: 20px;
     position: fixed;
     width: 100%;
-    height: auto;
+
     background-color: rgba(0, 13, 83, 0.185); 
 }
 ul{  
