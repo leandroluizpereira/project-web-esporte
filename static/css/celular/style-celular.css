@@ -16,7 +16,7 @@ body{
 }
 
 .logo {
-    color: white;
+  color: white;
   display: inline-block;
   height: 13px;
   margin: 17px 20px ;
@@ -98,7 +98,7 @@ nav .wrapper {
     transition: all 1s ease;
     width: 100%;
     visibility: hidden;
-    margin: -2%;
+    margin: 0%;
 
   }
   nav li {
