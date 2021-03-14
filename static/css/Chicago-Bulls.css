@@ -185,9 +185,7 @@ p{
   width: 100%;  /*se expandde a largura do pai*/
   height: 100%; /*se  expande a largura do pai*/
     background: url(../imagens/png/chicago-bulls-logo-250px-gimp.png)center center;
-    background-size: cover;
-  
-  
+    background-size: cover; 
     
 }
 
@@ -228,18 +226,14 @@ p{
 }
 .section-bulls{
     margin-top: -6%;
-   
     position: absolute;
     margin-left: 3%;
     margin-right: 3%;
-
-
     width: 93.5%;
     height: auto;
     border-radius: 1%;
     box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.301);
     background-color: #D9AD5B;
- 
 }
 
 .grid-fotos{
@@ -248,10 +242,6 @@ p{
     display: grid;
       background-color: aqua;
     grid-template-columns: 24.5% 69.9%;
-    
-
-  
-
 }
 
 .grid-fotos >div:nth-child(1){
