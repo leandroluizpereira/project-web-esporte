@@ -3,8 +3,8 @@
  ### https://leandroluizpereira.github.io/project-web/
 
 
- # Projeto Integrado
- ## lista de tarefas  
+ ## Projeto Integrado
+ ### lista de tarefas  
  
 - [x] menu de navegaçâo 
 - [x] navegaçâo interno e externo
