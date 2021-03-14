@@ -200,14 +200,15 @@ p{
 .grid-chicago-bulls > div:nth-child(1){
     width: 100%;
     height: 2200px;
-  background-color: rgb(165, 136, 136);
+  background-color:#590a0a ;
 
 }
 .grid-chicago-bulls >div:nth-child(2){
     width: 100%;
     height: 2200px;
-    background-color: #590a0a;
+    background-color: #D4001F;
 
+   
 
 }
 .h1-titulo-michael{
@@ -232,7 +233,7 @@ p{
     position: absolute;
     margin-left: 3%;
     margin-right: 3%;
-    padding-right: 5.5%;
+    padding-right: 4.9%;
 
     width: 88%;
     height: auto;
@@ -256,7 +257,8 @@ p{
 .grid-fotos >div:nth-child(1){
     border-right: 1px solid rgb(117, 117, 117);
     height: 2010px;
-    background-color:white;
+    background-color:#D9AD5B ;
+    padding-top: 10px;
    
 }
 .titulo-estatistica{
@@ -278,8 +280,8 @@ p{
 
 .h2-premiacao{
   border: 1px solid #D9AD5B;
- color:  #590A0A;
- background-color: #BF8339;
+ color: #D9AD5B;
+ background-color: #590A0A;
 text-align: center;
 text-shadow:0.5px 0.5px 1px black;
 }
@@ -294,14 +296,14 @@ text-shadow:0.5px 0.5px 1px black;
     height: auto;
     padding-left: 4%;
     padding-right: 4%;
-    background-color: rgb(255, 255, 255);
+    background-color: #D9AD5B;
 }
 
 .container-img-jordan{
     display: inline-block;
     margin-top: -1%;
     margin-left: 1%;
-    margin-bottom: -1%;
+    margin-bottom: 3%;
     width: 97%;
     height: 16.5%;
     background-color: #590A0A;
@@ -310,7 +312,6 @@ text-shadow:0.5px 0.5px 1px black;
    /* animation: scale 2s linear , transition-color 3s ; */
    position: relative;
    
-
 }
 .img-michael-jordan{
       top:-63px;
@@ -320,40 +321,33 @@ text-shadow:0.5px 0.5px 1px black;
     width: 700px;
     height: auto;
     /* animation: scale 0.9s linear ;*/
-    
-
 }
-
-
-
 .div-estatistica{
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom:15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom:5px;
+    margin-top:5px;
     padding-right: 15px;
     padding-left: 15px;
     padding-bottom:15px;
     width: auto;
     height: auto ;
    border-radius: 7px ;
-    background-color: #590A0A;
-  
- 
-  
+    background-color: #590a0a;
+    border: 2px solid red;
 
 }
 .quadro-01,.quadro-02,.quadro-03,.quadro-04,.quadro-05,.quadro-06,.quadro-07{
 display: inline-block;
 width: 100%; 
-
 height: auto;
 margin-bottom: 15px;
-
-
-
-background-color:  #D9AD5B;
+background-color:  #BF8339;
 box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.301);
+}
 
+.hr{
+    border-color:#D4001F;
 }
 
 .quadro-space{
