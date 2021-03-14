@@ -1,10 +1,10 @@
 
- # Acesso ao site:
- ## https://leandroluizpereira.github.io/project-web/
+ ## Acesso ao site:
+ ### https://leandroluizpereira.github.io/project-web/
 
 
- # Projeto Integrado - 7° semestre - 2021
- ## lista de tarefas  
+ ## Projeto Integrado
+ ### lista de tarefas  
  
 - [x] menu de navegaçâo 
 - [x] navegaçâo interno e externo
