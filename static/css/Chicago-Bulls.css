@@ -241,7 +241,7 @@ p{
   height: 100%;
     display: grid;
       background-color: aqua;
-    grid-template-columns: 24.5% 69.9%;
+    grid-template-columns: 28.5% 66.2%;
 }
 
 .grid-fotos >div:nth-child(1){
