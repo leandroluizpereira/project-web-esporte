@@ -227,15 +227,14 @@ p{
     color: #590a0a;
 }
 .section-bulls{
-    width: auto;
     margin-top: -6%;
-    padding-top: 1.5%;
+
     position: absolute;
     margin-left: 3%;
     margin-right: 3%;
-    padding-right: 4.9%;
 
-    width: 88%;
+
+    width: 93%;
     height: auto;
     border-radius: 1%;
     box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.301);
@@ -248,7 +247,7 @@ p{
   height: 100%;
     display: grid;
       background-color: aqua;
-    grid-template-columns: 30.5% 1fr;
+    grid-template-columns: 30.5% 64.355%;
     
 
   
