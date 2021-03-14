@@ -301,7 +301,7 @@ text-shadow:0.5px 0.5px 1px black;
     /* fazendo degradê do lado direito com duas cores */
     background-image:linear-gradient(#D4001F,#590A0A);
     border-radius: 10px;
-    border:2px solid rgb(255, 0, 0);
+    border:2px solid white;
    /* animation: scale 2s linear , transition-color 3s ; */
    position: relative;
    
