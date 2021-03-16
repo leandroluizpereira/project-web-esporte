@@ -370,6 +370,8 @@ td{
     border: 1.5px solid #590a0a;  
     background-color: #BF8339;
     text-align: center;
+    color: #942020;
+    font-weight: bolder;
 }
 
 tr{
