@@ -358,15 +358,20 @@ p{
 }
 
 table{
-  border: 2px solid black;
+  border: 2.5px solid #D4001F; 
+  background-color: #590a0a;
 }
 
 td{
-    border: 2px solid black;  
+    border: 2px solid #590a0a;  
+    background-color: #BF8339;
+    text-align: center;
 }
 
 tr{
-    border: 2px solid black;
+
+
+   
 }
 
 
