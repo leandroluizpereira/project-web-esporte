@@ -350,6 +350,7 @@ p{
     background-size: cover; 
 }
 .hr{
+
     border-color:#D4001F;
 }
 
@@ -358,12 +359,15 @@ p{
 }
 
 table{
-  border: 2.5px solid #D4001F; 
-  background-color: #590a0a;
+
+  border: 2.5px solid #D4001F;
+  background-color:  #590a0a; 
+
 }
 
 td{
-    border: 2px solid #590a0a;  
+
+    border: 1.5px solid #590a0a;  
     background-color: #BF8339;
     text-align: center;
 }
@@ -373,6 +377,23 @@ tr{
 
    
 }
+.tr-linha-titulo{
+
+}
+.tr-linha-titulo > td:nth-child(n+1){
+    background-color: #8a1111;
+    color: #BF8339;
+    font-weight: bolder;
+}
+.tr-linha-subtitulo{
+
+}
+.tr-linha-subtitulo > td:nth-child(n+1){
+    background-color: #8a1111;
+    color: #BF8339;
+    font-weight: bolder;
+}
+
 
 
 @keyframes bola-movimento {
