@@ -365,6 +365,8 @@ table{
 
 }
 
+
+
 td{
 
     border: 1.5px solid #590a0a;  
@@ -373,7 +375,24 @@ td{
     color: #942020;
     font-weight: bolder;
 }
+td:hover {
+    border: 1.5px solid #590a0a;  
+    background-color:#942020 ;
+    text-align: center;
+    color:#BF8339 ;
+    font-weight: bolder;
+    cursor: pointer;
+}
 
+td > a:nth-child(n+1){
+    color: #7e0707;
+    font-weight: normal;
+}
+td > a:hover:nth-child(n+1){
+   
+    font-weight: normal;
+    color: #ffffff;
+}
 tr{
 
 
