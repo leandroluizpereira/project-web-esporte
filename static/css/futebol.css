@@ -6,53 +6,39 @@
     margin-right: 200px;
     width: auto;
     height: auto;
-
-    border-radius: 20px;
- 
-    
+    border-radius: 20px;   
 }
+
 .imagem-futebol{
     width: 300px;
     height: auto;
     border: 1px solid #6BD425;
-     margin-top: 2.5%;
-     margin-left: 2.5%;
-     border-radius: 7px;
-     margin-bottom: 2.5%;
-
-  
-
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    border-radius: 7px;
+    margin-bottom: 2.5%;
 }
 
 /*grid dividindo em 3 colunas com 1fr deixando proporcional a largura da tela 100%*/
 .grid-futebol {
     align-items: center;
-   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border: 2px solid #6BD425;
-
     margin-bottom: 5%;
- 
     border-radius: 7px;
    background-color: #8A8C4A;
-
-
 }  
 
 /*:th-child ele pega o filho da tag declarado */
 .grid-futebol >div:nth-child(1){
   color:white;
-
 }
-.grid-futebol>div:nth-child(2){
-    
-    
+.grid-futebol>div:nth-child(2){  
     background-color: #4F5D2F;
     color:#f2f597;
     padding: 30px;
     font-size: 13px;
-
     margin-left: -1%;
     margin-right: -3.2%;
 }
@@ -68,52 +54,31 @@
     margin: 10px;
     height: 420px;
  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
-    overflow: scroll ;
-    
-    
-
-    
+    overflow: scroll ;    
 }
-
 
 /*(n+3) ele pega os filhos aparte do 3 */
 .grid-futebol>div h1:nth-child(n+1){
     color: #6BD425;
-
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
-
-
-
 
 .grid-futebol>div p:nth-child(n+1){
     color: #4F5D2F;
     text-indent: 23px;
 }
 .grid-futebol>div h3:nth-child(n+1){
-    text-indent: 20px;
-   
- 
-    
+    text-indent: 20px;  
  }
       /*usando a chave da animação definindo transição linear infinito*/
  .img-futebol{
-  
-    
-     z-index :0;
+    z-index :0;
    
-     /*deixa o cursor do mouse a mão aberta */
-     cursor: grab;
-  
-
-     
+    /*deixa o cursor do mouse a mão aberta */
+    cursor: grab;    
  }
- .img-futebol:hover{
-
- 
-    
+ .img-futebol:hover{  
  }
-
 
  .img-copa{
     display: relative;
@@ -121,10 +86,8 @@
     height: 400px;
     background: url(../imagens/background/copa-do-mundo-full.jpg)center center;
    /* opacity: 0.6;*/
-    
     background-size: cover;
     margin-bottom: 3%;
- 
 }
 
 .titulo-img-copa{
@@ -134,8 +97,7 @@
     right: 100px;
     width: 700px;
     height: 200px;
-    font-size: 100px;
-    
+    font-size: 100px; 
     color: white;
 }
 
@@ -153,20 +115,14 @@
     height: 215px;
     background-color: black;
     overflow-x: scroll;
-
-  
 }
 .card-01,.card-02,.card-03,.card-04,.card-05,.card-06{
    display: inline-block;
-
     margin: 20px;
     width:150px ;
     height: 150px;
     background-color:rgba(255,255,255,0.1);
-    border-radius: 50%;
-   
+    border-radius: 50%;  
 }
-
-
 
 }
