@@ -173,12 +173,12 @@ p{
 
 .grid-chicago-bulls > div:nth-child(1){
     width: 100%;
-    height: 2200px;
+    height: 2300px;
     background-color:#590a0a ;
 }
 .grid-chicago-bulls >div:nth-child(2){
     width: 100%;
-    height: 2200px;
+    height: 2300px;
     background-color: #D4001F;
 }
 
@@ -208,6 +208,14 @@ p{
     box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.301);
     background-color: #D9AD5B;
 }
+.h2-saiba-mais{
+    margin-top: -3%;
+    margin-bottom:40px;
+    padding-bottom: 2px;
+    background-color: brown;
+    text-align: center;
+    font-size: 16px;
+}
 
 .grid-fotos{
     width: 100%;
@@ -220,7 +228,7 @@ p{
 .grid-fotos >div:nth-child(1){
     border-top: 1px solid #D4001F;
     border-right: 1px solid #D4001F;
-    height: 2010px;
+    height: 2110px;
     background-color:#D9AD5B ;
     padding-top: 10px;
 }
