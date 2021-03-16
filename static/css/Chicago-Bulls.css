@@ -323,7 +323,12 @@ p{
     background: url(../imagens/michael-jordan-campeao-nba.jpeg)center;
     background-size: cover; 
 }
-
+.grid-quadro-jogos-olimpicos{
+    width: 100%;  /*se expandde a largura do pai*/
+    height: auto; /*se  expande a largura do pai*/
+    background: url(../imagens/michael-jordan-full.jpg)center;
+    background-size: cover; 
+}
 .hr{
     border-color:#D4001F;
 }
