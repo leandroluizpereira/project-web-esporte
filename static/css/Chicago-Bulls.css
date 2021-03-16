@@ -350,23 +350,21 @@ p{
     background-size: cover; 
 }
 .hr{
-
     border-color:#D4001F;
 }
 
 .quadro-space{
     padding: 5%;
 }
-
+.h1-recordes-pessoais{
+    text-align: center; 
+    color:  #590A0A;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.808);
+}
 table{
-
   border: 2.5px solid #D4001F;
   background-color:  #590a0a; 
-
 }
-
-
-
 td{
 
     border: 1.5px solid #590a0a;  
@@ -393,13 +391,9 @@ td > a:hover:nth-child(n+1){
     font-weight: normal;
     color: #ffffff;
 }
-tr{
-
-
-   
+tr{  
 }
 .tr-linha-titulo{
-
 }
 .tr-linha-titulo > td:nth-child(n+1){
     background-color: #8a1111;
@@ -407,15 +401,12 @@ tr{
     font-weight: bolder;
 }
 .tr-linha-subtitulo{
-
 }
 .tr-linha-subtitulo > td:nth-child(n+1){
     background-color: #8a1111;
     color: #BF8339;
     font-weight: bolder;
 }
-
-
 
 @keyframes bola-movimento {
 from{
