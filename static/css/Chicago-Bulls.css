@@ -326,7 +326,31 @@ p{
 .grid-quadro-jogos-olimpicos{
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/michael-jordan-full.jpg)center;
+    background: url(../imagens/michael-jordan-gimp.jpg)center;
+    background-size: cover; 
+}
+.grid-quadro-Americas-Championship{
+    width: 100%;  /*se expandde a largura do pai*/
+    height: auto; /*se  expande a largura do pai*/
+    background: url(../imagens/jordan-medalha-medalha-gimp.jpg)center;
+    background-size: cover; 
+}
+.grid-quadro-Pan-Americanos{
+    width: 100%;  /*se expandde a largura do pai*/
+    height: auto; /*se  expande a largura do pai*/
+    background: url(../imagens/michael-jordan-trofeu.jpeg)center;
+    background-size: cover; 
+}
+.grid-quadro-Scoring-Chammpion{
+    width: 100%;  /*se expandde a largura do pai*/
+    height: auto; /*se  expande a largura do pai*/
+    background: url(../imagens/jordan-trofeu-2.jpg)center;
+    background-size: cover; 
+}
+.grid-quadro-All-NBA-Team{
+    width: 100%;  /*se expandde a largura do pai*/
+    height: auto; /*se  expande a largura do pai*/
+    background: url(../imagens/michael-trofeu-4.jpg)center;
     background-size: cover; 
 }
 .hr{
