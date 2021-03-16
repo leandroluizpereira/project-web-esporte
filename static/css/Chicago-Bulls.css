@@ -1,100 +1,83 @@
-
 @charset "UTF-8";
-
 /*media para responsividade de tela para desktop de 430px espandindo até 2500px */
 @media screen and (min-width:430px) and (max-width:1390px){
 
 body{
-  margin: 0%;
-  min-width:1320px;
+    margin: 0%;
+    min-width:1320px;
     width: 100%;
     height: 100%;
     background-color: white;
     /*se expande no minimo 990 pixel */
-
-    /*overflow-x: hidden;*/
-  
-    
+    /*overflow-x: hidden;*/ 
 }
-nav{
 
-     padding: 1px;
+nav{
+    padding: 1px;
     z-index: 1;
     margin-top: 0px;
     position: fixed;
     width: 100%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.07);
-
-   
 }
+
 nav:hover{
     background-color: rgb(0,0,0);
     animation: opacidade 0.7s ease-in ;
     color: white;
 }
+
 ul{
- 
     padding: 0px;
     margin: 5px;
 }
-.li{
 
-   /*deixa o cursor:pointer design  com mão com o dedo indicador  */
+.li{
+    /*deixa o cursor:pointer design  com mão com o dedo indicador  */
     cursor: pointer;
     padding: 10px;
     font-family: Arial;
     font-size: 17px;
     margin: 2px;
-    display: inline-block;
-    
+    display: inline-block;   
 }
 .li:hover{
- 
     background-color:white;
     border-radius: 5px;
     animation: bola-movimento 0.9s linear infinite ;
-    
-
 }
-a{
 
+a{
     color:white;
     text-shadow: 2px 2px 2px 4px black;
     text-decoration: none;
-
-
 }
 
 a:hover{
-   
-    color: #D9A25F;
-   
+    color: #D9A25F;  
 }
-p{
-   
-    text-align: justify;
-  
-    text-indent: 23px;
-   word-break: break-all;
-/*para não espaços entre letras */
-  letter-spacing: 0px;
-  word-spacing: 0px
 
-  
+p{
+   text-align: justify;
+   text-indent: 23px;
+   word-break: break-all;
+   /*para não espaços entre letras */
+   letter-spacing: 0px;
+   word-spacing: 0px 
 }
+
 .header-titulo{
     z-index: 1;
-  
-     padding-top: 10px;
-     padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: auto;
     height: auto;
     /*background-color: rgba(0, 0, 0, 0.2);*/
     color: white;
 }
+
 .header-titulo h1{
- 
     margin-top: 66px;
     margin-bottom: 10px;
     margin-left: 30px;
@@ -106,8 +89,8 @@ p{
     border-top: 1px solid rgba(255, 255, 255,0.3);
     border-left: 1px solid rgba(255, 255, 255,0.3);
     border-radius: 10px;
-    
 }
+
 .header-titulo h2{
     margin-left: 120px;
     margin-top: 14px;
@@ -117,9 +100,7 @@ p{
     color: #D9A25F;
     padding-left: 10px;
     text-shadow:4px 2px 2px #403222;
-
 }
-
 
 .cabecalho{
     width: 100%;
@@ -166,57 +147,48 @@ p{
     background-color: #590a0a;
     border-radius: 50%;
     z-index:2;
-    
-
-
 }
+
 .logo-01{
     width: 100%;
     height: 100%;
     background: url(../imagens/faviconIo/android-chrome-192x192.png)no-repeat;
     background-position-x:29px;
     background-position-y:29px ;
-   /* animation: girar 2s linear infinite;*/
- 
-  
+   /* animation: girar 2s linear infinite;*/  
 }
+
 .logo-02{
-  
-  width: 100%;  /*se expandde a largura do pai*/
-  height: 100%; /*se  expande a largura do pai*/
+    width: 100%;  /*se expandde a largura do pai*/
+    height: 100%; /*se  expande a largura do pai*/
     background: url(../imagens/png/chicago-bulls-logo-250px-gimp.png)center center;
-    background-size: cover; 
-    
+    background-size: cover;     
 }
+
 
 .grid-chicago-bulls{
-  
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
 }
+
 .grid-chicago-bulls > div:nth-child(1){
     width: 100%;
     height: 2200px;
-  background-color:#590a0a ;
-
+    background-color:#590a0a ;
 }
 .grid-chicago-bulls >div:nth-child(2){
     width: 100%;
     height: 2200px;
     background-color: #D4001F;
-
-   
-
 }
+
 .h1-titulo-michael{
     margin-top: 0.5%;
-
     text-indent: 2.5%;
-
     font-size: 30px;
     color: #590a0a;
 }
+
 .h2-titulo-michael{
     margin-bottom: 2%;
     text-indent: 5%;
@@ -224,6 +196,7 @@ p{
     font-size: 20px;
     color: #590a0a;
 }
+
 .section-bulls{
     margin-top: -6%;
     position: absolute;
@@ -237,10 +210,10 @@ p{
 }
 
 .grid-fotos{
- width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
     display: grid;
-      background-color: aqua;
+    background-color: aqua;
     grid-template-columns: 28.5% 66.2%;
 }
 
@@ -250,11 +223,10 @@ p{
     height: 2010px;
     background-color:#D9AD5B ;
     padding-top: 10px;
-   
 }
+
 .titulo-estatistica{
     border-radius: 5px;
- 
     text-align: center; 
     color: #BF8339;
     font-weight: bold;
@@ -262,8 +234,8 @@ p{
     font-size: 20px;
     padding-top:5px;
     padding-bottom: 5px;
-
 }
+
 .titulo-card{
     text-align: center; 
     color:  #590A0A;
@@ -271,16 +243,16 @@ p{
 }
 
 .h2-premiacao{
-  border: 1px solid #D9AD5B;
- color: #BF8339;
- background-color: #590A0A;
-text-align: center;
-text-shadow:0.5px 0.5px 1px black;
+    border: 1px solid #D9AD5B;
+    color: #BF8339;
+    background-color: #590A0A;
+    text-align: center;
+    text-shadow:0.5px 0.5px 1px black;
 }
+
 .h3-premiacao{
     color:  #590A0A;
 }
-
 
 .grid-fotos >div:nth-child(2){
     border-top: 1px solid #D4001F;
@@ -299,13 +271,14 @@ text-shadow:0.5px 0.5px 1px black;
     width: 96%;
     height: 16.5%;
     /* fazendo degradê do lado direito com duas cores */
-    background-image:linear-gradient(#D4001F,#590A0A);
+    background-image:linear-gradient(#590A0A,#8a0202);
     border-radius: 10px;
     border:3.5px solid black;
    /* animation: scale 2s linear , transition-color 3s ; */
    position: relative;
    
 }
+
 .img-michael-jordan{
       top:-63px;
      left: -230px;
@@ -315,6 +288,7 @@ text-shadow:0.5px 0.5px 1px black;
     height: auto;
     /* animation: scale 0.9s linear ;*/
 }
+
 .div-estatistica{
     margin-right: 5px;
     margin-left: 5px;
@@ -325,24 +299,29 @@ text-shadow:0.5px 0.5px 1px black;
     padding-bottom:15px;
     width: auto;
     height: auto ;
-   border-radius: 7px ;
+    border-radius: 7px ;
     background-color: #590a0a;
     border: 2px solid red;
-
-
 }
+
 .quadro-01,.quadro-02,.quadro-03,.quadro-04,.quadro-05,.quadro-06,.quadro-07{
-display: inline-block;
-width: 100%; 
-height: auto;
-margin-bottom: 15px;
-background-color:  #BF8339;
-box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.301);
-   
+    display: inline-block;
+    width: 100%; 
+    height: 100%;
+    margin-bottom: 15px;
+    background-color:  #BF8339;
+    box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.301);
 }
-.div-quadro{
+
+.grid-quadro{
     display:grid;
     grid-template-columns: 1fr 1fr;
+}
+.grid-quadro-1{ 
+    width: 100%;  /*se expandde a largura do pai*/
+    height: auto; /*se  expande a largura do pai*/
+    background: url(../imagens/michael-jordan-campeao-nba.jpeg)center;
+    background-size: cover; 
 }
 
 .hr{
@@ -356,6 +335,7 @@ box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.301);
 table{
   border: 2px solid black;
 }
+
 td{
     border: 2px solid black;  
 }
@@ -366,97 +346,71 @@ tr{
 
 
 @keyframes bola-movimento {
-    from{
-    
-         transform: translateY(0px);
-
-    }
-    to{
-
-       transform: translateY(-8px);
- 
-    }
- 
-    
-    
+from{
+    transform: translateY(0px);
 }
+to{
+    transform: translateY(-8px);
+ }
+}
+
 /*animação circular crescente do ponto ao maximo da imagem */
 @keyframes scale {
-    from {
-        border-radius: 50%;
-       transform: scale(0);
-       opacity: 0;
-    }
-    to{
-        border-radius: 50%;
-       transform:scale (3.0);
-       opacity: 1;
-    }
-
+from {
+    border-radius: 50%;
+    transform: scale(0);
+    opacity: 0;
 }
+to{
+    border-radius: 50%;
+    transform:scale (3.0);
+    opacity: 1;
+ }
+}
+
 @keyframes move {
-   from{
-   
-        transform: translateX(0px);
- 
+from{
+    transform: translateX(0px);
    }
-   to{
-
-      transform: translateX(100%);
-  
-   }
-
-   
-   
+to{
+    transform: translateX(100%);
+   }   
 }
+
 @keyframes opacidade {
-   from{
-   
-       opacity: 0;
-  
-   }
-   to{
-
-     opacity: 1;
-
-   }
-
-   
-   
+from{ 
+    opacity: 0;
 }
+to{
+    opacity: 1;
+   }  
+}
+
+
 @keyframes girar {
-   from{
-   
-       transform: rotate(0deg);
-      
-   }
-   to{
-
-       transform: rotate(35deg);
-
-   }
-
-   
-   
+from{ 
+    transform: rotate(0deg);  
 }
+to{
+    transform: rotate(35deg);
+   } 
+}
+
 @keyframes zoom {
-    from{
-        transform: scale(0);
-    }
-    to{
-        transform: scale(1);
+from{
+    transform: scale(0);
+}
+to{
+     transform: scale(1);
     }
 }
+
 @keyframes transition-color {
-    from{
-        background-color: #c2baba;
-    }
-    to{
-        background-color: #000000;
+from{
+    background-color: #c2baba;
+}
+to{
+    background-color: #000000;
     }
 }
-
-
-
-
 }
