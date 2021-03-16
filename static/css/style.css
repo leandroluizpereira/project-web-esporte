@@ -5,38 +5,30 @@
 @media screen and (min-width:720px) and (max-width:1490px){
 
 body{
-  margin: 0%;
-
+    margin: 0%;
     width: 100%;
     height: 100%;
     background-color: white;
     /*se expande no minimo 990 pixel */
     min-width:1300px;
-    /*overflow-x: hidden;*/
-  
-    
+    /*overflow-x: hidden;*/   
 }
 .navBar{
     display: none;
     visibility: hidden;
-
 }
 .wrapper{
     display: none;
     visibility: hidden;
-
 }
 nav{
-
-     padding: 1px;
+    padding: 1px;
     z-index: 1;
     margin-top: 0px;
     position: fixed;
     width: 100%;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.07);
-
-   
+    background-color: rgba(0, 0, 0, 0.07);  
 }
 nav:hover{
     background-color: rgb(0,0,0);
@@ -44,59 +36,43 @@ nav:hover{
     color: white;
 }
 ul{
- 
     padding: 0px;
     margin: 5px;
 }
 .li{
-
-   /*deixa o cursor:pointer design  com mão com o dedo indicador  */
+  /*deixa o cursor:pointer design  com mão com o dedo indicador  */
     cursor: pointer;
     padding: 10px;
     font-family: Arial;
     font-size: 17px;
     margin: 2px;
-    display: inline-block;
-    
+    display: inline-block; 
 }
 .li:hover{
- 
     background-color:white;
     border-radius: 5px;
     animation: bola-movimento 0.9s linear infinite ;
-    
-
 }
 a{
-
     color:rgba(255, 255, 255, 1);
     text-shadow: 2px 2px 2px 4px black;
     text-decoration: none;
-
-
 }
 
 a:hover{
-   
-    color: #D9A25F;
-   
+   color: #D9A25F; 
 }
 p{
-   
-    text-align: justify;
-  
-    text-indent: 23px;
+   text-align: justify;
+   text-indent: 23px;
    word-break: break-all;
 /*para não espaços entre letras */
   letter-spacing: 0px;
-  word-spacing: 0px
-
-  
+  word-spacing: 0px 
 }
 .header-titulo{
     z-index: 1;
-  
-     padding-top: 10px;
+    padding-top: 10px;
      padding-bottom: 10px;
     width: auto;
     height: auto;
@@ -114,8 +90,7 @@ p{
     text-shadow:4px 2px 2px #403222;
     border-top: 1px solid rgba(255, 255, 255,0.3);
     border-left: 1px solid rgba(255, 255, 255,0.3);
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 .header-titulo h2{
     margin-left: 120px;
@@ -126,78 +101,66 @@ p{
     color: #D9A25F;
     padding-left: 10px;
     text-shadow:4px 2px 2px #403222;
-
 }
 .header-titulo2{
-
-     float: right;
+    float: right;
     padding-right: 100px;
-     padding-top:-100px;
-     margin-bottom: 60px;
+    padding-top:-100px;
+    margin-bottom: 60px;
     width:350px;
     height: auto;
     background-color: rgba(0, 0, 0, 0);
     color: white;
-    border-bottom: 1px solid rgba(255, 255, 255,0.3);
-
-   
+    border-bottom: 1px solid rgba(255, 255, 255,0.3);  
 }
 .header-titulo2 h1{
-    
     z-index: 1;
     font-size: 50px;
     color: white;
     text-shadow:4px 2px 2px #403222;
 }
 .header-titulo2 h2{
-
     padding-left: 10%;
     font-size: 25px;
     color: white;
     text-shadow:4px 2px 2px #403222;
 }
 .imagem-principal{
-width: auto;
-height: 500px;
-
+    width: auto;
+    height: 500px;
 }
 
 .cabecalho{
     width: 100%;
     height: 620px;
-   background: url(../imagens/background/paisagemfull.jpg)no-repeat;
-   background-position-y: -250px;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   margin-bottom: 5%;
- 
+    background: url(../imagens/background/paisagemfull.jpg)no-repeat;
+    background-position-y: -250px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 5%;
 }
 .cabecalho :hover{
    
 }
 
 .secao-basquete{
-
     margin-left:200px;
     margin-right: 200px;
     width: auto;
     height: auto;
-
     border-radius: 20px;
-    
 }
 
 .imagem-basquete{
     width: 300px;
     height: auto;
     border: 1px solid #D9AD5B;
-  margin-top: 2.5%;
-  margin-left: 2.5%;
-  border-radius: 7px;
-  margin-bottom: 2.5%;
-
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    border-radius: 7px;
+    margin-bottom: 2.5%;
 }
 /*grid dividindo em 3 colunas com 1fr deixando proporcional a largura da tela 100%*/
 .grid {
@@ -216,21 +179,17 @@ height: 500px;
 
 }
 .grid >div:nth-child(2){
-    
     background-color: #590A0A;
     color: #D9AD5B;
     padding: 30px;
     font-size: 13px;
-
     margin-left: 3%;
     margin-right: -3.2%;
-
 }
 
 .grid >div:nth-child(3){
     background-color: white;
     width: auto;
-
     border-radius: 7px;
     color: #8C0D0D;
     padding-top: 5px;
@@ -240,24 +199,16 @@ height: 500px;
     margin: 10px;
     height: 400px;
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
-    overflow: scroll ;
-    
+    overflow: scroll ;    
 }
-
 
 /*(n+3) ele pega os filhos aparte do 3 */
 .grid>div h1:nth-child(n+1){
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    color:#D9AD5B;
-
-   
+    color:#D9AD5B;  
 }
-
 .grid>div h3:nth-child(n+1){
-    text-indent: 20px;
-   
- 
-    
+    text-indent: 20px;   
  }
       /*usando a chave da animação definindo transição linear infinito*/
  .img-basquete{
@@ -266,18 +217,13 @@ height: 500px;
      z-index :0;
      animation: girar 0.3s linear infinite;
      /*deixa o cursor do mouse a mão aberta */
-     cursor: grab;
-  
-
-     
+     cursor: grab;    
  }
  .img-basquete:hover{
-
      animation: bola-movimento 0.5s  linear infinite ;
-    
+   
  }
  
-
 }
 
 .img-nba{
@@ -285,10 +231,8 @@ height: 500px;
     width: auto;
     height: 330px;
     background: url(../imagens/background/nba02-1200px.webp)center center;
-   /* opacity: 0.6;*/
-    
+   /* opacity: 0.6;*/ 
     background-size: cover;
-
  
 }
 
@@ -307,16 +251,10 @@ height: 500px;
     margin-top: 3%;
     margin-left: 11%;
     margin-right: 11%;
- 
     margin-bottom: 8%;
 }
 
-
-
-
 .nba-estatistica-time{
-    
-
  background-color: rgb(139, 22, 22);
  width: 100%;
  height: 340px;

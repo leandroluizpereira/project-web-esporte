@@ -105,15 +105,13 @@ p{
 .cabecalho{
     width: 100%;
     height: 300px;
-   background-color: rgb(139, 22, 22);
-   background-position-y: -250px;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   position: relative;
-   
- 
+    background-color: rgb(139, 22, 22);
+    background-position-y: -250px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
 }
 /*teste animation do com div */
 .fundo-animation:hover{
@@ -168,7 +166,7 @@ p{
 
 .grid-chicago-bulls{
    display: grid;
-   grid-template-columns: 1fr 1fr ;
+   grid-template-columns: 1fr 1fr;
 }
 
 .grid-chicago-bulls > div:nth-child(1){
@@ -260,6 +258,7 @@ p{
 
 .h3-premiacao{
     color:  #590A0A;
+    font-size: 15px;
 }
 
 .grid-fotos >div:nth-child(2){
@@ -277,7 +276,7 @@ p{
     margin-left: 0.9%;
     margin-bottom: -1.6%;
     width: 96%;
-    height: 16.5%;
+    height: 15.7%;
     /* fazendo degradê do lado direito com duas cores */
     background-image:linear-gradient(#590A0A,#8a0202);
     border-radius: 10px;
@@ -288,9 +287,9 @@ p{
 }
 
 .img-michael-jordan{
-      top:-63px;
-     left: -230px;
-     margin: 0;
+    top:-63px;
+    left: -230px;
+    margin: 0;
     position: absolute;
     width: 700px;
     height: auto;
@@ -346,13 +345,13 @@ p{
 .grid-quadro-Pan-Americanos{
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/michael-jordan-gimp.jpg)center;
+    background: url(../imagens/)center;
     background-size: cover; 
 }
 .grid-quadro-Scoring-Chammpion{
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/jordan-trofeu-2.jpg)center;
+    background: url(../imagens/)center;
     background-size: cover; 
 }
 .grid-quadro-All-NBA-Team{

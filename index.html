@@ -1,11 +1,8 @@
 <!DOCTYPE html >
-
-    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!--Importaçâo interno css -->
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="static/css/surf.css">
@@ -15,342 +12,246 @@
     <link rel="stylesheet" href="static/css/celular/futebol-celular.css">
     <link rel="stylesheet" href="static/css/celular/surf-celular.css">
     <link rel="stylesheet" href="static/css/celular/dev-celular.css">
-  
-
     <!--"iCONE DE FAVORITOS" para indentificaçâo na aba do site-->
     <link rel="shortcut icon" href="static/imagens/faviconIo/favicon.ico" type="image/x-icon">
     <title>Tudo sobre esporte</title>
 </head>
 <body>
  
-    <header class="cabecalho" id ="home">
-      
-
-        <!--Menu de interatividade-->
-       
-        <nav>
-
-            <!--Lista não Ordenada-->
-            <ul>
-          
-                <li class="li"><a href="#home">Home</a>
-                    <li class="li"><a href="#h1">Basquete</a></li>
-                    <li class="li"><a href="#h1-surf">Surf</a></li>
-                    <li class="li"><a href="#h1-futebol">Futebol</a></li>
-                    <li class="li"><a href="#des">Dev</a></li>
-
-            </ul>
-         
-
-        </nav>
+<header class="cabecalho" id ="home">
+    <!--Menu de interatividade-->
+    <nav>
+    <!--Lista não Ordenada-->
+    <ul>
+    <li class="li"><a href="#home">Home</a>
+    <li class="li"><a href="#h1">Basquete</a></li>
+    <li class="li"><a href="#h1-surf">Surf</a></li>
+    <li class="li"><a href="#h1-futebol">Futebol</a></li>
+    <li class="li"><a href="#des">Dev</a></li>
+    </ul>
+    </nav>
 
     <!--Menu de interatividade para celular -->
+    <nav class="navBar">
+    <nav class="wrapper">
+    <div class="logo"> LOGO</div>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="label-toggle"></label>
+    <!--Lista não Ordenada-->
+    <ul> 
+    <li ><a href="#home">Home</a>
+    <li ><a href="#h1">Basquete</a></li>
+    <li ><a href="#h1-surf">Surf</a></li>
+    <li ><a href="#h1-futebol">Futebol</a></li>
+    <li ><a href="#des">Dev</a></li>
+    </ul>
+    </nav><!--wrapper-->
+    </nav><!--navBar-->
 
+    <div class="header-titulo">
+    <h1 id ="h1-cabecalho">Tudo sobre</h1>
+    <h2> Esporte</h2>
+    </div> <!-- header-titulo-->
+    <div class="header-titulo2">
+    <h1>Movimenta - se</h1>
+    <h2>Diversâo & bem-estar</h2>
+    </div> <!--header-titulo2-->
 
-        <nav class="navBar">
-            <nav class="wrapper">
-              <div class="logo">
-                LOGO</div>
-              <input type="checkbox" id="menu-toggle" />
-                <label for="menu-toggle" class="label-toggle"></label>
-                <!--Lista não Ordenada-->
-              <ul> 
-                <li ><a href="#home">Home</a>
-                    <li ><a href="#h1">Basquete</a></li>
-                    <li ><a href="#h1-surf">Surf</a></li>
-                    <li ><a href="#h1-futebol">Futebol</a></li>
-                    <li ><a href="#des">Dev</a></li>
-              </ul>
-            </nav>
-          </nav>
-          
-
-
-
-        <div class="header-titulo">
-            <h1 id ="h1-cabecalho">Tudo sobre</h1>
-            <h2> Esporte</h2>
-        </div> <!-- header-titulo-->
-
-
-        <div class="header-titulo2">
-            <h1>Movimenta - se</h1>
-            <h2>Diversâo & bem-estar</h2>
-        </div> <!--header-titulo2-->
-   
-    </header>  <!-- class cabecalho-->
+</header>  <!-- class cabecalho-->
     
-  
-    <section class=secao-basquete>
-        
-        <h1 style="text-align:center;color:  #D9AD5B; font-size: 40px;" id="h1">
-            <img class ="img-basquete" src="static/imagens/faviconIo/favicon-32x32.png"   alt="">
-        Basketball </h1>
+<!--Painel basquete -->
+<section class=secao-basquete>   
 
-        <div class="grid" style=" background-color:rgb(139, 22, 22);">
-             <div> 
-                 <img class="imagem-basquete" src="static/imagens/EsporteBasquete-300px-gimp.jpg" alt="" >
-          </div> <!-- div 1-->
+    <h1 style="text-align:center;color:  #D9AD5B; font-size: 40px;" id="h1">
+    <img class ="img-basquete" src="static/imagens/faviconIo/favicon-32x32.png"   alt="">Basketball </h1>
 
-             
-             <div>
-                 <h1 class="h1-beneficios" >Beneficios</h1>
+    <!--Grid layound-->
+    <div class="grid" style=" background-color:rgb(139, 22, 22);">   
+    <div> <img class="imagem-basquete" src="static/imagens/EsporteBasquete-300px-gimp.jpg" alt="" >
+    </div> <!-- div 1 grid layount-->
 
-               <!--Lista não ordenada -->
-                <ul class="ol">
-                    <li >Perda de peso</li>
-                    <li >Condicionamento físico </li>
-                    <li>respiratório</li>
-                    <li >Coodernaçâo motora</li>
-                    <li >Fortalecimento de músculos</li>
-                    <li >Agilidade</li>
-                    <li >Competitiçâo</li>
-                    <li>Percepçâo</li>
+    <div><h1 class="h1-beneficios" >Beneficios</h1>
+    <!--Lista não ordenada -->
+    <ul class="ol">
+    <li >Perda de peso</li>
+    <li >Condicionamento físico </li>
+    <li>respiratório</li>
+    <li >Coodernaçâo motora</li>
+    <li >Fortalecimento de músculos</li>
+    <li >Agilidade</li>
+    <li >Competitiçâo</li>
+    <li>Percepçâo</li>
+    </ul>
+    </div> <!--div 2- grid layount-->
 
-                    
-                </ul>
-               
-            </div> <!--div 2-->
-            <div>
-                <h1 style="text-align: center;">Historia</h1>
-               
-                <p>O primeiro jogo de Basquetebol foi disputado em 20 de Janeiro de 1892, com nove jogadores em cada equipe e utilizando-se uma bola de futebol, sendo visto apenas por funcionários da Associação Cristã de Moços.Cerca de duzentas pessoas viram o jogo, que terminou com o placar de 1 a 0, sendo a cesta feita de uma distância de 7,6 metros. Equipes de cinco pessoas passaram a ser o padrão por volta de 1897-1898.</p>
-                <h1 style="text-align: center;">O objetivo do jogo </h1>
-                <p>é introduzir a bola no cesto da equipe adversária (marcando pontos) e, simultaneamente, evitar que esta seja introduzida no próprio cesto, respeitando as regras do jogo. A equipe que obtiver mais pontos no fim do jogo vence.
+    <div><h1 style="text-align: center;">Historia</h1>
+    <p>O primeiro jogo de Basquetebol foi disputado em 20 de Janeiro de 1892, com nove jogadores em cada equipe e utilizando-se uma bola de futebol, sendo visto apenas por funcionários da Associação Cristã de Moços.Cerca de duzentas pessoas viram o jogo, que terminou com o placar de 1 a 0, sendo a cesta feita de uma distância de 7,6 metros. Equipes de cinco pessoas passaram a ser o padrão por volta de 1897-1898.</p>
+    <h1 style="text-align: center;">O objetivo do jogo </h1>
+    <p>é introduzir a bola no cesto da equipe adversária (marcando pontos) e, simultaneamente, evitar que esta seja introduzida no próprio cesto, respeitando as regras do jogo. A equipe que obtiver mais pontos no fim do jogo vence.
+    A competição é dirigida por:
+    Três árbitros – têm como função assegurarem o cumprimento das regras djogo;
+    Um marcador e o seu auxiliar – têm como funções o preenchimento do boletim de jogo, onde registram os pontos marcados, as faltas pessoais e técnicas, etc.;
+    O cronometrista – verifica o tempo de jogo e os descontos de tempo;
+    Um operador de vinte e quatro segundos – controla os 24 segundos que cada equipe dispõe para a execução de uma jogada.</p>
+    </div> <!--div 3--> 
+    </div> <!--div grid -->
 
-                    A competição é dirigida por:
-                    
-                    Três árbitros – têm como função assegurarem o cumprimento das regras do jogo;
-                    Um marcador e o seu auxiliar – têm como funções o preenchimento do boletim de jogo, onde registram os pontos marcados, as faltas pessoais e técnicas, etc.;
-                    O cronometrista – verifica o tempo de jogo e os descontos de tempo;
-                    Um operador de vinte e quatro segundos – controla os 24 segundos que cada equipe dispõe para a execução de uma jogada.</p>
-            </div> <!--div 3--> 
-        </div> <!--div grid -->
-    </section> <!--section basquete -->
+</section> <!--section basquete -->
 
-
-            <div class="container-img" >
-                 <div class="img-nba">
-                     <div class="titulo-img-nba">NBA</div> <!--titulo-img-nba-->
-                 </div> <!--img-nba-->
-            </div><!--container-img-->
+    <div class="container-img" >
+    <div class="img-nba">
+    <div class="titulo-img-nba">NBA</div> <!--titulo-img-nba-->
+    </div> <!--img-nba-->
+    </div><!--container-img-->
 
 
     <div class="informacao-nba">
         
-        <h1><strong style="color:#D9AD5B">NBA</strong><strong style="color: rgb(139, 22, 22);"> N</strong>ational <strong  style="color: rgb(139, 22, 22);">B</strong>asketball <strong  style="color: rgb(139, 22, 22);">A</strong>ssociation </h1>
-        <p>A National Basketball Association (em português: Associação Nacional de Basquetebol; abreviação oficial: NBA) é a principal liga de basquetebol profissional da América do Norte. Com 30 franquias (29 nos Estados Unidos e 1 no Canadá), a NBA também é considerada a principal liga de basquete do mundo. É um membro ativo da USA Basketball (USAB)[1], que é reconhecida pela FIBA (a Federação Internacional de Basquetebol) como a entidade máxima e organizadora do basquetebol nos Estados Unidos. A NBA é uma das 4 'major leagues' de esporte profissional na América do Norte. Os jogadores da NBA são os mais bem pagos esportistas do mundo, por salário médio anual.[2]</p>
-        <p>A liga foi fundada na cidade de Nova Iorque em 6 de Junho de 1946, como a Basketball Association of America (BAA).[3] A liga adotou o nome de National Basketball Association em 1949 quando se fundiu com a rival National Basketball League (NBL). A liga tem diversos escritórios ao redor do mundo, além de vários dos próprios clubes fora da sede principal na Olympic Tower localizada na Quinta Avenida 645. Os estúdios da NBA Entertainment e da NBA TV são localizados em Secaucus, New Jersey.</p>
-        <p>Atualmente a liga é transmitida em Portugal pela Sport TV e pela NBA TV, e no Brasil pela ESPN e pelo SporTV. Nos Estados Unidos, as emissoras são NBA TV, TNT e ESPN, além da transmissão dos principais jogos pela ABC. O pacote NBA League Pass, que permite ao assinante assistir todos os jogos da liga ao vivo e em alta definição, é disponibilizado para assinatura em todo o mundo.</p>
+    <h1><strong style="color:#D9AD5B">NBA</strong><strong style="color: rgb(139, 22, 22);"> N</strong>ational <strong  style="color: rgb(139, 22, 22);">B</strong>asketball <strong  style="color: rgb(139, 22, 22);">A</strong>ssociation </h1>
+    <p>A National Basketball Association (em português: Associação Nacional de Basquetebol; abreviação oficial: NBA) é a principal liga de basquetebol profissional da América do Norte. Com 30 franquias (29 nos Estados Unidos e 1 no Canadá), a NBA também é considerada a principal liga de basquete do mundo. É um membro ativo da USA Basketball (USAB)[1], que é reconhecida pela FIBA (a Federação Internacional de Basquetebol) como a entidade máxima e organizadora do basquetebol nos Estados Unidos. A NBA é uma das 4 'major leagues' de esporte profissional na América do Norte. Os jogadores da NBA são os mais bem pagos esportistas do mundo, por salário médio anual.[2]</p>
+    <p>A liga foi fundada na cidade de Nova Iorque em 6 de Junho de 1946, como a Basketball Association of America (BAA).[3] A liga adotou o nome de National Basketball Association em 1949 quando se fundiu com a rival National Basketball League (NBL). A liga tem diversos escritórios ao redor do mundo, além de vários dos próprios clubes fora da sede principal na Olympic Tower localizada na Quinta Avenida 645. Os estúdios da NBA Entertainment e da NBA TV são localizados em Secaucus, New Jersey.</p>
+    <p>Atualmente a liga é transmitida em Portugal pela Sport TV e pela NBA TV, e no Brasil pela ESPN e pelo SporTV. Nos Estados Unidos, as emissoras são NBA TV, TNT e ESPN, além da transmissão dos principais jogos pela ABC. O pacote NBA League Pass, que permite ao assinante assistir todos os jogos da liga ao vivo e em alta definição, é disponibilizado para assinatura em todo o mundo.</p>
 
     </div> <!--div informacao-nba-->
 
-          <h1 class ="h1-destaques"style="text-align: center;color: #590A0A;">Conheça o melhor jogador de todos os tempos, nos três principais times de basketball . </h1>
-         <div class="nba-estatistica-time">
+    <h1 class ="h1-destaques"style="text-align: center;color: #590A0A;">Conheça o melhor jogador de todos os tempos, nos três principais times de basketball . </h1>
 
-              <div class="container-time-nba">
-                  <div class="time-01" ><img class="chicago-bulls" src="static/imagens/png/chicago-bulls-logo.png" alt=""> <h1 class="h1-1">1</h1> <h3   style="text-align: center;color: white;">Chigado Bulls <a  class="a-nba" href="ChicagoBulls.htm">saiba mais</a></h3></div>
+    <div class="nba-estatistica-time">
+    <div class="container-time-nba">
+    <div class="time-01" ><img class="chicago-bulls" src="static/imagens/png/chicago-bulls-logo.png" alt=""> <h1 class="h1-1">1</h1> <h3   style="text-align: center;color: white;">Chigado Bulls <a  class="a-nba" href="ChicagoBulls.htm">saiba mais</a></h3></div>
+    <div class="time-02"><h1 class="h1-2">2</h1>
+    <img class="golden-state" src="static/imagens/png/golden-state-warriors-logo.png" alt=""><h3  style="text-align: center;color: white;">Golden State W <a  class="a-nba" href="">saiba mais</a></h3>
+    </div>
+    <div class="time-02"><h1 class="h1-2">3</h1>
+    <img class="boston-celtics" src="static/imagens/png/boston-celtics-logo.png" alt=""><h3  style="text-align: center;color: white;">Boston Celtics <a  class="a-nba" href="">saiba mais</a></h3>
+    </div> <!--time 03-->
+    </div><!--conteiner-time-nba-->
+    </div><!--nba-estatististica-time-->
 
-                  <div class="time-02"><h1 class="h1-2">2</h1>
-                    <img class="golden-state" src="static/imagens/png/golden-state-warriors-logo.png" alt=""><h3  style="text-align: center;color: white;">Golden State W <a  class="a-nba" href="">saiba mais</a></h3>
-                  </div>
-                   
-                    <div class="time-02"><h1 class="h1-2">3</h1>
-                    <img class="boston-celtics" src="static/imagens/png/boston-celtics-logo.png" alt=""><h3  style="text-align: center;color: white;">Boston Celtics <a  class="a-nba" href="">saiba mais</a></h3>
-                  </div> <!--time 03-->
-              </div><!--conteiner-time-nba-->
-            
-         </div><!--nba-estatististica-time-->
- 
-
-
-  
-    <div class=secao-surf>
-
-        <h1 style="text-align:center;color: #825D84; font-size: 40px;" id="h1-surf">Surf <img class ="" src="" alt=""></h1>
-
-        <div class="grid-surf">
-             <div>
-                <img class="imagem-surf" src="static/imagens/girl-surf-320px-gimp.webp" alt="">
-             </div> <!--div 1-->
-             <div>
+<!--Painel surf -->
+<div class=secao-surf>
+    <h1 style="text-align:center;color: #825D84; font-size: 40px;" id="h1-surf">Surf <img class ="" src="" alt=""></h1>
+    <div class="grid-surf">
+    <div>
+    <img class="imagem-surf" src="static/imagens/girl-surf-320px-gimp.webp" alt="">
+    </div> <!--div 1-->
+    <div>
              
-                <h1 class="h1-beneficios" style=" color:#BFC7D9;;">Beneficios</h1>
+    <h1 class="h1-beneficios" style=" color:#BFC7D9;;">Beneficios</h1>
 
-               <!--Lista não ordenada -->
-                <ul class="ol">
-                    <li >Perda de peso</li>
-                    <li >Aumenta a resistência </li>
-                    <li>Aumenta o equilíbrio</li>
-                    <li >Coodernaçâo motora</li>
-                    <li >Tonifica a musculatura corporal</li>
-                    <li >Diminui o estresse</li>
-               
-                    
-                </ul>
-               
-            </div> <!--div 2 -->
-            <div>
-                <h1 class="h1-surf" style="text-align: center;">História</h1>
-               
-                <p>A origem do surfe é disputada entre os povos peruanos e polinésios. A prática de deslizar sobre as ondas há muito tempo já era conhecida pelos povos polinésios, que povoaram grande parte das ilhas do Oceano Pacífico [1], além do litoral pacífico das Américas. Os primeiros relatos do surfe dizem que este foi introduzido no Havaí pelo rei polinésio Tahíto. Outros relatos dão conta de que, muito antes dos havaianos, antigos povos peruanos já utilizavam uma espécie de canoa confeccionada de junco para deslizar sobre as ondas. O primeiro relato escrito da observação de pessoas a fazerem surfe, foi feito pelo navegador Inglês James Cook que gostou do esporte por se tratar de uma forma de relaxamento.</p>
+    <!--Lista não ordenada -->
+    <ul class="ol">
+    <li >Perda de peso</li>
+    <li >Aumenta a resistência </li>
+    <li>Aumenta o equilíbrio</li>
+    <li >Coodernaçâo motora</li>
+    <li >Tonifica a musculatura corporal</li>
+    <li >Diminui o estresse</li>
+    </ul>
+    </div> <!--div 2 -->
 
-                <h1 class="h1-surf" style="text-align: center;">Manobras </h1>
-                <p>Assim como na maioria dos esportes radicais, no surfe também existem manobras. As principais são: tubo, batida, rasgada, floater, cutback, aéreos e o bottom turn, a famosa cavada. Conseguir manobrar no surfe exige muita técnica e acima de tudo muito equilíbrio e prática.
+    <div><h1 class="h1-surf" style="text-align: center;">História</h1>
+    <p>A origem do surfe é disputada entre os povos peruanos e polinésios. A prática de deslizar sobre as ondas há muito tempo já era conhecida pelos povos polinésios, que povoaram grande parte das ilhas do Oceano Pacífico [1], além do litoral pacífico das Américas. Os primeiros relatos do surfe dizem que este foi introduzido no Havaí pelo rei polinésio Tahíto. Outros relatos dão conta de que, muito antes dos havaianos, antigos povos peruanos já utilizavam uma espécie de canoa confeccionada de junco para deslizar sobre as ondas. O primeiro relato escrito da observação de pessoas a fazerem surfe, foi feito pelo navegador Inglês James Cook que gostou do esporte por se tratar de uma forma de relaxamento.</p>
 
-                    Com o passar dos anos o Brasil atingiu um nível altissímo de surfe com atletas que a cada dia que passam inovam a forma em que se surfa. O brasileiro, Gabriel Medina, foi o segundo surfista do mundo a conseguir realizar um backflip no free surf e o primeiro a acertar essa manobra em uma competição oficial. O backflip se caracteriza por uma manobra em que o surfista dá um mortal pra trás sobre a prancha.</p>
-            </div> <!--div 3-->
-           
-        </div> <!--div grid surf-->
+    <h1 class="h1-surf" style="text-align: center;">Manobras </h1>
+    <p>Assim como na maioria dos esportes radicais, no surfe também existem manobras. As principais são: tubo, batida, rasgada, floater, cutback, aéreos e o bottom turn, a famosa cavada. Conseguir manobrar no surfe exige muita técnica e acima de tudo muito equilíbrio e prática.
+    Com o passar dos anos o Brasil atingiu um nível altissímo de surfe com atletas que a cada dia que passam inovam a forma em que se surfa. O brasileiro, Gabriel Medina, foi o segundo surfista do mundo a conseguir realizar um backflip no free surf e o primeiro a acertar essa manobra em uma competição oficial. O backflip se caracteriza por uma manobra em que o surfista dá um mortal pra trás sobre a prancha.</p>
 
-        
+    </div> <!--div 3-->
+</div> <!--div grid surf-->
 
     </div> <!--secao-surf-->
-
-
-     
-        
     <div class="container-img-surf" >
-        <div class="img-surf">
-          
-            <div class="titulo-img-surf">wsl</div> <!--titulo-img-surf-->
-        </div> <!--img-surf-->
-   </div><!--container-img-->
+    <div class="img-surf">
+    <div class="titulo-img-surf">wsl</div> <!--titulo-img-surf-->
+    </div> <!--img-surf-->
+    </div><!--container-img-->
+    <div class="surf-informacao" >
 
-    
-        <div class="surf-informacao" >
+    <h2><strong style="color:#D9AD5B">WSL</strong> A liga Mundial de Surfe</h2>
+     <p>A Liga Mundial de Surfe[1][2][3] ou Liga Mundial de Surf[4] (em inglês: World Surf League, WSL) é uma organização de surfe que foi fundada originalmente em 1976 pelos surfistas havaianos, Fred Hemmings e Randy Rarick.[5] </p>
+    <p>
+    A WSL é o novo nome da empresa ASP adquirida pela ZoSea, apoiado por Paul Speaker, Terry Hardy, e Dirk Ziff.[6] Ela era conhecida como a Associação dos Surfistas Profissionais (ASP, Association of Surfing Professionals),[7][8][9] de 1983 a 2014. No início da temporada 2015, a ASP mudou para o seu nome atual.[10]</p>
+    </div>
+    <div>
+    </div>
+    </div>
 
-            
-        
-            <h2><strong style="color:#D9AD5B">WSL</strong> A liga Mundial de Surfe</h2>
-            <p>A Liga Mundial de Surfe[1][2][3] ou Liga Mundial de Surf[4] (em inglês: World Surf League, WSL) é uma organização de surfe que foi fundada originalmente em 1976 pelos surfistas havaianos, Fred Hemmings e Randy Rarick.[5] </p>
-               <p>
-                A WSL é o novo nome da empresa ASP adquirida pela ZoSea, apoiado por Paul Speaker, Terry Hardy, e Dirk Ziff.[6] Ela era conhecida como a Associação dos Surfistas Profissionais (ASP, Association of Surfing Professionals),[7][8][9] de 1983 a 2014. No início da temporada 2015, a ASP mudou para o seu nome atual.[10]</p>
-      
-</div>
-
-
-<div>
-
-
-</div>
-</div>
-
-
-
-
-  
+<!--Painel futebol -->
 <div class=secao-futebol>
 
     <h1 style="text-align:center;  color:#6BD425;font-size: 40px;" id="h1-futebol">Futebol <img class ="" src="" alt=""></h1>
-
     <div class="grid-futebol">
-         <div>
+    <div>
     <img class="imagem-futebol" src="static/imagens/futebol-300px-gimp.jpg" alt="">
-         </div>
-         <div>
-         
-            <h1 class="h1-beneficios" style="color:#d8f192;">Beneficios</h1>
+    </div> <!--div 1 grid -futebol-->
 
-           <!--Lista não ordenada -->
-            <ul class="ol">
-                <li >Reduz ansiedade</li>
-                <li >Estimula a circulaçâo sanguinea </li>
-                <li>Melhora vida social</li>
-                <li >Diminui niveis de gordura</li>
-                <li >Previne doenças</li>
-                <li >Diminui o estresse</li>
-           
-                
-            </ul>
-           
-        </div>
-        <div>
-            <h1 style="text-align: center;">História</h1>
-           
-            <p>A atividade mais antiga que se assemelha ao futebol moderno da qual se tem conhecimento data dos séculos III e II a. C. Estes dados são baseados em um manual de exercícios correspondentes à dinastia Han da antiga China. O jogo era chamado ts'uh Kúh (cuju), e consistia em lançar uma bola com os pés para uma pequena rede.[16][17] Uma variante incluía uma modalidade onde o jogador deveria passar pelo ataque dos seus adversários. Também no Extremo Oriente, embora cerca de cinco ou seis séculos depois do cuju, existia uma variante japonesa chamada kemari, que tinha um caráter mais cerimonial, sendo o objetivo do jogo manter uma bola no ar passando-a entre os jogadores.[18] O kemari até hoje é praticado no Japão, em eventos culturais.[19]</p>
+    <div><h1 class="h1-beneficios" style="color:#d8f192;">Beneficios</h1>
+    <!--Lista não ordenada -->
+    <ul class="ol">
+    <li >Reduz ansiedade</li>
+    <li >Estimula a circulaçâo sanguinea </li>
+    <li>Melhora vida social</li>
+    <li >Diminui niveis de gordura</li>
+    <li >Previne doenças</li>
+    <li >Diminui o estresse</li>
+    </ul> <!--ul ol-->        
+    </div><!--div 2 grid -futebol-->
 
-            <h1 style="text-align: center;">Regra </h1>
-            <p>Cada um dos dois times joga com no máximo 11 jogadores e no mínimo 7. Durante a partida pode-se substituir jogadores por outros, denominados reservas. Um dos jogadores titulares deverá ser o goleiro ou guarda-redes. É permitido que um goleiro e outro jogador da equipe troquem de posição durante o jogo, se for durante o intervalo e com o consentimento do árbitro.[108][109]</p>
-        </div>
+    <div> <!--secao-futebol-->
+
+    <h1 style="text-align: center;">História</h1>
+    <p>A atividade mais antiga que se assemelha ao futebol moderno da qual se tem conhecimento data dos séculos III e II a. C. Estes dados são baseados em um manual de exercícios correspondentes à dinastia Han da antiga China. O jogo era chamado ts'uh Kúh (cuju), e consistia em lançar uma bola com os pés para uma pequena rede.[16][17] Uma variante incluía uma modalidade onde o jogador deveria passar pelo ataque dos seus adversários. Também no Extremo Oriente, embora cerca de cinco ou seis séculos depois do cuju, existia uma variante japonesa chamada kemari, que tinha um caráter mais cerimonial, sendo o objetivo do jogo manter uma bola no ar passando-a entre os jogadores.[18] O kemari até hoje é praticado no Japão, em eventos culturais.[19]</p>
+    <h1 style="text-align: center;">Regra </h1>
+    <p>Cada um dos dois times joga com no máximo 11 jogadores e no mínimo 7. Durante a partida pode-se substituir jogadores por outros, denominados reservas. Um dos jogadores titulares deverá ser o goleiro ou guarda-redes. É permitido que um goleiro e outro jogador da equipe troquem de posição durante o jogo, se for durante o intervalo e com o consentimento do árbitro.[108][109]</p>
+    </div>
        
     </div> <!--close Div grid-->
-
-
-</div>
+    </div> <!--secao-futebol-->
     
        
-          <div class="container-img" >
-              <div class="img-copa">
-          <div class="titulo-img-copa">Copa do mundo</div> <!--titulo-img-copa-->
-         </div> <!--img-copa-->
-       </div><!--container-img-->
+    <div class="container-img" >
+    <div class="img-copa">
+    <div class="titulo-img-copa">Copa do mundo</div> <!--titulo-img-copa-->
+    </div> <!--img-copa-->
+    </div><!--container-img-->
  
-    
-
-
     <div class="futebol-informacao" >
-        <div class="img-futebol"> <div class="titulo-img-futebol"></div>  </div>
-        <h2><strong style="color:#D9AD5B">Copa do mundo</strong> Fifa World Cup</h2>
-        <p>Copa do Mundo FIFA, mais conhecida no Brasil pelo nome de Copa do Mundo e também conhecida em Portugal como Campeonato do Mundo de Futebol, Campeonato Mundial de Futebol, Campeonato Mundial FIFA, ou simplesmente Mundial,[2][3] é uma competição internacional de futebol que ocorre a cada quatro anos, com exceção de 1942 e 1946, quando não foi realizado por causa da Segunda Guerra Mundial. Essa competição, criada em 1928 na França, sob a liderança do presidente Jules Rimet, está aberta a todas as federações reconhecidas pela FIFA (Federação Internacional de Futebol Associado, em francês: Fédération International de Football Association). O antigo nome da taça faz referência a Jules Rimet. A primeira edição ocorreu em 1930 no Uruguai, cuja seleção saiu vencedora.
-    </p>  <p>
-    
-                Com exceção da Copa do Mundo de 1930, o torneio sempre foi realizado em duas fases. Organizada pelas confederações continentais, as Eliminatórias da Copa do Mundo permitem que as melhores seleções de cada continente participem da competição, que ocorre em um ou mais países-sede. O formato atual da Copa do Mundo é com trinta e duas equipes nacionais por um período de cerca de um mês. A partir da edição de 2026 o torneio contará com a participação de 48 equipes.</p>
+    <div class="img-futebol"> <div class="titulo-img-futebol"></div>  </div>
+    <h2><strong style="color:#D9AD5B">Copa do mundo</strong> Fifa World Cup</h2>
+    <p>Copa do Mundo FIFA, mais conhecida no Brasil pelo nome de Copa do Mundo e também conhecida em Portugal como Campeonato do Mundo de Futebol, Campeonato Mundial de Futebol, Campeonato Mundial FIFA, ou simplesmente Mundial,[2][3] é uma competição internacional de futebol que ocorre a cada quatro anos, com exceção de 1942 e 1946, quando não foi realizado por causa da Segunda Guerra Mundial. Essa competição, criada em 1928 na França, sob a liderança do presidente Jules Rimet, está aberta a todas as federações reconhecidas pela FIFA (Federação Internacional de Futebol Associado, em francês: Fédération International de Football Association). O antigo nome da taça faz referência a Jules Rimet. A primeira edição ocorreu em 1930 no Uruguai, cuja seleção saiu vencedora.
+    </p><p>
+    Com exceção da Copa do Mundo de 1930, o torneio sempre foi realizado em duas fases. Organizada pelas confederações continentais, as Eliminatórias da Copa do Mundo permitem que as melhores seleções de cada continente participem da competição, que ocorre em um ou mais países-sede. O formato atual da Copa do Mundo é com trinta e duas equipes nacionais por um período de cerca de um mês. A partir da edição de 2026 o torneio contará com a participação de 48 equipes.</p>
+    <div class="div-card-futebol">
 
-                <div class="div-card-futebol">
-
-                    <div class="card-01">
-                    </div><!--Close card-01 -->
+    <div class="card-01">
+    </div><!--Close card-01 -->
                     
-                    <div class="card-02">
-                    </div><!--Close card-02 -->
-                    <div class="card-03">
-                    </div><!--Close card-03 -->
-                    <div class="card-04">
-                    </div><!--Close card-04 -->
-                    <div class="card-05">
-                    </div><!--Close card-05 -->
-                    <div class="card-06">
-                    </div><!--Close card-06 -->
-                
-                
-                
-                </div> <!--Close div div-card-futebol -->
-                
-                </div>   <!--close Div secao-futebol -->
-                
-
-</div>  <!--futebol-informação -->
-<div> <!--container imagem-->
-
-    
-    
-  
-</div>
-      <div class="secao-dev">
-       <div class="grid-dev"></div>
-
-            <div></div>
-            <div></div>
-            <div></div>
-
+    <div class="card-02">
+    </div><!--Close card-02 -->
+    <div class="card-03">
+    </div><!--Close card-03 -->
+    <div class="card-04">
+    </div><!--Close card-04 -->
+    <div class="card-05">
+    </div><!--Close card-05 -->
+    <div class="card-06">
+    </div><!--Close card-06 -->                     
+    </div><!--Close div div-card-futebol -->          
+    </div><!--close Div secao-futebol -->
+    </div><!--futebol-informação -->
+    <div> <!--container imagem-->
+    </div>
+    <div class="secao-dev">
+    <div class="grid-dev"></div>
+    <div></div>
+    <div></div>
+    <div></div>
     </div>
              
-
- 
-
-
-
-
-<footer id="des" style="text-align: center;">
+    <footer id="des" style="text-align: center;">
       Desenvolvido por: Leandro Luiz Pereira  
-
-
-
-</footer>
-
-
-
+    </footer>
 
 
 </body>
