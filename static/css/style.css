@@ -2,7 +2,7 @@
 @charset "UTF-8";
 
 /*media para responsividade de tela para desktop de 430px espandindo até 2500px */
-@media screen and (min-width:720px) and (max-width:1490px){
+@media screen and (min-width:720px) and (max-width:1920px){
 
 body{
     margin: 0%;
