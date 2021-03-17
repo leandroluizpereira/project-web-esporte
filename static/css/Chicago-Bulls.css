@@ -9,9 +9,10 @@ body{
     height: 100%;
     background-color: white;
     /*se expande no minimo 990 pixel */
-    /*overflow-x: hidden;*/ 
+    /*overflow-x: hidden;*/
+    /*min-width:1300px;*/ 
 }
-
+   
 nav{
     padding: 1px;
     z-index: 1;
@@ -181,7 +182,7 @@ p{
 }
 
 .h1-titulo-michael{
-    margin-top: 0.5%;
+    margin-top: 1.7%;
     text-indent: 2.5%;
     font-size: 30px;
     color: #590a0a;

@@ -10,7 +10,7 @@ body{
     height: 100%;
     background-color: white;
     /*se expande no minimo 990 pixel */
-    min-width:1300px;
+    /*min-width:1300px;*/
     /*overflow-x: hidden;*/   
 }
 .navBar{
@@ -170,6 +170,7 @@ p{
     border: 2px solid #D9AD5B;
     border-radius: 7px;
     margin-bottom: 8%;
+    
     
 }  
 
