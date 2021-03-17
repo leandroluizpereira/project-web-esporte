@@ -4,7 +4,7 @@
 
 
  ## :books: Projeto Integrado
- ### :white_check_mark: lista de tarefas  
+ ### lista de tarefas  
  
 - [x] menu de navegaçâo 
 - [x] navegaçâo interno e externo
