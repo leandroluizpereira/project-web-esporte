@@ -228,7 +228,7 @@ p{
     border-top: 1px solid #D4001F;
     border-right: 1px solid #D4001F;
     height: 2110px;
-    background-color: rgb(243, 243, 213);
+    background-color:#590A0A;
     padding-top: 10px;
 }
 
@@ -281,7 +281,7 @@ p{
     /* fazendo degradê do lado direito com duas cores */
     background-image:linear-gradient(#590A0A,#8a0202);
     border-radius: 10px;
-    border:3.5px solid black;
+    border:1px solid beige;
    /* animation: scale 2s linear , transition-color 3s ; */
    position: relative;
    
@@ -309,7 +309,7 @@ p{
     height: auto ;
     border-radius: 7px ;
     background-color: #590a0a;
-    border: 2px solid red;
+    /*border: 1px solid #D9AD5B; */
 }
 
 .quadro-01,.quadro-02,.quadro-03,.quadro-04,.quadro-05,.quadro-06,.quadro-07{
