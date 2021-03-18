@@ -141,11 +141,12 @@
    }
 .real-madri{
     position: relative;
-    bottom: 20px;
-    left:3px;
+    left: 24px;
+    top: 13px;
     z-index: 1;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 18%;
    }
    .a-copa-do-mundo{
     color: rgb(204, 0, 0);
@@ -174,9 +175,13 @@
    z-index: -2;
    }
    .barcelona{
+       position: relative;
+     left: 22px;
+     top: 29px;
     z-index: 1;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 18%;
    }
    .time-03-fut{
     position: relative;
@@ -199,10 +204,12 @@
    }
    .santos{
     position: relative;
-    bottom: 13px;
+    left: 22px;
+    top: 20px;
     z-index: 1;
-    width: 100%;
-     height: 100%;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 18%;
    }
    .logo-a{
    color: white;
