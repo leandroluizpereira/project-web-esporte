@@ -309,7 +309,7 @@ p{
     height: auto ;
     border-radius: 7px ;
     background-color: #590a0a;
-    border: 2px solid red;
+    border: 2px solid black;
 }
 
 .quadro-01,.quadro-02,.quadro-03,.quadro-04,.quadro-05,.quadro-06,.quadro-07{
@@ -359,7 +359,7 @@ p{
 }
 .videos-space{
     padding:2.7%;
-    border: 1px solid #590a0a;
+    border: 1px solid red;
     
     margin-bottom: 6%;
 }
