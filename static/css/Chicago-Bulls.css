@@ -205,7 +205,7 @@ p{
     height: auto;
     border-radius: 1%;
     box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.301);
-    background-color: #D9AD5B;
+    background-color: rgb(243, 243, 213);
 }
 .h2-saiba-mais{
     margin-top: -3%;
@@ -228,7 +228,7 @@ p{
     border-top: 1px solid #D4001F;
     border-right: 1px solid #D4001F;
     height: 2110px;
-    background-color:#D9AD5B ;
+    background-color: rgb(243, 243, 213);
     padding-top: 10px;
 }
 
@@ -268,7 +268,7 @@ p{
     height: auto;
     padding-left: 4%;
     padding-right: 4%;
-    background-color: #D9AD5B;
+    background-color: rgb(243, 243, 213);
 }
 
 .container-img-jordan{
