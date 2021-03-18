@@ -112,14 +112,7 @@
     background-color: black;
     overflow-x: scroll;
 }
-.card-01,.card-02,.card-03,.card-04,.card-05,.card-06{
-   display: inline-block;
-    margin: 20px;
-    width:150px ;
-    height: 150px;
-    background-color:rgba(255,255,255,0.1);
-    border-radius: 50%;  
-}
+
 
 .copa-d0-mundo-estatistica-time{
     background-color:#8A8C4A;
