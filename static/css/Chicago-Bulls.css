@@ -357,11 +357,9 @@ p{
 .quadro-space{
     padding: 5%;
 }
+/*caso queira espaço nos videoa */
 .videos-space{
-    padding:2.7%;
-    border: 1px solid red;
-    
-    margin-bottom: 6%;
+  
 }
 .h1-recordes-pessoais{
     text-align: center; 
