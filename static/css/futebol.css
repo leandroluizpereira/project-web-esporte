@@ -121,4 +121,106 @@
     border-radius: 50%;  
 }
 
+.copa-d0-mundo-estatistica-time{
+    background-color:#8A8C4A;
+    width: 100%;
+    height: 340px;
+   z-index: 0;  
+   }
+.container-time-copa-do-mundo{
+       margin-left: 17%;
+       margin-right: 18%;
+       width: 1050px;
+       height: 100%; 
+   }
+/*Design inspiração netflix */
+.time-01-fut{
+    position: relative;
+    margin-right: 7%;
+    margin-top: 2.7%;
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #4F5D2F;
+    z-index:0;
+   }
+   .h1-1{
+    right: 124px;
+    top: -300px;
+    position: absolute;
+    font-size:340px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
+   }
+.real-madri{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+   }
+   .a-copa-do-mundo{
+    color: rgb(204, 0, 0);
+    display: inline-block;
+   }
+   .time-02-fut{
+    position: relative;
+    margin-right: 7%;
+    margin-top: 2.7%;
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #4F5D2F;
+    z-index:0;
+   }
+   
+   .h1-2{
+    right: 124px;
+    top: -300px;
+    position: absolute;
+    font-size:340px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
+   
+   z-index: -2;
+   }
+   .barcelona{
+    width: 100%;
+    height: 100%;
+   }
+   .time-03-fut{
+    position: relative;
+    margin-right: 7%;
+    margin-top: 2.7%;
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #4F5D2F;
+    z-index:0;
+   }
+   .h1-3{
+    right: 124px;
+    top: -300px;
+    position: absolute;
+    font-size:340px;
+    color: rgb(255, 255, 255);
+    z-index: -2; 
+   }
+   .santos{
+    width: 100%;
+     height: 100%;
+   }
+   .logo-a{
+   color: white;
+   }
+   
+   .a-nba{
+    border-radius: 50%;
+    
+       
+       
+   
+   }
+
 }
