@@ -115,16 +115,137 @@
 
   
 }
-.card-01,.card-02,.card-03,.card-04,.card-05,.card-06{
-   display:  inline-block;
 
-    margin: 24px;
-    width:150px ;
-    height: 150px;
-    background-color:rgba(255,255,255,0.1);
-    border-radius: 50%;
+
+.copa-d0-mundo-estatistica-time{
+    background-color:#8A8C4A;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
+   }
+   .container-time-copa-do-mundo{
+        margin-top: 3%;
+        margin-left: 25%;
+        margin-right: 25%;
+      
+       width: auto;
+       height: auto;
+   }
+   .time-01-fut{
+      padding: 0%;
+       margin-right: -5%;
+       margin-top: 30%;
+     
+       margin-bottom: 55%;
+       display: inline-block;
+       width: 180px;
+       height: 180px;
+       border-radius: 50%;
+       background-color: #4F5D2F;
+       z-index: 0;
+       position: relative;
    
+   }
+   .h1-1{
+       opacity: 0;
+       width: 300px;
+       height: 300px;
+       width: auto;
+       height: auto;
+       right: 57%;
+        top: -100%;
+      
+ position: absolute;
+ font-size:210px;
+    color: rgb(255, 255, 255);
+ 
+
+z-index: -2;
 }
+.real-madri {
+         
+       width: 100%;
+       height: 100%;
+   
+   }
+   .a-copa-do-mundo{
+    color: rgb(204, 0, 0);
+    display: inline-block;
+   }
+   .time-02-fut{
+       position: relative;
+    margin-top: 5%;
+       margin-right: 5%;
+       display: inline-block;
+       width: 180px;
+       height: 180px;
+       margin-bottom: 55%;
+       border-radius: 50%;
+       background-color: #4F5D2F;
+z-index: 0;
+   }
+   
+.h1-2{
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+
+   width: auto;
+   height: auto;
+   right: 57%;
+
+    top: -100%;
+  
+position: absolute;
+font-size:210px;
+color: rgb(255, 255, 255);
+
+
+z-index: -2;
+}
+
+.barcelona{
+       width: 100%;
+       height: 100%;
+   
+   }
+   .time-03-fut{
+    margin-bottom: 0%;
+    position: relative;
+    margin-top: 10%;
+       margin-right: 5%;
+       display: inline-block;
+       width: 180px;
+       height: 180px;
+       margin-bottom: 20%;
+       border-radius: 50%;
+       background-color: #4F5D2F;
+z-index: 0;
+   }
+   .h1-3{
+       opacity: 0;
+    width: 300px;
+    height: 300px;
+
+   width: auto;
+   height: auto;
+   right: 57%;
+
+    top: -100%;
+  
+position: absolute;
+font-size:210px;
+color: rgb(255, 255, 255);
+
+
+z-index: -2;
+}
+
+.santos{
+       width: 100%;
+       height: 100%;
+   }
+
 
 
 }

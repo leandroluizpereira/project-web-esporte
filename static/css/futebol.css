@@ -8,7 +8,6 @@
     height: auto;
     border-radius: 20px;   
 }
-
 .imagem-futebol{
     width: 315px;
     height: auto;
@@ -18,7 +17,6 @@
     border-radius: 7px;
     margin-bottom: 2.5%;
 }
-
 /*grid dividindo em 3 colunas com 1fr deixando proporcional a largura da tela 100%*/
 .grid-futebol {
     align-items: center;
@@ -33,7 +31,7 @@
 
 /*:th-child ele pega o filho da tag declarado */
 .grid-futebol >div:nth-child(1){
-  color:white;
+    color:white;
 }
 .grid-futebol>div:nth-child(2){  
     background-color: #4F5D2F;
@@ -71,10 +69,10 @@
 .grid-futebol>div h3:nth-child(n+1){
     text-indent: 20px;  
  }
-      /*usando a chave da animação definindo transição linear infinito*/
+/*usando a chave da animação definindo transição linear infinito*/
  .img-futebol{
     z-index :0;
-    /*deixa o cursor do mouse a mão aberta */
+/*deixa o cursor do mouse a mão aberta */
     cursor: grab;    
  }
  .img-futebol:hover{  
@@ -103,17 +101,12 @@
     margin-left: 10%;
     margin-right: 10%;
  }
-
-
-
 .div-card-futebol{
     width: 900px;
     height: 215px;
     background-color: black;
     overflow-x: scroll;
 }
-
-
 .copa-d0-mundo-estatistica-time{
     background-color:#8A8C4A;
     width: 100%;
@@ -206,14 +199,9 @@
    }
    .logo-a{
    color: white;
-   }
-   
+   } 
    .a-nba{
     border-radius: 50%;
-    
-       
-       
-   
    }
 
 }
