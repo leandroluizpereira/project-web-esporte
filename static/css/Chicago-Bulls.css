@@ -145,6 +145,7 @@ p{
     height: 200px;
     background-color: #590a0a;
     border-radius: 50%;
+    border: 1px solid #BF8339;
     z-index:2;
 }
 
@@ -178,14 +179,14 @@ p{
 .grid-chicago-bulls >div:nth-child(2){
     width: 100%;
     height: 2300px;
-    background-color: #D4001F;
+    background-color: #590a0a ;
 }
 
 .h1-titulo-michael{
     margin-top: 1.7%;
     text-indent: 2.5%;
     font-size: 30px;
-    color: #590a0a;
+    color: #BF8339;
 }
 
 .h2-titulo-michael{
@@ -193,7 +194,7 @@ p{
     text-indent: 5%;
     padding-bottom: 3%;
     font-size: 20px;
-    color: #590a0a;
+    color: #BF8339;
 }
 
 .section-bulls{
@@ -204,16 +205,16 @@ p{
     width: 93.5%;
     height: auto;
     border-radius: 1%;
-    box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.301);
-    background-color: rgb(243, 243, 213);
+   box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.101);
+    background-color:#590a0a;
 }
 .h2-saiba-mais{
     margin-top: -3%;
     margin-bottom:40px;
     padding-bottom: 2px;
-    background-color: brown;
+    /*background-color: brown;*/
     text-align: center;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .grid-fotos{
@@ -225,7 +226,7 @@ p{
 }
 
 .grid-fotos >div:nth-child(1){
-    border-top: 1px solid #D4001F;
+    /*border-top: 1px solid white; */
     border-right: 1px solid #D4001F;
     height: 2110px;
     background-color:#590A0A;
