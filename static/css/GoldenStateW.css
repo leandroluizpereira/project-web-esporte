@@ -390,7 +390,7 @@ td:hover {
 }
 
 td > a:nth-child(n+1){
-    color: black;
+    color:#020873;
     font-weight: normal;
 }
 td > a:hover:nth-child(n+1){
