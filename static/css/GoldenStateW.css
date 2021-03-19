@@ -216,7 +216,11 @@ p{
     text-align: center;
     font-size: 16px;
 }
+.h2-saiba-mais:hover{
+    background-color:black;
 
+
+}
 .grid-fotos{
     width: 100%;
     height: 100%;
@@ -237,7 +241,7 @@ p{
 .titulo-estatistica{
     border-radius: 5px;
     text-align: center; 
-    color: #F2AC29
+    color: white
     ;
     font-weight: bold;
     background-color: #020873
@@ -262,7 +266,7 @@ p{
 }
 
 .h3-premiacao{
-    color:  #020873;
+    color:  black;
     font-size: 15px;
 }
 
@@ -377,41 +381,41 @@ td{
     height: 30px;
     background-color: #F2AC29;
     text-align: center;
-    color: #020873;
+    color: black;
  
 }
 td:hover {
       
     background-color: #020873;
     text-align: center;
-    color:#F2AC29;
- 
+    color:white;
     cursor: pointer;
 }
 
 td > a:nth-child(n+1){
-    color:#020873;
+    color:#680000;
     font-weight: normal;
+    
 }
 td > a:hover:nth-child(n+1){
-   
+    cursor: pointer;
     font-weight: normal;
-    color: #ffffff;
+    color: #fcfcfc;
 }
-tr{  
+
 }
 .tr-linha-titulo{
 }
 .tr-linha-titulo > td:nth-child(n+1){
     background-color: #020873;
-    color:#F2AC29;
+    color:white;
     font-weight: bolder;
 }
 .tr-linha-subtitulo{
 }
 .tr-linha-subtitulo > td:nth-child(n+1){
     background-color: #020873;
-    color: #F2AC29;
+    color: white;
     font-weight: bolder;
 }
 
