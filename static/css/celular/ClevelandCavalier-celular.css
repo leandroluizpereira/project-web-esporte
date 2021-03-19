@@ -124,28 +124,28 @@ p{
   .legado-micahel{
     padding: 6%;
 }
-  .grid-chicago-bulls{
+.grid-cleveland-cavalier{
     height: 100%;
      width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr ;
  
 }
-.grid-chicago-bulls > div:nth-child(1){
+.grid-cleveland-cavalier> div:nth-child(1){
  
     width: 100%;
     height: 350px;
     background-color: rgb(43, 43, 43);
 
 }
-.grid-chicago-bulls >div:nth-child(2){
+.grid-cleveland-cavalier >div:nth-child(2){
 
     width: 100%;
   height: 350px;
     background-color: black;
 }
 
-.section-bulls{
+.section-cavalier{
     margin-left: 5%;
     margin-top: -3%;
     position: absolute;

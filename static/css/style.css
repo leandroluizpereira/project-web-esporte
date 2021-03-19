@@ -359,6 +359,8 @@ z-index: -2;
 
 }
 .Cleveland-Cavaliers{
+    position: relative;
+    left: -10px;
     width: 100%;
     height: 100%;
 }
