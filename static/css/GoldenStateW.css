@@ -249,7 +249,7 @@ p{
 
 .titulo-card{
     text-align: center; 
-    color:  black;
+    color:  #020873;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.808);
 }
 
@@ -335,7 +335,7 @@ p{
 .grid-quadro-1{ 
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/)center;
+    background: url(../imagens/Stephen-curry-campeao-gimp.jpg)center;
     background-size: cover; 
 }
 .grid-quadro-jogos-olimpicos{
