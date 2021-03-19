@@ -181,14 +181,14 @@ p{
     background-color: #D4001F;
 }
 
-.h1-titulo-michael{
+.h1-titulo-lebron-james{
     margin-top: 1.7%;
     text-indent: 2.5%;
     font-size: 30px;
     color: #590a0a;
 }
 
-.h2-titulo-michael{
+.h2-titulo-lebron-james{
     margin-bottom: 2%;
     text-indent: 5%;
     padding-bottom: 3%;
@@ -196,7 +196,7 @@ p{
     color: #590a0a;
 }
 
-.section-bulls{
+.section-cavalier{
     margin-top: -6%;
     position: absolute;
     margin-left: 3%;
@@ -271,7 +271,7 @@ p{
     background-color: #D9AD5B;
 }
 
-.container-img-jordan{
+.container-img-lebron{
     display: inline-block;
     margin-top: -1%;
     margin-left: 0.9%;
@@ -287,12 +287,12 @@ p{
    
 }
 
-.img-michael-jordan{
-    top:-63px;
-    left: -230px;
+.img-Lebron-james{
+    top:-53px;
+    left: 7px;
     margin: 0;
     position: absolute;
-    width: 700px;
+    width: 300px;
     height: auto;
     /* animation: scale 0.9s linear ;*/
 }
@@ -328,13 +328,13 @@ p{
 .grid-quadro-1{ 
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/)center;
+    background: url(../imagens/Lebron-James-campeao-nba-full.jpg)center;
     background-size: cover; 
 }
 .grid-quadro-jogos-olimpicos{
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/)center;
+    background: url(../imagens/Lebron-James-rookie-nba-full.jpg)center;
     background-size: cover; 
 }
 .grid-quadro-Americas-Championship{
@@ -371,8 +371,7 @@ table{
   background-color:  #590a0a; 
 }
 td{
-
-    
+height: 30px;
     background-color: #BF8339;
     text-align: center;
     color: #942020;
