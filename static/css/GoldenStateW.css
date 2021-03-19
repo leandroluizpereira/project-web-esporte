@@ -83,7 +83,7 @@ p{
     margin-left: 30px;
     z-index: 1;
     font-size: 58px;
-    color:rgb(121, 114, 114);
+    color:#F2AC29;
     padding-left: 10px;
     text-shadow:4px 2px 2px #403222;
     border-top: 1px solid rgba(255, 255, 255,0.3);
@@ -105,7 +105,7 @@ p{
 .cabecalho{
     width: 100%;
     height: 300px;
-    background-color: black;
+    background-color: #020873;
     background-position-y: -250px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -172,19 +172,20 @@ p{
 .grid-Golden-State> div:nth-child(1){
     width: 100%;
     height: 2300px;
-    background-color:white;
+    background-color:rgb(0, 0, 65);
 }
 .grid-Golden-State >div:nth-child(2){
     width: 100%;
     height: 2300px;
-    background-color: white;
+    background-color: rgb(0, 0, 65);
 }
 
 .h1-titulo-michael{
     margin-top: 1.7%;
     text-indent: 2.5%;
     font-size: 30px;
-    color: balck;
+    color: #020873
+    ;
 }
 
 .h2-titulo-michael{
@@ -192,7 +193,8 @@ p{
     text-indent: 5%;
     padding-bottom: 3%;
     font-size: 20px;
-    color: black;
+    color: #020873
+    ;
 }
 
 .section-Golden-State{
@@ -204,13 +206,13 @@ p{
     height: auto;
     border-radius: 1%;
     box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.301);
-    background-color: white;
+    background-color: rgb(199, 199, 199);
 }
 .h2-saiba-mais{
     margin-top: -3%;
     margin-bottom:40px;
     padding-bottom: 2px;
-    background-color: white;
+    background-color: rgb(0, 37, 107);
     text-align: center;
     font-size: 16px;
 }
@@ -227,16 +229,19 @@ p{
     border-top: 1px solid black;
     border-right: 1px solid black;
     height: 2110px;
-    background-color:white;
+    background-color:rgb(199, 199, 199)
+    ;
     padding-top: 10px;
 }
 
 .titulo-estatistica{
     border-radius: 5px;
     text-align: center; 
-    color: black;
+    color: #F2AC29
+    ;
     font-weight: bold;
-    background-color: white;
+    background-color: #020873
+    ;
     font-size: 20px;
     padding-top:5px;
     padding-bottom: 5px;
@@ -267,7 +272,7 @@ p{
     height: auto;
     padding-left: 4%;
     padding-right: 4%;
-    background-color: white;
+    background-color: rgb(199, 199, 199);
 }
 
 .container-img-Stephen-Curry{
@@ -278,7 +283,7 @@ p{
     width: 96%;
     height: 15.7%;
     /* fazendo degradê do lado direito com duas cores */
-    background-image:linear-gradient(black,white);
+    background-image:linear-gradient(rgb(0, 0, 92),#020873);
     border-radius: 10px;
     border:3.5px solid black;
    /* animation: scale 2s linear , transition-color 3s ; */
@@ -307,7 +312,8 @@ p{
     width: auto;
     height: auto ;
     border-radius: 7px ;
-    background-color: white;
+    background-color: #020873
+    ;
     border: 2px solid black;
 }
 
@@ -316,7 +322,10 @@ p{
     width: 100%; 
     height: 100%;
     margin-bottom: 15px;
-    background-color:  white;
+    background-color:  #F2AC29
+
+
+    ;
     box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.301);
 }
 
