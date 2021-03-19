@@ -256,13 +256,13 @@ p{
 .h2-premiacao{
     border: 1px solid black;
     color: white;
-    background-color: black;
+    background-color: #020873;
     text-align: center;
     text-shadow:0.5px 0.5px 1px black;
 }
 
 .h3-premiacao{
-    color:  black;
+    color:  #020873;
     font-size: 15px;
 }
 
@@ -324,7 +324,6 @@ p{
     margin-bottom: 15px;
     background-color:  #F2AC29
 
-
     ;
     box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.301);
 }
@@ -376,17 +375,17 @@ table{
 }
 td{
     border: 1.5px solid black;  
-    background-color: black;
+    background-color: #F2AC29;
     text-align: center;
-    color: black;
-    font-weight: bolder;
+    color: #020873;
+ 
 }
 td:hover {
     border: 1.5px solid black;  
     background-color:white ;
     text-align: center;
     color:black ;
-    font-weight: bolder;
+ 
     cursor: pointer;
 }
 
@@ -404,15 +403,15 @@ tr{
 .tr-linha-titulo{
 }
 .tr-linha-titulo > td:nth-child(n+1){
-    background-color: white;
-    color:#000000;
+    background-color: #020873;
+    color:#F2AC29;
     font-weight: bolder;
 }
 .tr-linha-subtitulo{
 }
 .tr-linha-subtitulo > td:nth-child(n+1){
-    background-color: white;
-    color: black;
+    background-color: #020873;
+    color: #F2AC29;
     font-weight: bolder;
 }
 
