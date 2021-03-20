@@ -149,7 +149,11 @@
     margin-bottom: 18%;
    }
    .a-copa-do-mundo{
-    color: rgb(204, 0, 0);
+    color: rgb(2, 49, 4);
+    display: inline-block;
+   }
+   .a-copa-do-mundo:hover{
+    color: rgb(255, 188, 5);
     display: inline-block;
    }
    .time-02-fut{
