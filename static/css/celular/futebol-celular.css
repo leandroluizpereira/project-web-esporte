@@ -111,7 +111,7 @@
     width: auto;
     height: 200px;
     background-color: black;
-  
+    overflow: scroll; 
 
   
 }
