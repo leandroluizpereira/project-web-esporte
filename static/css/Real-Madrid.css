@@ -313,7 +313,7 @@ p{
     border: 2px solid black;
 }
 
-.quadro-01,.quadro-02,.quadro-03,.quadro-04,.quadro-05,.quadro-06,.quadro-07{
+.quadro-01,.quadro-02,.quadro-03,.quadro-04,.quadro-05,.quadro-06,.quadro-07,.quadro-08,.quadro-09{
     display: inline-block;
     width: 100%; 
     height: 100%;
@@ -348,7 +348,7 @@ p{
 .grid-quadro-All-NBA-Team{
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/)center;
+    background: url(../imagens/cristiano-ronaldo-seleção-portuguesa-full.jpg)center;
     background-size: cover; 
 }
 .hr{
