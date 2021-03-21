@@ -379,14 +379,17 @@ td{
   
 }
 td:hover {
-    
     background-color:#942020 ;
     text-align: center;
     color:#BF8339 ;
-  
     cursor: pointer;
 }
+.td-time{
+    background-color: #8a1111;
+    color: #BF8339;
+    font-weight: bolder;
 
+}
 td > a:nth-child(n+1){
     color: #7e0707;
     font-weight: normal;
@@ -412,6 +415,18 @@ tr{
     color: #BF8339;
     font-weight: bolder;
 }
+.tr-total > td:nth-child(n+1){
+    background-color: #8a1111;
+    color: #BF8339;
+    font-weight: bolder;
+}
+.tr-total > td:hover:nth-child(n+1){
+    background-color:#942020 ;
+    text-align: center;
+    color:#BF8339 ;
+    cursor: pointer;
+}
+
 
 @keyframes bola-movimento {
 from{
