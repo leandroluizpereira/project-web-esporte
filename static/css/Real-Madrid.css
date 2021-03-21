@@ -280,8 +280,7 @@ p{
     width: 96%;
     height: 13.9%;
     /* fazendo degradê do lado direito com duas cores */
-    background-image:linear-gradient(black,#590A0A
-    );
+    background-image:linear-gradient(rgb(68, 4, 4),#000000);
     border-radius: 10px;
     border:3.5px solid black;
    /* animation: scale 2s linear , transition-color 3s ; */
