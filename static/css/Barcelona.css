@@ -416,7 +416,7 @@ tr{
     border-radius: 10px;
     border: 1px solid black;
 
-
+}
 @keyframes bola-movimento {
 from{
     transform: translateY(0px);
