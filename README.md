@@ -31,7 +31,7 @@
      * - [x] webp
      * - [x] jpeg
 - [x] Videos
-     * - [x] video externo "Youtube"
+     * - [x] externo "Youtube"
 - [X] imagens de lincença
 - [X] imagens sem licença
 
