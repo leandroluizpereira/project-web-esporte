@@ -30,6 +30,8 @@
 - [x] Tratamento da formato de imagem
      * - [x] webp
      * - [x] jpeg
+- [x] Videos
+     * - [x] video externo "Youtube"
 - [X] imagens de lincença
 - [X] imagens sem licença
 
