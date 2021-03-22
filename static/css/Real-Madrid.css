@@ -159,8 +159,11 @@ p{
 }
 
 .logo-02{
-    width: 100%;  /*se expandde a largura do pai*/
-    height: 100%; /*se  expande a largura do pai*/
+    position: relative;
+    top: 15px;
+    left: 19px;
+    width: 80%;  /*se expandde a largura do pai*/
+    height: 80%; /*se  expande a largura do pai*/
     background: url(../imagens/png/Real-Madrid-Logo-full.png)center center;
     background-size: cover;     
 }
