@@ -83,7 +83,7 @@
         display: relative;
         width: auto;
         height: 330px;
-        background: url(../imagens/homen-surfando-full.jpg)center center;
+        background: url(../imagens/background/homen-surfando-full.jpg)center center;
         /*opacity: 0.6;*/
         background-size: cover;
         background-position-y:-160px;
