@@ -370,6 +370,8 @@ td:hover {
     cursor: pointer;
 }
 .td-time{
+    width: 30px;
+    font-size: 12px;
     background-color: #8a1111;
     color: #BF8339;
     font-weight: bolder;
