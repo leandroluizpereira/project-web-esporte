@@ -112,6 +112,10 @@
     
 
 /*--==========Container BASQUETE====================*/
+.h1-destaques{
+    text-align: center;
+    color: #590a0a;
+}
 .nba-estatistica-time{
     background-color: rgb(139, 22, 22);
     width: 100%;
