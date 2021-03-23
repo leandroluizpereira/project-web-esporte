@@ -389,7 +389,7 @@ td:hover {
       
     background-color: #020873;
     text-align: center;
-    color:white;
+    color:rgb(179, 180, 255);
     cursor: pointer;
 }
 
@@ -401,7 +401,14 @@ td > a:nth-child(n+1){
 td > a:hover:nth-child(n+1){
     cursor: pointer;
     font-weight: normal;
-    color: #fcfcfc;
+    color:rgb(179, 180, 255);
+}
+.td-titulo{
+          
+    background-color: #020873;
+
+    color:rgb(179, 180, 255);
+    cursor: pointer;
 }
 
 
@@ -409,14 +416,14 @@ td > a:hover:nth-child(n+1){
 }
 .tr-linha-titulo > td:nth-child(n+1){
     background-color: #020873;
-    color:white;
+    color:rgb(179, 180, 255);
     font-weight: bolder;
 }
 .tr-linha-subtitulo{
 }
 .tr-linha-subtitulo > td:nth-child(n+1){
     background-color: #020873;
-    color: white;
+    color:rgb(179, 180, 255);
     font-weight: bolder;
 }
 

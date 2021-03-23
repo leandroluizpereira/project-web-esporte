@@ -385,7 +385,6 @@ td:hover {
     background-color:#942020 ;
     text-align: center;
     color:#BF8339 ;
-  
     cursor: pointer;
 }
 
@@ -397,6 +396,10 @@ td > a:hover:nth-child(n+1){
    
     font-weight: normal;
     color: #ffffff;
+}
+.td-titulo{
+    background-color: #8a1111;
+    color: #BF8339;
 }
 tr{  
 }
