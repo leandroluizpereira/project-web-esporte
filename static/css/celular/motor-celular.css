@@ -138,7 +138,138 @@ color: black;
   }
   
 
+  .h1-destaques-formula-one{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.formula-one-estatistica-logo{
+background-color: rgb(59, 59, 59);
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10%;
+ }
+ .container-formula-one{
+      margin-top: 3%;
+      margin-left: 25%;
+      margin-right: 25%;
+    
+     width: auto;
+     height: auto;
+ }
+ .formula-one-quadro {
+    padding: 0%;
+     margin-right: -5%;
+     margin-top: 30%;
+   
+     margin-bottom: 55%;
+     display: inline-block;
+     width: 180px;
+     height: 180px;
+     border-radius: 50%;
+     background-color: black;
+     z-index: 0;
+     position: relative;
+ 
+ }
+ .h1-1{
+     opacity: 0;
+      width: 300px;
+      height: 300px;
+ 
+     width: auto;
+     height: auto;
+     right: 57%;
+  
+      top: -100%;
+    
+position: absolute;
+font-size:210px;
+  color: rgb(255, 255, 255);
 
+
+z-index: -2;
+}
+ .ayrton-senna {
+       
+     width: 100%;
+     height: 100%;
+ 
+ }
+ .formula-quadro-2{
+     position: relative;
+  margin-top: 5%;
+     margin-right: 5%;
+     display: inline-block;
+     width: 180px;
+     height: 180px;
+     margin-bottom: 55%;
+     border-radius: 50%;
+     background-color: black;
+z-index: 0;
+ }
+ 
+.h1-2{
+  opacity: 0;
+  width: 300px;
+  height: 300px;
+
+ width: auto;
+ height: auto;
+ right: 57%;
+
+  top: -100%;
+
+position: absolute;
+font-size:210px;
+color: rgb(255, 255, 255);
+
+
+z-index: -2;
+}
+
+ .formula-img-02{
+     width: 100%;
+     height: 100%;
+ 
+ }
+ .formula-quadro-3{
+  margin-bottom: 0%;
+  position: relative;
+  margin-top: 10%;
+     margin-right: 5%;
+     display: inline-block;
+     width: 180px;
+     height: 180px;
+     margin-bottom: 20%;
+     border-radius: 50%;
+     background-color: black;
+z-index: 0;
+ }
+ .h1-3{
+     opacity: 0;
+  width: 300px;
+  height: 300px;
+
+ width: auto;
+ height: auto;
+ right: 57%;
+
+  top: -100%;
+
+position: absolute;
+font-size:210px;
+color: rgb(255, 255, 255);
+
+
+z-index: -2;
+}
+
+ .formula-img-03{
+     width: 100%;
+     height: 100%;
+ }
 
 
 /*adicionando chave para animaçâo */

@@ -88,20 +88,35 @@
     text-indent: 23px;
 }
 .img-futebol{
- 
       /*deixa o cursor do mouse a mão aberta */
      cursor: grab;
- 
      z-index:0;
-         /*usando a chave da animação definindo transição linear infinito*/
-
-     
+         /*usando a chave da animação definindo transição linear infinito*/   
  }
  .img-futebol:hover{
     animation: bola-movimento 0.7s infinite;
-
 }
-
+.img-copa{
+    display: relative;
+    width: 100%;
+    height: 140px;
+    background: url(../../imagens/background/copa-do-mundo-full.jpg)center center;
+    /*opacity: 0.6;*/
+    background-size: cover;
+    margin-top: 6%;
+    background-position-y:-30px ;
+}
+.titulo-img-copa{
+    padding-left: 29%;
+    padding-top: 10%;
+    display: absolute;
+    right: 100px;
+    width: 200px;
+    height: 170px;
+    font-size: 30px;
+    
+    color: white;
+}
 
 .futebol-informacao{
     margin-left: 10%;
@@ -241,7 +256,7 @@ color: rgb(255, 255, 255);
 z-index: -2;
 }
 
-.santos{
+.bayer-de-munique{
        width: 100%;
        height: 100%;
    }

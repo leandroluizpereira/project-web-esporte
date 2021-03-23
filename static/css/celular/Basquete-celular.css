@@ -1,0 +1,298 @@
+@charset "UTF-8";
+
+@media screen and (min-width:0px) and (max-width:700px){
+    .secao-basquete{
+   
+  
+        width: auto;
+        height: auto;
+    
+        border-radius: 20px;
+        
+    }
+    .imagem-basquete{
+      
+      
+        border: 1.5px solid #D9A25F;
+       width: 100%;
+        height: auto;
+        border-radius: 1%;
+      
+     
+    }
+    .grid {
+        
+    
+        align-items: center;
+        border-top: 3px solid #D9A25F;
+        border-left:3px solid #D9A25F ;
+        border-right: 3px solid #D9A25F;
+        border-radius: 8px;
+        margin: 3%;
+        display: grid;
+    
+    }  
+    
+    .grid >div:nth-child(1){
+      
+         padding: 4%;
+          align-items: center;
+          position: center;
+    
+     
+    
+    }
+    .grid >div:nth-child(2){
+    
+        color:#D9A25F;
+        padding: 8%;
+        margin-left:6%;
+        margin-right:6%;
+      
+        border: 2px solid #D9A25F;
+        border-radius: 8px;
+        background-color: #590A0A;
+      
+    
+    }
+    .h1-beneficios{
+        text-align: center;
+        margin: 2%;
+    }
+    .ol{
+        margin-top: 8%;
+    }
+    
+    .grid >div:nth-child(3){
+        margin:-7px;
+        box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
+        background-color: white;
+        border-radius: 0px 0px 0px 0px ;
+        color: #8C0D0D;
+        padding: 25px;
+    
+        width: auto;
+        height: auto;
+        align-items: center;
+    
+       
+    }
+    
+    .grid>div h1:nth-child(n+1){
+        color:#D9AD5B;
+         font-size: 30px;
+         text-shadow: 0px 0px 2px rgb(0, 0, 0);
+       
+    }
+    .grid>div h3:nth-child(n+1){
+       text-indent: 20px;
+       
+    }
+    
+    .grid>div p:nth-child(n+1){
+    color: black;
+    
+    }
+    
+    
+    .img-basquete{
+     
+          /*deixa o cursor do mouse a mão aberta */
+         cursor: grab;
+         border: 3px solid #590A0A ;
+         border-radius: 50%;
+         z-index:0;
+             /*usando a chave da animação definindo transição linear infinito*/
+         animation: girar 0.7s linear infinite;
+         
+     }
+     .img-basquete:hover{
+        animation: bola-movimento 0.7s infinite;
+    
+    }
+     .informacao{
+        background-color: white;
+     
+    }
+    
+    .container-img{
+    
+      
+          background-color: white;
+          width: 100%;
+    
+          height: 160px;
+          margin-top: 8%;
+          padding-bottom: 8%;
+          padding-top: 5%;
+        
+      }
+      .img-nba{
+            
+          width: 100%;
+          height: 170px;
+          background: url(../../imagens/background/nba01-690px-200px.webp);
+          background-position-y: 45%;
+          /*opacity: 0.6;*/
+      }
+      
+      .titulo-img-nba{
+          padding-left: 38%;
+          padding-top: 15%;
+          display: absolute;
+          right: 100px;
+          width: 100px;
+          height: 100px;
+          font-size: 50px;
+          
+          color: white;
+      }
+      .informacao-nba{
+          margin-top: 3%;
+          margin-left: 11%;
+          margin-right: 11%;
+          margin-bottom: 3%;
+      }
+    
+    
+    /*============Basquete======================*/
+      .h1-destaques{
+          margin-left: 5%;
+          margin-right: 5%;
+          margin-top: 40px;
+          font-size: 20px;
+      }
+    .nba-estatistica-time{
+        
+    
+        background-color: rgb(139, 22, 22);
+        width: 100%;
+        height: 100%;
+        padding-bottom: 10%;
+       }
+       .container-time-nba{
+            margin-top: 3%;
+            margin-left: 25%;
+            margin-right: 25%;
+          
+           width: auto;
+           height: auto;
+       }
+       .time-01{
+          padding: 0%;
+           margin-right: -5%;
+           margin-top: 30%;
+         
+           margin-bottom: 55%;
+           display: inline-block;
+           width: 180px;
+           height: 180px;
+           border-radius: 50%;
+           background-color: #590A0A;
+           z-index: 0;
+           position: relative;
+       
+       }
+       .h1-1{
+           opacity: 0;
+            width: 300px;
+            height: 300px;
+       
+           width: auto;
+           height: auto;
+           right: 57%;
+        
+            top: -100%;
+          
+     position: absolute;
+     font-size:210px;
+        color: rgb(255, 255, 255);
+     
+    
+    z-index: -2;
+    }
+       .chicago-bulls {
+             
+           width: 100%;
+           height: 100%;
+       
+       }
+       .time-02{
+           position: relative;
+        margin-top: 5%;
+           margin-right: 5%;
+           display: inline-block;
+           width: 180px;
+           height: 180px;
+           margin-bottom: 55%;
+           border-radius: 50%;
+           background-color: #590A0A;
+    z-index: 0;
+       }
+       
+    .h1-2{
+        opacity: 0;
+        width: 300px;
+        height: 300px;
+    
+       width: auto;
+       height: auto;
+       right: 57%;
+    
+        top: -100%;
+      
+    position: absolute;
+    font-size:210px;
+    color: rgb(255, 255, 255);
+    
+    
+    z-index: -2;
+    
+    }
+       .golden-state{
+           width: 100%;
+           height: 100%;
+       
+       }
+       .time-03{
+        margin-bottom: 0%;
+        position: relative;
+        margin-top: 10%;
+           margin-right: 5%;
+           display: inline-block;
+           width: 180px;
+           height: 180px;
+           margin-bottom: 20%;
+           border-radius: 50%;
+           background-color: #590A0A;
+    z-index: 0;
+       }
+       .h1-3{
+           opacity: 0;
+        width: 300px;
+        height: 300px;
+    
+       width: auto;
+       height: auto;
+       right: 57%;
+    
+        top: -100%;
+      
+    position: absolute;
+    font-size:210px;
+    color: rgb(255, 255, 255);
+    
+    
+    z-index: -2;
+    }
+    
+       .Cleveland-Cavaliers{
+           width: 100%;
+           height: 100%;
+       }
+
+       .a-nba{
+           color: yellow;
+           display: inline-block;
+       }
+    }   
