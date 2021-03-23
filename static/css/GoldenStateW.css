@@ -143,7 +143,7 @@ p{
    position: absolute;
     width: 200px;
     height: 200px;
-    background-color: #0511F2;
+    background-color: #010553;
     border-radius: 50%;
     z-index:2;
 }
@@ -385,8 +385,7 @@ td{
     color: black;
  
 }
-td:hover {
-      
+td:hover {  
     background-color: #020873;
     text-align: center;
     color:rgb(179, 180, 255);
