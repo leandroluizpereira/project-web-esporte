@@ -332,7 +332,7 @@ p{
 .grid-quadro-1{ 
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/pele-campeao-gimp.webp)center;
+    background: url(../imagens/)center;
     background-size: cover; 
 }
 
