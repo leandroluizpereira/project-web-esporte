@@ -173,12 +173,12 @@ p{
 
 .grid-barcelona> div:nth-child(1){
     width: 100%;
-    height: 3000px;
+    height: 3400px;
     background-color:#590a0a ;
 }
 .grid-barcelona>div:nth-child(2){
     width: 100%;
-    height: 3000px;
+    height: 3400px;
     background-color: #D4001F;
 }
 
@@ -228,7 +228,7 @@ p{
 .grid-fotos >div:nth-child(1){
     border-top: 1px solid #D4001F;
     border-right: 1px solid #D4001F;
-    height: 2770px;
+    height: 3220px;
     background-color:#D9AD5B ;
     padding-top: 10px;
 }
