@@ -160,11 +160,11 @@ p{
 
 .logo-02{
     position: relative;
-    top: 25px;
+    top: 30px;
     left: 29px;
     width: 70%;  /*se expandde a largura do pai*/
     height: 70%; /*se  expande a largura do pai*/
-    background: url(../imagens/png/Santos-logo-full.png)center center;
+    background: url(../imagens/png/logo_escudo_simbolo_bayern_munchen.png)center center;
     background-size: cover;     
 }
 
