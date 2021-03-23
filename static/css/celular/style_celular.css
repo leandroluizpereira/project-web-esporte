@@ -221,10 +221,9 @@ p{
 }
 
 .cabecalho{
- 
     width: auto;
     height: auto;
-    background: url(../../imagens/background/paisagem-320px-548px-gimp.webp)no-repeat;
+    background: url(../../imagens/background/paisagem-celular--320px-548px-gimp.webp)no-repeat;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;

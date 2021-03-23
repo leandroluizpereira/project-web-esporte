@@ -134,7 +134,7 @@ p{
 .cabecalho{
     width: 100%;
     height: 620px;
-    background: url(../imagens/background/paisagemfull.jpg)no-repeat;
+    background: url(../imagens/background/paisagemfull.webp)no-repeat;
     background-position-y: -250px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
