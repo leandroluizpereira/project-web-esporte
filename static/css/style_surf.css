@@ -125,24 +125,21 @@
     height: 100%;
    
    }
-
-
  
 /*Design inspiração netflix */
    
 .surf-quadro-1{
        
     position: relative;
-     margin-right: 7%;
+    margin-right: 7%;
     margin-top: 2.7%;
-       display: inline-block;
-       width: 240px;
-       height: 240px;
-       border-radius: 50%;
-       background-color: #034C8C;
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #034C8C;
    
        z-index:0;
-   
    }
 .h1-1-surf{
     right: 124px;

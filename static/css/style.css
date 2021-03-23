@@ -146,23 +146,16 @@ p{
    
 }
 
-
-   
-
 /*adicionando chave para animaçâo */
  @keyframes bola-movimento {
-     from{
+    from{
      
-          transform: translateY(0px);
- 
+    transform: translateY(0px);
      }
      to{
 
-        transform: translateY(-8px);
-  
-     }
-  
-     
+     transform: translateY(-8px);
+     }    
      
  }
  /*animação circular crescente do ponto ao maximo da imagem */
@@ -183,14 +176,11 @@ p{
     from{
     
          transform: translateX(0px);
-  
     }
     to{
 
        transform: translateX(100%);
-   
-    }
-    
+    }    
     
 }
 @keyframes opacidade {
@@ -204,18 +194,15 @@ p{
       opacity: 1;
 
     }
- 
     
 }
 @keyframes girar {
     from{
     
-        transform: rotate(0deg);
-       
+        transform: rotate(0deg);       
     }
     to{
- 
-        transform: rotate(10deg);
+         transform: rotate(10deg);
  
     }  
     
