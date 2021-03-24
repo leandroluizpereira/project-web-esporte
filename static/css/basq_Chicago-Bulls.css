@@ -4,13 +4,12 @@
 /*@media screen and (min-width:430px) and (max-width:1390px)*/
 body{
     margin: 0%;
-    min-width:1320px;
     width: 100%;
     height: 100%;
     background-color: white;
     /*se expande no minimo 990 pixel */
     /*overflow-x: hidden;*/
-    /*min-width:1300px;*/ 
+    min-width:1100px;
 }
    
 nav{
@@ -138,7 +137,7 @@ p{
     z-index:2;
 }
 .fundo-img{
-    top: 37%;
+    top: 110px;
     left: 42.7%;
    position: absolute;
     width: 200px;
@@ -149,6 +148,7 @@ p{
 }
 
 .logo-01{
+    
     width: 100%;
     height: 100%;
     background: url(../imagens/faviconIo/android-chrome-192x192.png)no-repeat;
@@ -197,11 +197,11 @@ p{
 }
 
 .section-bulls{
-    margin-top: -6%;
+    min-width:1030px;
+    top: 180px;
+    left: 0px;
+    margin: 30px;
     position: absolute;
-    margin-left: 3%;
-    margin-right: 3%;
-    width: 93.5%;
     height: auto;
     border-radius: 1%;
     box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.301);
@@ -217,7 +217,7 @@ p{
 }
 
 .grid-fotos{
-    width: 100%;
+    margin: 10px;
     height: 100%;
     display: grid;
     background-color: aqua;
@@ -325,12 +325,17 @@ p{
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
+.grid-quadro-2{
+    width: 100%;
+    height: 100%;
+}
 .grid-quadro-1{ 
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
     background: url(../imagens/michael-jordan-campeao-nba.jpeg)center;
     background-size: cover; 
 }
+
 .grid-quadro-jogos-olimpicos{
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
@@ -339,7 +344,7 @@ p{
 }
 .grid-quadro-Americas-Championship{
     width: 100%;  /*se expandde a largura do pai*/
-    height: auto; /*se  expande a largura do pai*/
+    height: auto;/*se  expande a largura do pai*/
     background: url(../imagens/jordan-medalha-medalha-gimp.jpg)center;
     background-size: cover; 
 }
@@ -350,6 +355,7 @@ p{
     background: url(../imagens/michael-trofeu-4.jpg)center;
     background-size: cover; 
 }
+
 .hr{
     border-color:#D4001F;
 }
