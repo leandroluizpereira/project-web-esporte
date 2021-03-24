@@ -112,10 +112,9 @@
     text-align: center;
     display: flex;
     background-color: #4E8BBF;
-    width: 100%;
+    width: 100vmax;
     height: auto;
    z-index: 0;
-  
    
    }
 .container-surf{

@@ -125,7 +125,7 @@
    .container-formula-one{
        margin-left: 17%;
        margin-right: 18%;
-       width: 100%;
+       width: 100vmax;
        height: 100%;
        margin-bottom: 2%;
    }
