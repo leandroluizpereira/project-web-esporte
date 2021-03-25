@@ -1,17 +1,15 @@
 @charset "UTF-8";
 /*media para responsividade de tela para desktop de 430px espandindo até 2500px */
-@media screen and (min-width:430px) and (max-width:4290px){
-    /*@media screen and (min-width:430px) and (max-width:1390px)*/
-
+@media screen and (min-width:430px) and (max-width:4090px){
+/*@media screen and (min-width:430px) and (max-width:1390px)*/
 body{
     margin: 0%;
-    min-width:1320px;
     width: 100%;
     height: 100%;
     background-color: white;
     /*se expande no minimo 990 pixel */
     /*overflow-x: hidden;*/
-    min-width:1300px;
+    min-width:1100px;
 }
    
 nav{
@@ -139,7 +137,7 @@ p{
     z-index:2;
 }
 .fundo-img{
-    top: 37%;
+    top: 110px;
     left: 42.7%;
    position: absolute;
     width: 200px;
@@ -150,6 +148,7 @@ p{
 }
 
 .logo-01{
+    
     width: 100%;
     height: 100%;
     background: url(../imagens/faviconIo/android-chrome-192x192.png)no-repeat;
@@ -160,39 +159,41 @@ p{
 
 .logo-02{
     position: relative;
-    top: 30px;
-    left: 29px;
-    width: 70%;  /*se expandde a largura do pai*/
-    height: 70%; /*se  expande a largura do pai*/
-    background: url(../imagens/png/logo_escudo_simbolo_bayern_munchen.png)center center;
+    top: 7px;
+    left: 7px;
+    width: 90%;  /*se expandde a largura do pai*/
+    height: 90%; /*se  expande a largura do pai*/
+    background: url(../imagens/italo-ferreira-logo.webp)center center;
+    border-radius: 50%;
+    border: 3px solid #825D84 ;
     background-size: cover;     
 }
 
 
-.grid-real-madrid{
+.grid-Italo-Ferreira{
    display: grid;
    grid-template-columns: 1fr 1fr;
 }
 
-.grid-real-madrid > div:nth-child(1){
+.grid-Italo-Ferreira > div:nth-child(1){
     width: 100%;
     height: 2500px;
     background-color:#590a0a ;
 }
-.grid-real-madrid >div:nth-child(2){
+.grid-Italo-Ferreira >div:nth-child(2){
     width: 100%;
     height: 2500px;
     background-color: #D4001F;
 }
 
-.h1-titulo-cristiano-ronaldo{
+.h1-titulo-Italo{
     margin-top: 1.7%;
     text-indent: 2.5%;
     font-size: 30px;
     color: #590a0a;
 }
 
-.h2-titulo-cristiano-ronaldo{
+.h2-titulo-Italo{
     margin-bottom: 2%;
     text-indent: 5%;
     padding-bottom: 3%;
@@ -200,12 +201,12 @@ p{
     color: #590a0a;
 }
 
-.section-real-madrid{
-    margin-top: -6%;
+.section-Italo-Ferreira{
+    min-width:1030px;
+    top: 180px;
+    left: 0px;
+    margin: 30px;
     position: absolute;
-    margin-left: 3%;
-    margin-right: 3%;
-    width: 93.5%;
     height: auto;
     border-radius: 1%;
     box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.301);
@@ -221,7 +222,7 @@ p{
 }
 
 .grid-fotos{
-    width: 100%;
+    margin: 10px;
     height: 100%;
     display: grid;
     background-color: aqua;
@@ -260,10 +261,12 @@ p{
     text-align: center;
     text-shadow:0.5px 0.5px 1px black;
 }
+
 .h3-premiacao{
     color:  #590A0A;
     font-size: 15px;
 }
+
 .grid-fotos >div:nth-child(2){
     border-top: 1px solid #D4001F;
     width: 100%;
@@ -272,7 +275,8 @@ p{
     padding-right: 4%;
     background-color: #D9AD5B;
 }
-.container-img-cristiano-ronaldo{
+
+.container-img-Italo-Ferreira{
     display: inline-block;
     margin-top: -1%;
     margin-left: 0.9%;
@@ -284,17 +288,20 @@ p{
     border-radius: 10px;
     border:3.5px solid black;
    /* animation: scale 2s linear , transition-color 3s ; */
-   position: relative; 
+   position: relative;
+   
 }
-.img-cristiano-ronaldo{
-    top:-46px;
-    left: 15px;
+
+.img-Italo-Ferreira{
+    top:-63px;
+    left: -230px;
     margin: 0;
     position: absolute;
-    width: 100%;
+    width: 700px;
     height: auto;
     /* animation: scale 0.9s linear ;*/
 }
+
 .div-estatistica{
     margin-right: 5px;
     margin-left: 5px;
@@ -310,7 +317,7 @@ p{
     border: 2px solid black;
 }
 
-.quadro-01,.quadro-02,.quadro-03,.quadro-04,.quadro-05,.quadro-06,.quadro-07,.quadro-08,.quadro-09{
+.quadro-01,.quadro-02,.quadro-03,.quadro-04,.quadro-05,.quadro-06,.quadro-07{
     display: inline-block;
     width: 100%; 
     height: 100%;
@@ -323,24 +330,34 @@ p{
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
+.grid-quadro-2{
+    width: 100%;
+    height: 100%;
+}
 .grid-quadro-1{ 
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/Robert-Lewandowski-campeao.webp)center;
+    background: url(../imagens/)center;
     background-size: cover; 
 }
 
-.grid-quadro-Borussia-Dortmund{
+.grid-quadro-jogos-olimpicos{
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/Robert-Lewandowski-campeao-2.webp)center;
+    background: url(../imagens/)center;
+    background-size: cover; 
+}
+.grid-quadro-Americas-Championship{
+    width: 100%;  /*se expandde a largura do pai*/
+    height: auto;/*se  expande a largura do pai*/
+    background: url(../imagens/)center;
     background-size: cover; 
 }
 
-.grid-quadro-Lech-Poznań{
+.grid-quadro-All-NBA-Team{
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/Robert-Lewandowski-campeao-3.webp)center;
+    background: url(../imagens/)center;
     background-size: cover; 
 }
 
@@ -365,11 +382,10 @@ table{
   background-color:  #590a0a; 
 }
 td{
-    height: 3px;
+    height: 30px;
     background-color: #BF8339;
     text-align: center;
     color: #942020;
-  
 }
 td:hover {
     background-color:#942020 ;
@@ -377,13 +393,14 @@ td:hover {
     color:#BF8339 ;
     cursor: pointer;
 }
-.td-time{
-    width: 30px;
-    font-size: 12px;
+.td-destaque{
     background-color: #8a1111;
     color: #BF8339;
     font-weight: bolder;
+    width: 150px;
+
 }
+
 td > a:nth-child(n+1){
     color: #7e0707;
     font-weight: normal;
@@ -408,17 +425,6 @@ tr{
     background-color: #8a1111;
     color: #BF8339;
     font-weight: bolder;
-}
-.tr-total > td:nth-child(n+1){
-    background-color: #8a1111;
-    color: #BF8339;
-    font-weight: bolder;
-}
-.tr-total > td:hover:nth-child(n+1){
-    background-color:#942020 ;
-    text-align: center;
-    color:#BF8339 ;
-    cursor: pointer;
 }
 
 

@@ -119,7 +119,7 @@
     height: 100%;
     padding-bottom: 10%;
    }
-   .container-surf{
+.container-surf{
         margin-top: 3%;
         margin-left: 25%;
         margin-right: 25%;
@@ -127,11 +127,10 @@
        width: auto;
        height: auto;
    }
-   .surf-quadro-1{
+.surf-quadro-1{
       padding: 0%;
        margin-right: -5%;
        margin-top: 30%;
-     
        margin-bottom: 55%;
        display: inline-block;
        width: 180px;
@@ -142,17 +141,16 @@
        position: relative;
    
    }
-   .h1-1{
+.h1-1{
        opacity: 0;
        width: 300px;
        height: 300px;
        width: auto;
        height: auto;
        right: 57%;
-        top: -100%;
-      
- position: absolute;
- font-size:210px;
+    top: -100%;
+     position: absolute;
+    font-size:210px;
     color: rgb(255, 255, 255);
  
 
