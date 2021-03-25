@@ -153,7 +153,6 @@
    }
 .real-madri{
     position: relative;
-    left: 26px;
     top: 13px;
     z-index: 1;
     width: 80%;
@@ -192,7 +191,6 @@
    }
    .barcelona{
        position: relative;
-     left: 23px;
      top: 29px;
     z-index: 1;
     width: 80%;
@@ -220,7 +218,6 @@
    }
    .bayer-de-munique{
     position: relative;
-    left: 24px;
     top: 25px;
     z-index: 1;
     width: 80%;
