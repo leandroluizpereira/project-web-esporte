@@ -220,12 +220,21 @@
 
 }
 .surf-img-03{
-    position: relative;
-    left: -10px;
-    width: 100%;
-    height: 100%;
     z-index: 1;
+    position: relative;
+    top: 9px;
+    left:1px;
+    border-radius: 50%;
+    border: 3px solid #825D84 ;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 8%;
+    opacity: 1;
 }
+.surf-img-03:hover{
+    opacity: 0.3;
+}
+
 .a-surf{
     color: yellow;
     display: inline-block;
