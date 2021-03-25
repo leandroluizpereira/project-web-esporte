@@ -167,6 +167,7 @@ p{
     border-radius: 50%;
     border: 3px solid #825D84 ;
     background-size: cover;     
+    opacity: 0.7;
 }
 
 
