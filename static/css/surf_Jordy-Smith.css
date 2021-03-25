@@ -343,7 +343,7 @@ p{
 .grid-quadro-1{ 
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/)center;
+    background: url(../imagens/jordy-smith-campeaao.webp)center;
     background-size: cover; 
 }
 
