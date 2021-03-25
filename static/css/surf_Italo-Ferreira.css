@@ -203,6 +203,7 @@ p{
 }
 
 .section-Italo-Ferreira{
+    width: 95%;
     min-width:1030px;
     top: 180px;
     left: 0px;
@@ -338,27 +339,7 @@ p{
 .grid-quadro-1{ 
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/)center;
-    background-size: cover; 
-}
-
-.grid-quadro-jogos-olimpicos{
-    width: 100%;  /*se expandde a largura do pai*/
-    height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/)center;
-    background-size: cover; 
-}
-.grid-quadro-Americas-Championship{
-    width: 100%;  /*se expandde a largura do pai*/
-    height: auto;/*se  expande a largura do pai*/
-    background: url(../imagens/)center;
-    background-size: cover; 
-}
-
-.grid-quadro-All-NBA-Team{
-    width: 100%;  /*se expandde a largura do pai*/
-    height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/)center;
+    background: url(../imagens/italo-campeao-wsl.webp)center;
     background-size: cover; 
 }
 

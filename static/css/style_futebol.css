@@ -119,7 +119,8 @@
     text-align: center;
     display: flex;
     background-color:#8A8C4A;
-    width: 100vmax;
+    width: 100%;
+    /*width: 100vmax;*/
     height: auto;
    z-index: 0;
  /*  overflow: scroll;  */
