@@ -332,7 +332,21 @@ p{
 .grid-quadro-1{ 
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/)center;
+    background: url(../imagens/Robert-Lewandowski-campeao.webp)center;
+    background-size: cover; 
+}
+
+.grid-quadro-Borussia-Dortmund{
+    width: 100%;  /*se expandde a largura do pai*/
+    height: auto; /*se  expande a largura do pai*/
+    background: url(../imagens/Robert-Lewandowski-campeao-2.webp)center;
+    background-size: cover; 
+}
+
+.grid-quadro-Lech-Poznań{
+    width: 100%;  /*se expandde a largura do pai*/
+    height: auto; /*se  expande a largura do pai*/
+    background: url(../imagens/Robert-Lewandowski-campeao-3.webp)center;
     background-size: cover; 
 }
 
