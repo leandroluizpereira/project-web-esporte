@@ -389,7 +389,7 @@ table{
   background-color:  #590a0a; 
 }
 td{
-
+    font-size: 12px;
     background-color: #BF8339;
     text-align: center;
     color: #942020;
@@ -404,7 +404,8 @@ td:hover {
     background-color: #8a1111;
     color: #BF8339;
     font-weight: bolder;
-  
+    padding: 2px;
+    font-size: 12px;
 
 }
 
