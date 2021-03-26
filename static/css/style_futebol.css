@@ -154,9 +154,10 @@
    }
 .real-madri{
     position: relative;
-    top: 13px;
+    top: 19px;
+    left: 4px;
     z-index: 1;
-    width: 80%;
+    width: 87%;
     height: 80%;
     margin-bottom: 18%;
    }
@@ -192,7 +193,7 @@
    }
    .barcelona{
        position: relative;
-     top: 29px;
+     top: 32px;
     z-index: 1;
     width: 80%;
     height: 80%;
