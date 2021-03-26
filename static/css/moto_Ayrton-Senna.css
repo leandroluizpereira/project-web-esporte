@@ -158,10 +158,17 @@ p{
 }
 
 .logo-02{
-    width: 100%;  /*se expandde a largura do pai*/
-    height: 100%; /*se  expande a largura do pai*/
-    background: url(../imagens/png/)center center;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    width: 90%;  /*se expandde a largura do pai*/
+    height: 90%; /*se  expande a largura do pai*/
+    background: url(../imagens/Ayrton-Senna-Logo.webp)center center;
+    background-size: cover;   
+    border-radius: 50%;
+    border: 3px solid #825D84 ;
     background-size: cover;     
+    opacity: 1;  
 }
 
 
