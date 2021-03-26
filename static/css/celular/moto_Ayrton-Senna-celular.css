@@ -1,0 +1,296 @@
+@charset "UTF-8";
+
+@media screen and (min-width:0px) and (max-width:700px){
+body{
+    background-color: white;
+   margin: 0%;
+    overflow-x: hidden;
+}
+nav{
+    z-index :1;
+ 
+    position: fixed;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 1); 
+}
+ul{  
+    padding: 0px;
+    margin: 7px;
+}
+.li{
+    /*deixa o cursor:pointer design  com mão com o dedoindicador  */
+    cursor: pointer;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 10px;
+    margin: 1px;
+    display: inline-block;
+}
+.li:hover{
+    background-color:white;
+    border-radius: 5px;
+  
+}
+a{
+    color: white;
+    text-decoration: none;
+   
+}
+a:hover{
+    color:#D9A25F;
+}
+p{
+    text-align: justify;
+    text-indent: 23px;
+   word-break: break-all;
+/*para não espaços entre letras */
+  letter-spacing: 0px;
+  word-spacing: 0px;
+}
+.header-titulo{
+    margin-top: 0%;
+    text-align: center;
+  
+ 
+   padding-top: 15%;
+    width:70%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255,0.3);
+
+}
+.header-titulo h1{
+    text-align: center;
+    font-size: 30px;
+   
+    color: #D9A25F;
+ 
+    text-shadow:4px 2px 2px #403222;
+    border-top: 1px solid rgba(255, 255, 255,0.3);
+    border-left: 1px solid rgba(255, 255, 255,0.3);
+    border-radius: 10px;
+    
+}
+
+.cabecalho{
+    position: relative;
+    width: 100%;
+    height: 230px;
+    background-color: rgb(139, 22, 22);
+   background-position-y: -250px;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   position: relative;
+ 
+}
+.fundo-img{
+    top: 70%;
+    left: 32%;
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background-color:  #590a0a;
+    border-radius: 50%;
+    z-index:2;
+
+ 
+}
+.logo-01{
+    width: 100%;
+    height: 100%;
+    background: url(../../imagens/faviconIo/android-chrome-192x192.png)no-repeat;
+    background-position-x:29px;
+    background-position-y:29px ;
+
+  
+}
+.logo-02{
+  
+    width: 100%;
+    height: 100%;
+      background: url(../../imagens/)center center;
+
+      background-size: cover;
+
+
+      
+  }
+
+
+  .legado-micahel{
+    padding: 6%;
+}
+  .grid-chicago-bulls{
+    height: 100%;
+     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+ 
+}
+.grid-chicago-bulls > div:nth-child(1){
+ 
+    width: 100%;
+    height: 350px;
+    background-color: rgb(43, 43, 43);
+
+}
+.grid-chicago-bulls >div:nth-child(2){
+
+    width: 100%;
+  height: 350px;
+    background-color: black;
+}
+
+.section-bulls{
+    margin-left: 5%;
+    margin-top: -3%;
+    position: absolute;
+  
+    width: 90%;
+    height: auto;
+
+    border-radius: 0.5%;
+    background-color: rgba(255, 255, 255, 0.2);
+  
+}
+
+.h1-titulo-michael{
+    margin-top: 25%;
+    color: #590a0a;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 1px 3px 3px black;
+}
+.grid-fotos{
+    width: 100%;
+    height: 100%;
+}
+.grid-fotos >div:nth-child(1){
+   
+    width: auto;
+    height: auto;
+ 
+}
+hr{
+    border-bottom:1px solid white;
+}
+.container-img-jordan{
+    padding: 10%;
+
+    margin-left: 8%;
+    width: 200px;
+    height: 129px;
+    background-color: rgb(59, 9, 2);
+    border-radius: 10px;
+    animation: scale 2s linear , transition-color 3s ;
+
+    border:1px solid red;
+
+}
+.img-michael-jordan{
+    
+    margin-left: -55%;
+    margin-top: -64px;
+
+    width: 400px;
+    height: auto;
+
+    
+  
+
+   
+
+
+}
+@keyframes bola-movimento {
+    from{
+    
+         transform: translateY(0px);
+
+    }
+    to{
+
+       transform: translateY(-8px);
+ 
+    }
+ 
+    
+    
+}
+/*animação circular crescente do ponto ao maximo da imagem */
+@keyframes scale {
+    from {
+        border-radius: 50%;
+       transform: scale(0);
+       opacity: 0;
+    }
+    to{
+        border-radius: 50%;
+       transform:scale (3.0);
+       opacity: 1;
+    }
+
+}
+@keyframes move {
+   from{
+   
+        transform: translateX(0px);
+ 
+   }
+   to{
+
+      transform: translateX(100%);
+  
+   }
+
+   
+   
+}
+@keyframes opacidade {
+   from{
+   
+       opacity: 0;
+  
+   }
+   to{
+
+     opacity: 1;
+
+   }
+
+
+}
+@keyframes girar {
+   from{
+   
+       transform: rotate(0deg);
+      
+   }
+   to{
+
+       transform: rotate(35deg);
+
+   } 
+}
+@keyframes zoom {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+@keyframes transition-color {
+    from{
+        background-color: #c2baba;
+    }
+    to{
+        background-color: #000000;
+    }
+}
+}
