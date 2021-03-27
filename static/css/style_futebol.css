@@ -141,7 +141,7 @@
     width: 240px;
     height: 240px;
     border-radius: 50%;
-    background-color: #4F5D2F;
+    background-image: linear-gradient(#4F5D2F,#333b1f);
     z-index:0;
    }
    .h1-1{
@@ -156,9 +156,7 @@
     z-index: 1;
     position: relative;
     top: 9px;
-    left:1px;
-    border-radius: 50%;
-    border: 3px solid #8d8d8d ;
+    left:3px;
     width: 90%;
     height: 90%;
     margin-bottom: 8%;
@@ -180,7 +178,7 @@
     width: 240px;
     height: 240px;
     border-radius: 50%;
-    background-color: #4F5D2F;
+    background-image: linear-gradient(#4F5D2F,#333b1f);
     z-index:0;
    }
    
@@ -195,12 +193,11 @@
    z-index: -2;
    }
    .barcelona{
+    
     z-index: 1;
     position: relative;
-    top: 9px;
+    top: 15px;
     left:1px;
-    border-radius: 50%;
-    border: 3px solid #8d8d8d ;
     width: 90%;
     height: 90%;
     margin-bottom: 8%;
@@ -214,7 +211,7 @@
     width: 240px;
     height: 240px;
     border-radius: 50%;
-    background-color: #4F5D2F;
+    background-image: linear-gradient(#4F5D2F,#333b1f);
     z-index:0;
    }
    .h1-3{
@@ -226,17 +223,16 @@
     z-index: -2; 
    }
    .bayer-de-munique{
+
     z-index: 1;
     position: relative;
     top: 9px;
     left:1px;
-    border-radius: 50%;
-    border: 3px solid #8d8d8d ;
     width: 90%;
     height: 90%;
     margin-bottom: 8%;
     opacity: 1;
-    background-color: #8C0D0D;
+
    }
 .logo-a{
 color: white;
