@@ -282,9 +282,11 @@ p{
     display: inline-block;
     margin-top: -1%;
     margin-left: 0.9%;
-    margin-bottom: -1.6%;
-    width: 96%;
-    height: 13.9%;
+    margin-bottom: 0.7%;
+    width: 93%;
+    height: auto;
+    padding: 1%;
+    padding-bottom: 0.5px;
     /* fazendo degradê do lado direito com duas cores */
     background-image:linear-gradient(#590A0A,#8a0202);
     border-radius: 10px;
@@ -295,11 +297,8 @@ p{
 }
 
 .img-michael-jordan{
-    top:-63px;
-    left: -230px;
     margin: 0;
-    position: absolute;
-    width: 700px;
+    width: 100%;
     height: auto;
     /* animation: scale 0.9s linear ;*/
 }
@@ -338,31 +337,17 @@ p{
 }
 .grid-quadro-1{ 
     width: 100%;  /*se expandde a largura do pai*/
-    height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/)center;
+    height: 100%; /*se  expande a largura do pai*/
+    background: url(../imagens/ayrton-senna-trofeu.webp)center;
     background-size: cover; 
 }
 
 .grid-quadro-jogos-olimpicos{
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/)center;
+    background: url(../imagens/ayrton-senna-na-vitorias.webp)center;
     background-size: cover; 
 }
-.grid-quadro-Americas-Championship{
-    width: 100%;  /*se expandde a largura do pai*/
-    height: auto;/*se  expande a largura do pai*/
-    background: url(../imagens/)center;
-    background-size: cover; 
-}
-
-.grid-quadro-All-NBA-Team{
-    width: 100%;  /*se expandde a largura do pai*/
-    height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/)center;
-    background-size: cover; 
-}
-
 .hr{
     border-color:#D4001F;
 }
@@ -406,7 +391,6 @@ td:hover {
     font-weight: bolder;
     padding: 2px;
     font-size: 12px;
-
 }
 
 td > a:nth-child(n+1){
