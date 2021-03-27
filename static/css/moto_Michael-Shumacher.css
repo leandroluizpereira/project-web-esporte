@@ -163,7 +163,7 @@ p{
     left: 7px;
     width: 90%;  /*se expandde a largura do pai*/
     height: 90%; /*se  expande a largura do pai*/
-    background: url(../imagens/Lewis-Hamilton-logo.webp)center center;
+    background: url(../imagens/Michael-Schumacher-Logo.webp)center center;
     background-size: cover;   
     border-radius: 50%;
     border: 3px solid #c2b9af ;
@@ -338,14 +338,14 @@ p{
 .grid-quadro-1{ 
     width: 100%;  /*se expandde a largura do pai*/
     height: 100%; /*se  expande a largura do pai*/
-    background: url(../imagens/Lewis-hamilton-trofeu.webp)center;
+    background: url(../imagens/p)center;
     background-size: cover; 
 }
 
 .grid-quadro-jogos-olimpicos{
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/Lewis-hamilton-vitorias.webp)center;
+    background: url(../imagens/)center;
     background-size: cover; 
 }
 .hr{
@@ -365,11 +365,9 @@ p{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.808);
 }
 .div-table{
-    overflow: scroll;
+    overflow-x: scroll;
     width: 100%;
     height: 400px;
-
-
 }
 table{
   width: 100%;
