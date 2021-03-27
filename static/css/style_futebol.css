@@ -153,13 +153,16 @@
     z-index: -2;
    }
 .real-madri{
-    position: relative;
-    top: 19px;
-    left: 4px;
     z-index: 1;
-    width: 87%;
-    height: 80%;
-    margin-bottom: 18%;
+    position: relative;
+    top: 9px;
+    left:1px;
+    border-radius: 50%;
+    border: 3px solid #8d8d8d ;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 8%;
+    opacity: 1;
    }
    .a-copa-do-mundo{
     color: rgb(2, 49, 4);
@@ -192,12 +195,16 @@
    z-index: -2;
    }
    .barcelona{
-       position: relative;
-     top: 32px;
     z-index: 1;
-    width: 80%;
-    height: 80%;
-    margin-bottom: 18%;
+    position: relative;
+    top: 9px;
+    left:1px;
+    border-radius: 50%;
+    border: 3px solid #8d8d8d ;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 8%;
+    opacity: 1;
    }
    .time-03-fut{
     position: relative;
@@ -219,12 +226,17 @@
     z-index: -2; 
    }
    .bayer-de-munique{
-    position: relative;
-    top: 25px;
     z-index: 1;
-    width: 80%;
-    height: 80%;
-    margin-bottom: 18%;
+    position: relative;
+    top: 9px;
+    left:1px;
+    border-radius: 50%;
+    border: 3px solid #8d8d8d ;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 8%;
+    opacity: 1;
+    background-color: #8C0D0D;
    }
 .logo-a{
 color: white;
