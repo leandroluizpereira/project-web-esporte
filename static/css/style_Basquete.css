@@ -224,6 +224,46 @@
        border-radius: 50%;  
    
    }
+   /*--=============Container imagens ====================--*/
+.container-layount {
+    width: 100%;
+    height: 419px;
+    background-color: rgb(139, 22, 22);
+    overflow: scroll;
+}
+.divs-fotos-container-layont{
+    width: 230vw ;
+    height: auto;
+    background-color: rgb(139, 22, 22);
+}
+.categoria{
+    border-radius: 10px;
+    float: left;
+    margin: 4px;
+    width: 8%;
+    height: 390px;
+    background-color: beige;
+}
+.divs-fotos-container-layont> a:nth-child(n+1){ 
+    display: inline-block;
+    background-color:  #590a0a;
+    width: 4%;
+    height: 390px ;
+    margin-top: 5px;
+    transition: width 1.5s, transform 1.5s;  
+}
+.divs-fotos-container-layont> a:hover:nth-child(n+1){
+    width: 17%;
+    height: 390px;
+    transition: width 1.5s, transform 1.5s;
+    /*animation: movimento linear 3s ;*/
+}
+.primeiro{
+    background-image:url(../imagens/michael-jordan-imagem.webp) ;
+    background-size: cover;
+    background-position-x:center;
+}
+
    
       
 }
