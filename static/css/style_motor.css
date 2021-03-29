@@ -112,6 +112,7 @@
 }
 .formula-one-estatistica-logo{
     text-align: center;
+    justify-content: center;
     display: flex;
     background-color: #4a4a4b;
     width: 100%;

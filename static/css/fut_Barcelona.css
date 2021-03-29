@@ -5,13 +5,12 @@
 
 body{
     margin: 0%;
-    min-width:1320px;
     width: 100%;
     height: 100%;
     background-color: white;
     /*se expande no minimo 990 pixel */
     /*overflow-x: hidden;*/
-    min-width:1300px;
+    min-width:1100px;
 }
    
 nav{
@@ -198,11 +197,12 @@ p{
 }
 
 .section-barcelona{
-    margin-top: -6%;
+    min-width:1030px;
+    width: 95%;
+    top: 180px;
+    left: 0px;
+    margin: 30px;
     position: absolute;
-    margin-left: 3%;
-    margin-right: 3%;
-    width: 93.5%;
     height: auto;
     border-radius: 1%;
     box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.301);
@@ -222,7 +222,7 @@ p{
     height: 100%;
     display: grid;
     background-color: aqua;
-    grid-template-columns: 28.5% 66.2%;
+    grid-template-columns: 28.5% 66.23%;
 }
 
 .grid-fotos >div:nth-child(1){
@@ -347,6 +347,11 @@ p{
     text-align: center; 
     color:  #590A0A;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.808);
+}
+.div-table{
+    
+    width: 100%;
+    overflow-x:scroll;
 }
 table{
   width: 100%;

@@ -113,6 +113,7 @@
 
    .copa-d0-mundo-estatistica-time{
     text-align: center;
+    justify-content: center;
     display: flex;
     background-color:#8A8C4A;
     width: 100%;

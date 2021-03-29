@@ -121,6 +121,7 @@
 }
 .nba-estatistica-time{
     text-align: center;
+    justify-content: center;
     display: flex;
     background-color: rgb(139, 22, 22);
     width: 100%;
