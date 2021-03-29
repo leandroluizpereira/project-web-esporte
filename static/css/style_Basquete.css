@@ -226,7 +226,7 @@
    }
    /*--=============Container imagens ====================--*/
 .container-layount {
-    margin-top: 2%;
+    margin-top: 3%;
     width: 100%;
     height: 419px;
     background-color: rgb(139, 22, 22);
@@ -242,20 +242,23 @@
     float: left;
     margin: 4px;
     width: 8%;
-    height: 390px;
+    height: 386px;
+    border: 4px solid #590a0a;
     background-color: beige;
 }
 .divs-fotos-container-layont> a:nth-child(n+1){ 
     display: inline-block;
     background-color:  #590a0a;
+    border: 4px solid #590a0a;
     width: 4%;
-    height: 390px ;
+    height: 386px ;
     margin-top: 5px;
     transition: width 1.5s, transform 1.5s;  
 }
 .divs-fotos-container-layont> a:hover:nth-child(n+1){
     width: 17%;
-    height: 390px;
+    border: 4px solid red;
+    height: 386px;
     transition: width 1.5s, transform 1.5s;
     /*animation: movimento linear 3s ;*/
 }
