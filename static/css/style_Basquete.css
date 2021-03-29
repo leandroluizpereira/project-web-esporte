@@ -2,14 +2,21 @@
 /*media para responsividade de tela para desktop de 430px espandindo até 2500px */
 @media screen and (min-width:430px) and (max-width:4290px){
     /*@media screen and (min-width:430px) and (max-width:1390px)*/
+
     .secao-basquete{
+        width: 100%;
         margin-left:200px;
         margin-right: 200px;
         width: auto;
         height: auto;
         border-radius: 20px;
     }
-    
+
+    .titulo-basketball{
+     
+ 
+    }
+  
     .imagem-basquete{
         width: 300px;
         height: auto;
@@ -21,12 +28,14 @@
     }
     /*grid dividindo em 3 colunas com 1fr deixando proporcional a largura da tela 100%*/
     .grid {
+
         align-items: center;
         display: grid;
-        grid-template-columns: 1fr 1fr 1.2fr;
+        grid-template-columns: 1fr 1fr 1fr;
         border: 2px solid #D9AD5B;
         border-radius: 7px;
         margin-bottom: 8%; 
+      
         
     }  
     
@@ -40,7 +49,7 @@
         color: #D9AD5B;
         padding: 30px;
         font-size: 13px;
-        margin-left: 3%;
+        margin-left: 4%;
         margin-right: -3.2%;
     }
     
@@ -64,11 +73,11 @@
         text-shadow: 1px 1px 1px rgb(0, 0, 0);
         color:#D9AD5B;  
     }
-    .grid>div h3:nth-child(n+1){
+.grid>div h3:nth-child(n+1){
         text-indent: 20px;   
      }
           /*usando a chave da animação definindo transição linear infinito*/
-     .img-basquete{
+.img-basquete{
         border: 3px solid #590A0A ;
          border-radius: 50%;
          z-index :0;
@@ -81,33 +90,28 @@
        
      }
     
-    .img-nba{
-        display: relative;
-        width: auto;
-        height: 330px;
-        background: url(../imagens/background/nba02-1200px.webp)center center;
-       /* opacity: 0.6;*/ 
-        background-size: cover;
+.img-nba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 330px;
+    background: url(../imagens/background/nba02-1200px.webp)center center;
+    /* opacity: 0.6;*/ 
+    background-size: cover;
      
-    }
+ }
     
-    .titulo-img-nba{
-        padding-left: 42%;
-        padding-top: 8%;
-        display: absolute;
-        right: 100px;
-        width: 100px;
-        height: 100px;
-        font-size: 100px;
-        
-        color: white;
-    }
-    .informacao-nba{
-        margin-top: 3%;
-        margin-left: 11%;
-        margin-right: 11%;
-        margin-bottom: 8%;
-    }
+.titulo-img-nba{
+    font-size: 100px;
+    color: white;
+}
+.informacao-nba{
+    margin-top: 3%;
+    margin-left: 11%;
+    margin-right: 11%;
+     margin-bottom: 8%;
+}
     
     
 /*--==========Container BASQUETE logotipos====================*/
