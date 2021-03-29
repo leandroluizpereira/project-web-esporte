@@ -229,7 +229,7 @@ p{
     height: 100%;
     display: grid;
     background-color: aqua;
-    grid-template-columns: 28.5% 66.2%;
+    grid-template-columns: 28.5% 66.23%;
 }
 
 .grid-fotos >div:nth-child(1){
@@ -339,14 +339,14 @@ p{
 .grid-quadro-1{ 
     width: 100%;  /*se expandde a largura do pai*/
     height: 100%; /*se  expande a largura do pai*/
-    background: url(../imagens/p)center;
+    background: url(../imagens/michael-chumacher-trofeu.webp)center;
     background-size: cover; 
 }
 
 .grid-quadro-jogos-olimpicos{
     width: 100%;  /*se expandde a largura do pai*/
     height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/)center;
+    background: url(../imagens/michael-shumacher-vitorias.webp)center;
     background-size: cover; 
 }
 .hr{

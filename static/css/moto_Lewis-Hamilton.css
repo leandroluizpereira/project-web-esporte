@@ -172,30 +172,30 @@ p{
 }
 
 
-.grid-Ayrton-Senna{
+.grid-Lewis-Hamilton{
    display: grid;
    grid-template-columns: 1fr 1fr;
 }
 
-.grid-Ayrton-Senna > div:nth-child(1){
+.grid-Lewis-Hamilton> div:nth-child(1){
     width: 100%;
     height: 2500px;
     background-color:#590a0a ;
 }
-.grid-Ayrton-Senna >div:nth-child(2){
+.grid-Lewis-Hamilton >div:nth-child(2){
     width: 100%;
     height: 2500px;
     background-color: #D4001F;
 }
 
-.h1-titulo-Ayrton-Senna{
+.h1-titulo-Lewis-Hamilton{
     margin-top: 1.7%;
     text-indent: 2.5%;
     font-size: 30px;
     color: #590a0a;
 }
 
-.h2-titulo-Ayrton-Senna{
+.h2-titulo-Lewis-Hamilton{
     margin-bottom: 2%;
     text-indent: 5%;
     padding-bottom: 3%;
@@ -203,7 +203,7 @@ p{
     color: #590a0a;
 }
 
-.section-Ayrton-Senna{
+.section-Lewis-Hamilton{
     min-width:1030px;
     width: 95%;
     top: 180px;
@@ -229,7 +229,7 @@ p{
     height: 100%;
     display: grid;
     background-color: aqua;
-    grid-template-columns: 28.5% 66.2%;
+    grid-template-columns: 28.5% 66.23%;
 }
 
 .grid-fotos >div:nth-child(1){
@@ -279,7 +279,7 @@ p{
     background-color: #D9AD5B;
 }
 
-.container-img-Ayrton-Senna{
+.container-img-Lewis-Hamilton{
     display: inline-block;
     margin-top: -1%;
     margin-left: 0.9%;
@@ -297,7 +297,7 @@ p{
    
 }
 
-.img-Ayrton-Senna{
+.img-Lewis-Hamilton{
     margin: 0;
     width: 100%;
     height: auto;
