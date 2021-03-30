@@ -6,12 +6,10 @@
     border-radius: 20px; 
 }
 .imagem-futebol{
-
     border: 1.5px solid #6BD425;
     width: 100%;
     height: auto;
     border-radius: 1%; 
-
 }
 .grid-futebol {
     align-items: center;
@@ -21,21 +19,15 @@
     margin: 3%;
     display: grid;
     border-radius: 8px;
-    background-color: #8A8C4A;
-
-   
+    background-color: #8A8C4A; 
 }  
 
 .grid-futebol >div:nth-child(1){
     padding: 4%;
-      align-items: center;
-      position: center;
- 
-   
-
+    align-items: center;
+    position: center;
 }
 .grid-futebol >div:nth-child(2){
- 
     color:#d8f192;
     padding: 8%;
     margin-left:6%;
@@ -43,7 +35,6 @@
     border: 2px solid #6BD425;
     border-radius: 8px;
     background-color: #4F5D2F;
-
 }
 
 .h1-beneficios{
@@ -61,12 +52,9 @@
     border-radius: 0px 0px 0px 0px ;
     color: #8C0D0D;
     padding: 25px;
-
     width: auto;
     height: auto;
-    align-items: center;
-
-   
+    align-items: center;  
 }
 
 .grid-futebol>div h1:nth-child(n+1){
@@ -85,12 +73,12 @@
     text-indent: 23px;
 }
 .img-futebol{
-      /*deixa o cursor do mouse a mão aberta */
-     cursor: grab;
-     z-index:0;
-         /*usando a chave da animação definindo transição linear infinito*/   
+    /*deixa o cursor do mouse a mão aberta */
+    cursor: grab;
+    z-index:0;
+    /*usando a chave da animação definindo transição linear infinito*/   
  }
- .img-futebol:hover{
+.img-futebol:hover{
     animation: bola-movimento 0.7s infinite;
 }
 .img-copa{
@@ -106,12 +94,9 @@
     background-position-y:-30px ;
 }
 .titulo-img-copa{
- 
-    font-size: 35px;
-    
+    font-size: 35px; 
     color: white;
 }
-
 .futebol-informacao{
     margin-left: 10%;
     margin-right: 10%;
@@ -121,140 +106,129 @@
     height: 200px;
     background-color: black;
     overflow: scroll; 
-
-  
 }
 
-
+/*============Container=============== */
 .copa-d0-mundo-estatistica-time{
     background-color:#8A8C4A;
     width: 100%;
     height: 100%;
     padding-bottom: 10%;
-   }
-   .container-time-copa-do-mundo{
-        margin-top: 3%;
-        margin-left: 25%;
-        margin-right: 25%;
-      
-       width: auto;
-       height: auto;
-   }
-   .time-01-fut{
-      padding: 0%;
-       margin-right: -5%;
-       margin-top: 30%;
-     
-       margin-bottom: 55%;
-       display: inline-block;
-       width: 180px;
-       height: 180px;
-       border-radius: 50%;
-       background-color: #4F5D2F;
-       z-index: 0;
-       position: relative;
-   
-   }
-   .h1-1{
-       opacity: 0;
-       width: 300px;
-       height: 300px;
-       width: auto;
-       height: auto;
-       right: 57%;
-        top: -100%;
-      
- position: absolute;
- font-size:210px;
-    color: rgb(255, 255, 255);
- 
-
-z-index: -2;
 }
-.real-madri {
-         
-       width: 100%;
-       height: 100%;
-   
-   }
-   .a-copa-do-mundo{
-    color: rgb(204, 0, 0);
+.container-time-copa-do-mundo{
+    margin-top: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: auto;
+    height: auto;
+}
+.time-01-fut{
+    padding: 0%;
+    margin-right: -5%;
+    margin-top: 30%;
+    margin-bottom: 55%;
     display: inline-block;
-   }
-   .time-02-fut{
-       position: relative;
-    margin-top: 5%;
-       margin-right: 5%;
-       display: inline-block;
-       width: 180px;
-       height: 180px;
-       margin-bottom: 55%;
-       border-radius: 50%;
-       background-color: #4F5D2F;
-z-index: 0;
-   }
-   
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #4F5D2F;
+    z-index: 0;
+    position: relative;
+}
+.h1-1{
+    opacity: 0;
+    width: 300px;
+    height: 300px;
+    width: auto;
+    height: auto;
+    right: 57%;
+    top: -100%;   
+    position: absolute;
+    font-size:210px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
+}
+.real-madri { 
+    position: relative;
+    top: 6px;
+    left: 8px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+.a-copa-do-mundo{
+    color:yellow;
+    display: inline-block;
+    text-decoration: none;
+}
+.time-02-fut{
+    position: relative;
+    margin-top: 2%;
+    margin-right: 5%;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 55%;
+    border-radius: 50%;
+    background-color: #4F5D2F;
+    z-index: 0;
+} 
 .h1-2{
     opacity: 0;
     width: 300px;
     height: 300px;
-
-   width: auto;
-   height: auto;
-   right: 57%;
-
+    width: auto;
+    height: auto;
+    right: 57%;
     top: -100%;
-  
-position: absolute;
-font-size:210px;
-color: rgb(255, 255, 255);
-
-
-z-index: -2;
+    position: absolute;
+    font-size:210px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
 }
-
 .barcelona{
-       width: 100%;
-       height: 100%;
-   
-   }
-   .time-03-fut{
+    position: relative;
+    top: 10px;
+    left: 8px;
+    width: 90%;
+    height: 90%;
+    margin-bottom: 5%;
+}
+.time-03-fut{
     margin-bottom: 0%;
     position: relative;
-    margin-top: 10%;
-       margin-right: 5%;
-       display: inline-block;
-       width: 180px;
-       height: 180px;
-       margin-bottom: 20%;
-       border-radius: 50%;
-       background-color: #4F5D2F;
-z-index: 0;
-   }
-   .h1-3{
-       opacity: 0;
+    margin-top: -10%;
+    margin-right: 5%;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20%;
+    border-radius: 50%;
+    background-color: #4F5D2F;
+    z-index: 0;
+}
+.h1-3{
+    opacity: 0;
     width: 300px;
     height: 300px;
-
-   width: auto;
-   height: auto;
-   right: 57%;
-
+    width: auto;
+    height: auto;
+    right: 57%;
     top: -100%;
-  
-position: absolute;
-font-size:210px;
-color: rgb(255, 255, 255);
-
-
-z-index: -2;
+    position: absolute;
+    font-size:210px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
 }
-
 .bayer-de-munique{
-       width: 100%;
-       height: 100%;
-   }
-
-
+    position: relative;
+    top: 10px;
+    left: 8px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
 
 }
