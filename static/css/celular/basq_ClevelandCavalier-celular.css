@@ -395,7 +395,6 @@ tr{
 .video{
     height: 190px;
 }
-
 @keyframes bola-movimento {
     from{
     
@@ -406,10 +405,7 @@ tr{
 
        transform: translateY(-8px);
  
-    }
- 
-    
-    
+    } 
 }
 /*animação circular crescente do ponto ao maximo da imagem */
 @keyframes scale {
