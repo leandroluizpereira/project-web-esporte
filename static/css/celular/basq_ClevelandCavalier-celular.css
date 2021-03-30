@@ -359,8 +359,13 @@ td:hover {
     background-color: #8a1111;
     color: #BF8339;
     font-weight: bolder;
- 
 }
+.td-titulo{    
+    background-color: #8a1111;
+    color:#BF8339;
+    cursor: pointer;
+}
+
 
 td > a:nth-child(n+1){
     color: #7e0707;
