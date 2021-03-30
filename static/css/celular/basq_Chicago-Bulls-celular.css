@@ -3,12 +3,11 @@
 @media screen and (min-width:0px) and (max-width:700px){
 body{
     background-color: white;
-   margin: 0%;
+    margin: 0%;
     overflow-x: hidden;
 }
 nav{
     z-index :1;
- 
     position: fixed;
     width: 100%;
     height: auto;
@@ -29,8 +28,7 @@ ul{
 }
 .li:hover{
     background-color:white;
-    border-radius: 5px;
-  
+    border-radius: 5px; 
 }
 a{
     color: white;
@@ -43,35 +41,28 @@ a:hover{
 p{
     text-align: justify;
     text-indent: 23px;
-   word-break: break-all;
-/*para não espaços entre letras */
-  letter-spacing: 0px;
-  word-spacing: 0px;
+    word-break: break-all;
+    /*para não espaços entre letras */
+    letter-spacing: 0px;
+    word-spacing: 0px;
 }
 .header-titulo{
     margin-top: 0%;
     text-align: center;
-  
- 
-   padding-top: 15%;
+    padding-top: 15%;
     width:70%;
-    height: 40%;
+    height: 30%;
     background-color: rgba(0, 0, 0, 0);
     color: white;
-    border-bottom: 1px solid rgba(255, 255, 255,0.3);
-
 }
 .header-titulo h1{
     text-align: center;
     font-size: 30px;
-   
     color: #D9A25F;
- 
     text-shadow:4px 2px 2px #403222;
     border-top: 1px solid rgba(255, 255, 255,0.3);
     border-left: 1px solid rgba(255, 255, 255,0.3);
     border-radius: 10px;
-    
 }
 
 .cabecalho{
@@ -79,7 +70,7 @@ p{
     width: 100%;
     height: 230px;
     background-color: rgb(139, 22, 22);
-   background-position-y: -250px;
+    background-position-y: -250px;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -87,8 +78,31 @@ p{
    position: relative;
  
 }
+/*teste animation do com div */
+.fundo-animation:hover{
+    animation: zoom 4s linear infinite;  
+    top: 29%;
+    left: 40.7%;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #590a0a ;
+    border-radius: 50%;
+    z-index:2;
+}
+.fundo-animation-2:hover{
+    animation: zoom 3s linear infinite;  
+    top: 29%;
+    left: 40.7%;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+     background-color:  red ;
+    border-radius: 50%;
+    z-index:2;
+}
 .fundo-img{
-    top: 70%;
+    top: 58%;
     left: 32%;
     position: absolute;
     width: 125px;
@@ -96,68 +110,45 @@ p{
     background-color:  #590a0a;
     border-radius: 50%;
     z-index:2;
-
- 
 }
+
 .logo-01{
     width: 100%;
     height: 100%;
     background: url(../../imagens/faviconIo/android-chrome-192x192.png)no-repeat;
     background-position-x:29px;
     background-position-y:29px ;
-
-  
 }
+
 .logo-02{
-  
     width: 100%;
     height: 100%;
-      background: url(../../imagens/png/chicago-bulls-logo-250px-gimp.png)center center;
-
-      background-size: cover;
-
-
-      
+    background: url(../../imagens/png/chicago-bulls-logo-250px-gimp.png)center center;
+    background-size: cover;  
   }
 
-
-  .legado-micahel{
+.legado-micahel{
     padding: 6%;
 }
-  .grid-chicago-bulls{
+
+.grid-chicago-bulls{
+    margin-top: -5%;
     height: 100%;
-     width: 100%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr ;
- 
 }
 .grid-chicago-bulls > div:nth-child(1){
- 
     width: 100%;
-    height: 350px;
-    background-color: rgb(43, 43, 43);
-
+    height: 3900px;
+    background-color: #590a0a;
 }
 .grid-chicago-bulls >div:nth-child(2){
 
     width: 100%;
-  height: 350px;
-    background-color: black;
+    height:3900px;
+    background-color: #D4001F;
 }
-
-.section-bulls{
-    margin-left: 5%;
-    margin-top: -3%;
-    position: absolute;
-  
-    width: 90%;
-    height: auto;
-
-    border-radius: 0.5%;
-    background-color: rgba(255, 255, 255, 0.2);
-  
-}
-
 .h1-titulo-michael{
     margin-top: 25%;
     color: #590a0a;
@@ -165,47 +156,233 @@ p{
     font-size: 45px;
     text-shadow: 1px 3px 3px black;
 }
+
+.h2-titulo-michael{
+    text-align: center;
+    margin-bottom: 4%;
+    text-indent: 5%;
+    padding-bottom: 3%;
+    font-size: 20px;
+    color: #590a0a;
+}
+.section-bulls{
+    margin-left: 5%;
+    margin-top: -6.5%;
+    position: absolute;
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+    background-color: #D9AD5B;
+}
+.h2-saiba-mais{
+    margin-top: -3%;
+    margin-bottom:40px;
+    padding-bottom: 2px;
+    background-color: brown;
+    text-align: center;
+    font-size: 13px;
+}
 .grid-fotos{
+   
+    height: 100%;
+
+}
+.grid-fotos >div:nth-child(1){
+ 
+    border-top: 1px solid #D4001F;
+    border-right: 1px solid #D4001F;
+    height: auto;
+    background-color:#D9AD5B ;
+    padding-top: 10px;
+}
+.titulo-estatistica{
+    border-radius: 5px;
+    text-align: center; 
+    color: #BF8339;
+    font-weight: bold;
+    background-color: #590A0A;
+    font-size: 15px;
+    margin: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.titulo-card{
+    text-align: center; 
+    color:  #590A0A;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.808);
+}
+.h2-premiacao{
+    border: 1px solid #D9AD5B;
+    color: #BF8339;
+    background-color: #590A0A;
+    text-align: center;
+    text-shadow:0.5px 0.5px 1px black;
+}
+.h3-premiacao{
+    color:  #590A0A;
+    font-size: 15px;
+}
+.grid-fotos >div:nth-child(2){
+    border-top: 1px solid #D4001F;
+    width: 100%;
+    height: auto;
+    background-color: #D9AD5B;
+}
+
+.container-img-jordan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    width: 73%;
+    height: 89px;
+    background-image:linear-gradient(#590A0A,#8a0202);
+    border-radius: 10px;
+    /*animation: scale 2s linear , transition-color 3s ;*/
+    border:1px solid red;
+}
+.img-michael-jordan{
+    position: absolute;
+    margin-left: -10%;
+    margin-top: -9%;
+    width: 300px;
+    height: auto;
+}
+
+.div-estatistica{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom:5px;
+    margin-top:5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom:15px;
+    width: auto;
+    height: auto ;
+    border-radius: 7px ;
+    background-color: #590a0a;
+    border: 2px solid black;
+}
+
+.quadro-01,.quadro-02,.quadro-03,.quadro-04,.quadro-05,.quadro-06,.quadro-07{
+    display: inline-block;
+    width: 100%; 
+    height: 100%;
+    margin-bottom: 15px;
+    background-color:  #BF8339;
+    box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.301);
+}
+
+.grid-quadro{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-quadro-2{
     width: 100%;
     height: 100%;
 }
-.grid-fotos >div:nth-child(1){
-   
-    width: auto;
-    height: auto;
+.grid-quadro-1{ 
+    width: 100%;  /*se expandde a largura do pai*/
+    height: auto; /*se  expande a largura do pai*/
+    background: url(../../imagens/michael-jordan-campeao-nba.jpeg)center;
+    background-size: cover; 
+}
+
+.grid-quadro-jogos-olimpicos{
+    width: 100%;  /*se expandde a largura do pai*/
+    height: auto; /*se  expande a largura do pai*/
+    background: url(../../imagens/michael-jordan-trofeu.jpeg)center;
+    background-size: cover; 
+}
+.grid-quadro-Americas-Championship{
+    width: 100%;  /*se expandde a largura do pai*/
+    height: auto;/*se  expande a largura do pai*/
+    background: url(../../imagens/jordan-medalha-medalha-gimp.jpg)center;
+    background-size: cover; 
+}
+
+.grid-quadro-All-NBA-Team{
+    width: 100%;  /*se expandde a largura do pai*/
+    height: auto; /*se  expande a largura do pai*/
+    background: url(../../imagens/michael-trofeu-4.jpg)center;
+    background-size: cover; 
+}
+
+.hr{
+    border-color:#D4001F;
+}
+
+.quadro-space{
+    padding: 10px;
+}
+/*caso queira espaço nos videoa */
+.videos-space{
+    padding: 5px;
+  
+}
+.h1-recordes-pessoais{
+    text-align: center; 
+    color:  #590A0A;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.808);
+}
+.div-table{ 
+    width: 100%;
+
+}
+table{
+  width: 100%;
+  background-color:  #590a0a; 
+}
+
+td{
+    font-size: 5px;
+    background-color: #BF8339;
+    text-align: center;
+    color: #942020;
+}
+td:hover {
+    background-color:#942020 ;
+    text-align: center;
+    color:#BF8339 ;
+    cursor: pointer;
+}
+.td-destaque{
+    background-color: #8a1111;
+    color: #BF8339;
+    font-weight: bolder;
  
 }
-hr{
-    border-bottom:1px solid white;
+
+td > a:nth-child(n+1){
+    color: #7e0707;
+    font-weight: normal;
 }
-.container-img-jordan{
-    padding: 10%;
-
-    margin-left: 8%;
-    width: 200px;
-    height: 129px;
-    background-color: rgb(59, 9, 2);
-    border-radius: 10px;
-    animation: scale 2s linear , transition-color 3s ;
-
-    border:1px solid red;
-
-}
-.img-michael-jordan{
-    
-    margin-left: -55%;
-    margin-top: -64px;
-
-    width: 400px;
-    height: auto;
-
-    
-  
-
+td > a:hover:nth-child(n+1){
    
-
-
+    font-weight: normal;
+    color: #ffffff;
 }
+tr{  
+}
+.tr-linha-titulo{
+}
+.tr-linha-titulo > td:nth-child(n+1){
+    background-color: #8a1111;
+    color: #BF8339;
+    font-weight: bolder;
+}
+.tr-linha-subtitulo{
+}
+.tr-linha-subtitulo > td:nth-child(n+1){
+    background-color: #8a1111;
+    color: #BF8339;
+    font-weight: bolder;
+}
+
 @keyframes bola-movimento {
     from{
     

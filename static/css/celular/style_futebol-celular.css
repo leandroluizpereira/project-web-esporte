@@ -94,7 +94,9 @@
     animation: bola-movimento 0.7s infinite;
 }
 .img-copa{
-    display: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 140px;
     background: url(../../imagens/background/copa-do-mundo-full.jpg)center center;
@@ -104,13 +106,8 @@
     background-position-y:-30px ;
 }
 .titulo-img-copa{
-    padding-left: 29%;
-    padding-top: 10%;
-    display: absolute;
-    right: 100px;
-    width: 200px;
-    height: 170px;
-    font-size: 30px;
+ 
+    font-size: 35px;
     
     color: white;
 }
