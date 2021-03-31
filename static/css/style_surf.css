@@ -307,53 +307,53 @@ strong{
     transition: width 1.5s, transform 1.5s;
     /*animation: movimento linear 3s ;*/
 }
-.primeiro,.segundo,.terceiro,.quarto,.quinto,.sexto,.setimo,.oitavo,.nono,.decimo,.decimo-primeiro,.decimo-segundo{
+.primeiro-surf,.segundo-surf,.terceiro-surf,.quarto-surf,.quinto-surf,.sexto-surf,.setimo-surf,.oitavo-surf,.nono-surf,.decimo-surf,.decimo-primeiro-surf,.decimo-segundo-surf{
     background-size: cover;
     background-position-x:center;
     color: #D9AD5B;
 }
-.primeiro:hover,.segundo:hover,.terceiro:hover,.quarto:hover,.quinto:hover,.sexto:hover,.setimo:hover,.oitavo:hover,.nono:hover,.decimo:hover,.decimo-primeiro:hover,.decimo-segundo:hover{
+.primeiro-surf:hover,.segundo-surf:hover,.terceiro-surf:hover,.quarto-surf:hover,.quinto-surf:hover,.sexto-surf:hover,.setimo-surf:hover,.oitavo-surf:hover,.nono-surf:hover,.decimo-surf:hover,.decimo-primeiro-surf:hover,.decimo-segundo-surf:hover{
     color:white;
 }
 /*Background imagems*/
 
-.primeiro{
+.primeiro-surf{
+    background-image:url(../imagens/italo-ferreira-imagem-1.webp) ;
+}
+.segundo-surf{
+    background-image:url(../imagens/gabriel-medina-imagem-1.webp) ;
+}
+.terceiro-surf{
+    background-image:url(../imagens/jordy-smith-imagme-1.webp) ;
+}
+.quarto-surf{
     background-image:url(../imagens/) ;
 }
-.segundo{
+.quinto-surf{
     background-image:url(../imagens/) ;
 }
-.terceiro{
+.sexto-surf{
     background-image:url(../imagens/) ;
 }
-.quarto{
+.setimo-surf{
     background-image:url(../imagens/) ;
 }
-.quinto{
+.oitavo-surf{
     background-image:url(../imagens/) ;
 }
-.sexto{
+.nono-surf{
     background-image:url(../imagens/) ;
 }
-.setimo{
+.decimo-surf{
     background-image:url(../imagens/) ;
 }
-.oitavo{
+.decimo-primeiro-surf{
     background-image:url(../imagens/) ;
 }
-.nono{
+.decimo-segundo-surf{
     background-image:url(../imagens/) ;
 }
-.decimo{
-    background-image:url(../imagens/) ;
-}
-.decimo-primeiro{
-    background-image:url(../imagens/) ;
-}
-.decimo-segundo{
-    background-image:url(../imagens/) ;
-}
-.decimo-terceiro{
+.decimo-terceiro-surf{
     background-image:url(../imagens/) ;
 }
 
