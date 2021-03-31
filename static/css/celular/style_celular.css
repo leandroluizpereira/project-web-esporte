@@ -225,6 +225,7 @@ p{
     background-size: cover;
 }
 .a-nba-sport{
+  display: inline-block;
   color: yellow;
   text-decoration: none;
 }
