@@ -102,6 +102,9 @@ p{
     z-index:2;
 }
 .fundo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 58%;
     left: 32%;
     position: absolute;
@@ -121,9 +124,9 @@ p{
 }
 
 .logo-02{
-    width: 100%;
-    height: 100%;
-    background: url(../../imagens/png/chicago-bulls-logo-250px-gimp.png)center center;
+    width: 70%;
+    height: 70%;
+    background: url(../../imagens/png/Barcelona-Logo-full.png)center center;
     background-size: cover;  
   }
 
@@ -140,13 +143,13 @@ p{
 }
 .grid-barcelona > div:nth-child(1){
     width: 100%;
-    height: 3750px;
+    height: 3900px;
     background-color: #590a0a;
 }
 .grid-barcelona >div:nth-child(2){
 
     width: 100%;
-    height:3750px;
+    height:3900px;
     background-color: #D4001F;
 }
 .h1-titulo-lionel-messi{
@@ -378,6 +381,11 @@ tr{
 }
 .video{
     height: 190px;
+}
+.ul-marcas-barcelona{
+    padding: 10px;
+    color:#590A0A;
+    background-color: #BF8339;
 }
 
 @keyframes bola-movimento {
