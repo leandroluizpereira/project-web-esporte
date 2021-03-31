@@ -7,7 +7,7 @@ body{
     overflow-x: hidden;
 }
 nav{
-    z-index :1;
+    z-index :2;
     position: fixed;
     width: 100%;
     height: auto;
@@ -109,7 +109,7 @@ p{
     height: 125px;
     background-color:  #590a0a;
     border-radius: 50%;
-    z-index:2;
+    z-index:1;
 }
 
 .logo-01{
@@ -183,8 +183,7 @@ p{
     text-align: center;
     font-size: 13px;
 }
-.grid-fotos{
-   
+.grid-fotos{  
     height: 100%;
 
 }
@@ -315,7 +314,6 @@ p{
     background: url(../../imagens/michael-trofeu-4.jpg)center;
     background-size: cover; 
 }
-
 .hr{
     border-color:#D4001F;
 }
@@ -338,8 +336,6 @@ p{
     height: 250px;
     overflow: scroll;
     margin: 4px;
-
-  
 }
 table{
   
@@ -398,18 +394,11 @@ tr{
 
 @keyframes bola-movimento {
     from{
-    
          transform: translateY(0px);
-
     }
     to{
-
        transform: translateY(-8px);
- 
-    }
- 
-    
-    
+    }  
 }
 /*animação circular crescente do ponto ao maximo da imagem */
 @keyframes scale {

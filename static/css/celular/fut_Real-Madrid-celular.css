@@ -7,7 +7,7 @@ body{
     overflow-x: hidden;
 }
 nav{
-    z-index :1;
+    z-index :2;
     position: fixed;
     width: 100%;
     height: auto;
@@ -102,6 +102,9 @@ p{
     z-index:2;
 }
 .fundo-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     top: 58%;
     left: 32%;
     position: absolute;
@@ -109,7 +112,7 @@ p{
     height: 125px;
     background-color:  #590a0a;
     border-radius: 50%;
-    z-index:2;
+    z-index:1;
 }
 
 .logo-01{
@@ -121,8 +124,8 @@ p{
 }
 
 .logo-02{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     background: url(../../imagens/png/Real-Madrid-Logo-full.png)center center;
     background-size: cover;  
   }
@@ -251,9 +254,9 @@ p{
 }
 .img-cristiano-ronaldo{
     position: absolute;
-    margin-left: -10%;
+    margin-left: 0%;
     margin-top: -5.9%;
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 

@@ -151,7 +151,7 @@
 .real-madri { 
     position: relative;
     top: 6px;
-    left: 8px;
+    left: 9px;
     width: 90%;
     height: 90%;
     border-radius: 50%;
@@ -189,11 +189,11 @@
 }
 .barcelona{
     position: relative;
-    top: 10px;
-    left: 8px;
-    width: 90%;
-    height: 90%;
-    margin-bottom: 5%;
+    top: 24px;
+    left: 17px;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 15%;
 }
 .time-03-fut{
     margin-bottom: 0%;
@@ -203,7 +203,7 @@
     display: inline-block;
     width: 180px;
     height: 180px;
-    margin-bottom: 20%;
+    margin-bottom: 28%;
     border-radius: 50%;
     background-color: #4F5D2F;
     z-index: 0;

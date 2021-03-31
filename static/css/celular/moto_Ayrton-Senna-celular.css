@@ -7,8 +7,7 @@ body{
     overflow-x: hidden;
 }
 nav{
-    z-index :1;
- 
+    z-index :2;
     position: fixed;
     width: 100%;
     height: auto;
@@ -95,9 +94,7 @@ p{
     height: 125px;
     background-color:  #590a0a;
     border-radius: 50%;
-    z-index:2;
-
- 
+    z-index:1;
 }
 .logo-01{
     width: 100%;

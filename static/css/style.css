@@ -24,7 +24,7 @@ body{
 }
 nav{
     padding: 1px;
-    z-index: 1;
+    z-index: 2;
     margin-top: 0px;
     position: fixed;
     width: 100%;
@@ -144,6 +144,13 @@ p{
 }
 .cabecalho :hover{
    
+}
+.a-nba-sport{
+    color: yellow;
+    text-decoration: none;
+}
+.a-nba-sport:hover{
+    color:rgb(211, 77, 77);
 }
 
 /*adicionando chave para animaçâo */

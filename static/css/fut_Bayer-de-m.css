@@ -15,7 +15,7 @@ body{
    
 nav{
     padding: 1px;
-    z-index: 1;
+    z-index: 2;
     margin-top: 0px;
     position: fixed;
     width: 100%;
@@ -140,12 +140,12 @@ p{
 .fundo-img{
     top: 37%;
     left: 42.7%;
-   position: absolute;
+    position: absolute;
     width: 200px;
     height: 200px;
     background-color: #590a0a;
     border-radius: 50%;
-    z-index:2;
+    z-index:1;
 }
 
 .logo-01{
