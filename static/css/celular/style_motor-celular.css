@@ -9,7 +9,7 @@
     border-radius: 20px; 
 }
 .imagem-motor{
-    border: 1.5px solid #D9A25F;
+    border: 1.5px solid #8C0D0D;
     width: 100%;
     height: auto;
     border-radius: 1%;
@@ -21,12 +21,13 @@
 }
 .grid-motor{
     align-items: center;
-    border-top: 3px solid #D9A25F;
-    border-left:3px solid #D9A25F ;
-    border-right: 3px solid #D9A25F;
+    border-top: 3px solid #8C0D0D;
+    border-left:3px solid #8C0D0D ;
+    border-right: 3px solid #8C0D0D;
     border-radius: 8px;
     margin: 3%;
     display: grid;
+    background-color: #4a4a4b;
 }  
 .grid-motor >div:nth-child(1){
     padding: 4%;
@@ -34,13 +35,13 @@
     position: center;
 }
 .grid-motor >div:nth-child(2){
-    color:#D9A25F;
+    color:white;
     padding: 8%;
     margin-left:6%;
     margin-right:6%;
-    border: 2px solid #D9A25F;
+    border: 2px solid #8C0D0D;
     border-radius: 8px;
-    background-color: #590A0A;
+    background-color:#000000;
 }
 .h1-beneficios{
     text-align: center;
@@ -67,6 +68,7 @@
 }
 .grid-motor>div h3:nth-child(n+1){
    text-indent: 20px;
+   color: #28292b
 }
 .grid-motor>div p:nth-child(n+1){
     color: black;
@@ -104,8 +106,9 @@
 /*============Container=============== */
 .h1-destaques-formula-one{
     text-align: center;
+    color: black;
     padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
 }
 .formula-one-estatistica-logo{
     background-color: rgb(59, 59, 59);

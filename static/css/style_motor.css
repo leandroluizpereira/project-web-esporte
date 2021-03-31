@@ -18,11 +18,11 @@
     margin-left: 2.5%;
     margin-bottom: 2.5%;
     border-radius: 7px; 
-    border: 1px solid #825D84;
+    border: 1px solid #8C0D0D;
 }
 .h1-motor{
     text-align:center;
-    color: black;
+    color:#8C0D0D;
     font-size: 32px;
 }
 /*grid dividindo em 3 colunas com 1fr deixando proporcional a largura da tela 100%*/
@@ -30,7 +30,7 @@
     align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    border: 2px solid #825D84;
+    border: 2px solid #8C0D0D;
     border-radius: 7px;
     margin-bottom: 8%;
     background-color: #4a4a4b;
@@ -53,7 +53,7 @@
     background-color: white;
     width: auto;
     border-radius: 7px;
-    color: #5f0505;
+    color: black;
     padding-top: 5px;
     padding-left: 20px;
     padding-right: 30px;
@@ -76,6 +76,7 @@
 }
 .grid-motor>div h3:nth-child(n+1){
     text-indent: 20px;   
+    color: black;
  }
       /*usando a chave da animação definindo transição linear infinito*/
 
@@ -109,7 +110,7 @@
 /*===========Container motor================*/
 .h1-destaques-formula-one{
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: black;
 }
 .formula-one-estatistica-logo{
     text-align: center;
