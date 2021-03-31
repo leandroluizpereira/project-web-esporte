@@ -11,11 +11,9 @@
     height: auto;
     border-radius: 20px;
 }
-
 .titulo-basketball{   
  
 }
-  
 .imagem-basquete{
     width: 315px;
     height: auto;
@@ -47,8 +45,7 @@
     font-size: 13px;
     margin-left: 3%;
     margin-right: -3.2%;
-}
-    
+}  
 .grid >div:nth-child(3){
     background-color: white;
     width: auto;
@@ -62,8 +59,7 @@
     height: 400px;
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
     overflow: scroll ;    
-}
-    
+}  
     /*(n+3) ele pega os filhos aparte do 3 */
 .grid>div h1:nth-child(n+1){
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
@@ -84,8 +80,7 @@
      .img-basquete:hover{
          animation: bola-movimento 0.5s  linear infinite ;
        
-     }
-    
+     } 
 .img-nba{
     display: flex;
     justify-content: center;
@@ -96,8 +91,7 @@
     /* opacity: 0.6;*/ 
     background-size: cover;
      
- }
-    
+ }    
 .titulo-img-nba{
     font-size: 100px;
     color: white;
@@ -221,7 +215,6 @@
     border-radius: 50%;  
    
 }
-
 /*--=============Container imagens ====================--*/
 .container-layount {
     margin-top: 0px;
@@ -258,11 +251,11 @@ strong{
     font-size: 13px;
     color: beige;
 }
-.ul-categoria-imagem{
-  
-}
-.li-categoria-imagem{
+.nome-categoria{
     color: beige;
+    text-align: justify;
+    text-align: center;
+    
 }
 .categoria:hover{
     border: 3px solid beige; 
@@ -301,12 +294,10 @@ strong{
 .primeiro:hover,.segundo:hover,.terceiro:hover,.quarto:hover,.quinto:hover,.sexto:hover,.setimo:hover,.oitavo:hover,.nono:hover,.decimo:hover,.decimo-primeiro:hover,.decimo-segundo:hover{
     color:white;
 }
+/*Background imagems*/
+
 .primeiro{
     background-image:url(../imagens/michael-jordan-imagem.webp) ;
-
-}
-.primeiro-hover{
-    color: white;
 }
 .segundo{
     background-image:url(../imagens/stephen-curry-imagem.webp) ;
