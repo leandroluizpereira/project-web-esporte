@@ -64,7 +64,6 @@ p{
     border-left: 1px solid rgba(255, 255, 255,0.3);
     border-radius: 10px;
 }
-
 .cabecalho{
     position: relative;
     width: 100%;
@@ -126,8 +125,6 @@ p{
     background: url(../../imagens/png/cleveland-cavaliers-logo.png)center center;
     background-size: cover;  
   }
-
-
 .grid-cleveland-cavalier{
     margin-top: -5%;
     height: 100%;
@@ -141,7 +138,6 @@ p{
     background-color: #590a0a;
 }
 .grid-cleveland-cavalier >div:nth-child(2){
-
     width: 100%;
     height:2600px;
     background-color: #D4001F;
@@ -181,9 +177,7 @@ p{
     font-size: 13px;
 }
 .grid-fotos{
-   
     height: 100%;
-
 }
 .grid-fotos >div:nth-child(1){
     
@@ -247,10 +241,7 @@ p{
     border:1px solid red;
 }
 .img-Lebron-james{
-    position: absolute;
-    margin-left: -10%;
-    margin-top: -5.9%;
-    width: 140px;
+    width: 155px;
     height: auto;
 }
 

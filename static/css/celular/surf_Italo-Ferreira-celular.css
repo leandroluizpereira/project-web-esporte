@@ -248,7 +248,7 @@ p{
     margin-bottom: 3%;
     padding: 5px;
     width: 90%;
-    height: 200px;
+    height: auto;
     background-image:linear-gradient(#590A0A,#8a0202);
     border-radius: 10px;
     /*animation: scale 2s linear , transition-color 3s ;*/
@@ -256,7 +256,7 @@ p{
 }
 .img-Italo-Ferreira{
     width: 100%;
-    height: 100%;
+    height:auto;
 }
 
 .div-estatistica{
