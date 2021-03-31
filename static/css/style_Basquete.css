@@ -12,8 +12,7 @@
     border-radius: 20px;
 }
 
-.titulo-basketball{
-     
+.titulo-basketball{   
  
 }
   
@@ -108,9 +107,7 @@
     margin-left: 11%;
     margin-right: 11%;
      margin-bottom: 8%;
-}
-    
-    
+}   
 /*--==========Container BASQUETE logotipos====================*/
 .h1-destaques{
     text-align: center;
@@ -177,61 +174,61 @@
     background-color: #590a0a;
     z-index:0;
 }
-   .h1-2-nba{
-       right: 124px;
-       top: -300px;
-       position: absolute;
-       font-size:340px;
-       color: rgb(255, 255, 255);
-       z-index: -2;
-       z-index: -2;
-   }
-   .golden-state{
-       width: 100%;
-       height: 100%;
+.h1-2-nba{
+    right: 124px;
+    top: -300px;
+    position: absolute;
+    font-size:340px;
+    color: rgb(255, 255, 255);
+    z-index: -2;
+    z-index: -2;
+}
+.golden-state{
+    width: 100%;
+    height: 100%;
+}
+.time-03{
+    position: relative;
+    margin-right: 0%;
+    margin-top: 2.7%;
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #590a0a;
+    z-index:0;
+}
+.h1-3-nba{
    
-   }
-   .time-03{
-       position: relative;
-       margin-right: 0%;
-       margin-top: 2.7%;
-       display: inline-block;
-       width: 240px;
-       height: 240px;
-       border-radius: 50%;
-       background-color: #590a0a;
-       z-index:0;
-   }
-   .h1-3-nba{
-   
-       right: 124px;
-       top: -300px;
-       position: absolute;
-       font-size:340px;
-       color: rgb(255, 255, 255);
+    right: 124px;
+    top: -300px;
+    position: absolute;
+    font-size:340px;
+    color: rgb(255, 255, 255);
   
-   }
-   .Cleveland-Cavaliers{
-       position: relative;
-       left: -10px;
-       width: 100%;
-       height: 100%;
-   }
-   .logo-a{
-   color: white;
-   }
+}
+.Cleveland-Cavaliers{
+    position: relative;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+ }
+.logo-a{
+    color: white;
+}
    
-   .a-nba{
-       border-radius: 50%;  
+.a-nba{
+    border-radius: 50%;  
    
-   }
-   /*--=============Container imagens ====================--*/
+}
+
+/*--=============Container imagens ====================--*/
 .container-layount {
     margin-top: 0px;
     width: 100%;
     padding-top: 40px;
     padding-bottom: 43px;
-    height: 363px;
+    height: 413px;
     background-color: rgb(139, 22, 22);
     overflow: scroll;
 }
@@ -245,7 +242,7 @@
     float: left;
     margin: 4px;
     width: 8%;
-    height: 330px;
+    height: 380px;
     border: 3px solid #590a0a;
     background-color: #590a0a;
 }
@@ -273,14 +270,14 @@
     background-color:  #590a0a;
     border: 3px solid #590a0a;
     width: 4%;
-    height: 330px ;
+    height: 380px ;
     margin-top: 5px;
     transition: width 1.5s, transform 1.5s;  
 }
 .divs-fotos-container-layont> a:hover:nth-child(n+1){
     width: 17%;
     border: 3px solid beige;
-    height: 330px;
+    height: 380px;
     transition: width 1.5s, transform 1.5s;
     /*animation: movimento linear 3s ;*/
 }
@@ -305,27 +302,27 @@
     background-position-x:center;
 }
 .quinto{
-    background-image:url(../imagens/michael-jordan-imagme-2.webp) ;
+    background-image:url(../imagens/stephen-curry-imagem-2.webp) ;
     background-size: cover;
     background-position-x:center;
 }
 .sexto{
-    background-image:url(../imagens/michael-jordan-imagme-2.webp) ;
+    background-image:url(../imagens/lebron-James-imagem-2.webp) ;
     background-size: cover;
     background-position-x:center;
 }
 .setimo{
-    background-image:url(../imagens/michael-jordan-imagme-2.webp) ;
+    background-image:url(../imagens/michael-jordan-imagme-3.webp) ;
     background-size: cover;
     background-position-x:center;
 }
 .oitavo{
-    background-image:url(../imagens/michael-jordan-imagme-2.webp) ;
+    background-image:url(../imagens/stephen-curry-imagem-3.webp) ;
     background-size: cover;
     background-position-x:center;
 }
 .nono{
-    background-image:url(../imagens/michael-jordan-imagme-2.webp) ;
+    background-image:url(../imagens/lebron-James-imagem-3.webp) ;
     background-size: cover;
     background-position-x:center;
 }
