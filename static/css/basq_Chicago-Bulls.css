@@ -97,9 +97,9 @@ p{
     margin-bottom: 10px;
     z-index: 1;
     font-size: 50px;
-    color: #D9A25F;
+    color: rgb(217, 162, 95);
     padding-left: 10px;
-    text-shadow:4px 2px 2px #403222;
+    text-shadow:4px 2px 2px rgb(64, 50, 34);
 }
 
 .cabecalho{
@@ -121,7 +121,7 @@ p{
     position: absolute;
     width: 250px;
     height: 250px;
-    background-color: #590a0a ;
+    background-color: rgb(89, 10, 10) ;
     border-radius: 50%;
     z-index:2;
 }
@@ -132,7 +132,7 @@ p{
     position: absolute;
     width: 250px;
     height: 250px;
-     background-color:  red ;
+     background-color:  rgb(255, 0, 0) ;
     border-radius: 50%;
     z-index:2;
 }
@@ -225,7 +225,6 @@ p{
 }
 
 .grid-fotos >div:nth-child(1){
- 
     border-top: 1px solid #D4001F;
     border-right: 1px solid #D4001F;
     height: 2370px;
