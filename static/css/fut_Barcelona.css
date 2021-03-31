@@ -332,6 +332,12 @@ p{
     background: url(../imagens/Lionel-messi-campeão.webp)center;
     background-size: cover; 
 }
+.quadro-05{
+    height: 220px;
+}
+.quadro-06{
+    height: 220px;
+}
 .hr{
     border-color:#D4001F;
 }
