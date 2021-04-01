@@ -308,12 +308,12 @@ strong{
     /*animation: movimento linear 3s ;*/
 
 }
-.primeiro,.segundo,.terceiro,.quarto,.quinto,.sexto,.setimo,.oitavo,.nono,.decimo,.decimo-primeiro,.decimo-segundo{
+.primeiro,.segundo,.terceiro,.quarto,.quinto,.sexto,.setimo,.oitavo,.nono,.decimo,.decimo-primeiro,.decimo-segundo,.decimo-terceiro,.decimo-quarto,.decimo-quinto{
     background-size: cover;
     background-position-x:center;
     color: #D9AD5B;
 }
-.primeiro:hover,.segundo:hover,.terceiro:hover,.quarto:hover,.quinto:hover,.sexto:hover,.setimo:hover,.oitavo:hover,.nono:hover,.decimo:hover,.decimo-primeiro:hover,.decimo-segundo:hover{
+.primeiro:hover,.segundo:hover,.terceiro:hover,.quarto:hover,.quinto:hover,.sexto:hover,.setimo:hover,.oitavo:hover,.nono:hover,.decimo:hover,.decimo-primeiro:hover,.decimo-segundo:hover,.decimo-terceiro:hover,.decimo-quarto:hover,.decimo-quinto:hover{
     color:white;
 }
 /*Background imagems*/
@@ -355,7 +355,13 @@ strong{
     background-image:url(../imagens/lebron-James-imagem-4.webp) ;
 }
 .decimo-terceiro{
-    background-image:url(../imagens/) ;
+    background-image:url(../imagens/michael-jordan-imagme-5.webp) ;
+}
+.decimo-quarto{
+    background-image:url(../imagens/stephen-curry-imagem-5.webp) ;
+}
+.decimo-quinto{
+    background-image:url(../imagens/lebron-James-imagem-5.webp) ;
 }
   
       

@@ -329,12 +329,12 @@ strong{
     animation: opacity-imagem 1.5s linear;
     opacity: 1;
 }
-.primeiro-surf,.segundo-surf,.terceiro-surf,.quarto-surf,.quinto-surf,.sexto-surf,.setimo-surf,.oitavo-surf,.nono-surf,.decimo-surf,.decimo-primeiro-surf,.decimo-segundo-surf{
+.primeiro-surf,.segundo-surf,.terceiro-surf,.quarto-surf,.quinto-surf,.sexto-surf,.setimo-surf,.oitavo-surf,.nono-surf,.decimo-surf,.decimo-primeiro-surf,.decimo-segundo-surf,.decimo-terceiro-surf,.decimo-quarto-surf,.decimo-quinto-surf{
     background-size: cover;
     background-position-x:center;
     color: #D9AD5B;
 }
-.primeiro-surf:hover,.segundo-surf:hover,.terceiro-surf:hover,.quarto-surf:hover,.quinto-surf:hover,.sexto-surf:hover,.setimo-surf:hover,.oitavo-surf:hover,.nono-surf:hover,.decimo-surf:hover,.decimo-primeiro-surf:hover,.decimo-segundo-surf:hover{
+.primeiro-surf:hover,.segundo-surf:hover,.terceiro-surf:hover,.quarto-surf:hover,.quinto-surf:hover,.sexto-surf:hover,.setimo-surf:hover,.oitavo-surf:hover,.nono-surf:hover,.decimo-surf:hover,.decimo-primeiro-surf:hover,.decimo-segundo-surf:hover,.decimo-terceiro-surf:hover,.decimo-quarto-surf:hover,.decimo-quinto-surf:hover{
     color:white;
 }
 /*Background imagems*/
@@ -376,8 +376,15 @@ strong{
     background-image:url(../imagens/jordy-smith-imagem-4.webp) ;
 }
 .decimo-terceiro-surf{
-    background-image:url(../imagens/) ;
+    background-image:url(../imagens/italo-ferreira-imagem-5.webp) ;
 }
+.decimo-quarto-surf{
+    background-image:url(../imagens/gabriel-medina-imagem-5.webp) ;
+}
+.decimo-quinto-surf{
+    background-image:url(../imagens/jordy-smith-imagem-5.webp) ;
+}
+
 
 @keyframes opacity-imagem {
     from {
