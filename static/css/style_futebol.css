@@ -240,124 +240,143 @@ color: white;
     color: yellow;
     display: inline-block;
 }
-/*--=============Container imagens ====================--*/
-.container-layount {
+/*--=============Container imagens Futebol====================--*/
+.container-layount-fut {
     margin-top: 0px;
     width: 100%;
     padding-top: 40px;
     padding-bottom: 43px;
     height: 404px;
-    background-color: rgb(139, 22, 22);
+    background-color: #8A8C4A;
     overflow: scroll;
 }
-.divs-fotos-container-layont{
+.divs-fotos-container-layont-fut{
     width: 230vw ;
     height: auto;
-    background-color: rgb(139, 22, 22);
+    background-color: #8A8C4A;
 }
-.categoria{
+.categoria-fut{
     border-radius: 10px;
     float: left;
     margin: 4px;
     width: 8%;
     height: 380px;
-    border: 3px solid #590a0a;
-    background-color: #590a0a;
+    border: 3px solid  #4F5D2F;
+    background-color:  #4F5D2F;
+}
+.sub-categoria-fut{
+    margin-left: 1px;
+    margin-right: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 55px;
+    height: 380px;
+    margin-top: 7px;
+    background-color:  #4F5D2F;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid  #4F5D2F;
+}
+.h1-sub-categoria-fut{
+    font-size: 25px;
+    transform: rotate(270deg) ;
+    color: #D9AD5B;
 }
 strong{
     color: rgb(248, 248, 55);
 }
-.h2-categoria-imagem{
+.h2-categoria-imagem-fut{
     color: #D9AD5B;
 }
-.p-texto-categoria-imagem{
+.p-texto-categoria-imagem-fut{
     padding: 8px;
     text-indent: 0px;
     font-size: 13px;
     color: beige;
 }
-.nome-categoria{
+.nome-categoria-fut{
     color: beige;
     text-align: justify;
     text-align: center;
     
 }
-.categoria:hover{
+.categoria-fut:hover{
     border: 3px solid beige; 
-    background-color:#590a0a ;
+    background-color: #4F5D2F ;
 }
-.div-titulo{
+.div-titulo-fut{
     text-align: center;
     position: relative;
     bottom: 9%;
     width: 100%;
     height: 20px;
-    background-color: #590a0a5b;
+    background-color: #4F5D2F;
 }
-.divs-fotos-container-layont> a:nth-child(n+1){ 
+.divs-fotos-container-layont-fut> a:nth-child(n+1){ 
     float: left;
     margin: 1.5px;
-    background-color:  #590a0a;
-    border: 3px solid #590a0a;
+    background-color:   #4F5D2F;
+    border: 3px solid  #4F5D2F;
     width: 4%;
     height: 380px ;
     margin-top: 5px;
     transition: width 1.5s, transform 1.5s;  
 }
-.divs-fotos-container-layont> a:hover:nth-child(n+1){
+.divs-fotos-container-layont-fut> a:hover:nth-child(n+1){
     width: 17%;
     border: 3px solid beige;
     height: 380px;
     transition: width 1.5s, transform 1.5s;
     /*animation: movimento linear 3s ;*/
 }
-.primeiro,.segundo,.terceiro,.quarto,.quinto,.sexto,.setimo,.oitavo,.nono,.decimo,.decimo-primeiro,.decimo-segundo{
+.primeiro-fut,.segundo-fut,.terceiro-fut,.quarto-fut,.quinto-fut,.sexto-fut,.setimo-fut,.oitavo-fut,.nono-fut,.decimo-fut,.decimo-primeiro-fut,.decimo-segundo-fut{
     background-size: cover;
     background-position-x:center;
     color: #D9AD5B;
 }
-.primeiro:hover,.segundo:hover,.terceiro:hover,.quarto:hover,.quinto:hover,.sexto:hover,.setimo:hover,.oitavo:hover,.nono:hover,.decimo:hover,.decimo-primeiro:hover,.decimo-segundo:hover{
+.primeiro-fut:hover,.segundo-fut:hover,.terceiro-fut:hover,.quarto-fut:hover,.quinto-fut:hover,.sexto-fut:hover,.setimo-fut:hover,.oitavo-fut:hover,.nono-fut:hover,.decimo-fut:hover,.decimo-primeiro-fut:hover,.decimo-segundo-fut:hover{
     color:white;
 }
 /*Background imagems*/
 
-.primeiro{
-    background-image:url(../imagens/michael-jordan-imagem.webp) ;
+.primeiro-fut{
+    background-image:url(../imagens/) ;
 }
-.segundo{
-    background-image:url(../imagens/stephen-curry-imagem.webp) ;
+.segundo-fut{
+    background-image:url(../imagens/) ;
 }
-.terceiro{
-    background-image:url(../imagens/lebron-James-imagem.webp) ;
+.terceiro-fut{
+    background-image:url(../imagens/) ;
 }
-.quarto{
-    background-image:url(../imagens/michael-jordan-imagme-2.webp) ;
+.quarto-fut{
+    background-image:url(../imagens/) ;
 }
-.quinto{
-    background-image:url(../imagens/stephen-curry-imagem-2.webp) ;
+.quinto-fut{
+    background-image:url(../imagens/) ;
 }
-.sexto{
-    background-image:url(../imagens/lebron-James-imagem-2.webp) ;
+.sexto-fut{
+    background-image:url(../imagens/) ;
 }
-.setimo{
-    background-image:url(../imagens/michael-jordan-imagme-3.webp) ;
+.setimo-fut{
+    background-image:url(../imagens/) ;
 }
-.oitavo{
-    background-image:url(../imagens/stephen-curry-imagem-3.webp) ;
+.oitavo-fut{
+    background-image:url(../imagens/) ;
 }
-.nono{
-    background-image:url(../imagens/lebron-James-imagem-3.webp) ;
+.nono-fut{
+    background-image:url(../imagens/) ;
 }
-.decimo{
-    background-image:url(../imagens/michael-jordan-imagme-4.webp) ;
+.decimo-fut{
+    background-image:url(../imagens/) ;
 }
-.decimo-primeiro{
-    background-image:url(../imagens/stephen-curry-imagem-4.webp) ;
+.decimo-primeiro-fut{
+    background-image:url(../imagens/) ;
 }
-.decimo-segundo{
-    background-image:url(../imagens/lebron-James-imagem-4.webp) ;
+.decimo-segundo-fut{
+    background-image:url(../imagens/) ;
 }
-.decimo-terceiro{
+.decimo-terceiro-fut{
     background-image:url(../imagens/) ;
 }
 }
