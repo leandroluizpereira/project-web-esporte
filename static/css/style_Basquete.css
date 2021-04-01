@@ -298,6 +298,7 @@ strong{
     height: 380px ;
     margin-top: 5px;
     transition: width 1.5s, transform 1.5s;   
+
 }
 .container-layount>.divs-fotos-container-layont> a:hover:nth-child(n+1){
     width: 17%;
@@ -305,6 +306,7 @@ strong{
     height: 380px;
     transition: width 1.5s, transform 1.5s;  
     /*animation: movimento linear 3s ;*/
+
 }
 .primeiro,.segundo,.terceiro,.quarto,.quinto,.sexto,.setimo,.oitavo,.nono,.decimo,.decimo-primeiro,.decimo-segundo{
     background-size: cover;
@@ -358,3 +360,4 @@ strong{
   
       
 }
+
