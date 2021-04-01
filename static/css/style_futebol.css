@@ -330,12 +330,12 @@ strong{
     transition: width 1.5s, transform 1.5s;
     /*animation: movimento linear 3s ;*/
 }
-.primeiro-fut,.segundo-fut,.terceiro-fut,.quarto-fut,.quinto-fut,.sexto-fut,.setimo-fut,.oitavo-fut,.nono-fut,.decimo-fut,.decimo-primeiro-fut,.decimo-segundo-fut{
+.primeiro-fut,.segundo-fut,.terceiro-fut,.quarto-fut,.quinto-fut,.sexto-fut,.setimo-fut,.oitavo-fut,.nono-fut,.decimo-fut,.decimo-primeiro-fut,.decimo-segundo-fut,.decimo-terceiro-fut,.decimo-quarto-fut,.decimo-quinto-fut{
     background-size: cover;
     background-position-x:center;
     color: #D9AD5B;
 }
-.primeiro-fut:hover,.segundo-fut:hover,.terceiro-fut:hover,.quarto-fut:hover,.quinto-fut:hover,.sexto-fut:hover,.setimo-fut:hover,.oitavo-fut:hover,.nono-fut:hover,.decimo-fut:hover,.decimo-primeiro-fut:hover,.decimo-segundo-fut:hover{
+.primeiro-fut:hover,.segundo-fut:hover,.terceiro-fut:hover,.quarto-fut:hover,.quinto-fut:hover,.sexto-fut:hover,.setimo-fut:hover,.oitavo-fut:hover,.nono-fut:hover,.decimo-fut:hover,.decimo-primeiro-fut:hover,.decimo-segundo-fut:hover,.decimo-terceiro-fut:hover,.decimo-quarto-fut:hover,.decimo-quinto-fut:hover{
     color:white;
 }
 /*Background imagems*/
