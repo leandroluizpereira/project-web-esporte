@@ -313,7 +313,7 @@ strong{
     height: 20px;
     background-color: #4F5D2F;
 }
-.frase{
+.frase-cristiano-ronaldo{
     width: 100%;
     height: auto;
     background-color:  #8c0d0d38;
@@ -322,10 +322,28 @@ strong{
     text-align: center;
     color: #d9ad5b33;
 }
-.frase:hover{
+.frase-cristiano-ronaldo:hover{
     background-color:   #8C0D0D;
     color: #d9ad5b;
 }
+.frase-lionel-messi{
+    padding: 12px;
+    font-size: 14px;
+    position: relative;
+    top: 262px;
+    background-color: rgba(0, 0, 0, 0.247);
+    color: #d9635b2a;
+    height: 60px;
+    overflow: hidden;
+    
+   
+
+}
+.frase-lionel-messi:hover{
+    background-color: rgb(0, 5, 80);
+    color: white;
+}
+
 .divs-fotos-container-layont-fut> a:nth-child(n+1){ 
     float: left;
     margin: 1.5px;
@@ -385,7 +403,7 @@ strong{
     background-image:url(../imagens/cristiano-ronaldo-imagem-4.webp) ;
 }
 .decimo-primeiro-fut{
-    background-image:url(../imagens/) ;
+    background-image:url(../imagens/Lionel-messi-imagem-4.webp) ;
 }
 .decimo-segundo-fut{
     background-image:url(../imagens/) ;
