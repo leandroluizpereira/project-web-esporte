@@ -297,13 +297,13 @@ strong{
     width: 4%;
     height: 380px ;
     margin-top: 5px;
-    transition: width 1.5s, transform 1.5s;  
+    transition: width 0.9s, transform 0.9s;  
 }
- a:hover:nth-child(n+1){
+.container-layount>.divs-fotos-container-layont> a:hover:nth-child(n+1){
     width: 17%;
     border:  3px solid beige;
     height: 380px;
-    transition: width 1.5s, transform 1.5s;
+    transition: width 0.9s, transform 0.9s;  
     /*animation: movimento linear 3s ;*/
 }
 .primeiro,.segundo,.terceiro,.quarto,.quinto,.sexto,.setimo,.oitavo,.nono,.decimo,.decimo-primeiro,.decimo-segundo{
