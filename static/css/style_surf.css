@@ -81,8 +81,8 @@
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 400px;
-    background: url(../imagens/background/homen-surfando-desktop.webp);
+    height: 330px;
+    background: url(../imagens/background/surf_background-1000px.webp);
     /*opacity: 0.6;*/
     background-size: cover;
     background-position:center;
