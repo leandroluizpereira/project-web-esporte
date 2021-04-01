@@ -313,6 +313,19 @@ strong{
     height: 20px;
     background-color: #4F5D2F;
 }
+.frase{
+    width: 100%;
+    height: auto;
+    background-color:  #8c0d0d38;
+    position: relative;
+    top: 262px;
+    text-align: center;
+    color: #d9ad5b33;
+}
+.frase:hover{
+    background-color:   #8C0D0D;
+    color: #d9ad5b;
+}
 .divs-fotos-container-layont-fut> a:nth-child(n+1){ 
     float: left;
     margin: 1.5px;
@@ -338,6 +351,7 @@ strong{
 .primeiro-fut:hover,.segundo-fut:hover,.terceiro-fut:hover,.quarto-fut:hover,.quinto-fut:hover,.sexto-fut:hover,.setimo-fut:hover,.oitavo-fut:hover,.nono-fut:hover,.decimo-fut:hover,.decimo-primeiro-fut:hover,.decimo-segundo-fut:hover,.decimo-terceiro-fut:hover,.decimo-quarto-fut:hover,.decimo-quinto-fut:hover{
     color:white;
 }
+
 /*Background imagems*/
 
 .primeiro-fut{
@@ -368,7 +382,7 @@ strong{
     background-image:url(../imagens/Robert-Lewandowski-imagem-3.webp) ;
 }
 .decimo-fut{
-    background-image:url(../imagens/) ;
+    background-image:url(../imagens/cristiano-ronaldo-imagem-4.webp) ;
 }
 .decimo-primeiro-fut{
     background-image:url(../imagens/) ;
