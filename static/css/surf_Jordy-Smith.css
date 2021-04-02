@@ -201,8 +201,10 @@ p{
     margin-bottom: 2%;
     text-indent: 5%;
     padding-bottom: 3%;
-    font-size: 20px;
+    font-size: 30px;
     color: #590a0a;
+    font-style: italic;
+    font-family: 'Sacramento', cursive;
 }
 
 .section-Jordy-Smith{
