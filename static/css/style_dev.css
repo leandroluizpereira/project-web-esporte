@@ -27,8 +27,10 @@
     height: 400px;
     background-image: url(../imagens/dev/imac-full.png);
     background-size: 500px;
-    background-position: center;   
+    background-position: center;  
+
 }
+
 .tablet{
     z-index: -1;
     position: relative;
@@ -39,8 +41,9 @@
     background-image: url(../imagens/dev/tablet-full.png);
     background-size: 500px;
     background-position: center;   
-
+    animation: opac 2s  infinite; 
 }
+
 .celular{
     z-index: 0;
     position: relative;
@@ -50,7 +53,8 @@
     height: 250px;
     background-image: url(../imagens/dev/celular-full.webp);
     background-size: 300px;
-    background-position: center;   
+    background-position: center; 
+    animation: opac 3s  infinite;   
 }
 
 .grid-dev{
@@ -75,5 +79,14 @@
     
     }
 }
+@keyframes opac {
 
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
 }
