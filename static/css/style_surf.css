@@ -256,7 +256,7 @@
     float: left;
     margin: 4px;
     width: 8%;
-    height: 380px;
+    height: 400px;
     border: 3px solid #034C8C;
     background-color: #034C8C;
 }
@@ -268,7 +268,7 @@
     justify-content: center;
     float: left;
     width: 55px;
-    height: 380px;
+    height:400px;
     margin-top: 7px;
     background-color: #034C8C;
     border-radius: 10px 0px 0px 10px;
@@ -315,7 +315,7 @@ strong{
     background-color:  #034C8C;
     border: 3px solid #034C8C;
     width: 4%;
-    height: 380px ;
+    height:400px ;
     margin-top: 5px;
     transition: width 1.5s, transform 1.5s;  
  
@@ -323,7 +323,7 @@ strong{
 .divs-fotos-container-layont-surf> a:hover:nth-child(n+1){
     width: 17%;
     border: 3px solid beige;
-    height: 380px;
+    height:400px;
     transition: width 1.5s, transform 1.5s;
     /*animation: movimento linear 3s ;*/
 }
