@@ -114,6 +114,11 @@
 }
 
 /*============Container=============== */
+.h1-destaques-fut{
+    font-size: 18px;
+    text-align: center;
+    color: #8A8C4A;
+}
 .copa-d0-mundo-estatistica-time{
     background-color:#8A8C4A;
     width: 100%;

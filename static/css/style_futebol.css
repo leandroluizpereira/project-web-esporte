@@ -84,7 +84,7 @@
  .img-futebol:hover{  
  }
 
- .img-copa{
+.img-copa{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,14 +109,17 @@
     background-color: black;
     overflow-x: scroll;
 }
-   .logo-a{
+.logo-a{
    color: white;
    } 
 
 /*==========Container Futebol ===============*/
 /*===========================================*/
-
-   .copa-d0-mundo-estatistica-time{
+.h1-destaques-fut{
+    text-align: center;
+    color: #8A8C4A;
+}
+.copa-d0-mundo-estatistica-time{
     text-align: center;
     justify-content: center;
     display: flex;
@@ -224,7 +227,7 @@
     color: rgb(255, 255, 255);
     z-index: -2; 
    }
-   .bayer-de-munique{
+.bayer-de-munique{
 
     z-index: 1;
     position: relative;
