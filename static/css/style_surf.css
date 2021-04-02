@@ -326,8 +326,6 @@ strong{
     height: 380px;
     transition: width 1.5s, transform 1.5s;
     /*animation: movimento linear 3s ;*/
-    animation: opacity-imagem 1.5s linear;
-    opacity: 1;
 }
 .primeiro-surf,.segundo-surf,.terceiro-surf,.quarto-surf,.quinto-surf,.sexto-surf,.setimo-surf,.oitavo-surf,.nono-surf,.decimo-surf,.decimo-primeiro-surf,.decimo-segundo-surf,.decimo-terceiro-surf,.decimo-quarto-surf,.decimo-quinto-surf{
     background-size: cover;
