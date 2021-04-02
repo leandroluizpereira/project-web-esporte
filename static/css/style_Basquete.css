@@ -13,6 +13,7 @@
 .titulo-basketball{   
     text-align:center;
     color:  #D9AD5B;
+    font-family: 'Train One', cursive;
     font-size: 40px;
 }
 .imagem-basquete{
@@ -211,12 +212,11 @@
 .logo-a{
     color: white;
 }
-   
 .a-nba{
     border-radius: 50%;  
-   
 }
-/*--=============Container imagens ====================--*/
+/*--=============Container imagens====================--*/
+
 .container-layount {
     margin-top: 0px;
     width: 100%;
@@ -227,7 +227,7 @@
     overflow: scroll;
 }
 .divs-fotos-container-layont{
-    width: 230vw ;
+    width: 230vw;
     height: auto;
     background-color: rgb(139, 22, 22);
 }
@@ -278,8 +278,7 @@ strong{
 .nome-categoria{
     color: beige;
     text-align: justify;
-    text-align: center;
-    
+    text-align: center; 
 }
 .div-titulo{
     text-align: center;
@@ -293,21 +292,19 @@ strong{
 .container-layount>.divs-fotos-container-layont> a:nth-child(n+1){ 
     float: left;
     margin: 1.5px;
-    background-color:  #590a0a;
+    background-color:#590a0a;
     border:  3px solid #590a0a;
     width: 4%;
     height: 400px ;
     margin-top: 5px;
     transition: width 1.5s, transform 1.5s;   
-
 }
 .container-layount>.divs-fotos-container-layont> a:hover:nth-child(n+1){
-    width: 17%;
+    width: 500px;
     border:  3px solid beige;
     height: 400px;
     transition: width 1.5s, transform 1.5s;  
     /*animation: movimento linear 3s ;*/
-
 }
 .primeiro,.segundo,.terceiro,.quarto,.quinto,.sexto,.setimo,.oitavo,.nono,.decimo,.decimo-primeiro,.decimo-segundo,.decimo-terceiro,.decimo-quarto,.decimo-quinto{
     background-size: cover;

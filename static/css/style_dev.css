@@ -2,7 +2,10 @@
 @media screen and (min-width:430px)and (max-width:1390px){
 .titulo{
     text-align: center;
-   
+    font-family:'Train One',cursive;
+    color:#D9A25F;
+    background-color: #f4f4f5;
+    margin-top: 5%;
 }
 
 
