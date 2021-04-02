@@ -5,6 +5,11 @@
     height: auto;
     border-radius: 20px; 
 }
+.titulo-futeboll{
+    text-align:center;
+    color:  #D9AD5B;
+    font-size: 40px;
+}
 .imagem-futebol{
     border: 1.5px solid #6BD425;
     width: 100%;

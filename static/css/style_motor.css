@@ -11,6 +11,10 @@
     height: auto;
     border-radius: 20px;   
 }
+.titulo-motor{
+    text-align:center;
+    color:  #D9AD5B;
+}
 .imagem-motor{
     width: 315px;
     height: auto;
