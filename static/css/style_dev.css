@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (min-width:430px)and (max-width:1390px){
+@media screen and (min-width:430px)and (max-width:4390px){
 .titulo{
     text-align: center;
     font-family:'Train One',cursive;
@@ -7,7 +7,6 @@
     background-color: #f4f4f5;
     margin-top: 5%;
 }
-
 
 .container-dev{
     display: flex;
@@ -24,7 +23,6 @@
     background-position: center;  
 
 }
-
 .tablet{
     z-index: -1;
     position: relative;
