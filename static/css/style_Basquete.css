@@ -3,10 +3,8 @@
 @media screen and (min-width:430px) and (max-width:4290px){
     /*@media screen and (min-width:430px) and (max-width:1390px)*/
 .secao-basquete{
-    width: 100%;
-    margin-left:200px;
-    margin-right: 200px;
-    width: auto;
+    width: 750px;
+    margin: auto;
     height: auto;
     border-radius: 20px;
 }
@@ -16,7 +14,7 @@
     font-size: 40px;
 }
 .imagem-basquete{
-    width: 315px;
+    width: 280px;
     height: auto;
     border: 1px solid #D9AD5B;
     margin-top: 2.5%;
@@ -28,7 +26,7 @@
 .grid {
     align-items: center;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1.4fr;
     border: 2px solid #D9AD5B;
     border-radius: 7px;
     margin-bottom: 8%;      
@@ -44,7 +42,7 @@
     color: #D9AD5B;
     padding: 30px;
     font-size: 13px;
-    margin-left: 3%;
+    margin-left: 4%;
     margin-right: -3.2%;
 }  
 .grid >div:nth-child(3){
@@ -57,7 +55,7 @@
     padding-right: 30px;
     padding-bottom: 10px;
     margin: 10px;
-    height: 400px;
+    height: 360px;
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
     overflow: scroll ;    
 }  
@@ -101,7 +99,7 @@
     margin-top: 3%;
     margin-left: 11%;
     margin-right: 11%;
-     margin-bottom: 8%;
+    margin-bottom: 8%;
 }   
 /*--==========Container BASQUETE logotipos====================*/
 .h1-destaques{
