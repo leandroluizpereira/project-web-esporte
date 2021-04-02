@@ -1,11 +1,56 @@
 @charset "UTF-8";
 @media screen and (min-width:430px)and (max-width:1390px){
-.secao-dev{
-
+.titulo{
+    text-align: center;
+   
 }
+
+.secao-dev{
+ 
+    left: 14%;
+    z-index: -1;
+    position: absolute;
+    width: 1300px;
+    height: 1200px;
+    /*animation: cor 10s linear infinite ; */
+}
+
+.container-dev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px; 
+}
+.desktop{
+    width: 500px;
+    height: 400px;
+    background-image: url(../imagens/dev/imac-full.png);
+    background-size: 500px;
+    background-position: center;   
+}
+
 .grid-dev{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
+}
+
+@keyframes cor {
+    from{
+    transform: scale(0);
+     background-color: black;
+     border-radius: 50%;
+     width: 100px;
+     height: 100px;
+    }
+    to{
+        background-color: black;
+       transform: scale(1);
+       border-radius: 50%;
+       width: 1000px;
+       height: 1000px;
+    
+    }
 }
 
 }
