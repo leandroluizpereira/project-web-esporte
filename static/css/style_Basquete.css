@@ -263,6 +263,7 @@
     height: auto;
     background-color: rgb(139, 22, 22);
 }
+
 .divs-fotos-container-layont>.categoria{
     border-radius: 10px;
     float: left;
@@ -272,6 +273,7 @@
     border:  3px solid #590a0a;
     background-color: #590a0a;
 }
+
 .divs-fotos-container-layont>.categoria:hover{
     border: 3px solid beige; 
     background-color:#590a0a ;
@@ -331,13 +333,16 @@ strong{
     margin-top: 5px;
     transition: width 1.5s, transform 1.5s;   
 }
+
+
 .container-layount>.divs-fotos-container-layont> a:hover:nth-child(n+1){
-    width: 500px;
+    width: 13.5%;
     border:  3px solid beige;
     height: 400px;
     transition: width 1.5s, transform 1.5s;  
     /*animation: movimento linear 3s ;*/
 }
+
 .primeiro,.segundo,.terceiro,.quarto,.quinto,.sexto,.setimo,.oitavo,.nono,.decimo,.decimo-primeiro,.decimo-segundo,.decimo-terceiro,.decimo-quarto,.decimo-quinto{
     background-size: cover;
     background-position-x:center;

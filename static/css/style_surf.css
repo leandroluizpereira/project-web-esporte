@@ -365,7 +365,7 @@ strong{
  
 }
 .divs-fotos-container-layont-surf> a:hover:nth-child(n+1){
-    width: 17%;
+    width: 15%;
     border: 3px solid beige;
     height:400px;
     transition: width 1.5s, transform 1.5s;

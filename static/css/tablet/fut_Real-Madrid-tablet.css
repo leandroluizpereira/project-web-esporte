@@ -50,7 +50,7 @@ p{
     margin-top: 0%;
     text-align: center;
     padding-top: 40px;
-    width:50%;
+    width:45%;
     height: 30%;
     background-color: rgba(0, 0, 0, 0);
     color: white;
@@ -58,7 +58,7 @@ p{
 .header-titulo h1{
     text-align: center;
     text-indent: 10px;
-    font-size: 30px;
+    font-size: 35px;
     color: #D9A25F;
     text-shadow:4px 2px 2px #403222;
     border-top: 1px solid rgba(255, 255, 255,0.3);
@@ -162,7 +162,7 @@ p{
 }
 
 .h2-titulo-cristiano-ronaldo{
-    margin-top: -5%;
+    margin-top: 5%;
     text-align: center;
     margin-bottom: 4%;
     padding-bottom: 3%;
