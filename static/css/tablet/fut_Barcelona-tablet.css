@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width:0px) and (max-width:450px){
+@media screen and (min-width:451px) and (max-width:700px){
 body{
     background-color: white;
     margin: 0%;
@@ -27,16 +27,16 @@ ul{
     display: inline-block;
 }
 .li:hover{
-    background-color:rgb(255, 255, 255);
+    background-color:white;
     border-radius: 5px; 
 }
 a{
-    color: rgb(255, 255, 255);
+    color: white;
     text-decoration: none;
    
 }
 a:hover{
-    color:rgb(217, 162, 95);
+    color:#D9A25F;
 }
 p{
     text-align: justify;
@@ -53,13 +53,13 @@ p{
     width:70%;
     height: 30%;
     background-color: rgba(0, 0, 0, 0);
-    color: rgb(255, 255, 255);
+    color: white;
 }
 .header-titulo h1{
     text-align: center;
     font-size: 30px;
-    color: rgb(217, 162, 95);
-    text-shadow:4px 2px 2px rgb(64, 50, 34);
+    color: #D9A25F;
+    text-shadow:4px 2px 2px #403222;
     border-top: 1px solid rgba(255, 255, 255,0.3);
     border-left: 1px solid rgba(255, 255, 255,0.3);
     border-radius: 10px;
@@ -86,7 +86,7 @@ p{
     position: absolute;
     width: 250px;
     height: 250px;
-    background-color: rgb(89, 10, 10) ;
+    background-color: #590a0a ;
     border-radius: 50%;
     z-index:2;
 }
@@ -97,17 +97,20 @@ p{
     position: absolute;
     width: 250px;
     height: 250px;
-     background-color:  rgb(255, 0, 0) ;
+     background-color:  red ;
     border-radius: 50%;
     z-index:2;
 }
 .fundo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 58%;
     left: 32%;
     position: absolute;
     width: 125px;
     height: 125px;
-    background-color:  rgb(89, 10, 10);
+    background-color:  #590a0a;
     border-radius: 50%;
     z-index:1;
 }
@@ -121,9 +124,9 @@ p{
 }
 
 .logo-02{
-    width: 100%;
-    height: 100%;
-    background: url(../../imagens/png/chicago-bulls-logo-250px-gimp.png)center center;
+    width: 70%;
+    height: 70%;
+    background: url(../../imagens/png/Barcelona-Logo-full.png)center center;
     background-size: cover;  
   }
 
@@ -131,33 +134,33 @@ p{
     padding: 6%;
 }
 
-.grid-chicago-bulls{
+.grid-barcelona{
     margin-top: -5%;
     height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr ;
 }
-.grid-chicago-bulls > div:nth-child(1){
+.grid-barcelona > div:nth-child(1){
     width: 100%;
-    height: 2600px;
-    background-color: rgb(89, 10, 10);
+    height: 3900px;
+    background-color: #590a0a;
 }
-.grid-chicago-bulls >div:nth-child(2){
+.grid-barcelona >div:nth-child(2){
 
     width: 100%;
-    height:2600px;
-    background-color: rgb(212, 0, 31);
+    height:3900px;
+    background-color: #D4001F;
 }
-.h1-titulo-michael{
+.h1-titulo-lionel-messi{
     margin-top: 25%;
-    color: rgb(89, 10, 10);
+    color: #590a0a;
     text-align: center;
     font-size: 45px;
-    text-shadow: 1px 3px 3px rgb(0, 0, 0);
+    text-shadow: 1px 3px 3px black;
 }
 
-.h2-titulo-michael{
+.h2-titulo-lionel-messi{
     margin-top: -5%;
     text-align: center;
     margin-bottom: 4%;
@@ -166,22 +169,21 @@ p{
     color: rgb(89, 10, 10);
     font-style: italic;
     font-family: 'Sacramento', cursive;
-    
 }
-.section-bulls{
+.section-barcelona{
     margin-left: 5%;
     margin-top: -6.5%;
     position: absolute;
     width: 90%;
     height: auto;
     border-radius: 5px;
-    background-color: rgb(217, 173, 91);
+    background-color: #D9AD5B;
 }
 .h2-saiba-mais{
     margin-top: -3%;
     margin-bottom:40px;
     padding-bottom: 2px;
-    background-color: rgb(165, 42, 42);
+    background-color: brown;
     text-align: center;
     font-size: 13px;
 }
@@ -191,19 +193,19 @@ p{
 }
 .grid-fotos >div:nth-child(1){
     
-    border-top: 1px solid rgb(212, 0, 31);
-    border-right: 1px solid rgb(212, 0, 31);
+    border-top: 1px solid #D4001F;
+    border-right: 1px solid #D4001F;
     height: auto;
-    background-color:rgb(217, 173, 91) ;
+    background-color:#D9AD5B ;
     padding-top: 10px;
     margin-top: -5%;
 }
 .titulo-estatistica{
     border-radius: 5px;
     text-align: center; 
-    color: rgb(191, 131, 57);
+    color: #BF8339;
     font-weight: bold;
-    background-color: rgb(89, 10, 10);
+    background-color: #590A0A;
     font-size: 15px;
     margin: 5px;
     padding-top: 7px;
@@ -213,29 +215,29 @@ p{
 .titulo-card{
     font-size: 15px;
     text-align: center; 
-    color:  rgb(89, 10, 10);
+    color:  #590A0A;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.808);
 }
 .h2-premiacao{
     font-size: 13px;
-    border: 1px solid rgb(217, 173, 91);
-    color: rgb(191, 131, 57);
-    background-color: rgb(89, 10, 10);
+    border: 1px solid #D9AD5B;
+    color: #BF8339;
+    background-color: #590A0A;
     text-align: center;
-    text-shadow:0.5px 0.5px 1px rgb(0, 0, 0);
+    text-shadow:0.5px 0.5px 1px black;
 }
 .h3-premiacao{
-    color:  rgb(89, 10, 10);
+    color:  #590A0A;
     font-size: 12px;
 }
 .grid-fotos >div:nth-child(2){
-    border-top: 1px solid rgb(212, 0, 31);
+    border-top: 1px solid #D4001F;
     width: 100%;
     height: auto;
-    background-color: rgb(217, 173, 91);
+    background-color: #D9AD5B;
 }
 
-.container-img-jordan{
+.container-img-lionel-messi{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -245,16 +247,13 @@ p{
     margin-bottom: 3%;
     width: 73%;
     height: 89px;
-    background-image:linear-gradient(rgb(89, 10, 10),rgb(138, 2, 2));
+    background-image:linear-gradient(#590A0A,#8a0202);
     border-radius: 10px;
     /*animation: scale 2s linear , transition-color 3s ;*/
-    border:1px solid rgb(255, 0, 0);
+    border:1px solid red;
 }
-.img-michael-jordan{
-    position: absolute;
-    margin-left: -10%;
-    margin-top: -5.9%;
-    width: 300px;
+.img-lionel-messi{
+    width: 120px;
     height: auto;
 }
 
@@ -269,8 +268,8 @@ p{
     width: auto;
     height: auto ;
     border-radius: 7px ;
-    background-color: rgb(89, 10, 10);
-    border: 2px solid rgb(0, 0, 0);
+    background-color: #590a0a;
+    border: 2px solid black;
 }
 
 .quadro-01,.quadro-02,.quadro-03,.quadro-04,.quadro-05,.quadro-06,.quadro-07{
@@ -278,7 +277,7 @@ p{
     width: 100%; 
     height: 170px;
     margin-bottom: 15px;
-    background-color:  rgb(191, 131, 57);
+    background-color:  #BF8339;
     box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.301);
 }
 
@@ -293,31 +292,12 @@ p{
 .grid-quadro-1{ 
     width: 100%;  /*se expandde a largura do pai*/
     height:   170px; /*se  expande a largura do pai*/
-    background: url(../../imagens/michael-jordan-campeao-nba.jpeg)center;
+    background: url(../../imagens/Lionel-messi-campeão.webp)center;
     background-size: cover; 
 }
 
-.grid-quadro-jogos-olimpicos{
-    width: 100%;  /*se expandde a largura do pai*/
-    height:  170px; /*se  expande a largura do pai*/
-    background: url(../../imagens/michael-jordan-trofeu.jpeg)center;
-    background-size: cover; 
-}
-.grid-quadro-Americas-Championship{
-    width: 100%;  /*se expandde a largura do pai*/
-    height:  170px;/*se  expande a largura do pai*/
-    background: url(../../imagens/jordan-medalha-medalha-gimp.jpg)center;
-    background-size: cover; 
-}
-
-.grid-quadro-All-NBA-Team{
-    width: 100%;  /*se expandde a largura do pai*/
-    height: 170px; /*se  expande a largura do pai*/
-    background: url(../../imagens/michael-trofeu-4.jpg)center;
-    background-size: cover; 
-}
 .hr{
-    border-color:rgb(212, 0, 31);
+    border-color:#D4001F;
 }
 
 .quadro-space{
@@ -330,7 +310,7 @@ p{
 }
 .h1-recordes-pessoais{
     text-align: center; 
-    color:  rgb(89, 10, 10);
+    color:  #590A0A;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.808);
 }
 .div-table{ 
@@ -343,30 +323,30 @@ table{
   
   width: 100%;
 
-  background-color:  rgb(89, 10, 10); 
+  background-color:  #590a0a; 
 }
 
 td{
     font-size: 12px;
-    background-color: rgb(191, 131, 57);
+    background-color: #BF8339;
     text-align: center;
-    color: rgb(148, 32, 32);
+    color: #942020;
 }
 td:hover {
-    background-color:rgb(148, 32, 32) ;
+    background-color:#942020 ;
     text-align: center;
-    color:rgb(191, 131, 57) ;
+    color:#BF8339 ;
     cursor: pointer;
 }
 .td-destaque{
-    background-color: rgb(138, 17, 17);
-    color: rgb(191, 131, 57);
+    background-color: #8a1111;
+    color: #BF8339;
     font-weight: bolder;
  
 }
 
 td > a:nth-child(n+1){
-    color: rgb(126, 7, 7);
+    color: #7e0707;
     font-weight: normal;
 }
 td > a:hover:nth-child(n+1){
@@ -379,19 +359,34 @@ tr{
 .tr-linha-titulo{
 }
 .tr-linha-titulo > td:nth-child(n+1){
-    background-color: rgb(138, 17, 17);
-    color: rgb(191, 131, 57);
+    background-color: #8a1111;
+    color: #BF8339;
     font-weight: bolder;
 }
 .tr-linha-subtitulo{
 }
 .tr-linha-subtitulo > td:nth-child(n+1){
-    background-color: rgb(138, 17, 17);
-    color: rgb(191, 131, 57);
+    background-color: #8a1111;
+    color: #BF8339;
+    font-weight: bolder;
+}
+.tr-total > td:nth-child(n+1){
+    background-color: #8a1111;
+    color: #BF8339;
+    font-weight: bolder;
+}
+.td-time{
+    background-color: #8a1111;
+    color: #BF8339;
     font-weight: bolder;
 }
 .video{
     height: 190px;
+}
+.ul-marcas-barcelona{
+    padding: 10px;
+    color:#590A0A;
+    background-color: #BF8339;
 }
 
 @keyframes bola-movimento {

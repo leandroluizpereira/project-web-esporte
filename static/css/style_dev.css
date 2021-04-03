@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@media screen and (min-width:430px)and (max-width:4390px){
+@media screen and (min-width:701px) and (max-width:4090px){
 .titulo{
     text-align: center;
     font-family:'Train One',cursive;

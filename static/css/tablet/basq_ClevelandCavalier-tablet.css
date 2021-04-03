@@ -1,117 +1,81 @@
 @charset "UTF-8";
-/*media para responsividade de tela para desktop de 430px espandindo até 2500px */
-@media screen and (min-width:701px) and (max-width:4090px){
-/*@media screen and (min-width:430px) and (max-width:1390px)*/
+
+@media screen and (min-width:451px) and (max-width:700px){
 body{
-    margin: 0%;
-    width: 100%;
-    height: 100%;
     background-color: white;
-    /*se expande no minimo 990 pixel */
-    /*overflow-x: hidden;*/
-    min-width:1100px;
+    margin: 0%;
+    overflow-x: hidden;
 }
-   
 nav{
-    padding: 1px;
-    z-index: 2;
-    margin-top: 0px;
+    z-index :2;
     position: fixed;
     width: 100%;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.07);
+    background-color: rgba(0, 0, 0, 1); 
 }
-
-nav:hover{
-    background-color: rgb(0,0,0);
-    animation: opacidade 0.7s ease-in ;
-    color: white;
-}
-
-ul{
+ul{  
     padding: 0px;
-    margin: 5px;
+    margin: 7px;
 }
-
 .li{
-    /*deixa o cursor:pointer design  com mão com o dedo indicador  */
+    /*deixa o cursor:pointer design  com mão com o dedoindicador  */
     cursor: pointer;
     padding: 10px;
     font-family: Arial;
-    font-size: 17px;
-    margin: 2px;
-    display: inline-block;   
+    font-size: 10px;
+    margin: 1px;
+    display: inline-block;
 }
 .li:hover{
     background-color:white;
-    border-radius: 5px;
-    animation: bola-movimento 0.9s linear infinite ;
+    border-radius: 5px; 
 }
-
 a{
-    color:white;
-    text-shadow: 2px 2px 2px 4px black;
+    color: white;
     text-decoration: none;
+   
 }
-
 a:hover{
-    color: #D9A25F;  
+    color:#D9A25F;
 }
-
 p{
-   text-align: justify;
-   text-indent: 23px;
-   word-break: break-all;
-   /*para não espaços entre letras */
-   letter-spacing: 0px;
-   word-spacing: 0px 
+    text-align: justify;
+    text-indent: 23px;
+    word-break: break-all;
+    /*para não espaços entre letras */
+    letter-spacing: 0px;
+    word-spacing: 0px;
 }
-
 .header-titulo{
-    z-index: 1;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: auto;
-    height: auto;
-    /*background-color: rgba(0, 0, 0, 0.2);*/
+    margin-top: 0%;
+    text-align: center;
+    padding-top: 15%;
+    width:70%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0);
     color: white;
 }
-
 .header-titulo h1{
-    margin-top: 66px;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    z-index: 1;
-    font-size: 58px;
+    text-align: center;
+    font-size: 30px;
     color: #D9A25F;
-    padding-left: 10px;
     text-shadow:4px 2px 2px #403222;
     border-top: 1px solid rgba(255, 255, 255,0.3);
     border-left: 1px solid rgba(255, 255, 255,0.3);
     border-radius: 10px;
 }
-
-.header-titulo h2{
-    margin-left: 120px;
-    margin-top: 14px;
-    margin-bottom: 10px;
-    z-index: 1;
-    font-size: 50px;
-    color: #D9A25F;
-    padding-left: 10px;
-    text-shadow:4px 2px 2px #403222;
-}
-
 .cabecalho{
+    position: relative;
     width: 100%;
-    height: 300px;
+    height: 230px;
     background-color: rgb(139, 22, 22);
     background-position-y: -250px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   position: relative;
+ 
 }
 /*teste animation do com div */
 .fundo-animation:hover{
@@ -137,86 +101,72 @@ p{
     z-index:2;
 }
 .fundo-img{
-    top: 110px;
-    left: 42.7%;
-   position: absolute;
-    width: 200px;
-    height: 200px;
-    background-color: #590a0a;
+    top: 58%;
+    left: 32%;
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background-color:  #590a0a;
     border-radius: 50%;
     z-index:1;
 }
 
 .logo-01{
-    
     width: 100%;
     height: 100%;
-    background: url(../imagens/faviconIo/android-chrome-192x192.png)no-repeat;
+    background: url(../../imagens/faviconIo/android-chrome-192x192.png)no-repeat;
     background-position-x:29px;
     background-position-y:29px ;
-   /* animation: girar 2s linear infinite;*/  
 }
 
 .logo-02{
-    position: relative;
-    top: 7px;
-    left: 7px;
-    width: 90%;  /*se expandde a largura do pai*/
-    height: 90%; /*se  expande a largura do pai*/
-    background: url(../imagens/jorgy-smith-logo.webp)center center;
-    border-radius: 50%;
-    border: 3px solid #825D84 ;
-    background-size: cover;     
-    opacity: 1;
-}
-.logo-02:hover {
-    opacity: 0.7;
-}
-
-
-.grid-Jordy-Smith{
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-}
-
-.grid-Jordy-Smith > div:nth-child(1){
     width: 100%;
-    height: 2500px;
-    background-color:#590a0a ;
-}
-.grid-Jordy-Smith >div:nth-child(2){
+    height: 100%;
+    background: url(../../imagens/png/cleveland-cavaliers-logo.png)center center;
+    background-size: cover;  
+  }
+.grid-cleveland-cavalier{
+    margin-top: -5%;
+    height: 100%;
     width: 100%;
-    height: 2500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.grid-cleveland-cavalier > div:nth-child(1){
+    width: 100%;
+    height: 2600px;
+    background-color: #590a0a;
+}
+.grid-cleveland-cavalier >div:nth-child(2){
+    width: 100%;
+    height:2600px;
     background-color: #D4001F;
 }
-
-.h1-titulo-Jordy-Smith{
-    margin-top: 1.7%;
-    text-indent: 2.5%;
-    font-size: 30px;
+.h1-titulo-lebron-james{
+    margin-top: 25%;
     color: #590a0a;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 1px 3px 3px black;
 }
 
-.h2-titulo-Jordy-Smith{
-    margin-bottom: 2%;
-    text-indent: 5%;
+.h2-titulo-lebron-james{
+    margin-top: -5%;
+    text-align: center;
+    margin-bottom: 4%;
     padding-bottom: 3%;
     font-size: 30px;
     color: #590a0a;
     font-style: italic;
     font-family: 'Sacramento', cursive;
 }
-
-.section-Jordy-Smith{
-    width: 95%;
-    min-width:1030px;
-    top: 180px;
-    left: 0px;
-    margin: 30px;
+.section-cavalier{
+    margin-left: 5%;
+    margin-top: -6.5%;
     position: absolute;
+    width: 90%;
     height: auto;
-    border-radius: 1%;
-    box-shadow: 0px 1px 5px 5px rgba(0, 0, 0, 0.301);
+    border-radius: 5px;
     background-color: #D9AD5B;
 }
 .h2-saiba-mais{
@@ -225,89 +175,75 @@ p{
     padding-bottom: 2px;
     background-color: brown;
     text-align: center;
-    font-size: 16px;
+    font-size: 13px;
 }
-
 .grid-fotos{
-    margin: 10px;
     height: 100%;
-    display: grid;
-    background-color: aqua;
-    grid-template-columns: 28.5% 66.2%;
 }
-
 .grid-fotos >div:nth-child(1){
+    
     border-top: 1px solid #D4001F;
     border-right: 1px solid #D4001F;
-    height: 2370px;
+    height: auto;
     background-color:#D9AD5B ;
     padding-top: 10px;
+    margin-top: -5%;
 }
-
 .titulo-estatistica{
     border-radius: 5px;
     text-align: center; 
     color: #BF8339;
     font-weight: bold;
     background-color: #590A0A;
-    font-size: 20px;
-    padding-top:5px;
-    padding-bottom: 5px;
+    font-size: 15px;
+    margin: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 .titulo-card{
+    font-size: 15px;
     text-align: center; 
     color:  #590A0A;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.808);
 }
-
 .h2-premiacao{
+    font-size: 13px;
     border: 1px solid #D9AD5B;
     color: #BF8339;
     background-color: #590A0A;
     text-align: center;
     text-shadow:0.5px 0.5px 1px black;
 }
-
 .h3-premiacao{
     color:  #590A0A;
-    font-size: 15px;
+    font-size: 12px;
 }
-
 .grid-fotos >div:nth-child(2){
     border-top: 1px solid #D4001F;
     width: 100%;
     height: auto;
-    padding-left: 4%;
-    padding-right: 4%;
     background-color: #D9AD5B;
 }
 
-.container-img-Jordy-Smith{
-    display: inline-block;
-    margin-top: -1%;
-    margin-left: 0.9%;
-    margin-bottom: 0.7%;
-    width: 93%;
-    height: auto;
-    padding: 1%;
-    padding-bottom: 0.5px;
-    /* fazendo degradê do lado direito com duas cores */
+.container-img-lebron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    width: 73%;
+    height: 89px;
     background-image:linear-gradient(#590A0A,#8a0202);
     border-radius: 10px;
-    border:3.5px solid black;
-   /* animation: scale 2s linear , transition-color 3s ; */
-   position: relative;
-   
+    /*animation: scale 2s linear , transition-color 3s ;*/
+    border:1px solid red;
 }
-
-.img-Jordy-Smith{
-
-    margin: 0;
-
-    width: 100%;
+.img-Lebron-james{
+    width: 155px;
     height: auto;
-    /* animation: scale 0.9s linear ;*/
 }
 
 .div-estatistica{
@@ -315,9 +251,9 @@ p{
     margin-left: 5px;
     margin-bottom:5px;
     margin-top:5px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-bottom:15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom:10px;
     width: auto;
     height: auto ;
     border-radius: 7px ;
@@ -328,7 +264,7 @@ p{
 .quadro-01,.quadro-02,.quadro-03,.quadro-04,.quadro-05,.quadro-06,.quadro-07{
     display: inline-block;
     width: 100%; 
-    height: 100%;
+    height: 170px;
     margin-bottom: 15px;
     background-color:  #BF8339;
     box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.301);
@@ -344,8 +280,28 @@ p{
 }
 .grid-quadro-1{ 
     width: 100%;  /*se expandde a largura do pai*/
-    height: auto; /*se  expande a largura do pai*/
-    background: url(../imagens/jordy-smith-campeaao.webp)center;
+    height:   170px; /*se  expande a largura do pai*/
+    background: url(../../imagens/Lebron-James-campeao-nba-full.jpg)center;
+    background-size: cover; 
+}
+
+.grid-quadro-jogos-olimpicos{
+    width: 100%;  /*se expandde a largura do pai*/
+    height:  170px; /*se  expande a largura do pai*/
+    background: url(../../imagens/Lebron-James-rookie-nba-full.jpg)center;
+    background-size: cover; 
+}
+.grid-quadro-Americas-Championship{
+    width: 100%;  /*se expandde a largura do pai*/
+    height:  170px;/*se  expande a largura do pai*/
+    background: url(../../imagens/Lebron-James-scoring-nba-full.jpg)center;
+    background-size: cover; 
+}
+
+.grid-quadro-All-NBA-Team{
+    width: 100%;  /*se expandde a largura do pai*/
+    height: 170px; /*se  expande a largura do pai*/
+    background: url(../../imagens/Lebron-James-all-time-nba-full.jpg)center;
     background-size: cover; 
 }
 
@@ -354,10 +310,11 @@ p{
 }
 
 .quadro-space{
-    padding: 5%;
+    padding: 10px;
 }
 /*caso queira espaço nos videoa */
 .videos-space{
+    padding: 5px;
   
 }
 .h1-recordes-pessoais{
@@ -365,12 +322,21 @@ p{
     color:  #590A0A;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.808);
 }
+.div-table{ 
+    width: 96.4%;
+    height: 250px;
+    overflow: scroll;
+    margin: 4px;
+}
 table{
+  
   width: 100%;
+
   background-color:  #590a0a; 
 }
+
 td{
-    height: 30px;
+    font-size: 12px;
     background-color: #BF8339;
     text-align: center;
     color: #942020;
@@ -385,9 +351,13 @@ td:hover {
     background-color: #8a1111;
     color: #BF8339;
     font-weight: bolder;
-    width: 150px;
-
 }
+.td-titulo{    
+    background-color: #8a1111;
+    color:#BF8339;
+    cursor: pointer;
+}
+
 
 td > a:nth-child(n+1){
     color: #7e0707;
@@ -414,74 +384,91 @@ tr{
     color: #BF8339;
     font-weight: bolder;
 }
-
-
+.video{
+    height: 190px;
+}
 @keyframes bola-movimento {
-from{
-    transform: translateY(0px);
-}
-to{
-    transform: translateY(-8px);
- }
-}
+    from{
+    
+         transform: translateY(0px);
 
+    }
+    to{
+
+       transform: translateY(-8px);
+ 
+    } 
+}
 /*animação circular crescente do ponto ao maximo da imagem */
 @keyframes scale {
-from {
-    border-radius: 50%;
-    transform: scale(0);
-    opacity: 0;
-}
-to{
-    border-radius: 50%;
-    transform:scale (3.0);
-    opacity: 1;
- }
-}
+    from {
+        border-radius: 50%;
+       transform: scale(0);
+       opacity: 0;
+    }
+    to{
+        border-radius: 50%;
+       transform:scale (3.0);
+       opacity: 1;
+    }
 
+}
 @keyframes move {
-from{
-    transform: translateX(0px);
+   from{
+   
+        transform: translateX(0px);
+ 
    }
-to{
-    transform: translateX(100%);
-   }   
-}
+   to{
 
+      transform: translateX(100%);
+  
+   }
+
+   
+   
+}
 @keyframes opacidade {
-from{ 
-    opacity: 0;
-}
-to{
-    opacity: 1;
-   }  
-}
+   from{
+   
+       opacity: 0;
+  
+   }
+   to{
+
+     opacity: 1;
+
+   }
 
 
+}
 @keyframes girar {
-from{ 
-    transform: rotate(0deg);  
-}
-to{
-    transform: rotate(35deg);
+   from{
+   
+       transform: rotate(0deg);
+      
+   }
+   to{
+
+       transform: rotate(35deg);
+
    } 
 }
-
 @keyframes zoom {
-from{
-    transform: scale(0);
-}
-to{
-     transform: scale(1);
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
     }
 }
 
 @keyframes transition-color {
-from{
-    background-color: #c2baba;
-}
-to{
-    background-color: #000000;
+    from{
+        background-color: #c2baba;
+    }
+    to{
+        background-color: #000000;
     }
 }
 }

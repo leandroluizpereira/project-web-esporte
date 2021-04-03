@@ -1,138 +1,133 @@
 @charset "UTF-8";
-@media screen and (min-width:0px) and (max-width:450px){
-.secao-futebol{
+@media screen and (min-width:451px) and (max-width:700px){
+.secao-surf{
     width: auto;
     height: auto;
-    border-radius: 20px; 
+    border-radius: 20px;
 }
-.titulo-futeboll{
+.titulo-surf{
     text-align:center;
     color:  #D9AD5B;
     font-size: 40px;
 }
-.imagem-futebol{
-    border: 1.5px solid #6BD425;
+.imagem-surf{
+    border: 1.5px solid #825D84;
     width: 100%;
     height: auto;
     border-radius: 1%; 
 }
-.grid-futebol {
+.grid-surf {
     align-items: center;
-    border-top: 3px solid #6BD425;
-    border-left:3px solid #6BD425 ;
-    border-right: 3px solid #6BD425;
+    border-top: 3px solid #D9A25F;
+    border-left:3px solid #D9A25F ;
+    border-right: 3px solid #825D84 ;
     margin: 3%;
     display: grid;
     border-radius: 8px;
-    background-color: #8A8C4A; 
+    background-color: #4E8BBF;
 }  
 
-.grid-futebol >div:nth-child(1){
-    padding: 4%;
+.grid-surf >div:nth-child(1){
+    padding:4%;
     align-items: center;
     position: center;
-}
-.grid-futebol >div:nth-child(2){
-    color:#d8f192;
-    padding: 8%;
-    margin-left:6%;
-    margin-right:6%;
-    border: 2px solid #6BD425;
-    border-radius: 8px;
-    background-color: #4F5D2F;
-}
 
+}
+.grid-surf >div:nth-child(2){
+    color:#BFC7D9;
+    padding: 8%;
+    margin-left: 6%;
+    margin-right: 6%;
+    border: 2px solid #825D84 ;
+    border-radius: 8px;
+    background-color: #034C8C
+    ;
+}
 .h1-beneficios{
     text-align: center;
     margin: 2%;
+    color:#BFC7D9;
 }
-.ol{
-    margin-top: 8%;
-}
-
-.grid-futebol>div:nth-child(3){
-    margin:-7px;
+.grid-surf>div:nth-child(3){
+    margin:-5px;
     box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.3);
     background-color: white;
     border-radius: 0px 0px 0px 0px ;
     color: #8C0D0D;
-    padding: 25px;
+    padding: 23px;
     width: auto;
     height: auto;
-    align-items: center;  
+    align-items: center;
 }
-
-.grid-futebol>div h1:nth-child(n+1){
-    color: #6BD425;
+.grid-surf>div h1:nth-child(n+1){
+    color:#825D84;
     font-size: 30px;
-    text-shadow: 0px 0px 2px rgb(0, 0, 0);
-   
+    text-shadow: 0px 0px 1px rgb(0, 0, 0)  
 }
-.grid-futebol>div h3:nth-child(n+1){
+.grid-surf>div h3:nth-child(n+1){
    text-indent: 20px;
    
 }
-.grid-futebol>div p:nth-child(n+1){
-    /*color: #889174;*/
-    color: black;
-    text-indent: 23px;
+.grid-surf>div p:nth-child(n+1){
+   /*color:  #022a4d
+   ; */
+   color: black;
+   text-indent: 23px;
 }
-.img-futebol{
+.img-surf{
     /*deixa o cursor do mouse a mão aberta */
     cursor: grab;
     z-index:0;
-    /*usando a chave da animação definindo transição linear infinito*/   
+    /*usando a chave da animação definindo transição linear infinito*/ 
  }
-.img-futebol:hover{
+ .img-surf:hover{
     animation: bola-movimento 0.7s infinite;
+
 }
-.img-copa{
+.img-surf{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 140px;
-    background: url(../../imagens/background/copa-do-mundo-full.jpg)center center;
+    background: url(../../imagens/background/homen-surfando-full.jpg)center center;
     /*opacity: 0.6;*/
     background-size: cover;
     margin-top: 6%;
     background-position-y:-30px ;
 }
-.titulo-img-copa{
-    font-size: 35px; 
+
+.titulo-img-surf{
+    font-size: 80px;
     color: white;
 }
-.futebol-informacao{
+ .surf-informacao{
     margin-left: 10%;
     margin-right: 10%;
- }
-.div-card-futebol{
-    width: auto;
-    height: 200px;
-    background-color: black;
-    overflow: scroll; 
+    margin-bottom: 8%;
 }
 
-/*============Container=============== */
-.h1-destaques-fut{
-    font-size: 18px;
+/* ========================container surf ========================*/
+.h1-destaques-surfista{
     text-align: center;
-    color: #8A8C4A;
+    color: #034C8C;
+    font-size: 19px;
+    padding: 5px;
 }
-.copa-d0-mundo-estatistica-time{
-    background-color:#8A8C4A;
+.surf-estatistica-logo{
+    background-color:#4E8BBF;
     width: 100%;
     height: 100%;
     padding-bottom: 10%;
 }
-.container-time-copa-do-mundo{
+.container-surf{
     margin-top: 3%;
     margin-left: 25%;
     margin-right: 25%;
     width: auto;
     height: auto;
 }
-.time-01-fut{
+.surf-quadro-1{
     padding: 0%;
     margin-right: -5%;
     margin-top: 30%;
@@ -141,49 +136,48 @@
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    background-color: #4F5D2F;
+    background-color: #034C8C;
     z-index: 0;
     position: relative;
 }
-.h1-1{
+.h1-1-surf{
     opacity: 0;
     width: 300px;
     height: 300px;
     width: auto;
     height: auto;
     right: 57%;
-    top: -100%;   
+    top: -100%;
     position: absolute;
     font-size:210px;
     color: rgb(255, 255, 255);
     z-index: -2;
 }
-.real-madri { 
+.filipe-toledo {
     position: relative;
-    top: 6px;
+    top: 9px;
     left: 9px;
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    margin-bottom: 5%;
 }
-.a-copa-do-mundo{
+.a-surf{
+    text-decoration: none;
     color:yellow;
     display: inline-block;
-    text-decoration: none;
 }
-.time-02-fut{
+.surf-quadro-2{
     position: relative;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-right: 5%;
     display: inline-block;
     width: 180px;
     height: 180px;
     margin-bottom: 55%;
     border-radius: 50%;
-    background-color: #4F5D2F;
+    background-color: #034C8C;
     z-index: 0;
-} 
+}  
 .h1-2{
     opacity: 0;
     width: 300px;
@@ -197,27 +191,29 @@
     color: rgb(255, 255, 255);
     z-index: -2;
 }
-.barcelona{
+
+.surf-img-02{
     position: relative;
-    top: 24px;
-    left: 17px;
-    width: 80%;
-    height: 80%;
-    margin-bottom: 15%;
-}
-.time-03-fut{
+    top: 9px;
+    left: 9px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+   }
+.surf-quadro-3{  
     margin-bottom: 0%;
     position: relative;
-    margin-top: -10%;
+    margin-top: 10%;
     margin-right: 5%;
     display: inline-block;
     width: 180px;
     height: 180px;
-    margin-bottom: 28%;
+    margin-bottom: 20%;
     border-radius: 50%;
-    background-color: #4F5D2F;
+    background-color: #034C8C;
     z-index: 0;
 }
+
 .h1-3{
     opacity: 0;
     width: 300px;
@@ -231,14 +227,14 @@
     color: rgb(255, 255, 255);
     z-index: -2;
 }
-.bayer-de-munique{
+
+.surf-img-03{
     position: relative;
-    top: 10px;
-    left: 8px;
+    top: 9px;
+    left: 9px;
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    margin-bottom: 5%;
 }
 
 }

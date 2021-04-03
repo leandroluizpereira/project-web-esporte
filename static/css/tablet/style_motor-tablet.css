@@ -1,8 +1,7 @@
 
 @charset "UTF-8";
 
-@media screen and (min-width:0px) and (max-width:450px){
-
+@media screen and (min-width:451px) and (max-width:700px){
 .secao-motor{
     width: auto;
     height: auto;
