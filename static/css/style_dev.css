@@ -33,10 +33,7 @@
     background-image: url(../imagens/dev/tablet-gimp.webp);
     background-size: 500px;
     background-position: center;   
-    /**/
-}
-.tablet:hover{
-    animation: opac 4s  infinite; 
+    /*animation: opac 4s  infinite; */
 }
 
 .celular{
@@ -50,9 +47,6 @@
     background-size: 300px;
     background-position: center; 
    /* animation: opac 5s  infinite;   */
-}
-.celular:hover{
-    animation: opac 5s  infinite;  
 }
 
 .grid-dev{
