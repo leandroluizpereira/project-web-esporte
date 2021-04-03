@@ -235,15 +235,11 @@ p{
 }
 
 .container-img-jordan{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 10%;
-    margin-left: 3%;
-    margin-right: 3%;
-    margin-bottom: 3%;
-    width: 73%;
-    height: 89px;
+    margin: auto;
+    margin-bottom: 2%;
+    width: 72%;
+    height: 14vh;
     background-image:linear-gradient(rgb(89, 10, 10),rgb(138, 2, 2));
     border-radius: 10px;
     /*animation: scale 2s linear , transition-color 3s ;*/
@@ -251,9 +247,9 @@ p{
 }
 .img-michael-jordan{
     position: absolute;
-    margin-left: -10%;
-    margin-top: -5.9%;
-    width: 300px;
+    margin-left: -2%;
+    margin-top: -13.8%;
+    width: 70%;
     height: auto;
 }
 
