@@ -134,12 +134,12 @@ p{
 }
 .grid-cleveland-cavalier > div:nth-child(1){
     width: 100%;
-    height: 2600px;
+    height:2800px;
     background-color: #590a0a;
 }
 .grid-cleveland-cavalier >div:nth-child(2){
     width: 100%;
-    height:2600px;
+    height:2800px;
     background-color: #D4001F;
 }
 .h1-titulo-lebron-james{

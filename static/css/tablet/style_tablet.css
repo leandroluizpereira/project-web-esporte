@@ -4,7 +4,7 @@
 @media screen and (min-width:451px) and (max-width:700px){
 body{
     background-color: white;
-   margin: 0%;
+    margin: 0%;
     overflow-x: hidden;
 }
 .navBar {
@@ -160,12 +160,13 @@ p{
     text-align: center;
    margin-left: 14%;
    margin-right: 14%;
-   padding-top: 15%;
+   padding-top: 6%;
     width:70%;
     height: 40%;
     background-color: rgba(0, 0, 0, 0);
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255,0.3);
+    margin-bottom: 15%;
 
 }
 .header-titulo h1{
@@ -183,7 +184,7 @@ p{
     
 }
 .header-titulo h2{
-    font-size: 50px;
+    font-size: 40px;
     color: #D9A25F;
     padding-left: 7%;
     text-shadow:4px 2px 2px #403222;
@@ -196,7 +197,7 @@ p{
    margin-left: 14%;
    margin-right: 14%;
     width:70%;
-    height: 40%;
+    height: 20%;
     background-color: rgba(0, 0, 0, 0);
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255,0.3);
@@ -210,19 +211,20 @@ p{
 .header-titulo2 h2{
     text-align: center;
     padding-left: 10px;
-    padding-bottom: 30px;
-    font-size: 25px;
+
+    font-size: 30px;
     color: white;
     text-shadow:4px 2px 2px #403222;
 }
 
 .cabecalho{
     width: auto;
-    height: auto;
-    background: url(../../imagens/background/paisagem-celular--320px-548px-gimp.webp)no-repeat;
+    height: 600px;
+    background: url(../../imagens/background/paisagemfull-tablet.webp)no-repeat;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+   
 }
 .a-nba-sport{
   display: inline-block;
