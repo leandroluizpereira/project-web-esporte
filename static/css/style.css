@@ -126,25 +126,23 @@ p{
     text-shadow:4px 2px 2px #403222;
 }
 .header-titulo2{
-    float: right;
-    padding-right: 100px;
-    padding-top:-100px;
-    margin-bottom: 60px;
-    width:350px;
-    height: auto;
-    background-color: rgba(0, 0, 0, 0);
+    display: none;
+    left: 65%;
+    top: 30%;
+    position: absolute;
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255,0.3);  
 }
 .header-titulo2 h1{
     z-index: 1;
-    font-size: 50px;
+    font-size: 35px;
     color: white;
     text-shadow:4px 2px 2px #403222;
 }
 .header-titulo2 h2{
+ 
     padding-left: 10%;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     text-shadow:4px 2px 2px #403222;
 }
@@ -154,15 +152,14 @@ p{
 }
 
 .cabecalho{
-    
     width: 100%;
-    height: 620px;
-    background: url(../imagens/background/paisagemfull.webp)no-repeat;
-    background-position-y:-180px;
+    height: 47vw;
+    background: url(../imagens/background/paisagemfull-gimp.webp)no-repeat  ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center ;
 }
 
 
