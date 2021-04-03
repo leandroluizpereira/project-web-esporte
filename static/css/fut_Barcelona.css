@@ -278,9 +278,9 @@ p{
     display: inline-block;
     margin-top: -1%;
     margin-left: 0.9%;
-    margin-bottom: -1.6%;
+    margin-bottom: -1%;
     width: 96%;
-    height: 330px;
+    height: 43.9vh;
     /* fazendo degradê do lado direito com duas cores */
     background-image:linear-gradient(#590A0A,#8a0202);
     border-radius: 10px;
@@ -295,7 +295,7 @@ p{
     left: 50px;
     margin: 0;
     position: absolute;
-    width: 60%;
+    width: 180px;
     height: auto;
     /* animation: scale 0.9s linear ;*/
 }

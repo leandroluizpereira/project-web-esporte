@@ -278,12 +278,13 @@ p{
 }
 
 .container-img-cristiano-ronaldo{
-    display: inline-block;
+  
+    align-self: start;
     margin-top: -1%;
     margin-left: 0.9%;
-    margin-bottom: -1.6%;
+    margin-bottom: 1.6%;
     width: 96%;
-    height: 13.9%;
+    height: 43.9vh;
     /* fazendo degradê do lado direito com duas cores */
     background-image:linear-gradient(#590A0A,#8a0202);
     border-radius: 10px;
@@ -298,7 +299,7 @@ p{
     left: -3px;
     margin: 0;
     position: absolute;
-    width: 110%;
+    width: 320px;
     height: auto;
     /* animation: scale 0.9s linear ;*/
 }

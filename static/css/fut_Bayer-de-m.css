@@ -275,12 +275,11 @@ p{
     background-color: #D9AD5B;
 }
 .container-img-Robert-Lewandowski{
-    display: inline-block;
     margin-top: -1%;
     margin-left: 0.9%;
-    margin-bottom: -1.6%;
+    margin-bottom: 1.6%;
     width: 96%;
-    height: 13.9%;
+    height: 43.9vh;
     /* fazendo degradê do lado direito com duas cores */
     background-image:linear-gradient(#590A0A,#8a0202);
     border-radius: 10px;
@@ -293,7 +292,7 @@ p{
     left: 15px;
     margin: 0;
     position: absolute;
-    width: 100%;
+    width: 300px;
     height: auto;
     /* animation: scale 0.9s linear ;*/
 }
