@@ -49,8 +49,8 @@ p{
 .header-titulo{
     margin-top: 0%;
     text-align: center;
-    padding-top: 15%;
-    width:90%;
+    padding-top: 40px;
+    width:50%;
     height: 30%;
     background-color: rgba(0, 0, 0, 0);
     color: white;
@@ -105,11 +105,11 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 58%;
-    left: 32%;
+    top: 45%;
+    left: 36%;
     position: absolute;
-    width: 125px;
-    height: 125px;
+    width: 165px;
+    height: 165px;
     background-color:  #590a0a;
     border-radius: 50%;
     z-index:1;

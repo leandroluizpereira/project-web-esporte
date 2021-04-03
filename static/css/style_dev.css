@@ -24,13 +24,13 @@
 
 }
 .tablet{
-    z-index: -1;
+    z-index: 2;
     position: relative;
     top: -64%;
     left: -40%;
     width: 500px;
     height: 400px;
-    background-image: url(../imagens/dev/tablet-full.png);
+    background-image: url(../imagens/dev/tablet-gimp.webp);
     background-size: 500px;
     background-position: center;   
     animation: opac 4s  infinite; 
