@@ -32,7 +32,7 @@ body{
     height: 100%;
     background-color: white;
     /*se expande no minimo 990 pixel */
-    /*min-width:1200px;*/
+    min-width:1200px;
     /*overflow-x: hidden;*/   
 }
 .navBar{
