@@ -130,6 +130,9 @@
     font-size: 20px;
 }
 .nba-estatistica-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(139, 22, 22);
     width: 100%;
     height: 100%;
@@ -149,7 +152,6 @@
     margin-right: -5%;
     margin-top: 30%;
     margin-bottom: 55%;
-    display: inline-block;
     width: 180px;
     height: 180px;
     border-radius: 50%;
@@ -180,7 +182,6 @@
     position: relative;
     margin-top: 5%;
     margin-right: 5%;
-    display: inline-block;
     width: 180px;
     height: 180px;
     margin-bottom: 55%;
@@ -212,7 +213,6 @@
     position: relative;
     margin-top: 10%;
     margin-right: 5%;
-    display: inline-block;
     width: 180px;
     height: 180px;
     margin-bottom: 20%;
