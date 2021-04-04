@@ -140,12 +140,12 @@ p{
 }
 .grid-chicago-bulls > div:nth-child(1){
     width: 100%;
-    height: 2600px;
+    height: 3500px;
     background-color: rgb(89, 10, 10);
 }
 .grid-chicago-bulls >div:nth-child(2){
     width: 100%;
-    height:2600px;
+    height:3500px;
     background-color: rgb(212, 0, 31);
 }
 .h1-titulo-michael{
@@ -235,6 +235,9 @@ p{
 }
 
 .container-img-jordan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10%;
     margin: auto;
     margin-bottom: 2%;
@@ -246,21 +249,15 @@ p{
     border:1px solid rgb(255, 0, 0);
 }
 .img-michael-jordan{
-    position: absolute;
-    margin-left: -2%;
-    margin-top: -13.8%;
-    width: 70%;
+    width: 80%;
     height: auto;
 }
 
 .div-estatistica{
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-bottom:5px;
-    margin-top:5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom:10px;
+    margin: 0px 20px 20px 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom:30px;
     width: auto;
     height: auto ;
     border-radius: 7px ;
@@ -271,7 +268,7 @@ p{
 .quadro-01,.quadro-02,.quadro-03,.quadro-04,.quadro-05,.quadro-06,.quadro-07{
     display: inline-block;
     width: 100%; 
-    height: 170px;
+    height:200px;
     margin-bottom: 15px;
     background-color:  rgb(191, 131, 57);
     box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.301);
@@ -279,7 +276,7 @@ p{
 
 .grid-quadro{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 150px 1fr;
 }
 .grid-quadro-2{
     width: 100%;
@@ -287,27 +284,27 @@ p{
 }
 .grid-quadro-1{ 
     width: 100%;  /*se expandde a largura do pai*/
-    height:   170px; /*se  expande a largura do pai*/
+    height:200px; /*se  expande a largura do pai*/
     background: url(../../imagens/michael-jordan-campeao-nba.jpeg)center;
     background-size: cover; 
 }
 
 .grid-quadro-jogos-olimpicos{
     width: 100%;  /*se expandde a largura do pai*/
-    height:  170px; /*se  expande a largura do pai*/
+    height: 200px; /*se  expande a largura do pai*/
     background: url(../../imagens/michael-jordan-trofeu.jpeg)center;
     background-size: cover; 
 }
 .grid-quadro-Americas-Championship{
     width: 100%;  /*se expandde a largura do pai*/
-    height:  170px;/*se  expande a largura do pai*/
+    height: 200px;/*se  expande a largura do pai*/
     background: url(../../imagens/jordan-medalha-medalha-gimp.jpg)center;
     background-size: cover; 
 }
 
 .grid-quadro-All-NBA-Team{
     width: 100%;  /*se expandde a largura do pai*/
-    height: 170px; /*se  expande a largura do pai*/
+    height: 200px; /*se  expande a largura do pai*/
     background: url(../../imagens/michael-trofeu-4.jpg)center;
     background-size: cover; 
 }
@@ -330,14 +327,12 @@ p{
 }
 .div-table{ 
     width: 96.4%;
-    height: 250px;
+    height: 400px;
     overflow: scroll;
     margin: 4px;
 }
 table{
-  
   width: 100%;
-
   background-color:  rgb(89, 10, 10); 
 }
 
@@ -386,7 +381,7 @@ tr{
     font-weight: bolder;
 }
 .video{
-    height: 190px;
+    height: 320px;
 }
 
 @keyframes bola-movimento {
