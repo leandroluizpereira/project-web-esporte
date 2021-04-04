@@ -234,5 +234,152 @@
     height: 90%;
     border-radius: 50%;
 }
+  /*--=============Container imagens surf ====================--*/
+  .container-layount-surf {
+    margin-top: 0px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 43px;
+    height: 404px;
+    background-color: #4E8BBF;
+    overflow: scroll;
+}
+.divs-fotos-container-layont-surf{
+    width: 3800px;
+    height: auto;
+    background-color: #4E8BBF;
+}
+.categoria-surf{
+    border-radius: 10px;
+    float: left;
+    margin: 4px;
+    width: 8%;
+    height: 400px;
+    border: 3px solid #034C8C;
+    background-color: #034C8C;
+}
+.sub-categoria-surf{
+    margin-left: 1px;
+    margin-right: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 55px;
+    height:400px;
+    margin-top: 7px;
+    background-color: #034C8C;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid #034C8C;
+}
+.h1-sub-categoria-surf{
+    font-size: 25px;
+    transform: rotate(270deg) ;
+    color: #D9AD5B;
+}
+strong{
+    color: rgb(248, 248, 55);
+}
+.h2-categoria-imagem-surf{
+    color: #D9AD5B;
+}
+.p-texto-categoria-imagem-surf{
+    padding: 8px;
+    text-indent: 0px;
+    font-size: 13px;
+    color: beige;
+}
+.nome-categoria-surf{
+    color: beige;
+    text-align: justify;
+    text-align: center;
+    
+}
+.categoria-surf:hover{
+    border: 3px solid beige; 
+    background-color:#034C8C ;
+}
+.div-titulo-surf{
+    text-align: center;
+    position: relative;
+    bottom: 9%;
+    width: 100%;
+    height: 20px;
+    background-color: #590a0a5b;
+}
+.divs-fotos-container-layont-surf> a:nth-child(n+1){ 
+    float: left;
+    margin: 1.5px;
+    background-color:  #034C8C;
+    border: 3px solid #034C8C;
+    width: 4%;
+    height:400px ;
+    margin-top: 5px;
+    transition: width 1.5s, transform 1.5s;  
+ 
+}
+.divs-fotos-container-layont-surf> a:hover:nth-child(n+1){
+    width: 15%;
+    border: 3px solid beige;
+    height:400px;
+    transition: width 1.5s, transform 1.5s;
+    /*animation: movimento linear 3s ;*/
+}
+.primeiro-surf,.segundo-surf,.terceiro-surf,.quarto-surf,.quinto-surf,.sexto-surf,.setimo-surf,.oitavo-surf,.nono-surf,.decimo-surf,.decimo-primeiro-surf,.decimo-segundo-surf,.decimo-terceiro-surf,.decimo-quarto-surf,.decimo-quinto-surf{
+    background-size: cover;
+    background-position-x:center;
+    color: #D9AD5B;
+}
+.primeiro-surf:hover,.segundo-surf:hover,.terceiro-surf:hover,.quarto-surf:hover,.quinto-surf:hover,.sexto-surf:hover,.setimo-surf:hover,.oitavo-surf:hover,.nono-surf:hover,.decimo-surf:hover,.decimo-primeiro-surf:hover,.decimo-segundo-surf:hover,.decimo-terceiro-surf:hover,.decimo-quarto-surf:hover,.decimo-quinto-surf:hover{
+    color:white;
+}
+/*Background imagems*/
+
+.primeiro-surf{
+    background-image:url(../../imagens/italo-ferreira-imagem-1.webp) ;
+}
+.segundo-surf{
+    background-image:url(../../imagens/gabriel-medina-imagem-1.webp) ;
+}
+.terceiro-surf{
+    background-image:url(../../imagens/jordy-smith-imagme-1.webp) ;
+}
+.quarto-surf{
+    background-image:url(../../imagens/italo-ferreira-imagem-2.webp) ;
+}
+.quinto-surf{
+    background-image:url(../../imagens/gabriel-medina-imagem-2.webp) ;
+}
+.sexto-surf{
+    background-image:url(../../imagens/jordy-smith-imagem-2.webp) ;
+}
+.setimo-surf{
+    background-image:url(../../imagens/italo-ferreira-imagem-3.webp) ;
+}
+.oitavo-surf{
+    background-image:url(../../imagens/gabriel-medina-imagem-3.webp) ;
+}
+.nono-surf{
+    background-image:url(../../imagens/jordy-smith-imagem-3.webp) ;
+}
+.decimo-surf{
+    background-image:url(../../imagens/italo-ferreira-imagem-4.webp) ;
+}
+.decimo-primeiro-surf{
+    background-image:url(../../imagens/gabriel-medina-imagem-4.webp) ;
+}
+.decimo-segundo-surf{
+    background-image:url(../../imagens/jordy-smith-imagem-4.webp) ;
+}
+.decimo-terceiro-surf{
+    background-image:url(../../imagens/italo-ferreira-imagem-5.webp) ;
+}
+.decimo-quarto-surf{
+    background-image:url(../../imagens/gabriel-medina-imagem-5.webp) ;
+}
+.decimo-quinto-surf{
+    background-image:url(../../imagens/jordy-smith-imagem-5.webp) ;
+}
+
 
 }

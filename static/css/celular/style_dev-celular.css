@@ -19,7 +19,7 @@
     .desktop{
         width: 500px;
         height: 400px;
-        background-image: url(../imagens/dev/imac-gimp.webp);
+        background-image: url(../../imagens/dev/imac-gimp.webp);
         background-size: 500px;
         background-position: center;  
     
@@ -31,7 +31,7 @@
         left: -40%;
         width: 500px;
         height: 400px;
-        background-image: url(../imagens/dev/tablet-gimp.webp);
+        background-image: url(../../imagens/dev/tablet-gimp.webp);
         background-size: 500px;
         background-position: center;   
         /*animation: opac 4s  infinite; */
@@ -44,7 +44,7 @@
         left: 61%;
         width: 300px;
         height: 257px;
-        background-image: url(../imagens/dev/celular-gimp.webp);
+        background-image: url(../../imagens/dev/celular-gimp.webp);
         background-size: 300px;
         background-position: center; 
        /* animation: opac 5s  infinite; */

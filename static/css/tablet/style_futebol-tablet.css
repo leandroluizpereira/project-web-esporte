@@ -240,5 +240,180 @@
     border-radius: 50%;
     margin-bottom: 5%;
 }
+/*--=============Container imagens Futebol====================--*/
+.container-layount-fut {
+    margin-top: 0px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 43px;
+    height: 404px;
+    background-color: #8A8C4A;
+    overflow: scroll;
+}
+.divs-fotos-container-layont-fut{
+    width: 3800px;
+    height: auto;
+    background-color: #8A8C4A;
+}
+.categoria-fut{
+    border-radius: 10px;
+    float: left;
+    margin: 4px;
+    width: 8%;
+    height: 400px;
+    border: 3px solid  #4F5D2F;
+    background-color:  #4F5D2F;
+}
+.sub-categoria-fut{
+    margin-left: 1px;
+    margin-right: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 55px;
+    height: 400px;
+    margin-top: 7px;
+    background-color:  #4F5D2F;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid  #4F5D2F;
+}
+.h1-sub-categoria-fut{
+    font-size: 25px;
+    transform: rotate(270deg) ;
+    color: #D9AD5B;
+}
+strong{
+    color: rgb(248, 248, 55);
+}
+.h2-categoria-imagem-fut{
+    color: #D9AD5B;
+}
+.p-texto-categoria-imagem-fut{
+    padding: 8px;
+    text-indent: 0px;
+    font-size: 13px;
+    color: beige;
+}
+.nome-categoria-fut{
+    color: beige;
+    text-align: justify;
+    text-align: center;
+    
+}
+.categoria-fut:hover{
+    border: 3px solid beige; 
+    background-color: #4F5D2F ;
+}
+.div-titulo-fut{
+    text-align: center;
+    position: relative;
+    bottom: 9%;
+    width: 100%;
+    height: 20px;
+    background-color: #4F5D2F;
+}
+.frase-cristiano-ronaldo{
+    width: 100%;
+    height: auto;
+    background-color:  #8c0d0d38;
+    position: relative;
+    top: 262px;
+    text-align: center;
+    color: #d9ad5b33;
+    overflow: hidden;
 
+}
+.frase-cristiano-ronaldo:hover{
+    background-color:   #8C0D0D;
+    color: #d9ad5b;
+}
+.frase-lionel-messi{
+    padding: 12px;
+    font-size: 14px;
+    position: relative;
+    top: 262px;
+    background-color: rgba(0, 0, 0, 0.247);
+    color: #d9635b2a;
+    height: 60px;
+    overflow: hidden;
+}
+.frase-lionel-messi:hover{
+    background-color: rgb(0, 5, 80);
+    color: white;
+}
+
+.divs-fotos-container-layont-fut> a:nth-child(n+1){ 
+    float: left;
+    margin: 1.5px;
+    background-color:   #4F5D2F;
+    border: 3px solid  #4F5D2F;
+    width: 4%;
+    height: 400px ;
+    margin-top: 5px;
+    transition: width 1.5s, transform 1.5s;  
+}
+.divs-fotos-container-layont-fut> a:hover:nth-child(n+1){
+    width: 15%;
+    border: 3px solid beige;
+    height: 400px;
+    transition: width 1.5s, transform 1.5s;
+    /*animation: movimento linear 3s ;*/
+}
+.primeiro-fut,.segundo-fut,.terceiro-fut,.quarto-fut,.quinto-fut,.sexto-fut,.setimo-fut,.oitavo-fut,.nono-fut,.decimo-fut,.decimo-primeiro-fut,.decimo-segundo-fut,.decimo-terceiro-fut,.decimo-quarto-fut,.decimo-quinto-fut{
+    background-size: cover;
+    background-position-x:center;
+    color: #D9AD5B;
+}
+.primeiro-fut:hover,.segundo-fut:hover,.terceiro-fut:hover,.quarto-fut:hover,.quinto-fut:hover,.sexto-fut:hover,.setimo-fut:hover,.oitavo-fut:hover,.nono-fut:hover,.decimo-fut:hover,.decimo-primeiro-fut:hover,.decimo-segundo-fut:hover,.decimo-terceiro-fut:hover,.decimo-quarto-fut:hover,.decimo-quinto-fut:hover{
+    color:white;
+}
+
+/*Background imagems*/
+
+.primeiro-fut{
+    background-image:url(../../imagens/cristiano-ronaldo-imagem-1-600px.webp) ;
+}
+.segundo-fut{
+    background-image:url(../../imagens/Lionel-messi-imagem-1.webp) ;
+}
+.terceiro-fut{
+    background-image:url(../../imagens/Robert-Lewandowski-imagem-1.webp) ;
+}
+.quarto-fut{
+    background-image:url(../../imagens/cristiano-ronaldo-imagem-2.webp) ;
+}
+.quinto-fut{
+    background-image:url(../../imagens/Lionel-messi-imagem-2.webp) ;
+}
+.sexto-fut{
+    background-image:url(../../imagens/Robert-Lewandowski-imagem-2.webp) ;
+}
+.setimo-fut{
+    background-image:url(../../imagens/cristiano-ronaldo-imagem-3.webp) ;
+}
+.oitavo-fut{
+    background-image:url(../../imagens/Lionel-messi-imagem-3.webp) ;
+}
+.nono-fut{
+    background-image:url(../../imagens/Robert-Lewandowski-imagem-3.webp) ;
+}
+.decimo-fut{
+    background-image:url(../../imagens/cristiano-ronaldo-imagem-4.webp) ;
+}
+.decimo-primeiro-fut{
+    background-image:url(../../imagens/Lionel-messi-imagem-4.webp) ;
+}
+.decimo-segundo-fut{
+    background-image:url(../../imagens/Robert-Lewandowski-imagem-4.webp) ;
+}
+.decimo-terceiro-fut{
+    background-image:url(../../imagens/cristiano-ronaldo-imagem-5.webp) ;
+}
+.decimo-quarto-fut{
+    background-image:url(../../imagens/Lionel-messi-imagem-5.webp) ;
+}
+.decimo-quinto-fut{
+    background-image:url(../../imagens/Robert-Lewandowski-imagem-5.webp) ;
+}
 }
