@@ -124,10 +124,12 @@
     
 /*============Basquete======================*/
 .h1-destaques{
+    text-align: center;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 40px;
-    font-size: 20px;
+    font-size: 28px;
+    padding: 5px;
     color: #590A0A;
 }
 .nba-estatistica-time{
