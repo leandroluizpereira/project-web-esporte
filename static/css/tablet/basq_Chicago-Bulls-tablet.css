@@ -164,12 +164,11 @@ p{
     font-size: 30px;
     color: rgb(89, 10, 10);
     font-style: italic;
-    font-family: 'Sacramento', cursive;
-    
+     font-family: 'Sacramento', cursive; 
 }
 .section-bulls{
     margin-left: 5%;
-    margin-top: -6.5%;
+    margin-top: -3.5%;
     position: absolute;
     width: 90%;
     height: auto;
@@ -186,7 +185,6 @@ p{
 }
 .grid-fotos{  
     height: 100%;
-
 }
 .grid-fotos >div:nth-child(1){
     
@@ -208,15 +206,14 @@ p{
     padding-top: 7px;
     padding-bottom: 7px;
 }
-
 .titulo-card{
-    font-size: 15px;
+    font-size: 25px;
     text-align: center; 
     color:  rgb(89, 10, 10);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.808);
 }
 .h2-premiacao{
-    font-size: 13px;
+    font-size: 20px;
     border: 1px solid rgb(217, 173, 91);
     color: rgb(191, 131, 57);
     background-color: rgb(89, 10, 10);
@@ -225,7 +222,7 @@ p{
 }
 .h3-premiacao{
     color:  rgb(89, 10, 10);
-    font-size: 12px;
+    font-size: 14px;
 }
 .grid-fotos >div:nth-child(2){
     border-top: 1px solid rgb(212, 0, 31);
@@ -233,7 +230,6 @@ p{
     height: auto;
     background-color: rgb(217, 173, 91);
 }
-
 .container-img-jordan{
     display: flex;
     justify-content: center;
@@ -273,7 +269,6 @@ p{
     background-color:  rgb(191, 131, 57);
     box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.301);
 }
-
 .grid-quadro{
     display:grid;
     grid-template-columns: 150px 1fr;
@@ -288,7 +283,6 @@ p{
     background: url(../../imagens/michael-jordan-campeao-nba.jpeg)center;
     background-size: cover; 
 }
-
 .grid-quadro-jogos-olimpicos{
     width: 100%;  /*se expandde a largura do pai*/
     height: 200px; /*se  expande a largura do pai*/
