@@ -84,7 +84,6 @@
     /*usando a chave da animação definindo transição linear infinito*/   
  }
 .img-futebol:hover{
-    animation: bola-movimento 0.7s infinite;
 }
 .img-copa{
     display: flex;
@@ -92,7 +91,7 @@
     align-items: center;
     width: 100%;
     height: 140px;
-    background: url(../../imagens/background/copa-do-mundo-full.jpg)center center;
+    background: url(../../imagens/background/copa-do-mundo-1000px.webp)center center;
     /*opacity: 0.6;*/
     background-size: cover;
     margin-top: 6%;
