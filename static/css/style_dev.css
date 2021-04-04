@@ -7,7 +7,6 @@
     background-color: #f4f4f5;
     margin-top: 5%;
 }
-
 .container-dev{
     display: flex;
     justify-content: center;
@@ -46,13 +45,13 @@
     background-image: url(../imagens/dev/celular-gimp.webp);
     background-size: 300px;
     background-position: center; 
-   /* animation: opac 5s  infinite;   */
+   /* animation: opac 5s  infinite; */
 }
-
 .grid-dev{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
 }
+
 
 @keyframes opac {
 
