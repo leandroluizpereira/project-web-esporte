@@ -216,13 +216,13 @@ p{
 }
 
 .titulo-card{
-    font-size: 15px;
+    font-size: 25px;
     text-align: center; 
     color:  #590A0A;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.808);
 }
 .h2-premiacao{
-    font-size: 13px;
+    font-size: 20px;
     border: 1px solid #D9AD5B;
     color: #BF8339;
     background-color: #590A0A;
@@ -231,7 +231,7 @@ p{
 }
 .h3-premiacao{
     color:  #590A0A;
-    font-size: 12px;
+    font-size: 14px;
 }
 .grid-fotos >div:nth-child(2){
     border-top: 1px solid #D4001F;
