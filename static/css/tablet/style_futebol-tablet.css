@@ -246,7 +246,7 @@
     width: 100%;
     padding-top: 40px;
     padding-bottom: 43px;
-    height: 404px;
+    height: 304px;
     background-color: #8A8C4A;
     overflow: scroll;
 }
@@ -259,8 +259,8 @@
     border-radius: 10px;
     float: left;
     margin: 4px;
-    width: 8%;
-    height: 400px;
+    width: 4%;
+    height: 300px;
     border: 3px solid  #4F5D2F;
     background-color:  #4F5D2F;
 }
@@ -271,8 +271,8 @@
     align-items: center;
     justify-content: center;
     float: left;
-    width: 55px;
-    height: 400px;
+    width: 35px;
+    height: 300px;
     margin-top: 7px;
     background-color:  #4F5D2F;
     border-radius: 10px 0px 0px 10px;
@@ -318,7 +318,7 @@ strong{
     height: auto;
     background-color:  #8c0d0d38;
     position: relative;
-    top: 262px;
+    top: 222px;
     text-align: center;
     color: #d9ad5b33;
     overflow: hidden;
@@ -330,12 +330,12 @@ strong{
 }
 .frase-lionel-messi{
     padding: 12px;
-    font-size: 14px;
+    font-size: 12px;
     position: relative;
-    top: 262px;
+    top: 202px;
     background-color: rgba(0, 0, 0, 0.247);
     color: #d9635b2a;
-    height: 60px;
+    height: 37px;
     overflow: hidden;
 }
 .frase-lionel-messi:hover{
@@ -349,14 +349,14 @@ strong{
     background-color:   #4F5D2F;
     border: 3px solid  #4F5D2F;
     width: 4%;
-    height: 400px ;
+    height: 300px ;
     margin-top: 5px;
     transition: width 1.5s, transform 1.5s;  
 }
 .divs-fotos-container-layont-fut> a:hover:nth-child(n+1){
-    width: 15%;
+    width: 9.5%;
     border: 3px solid beige;
-    height: 400px;
+    height: 300px;
     transition: width 1.5s, transform 1.5s;
     /*animation: movimento linear 3s ;*/
 }

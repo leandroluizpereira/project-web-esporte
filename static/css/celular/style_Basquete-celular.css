@@ -250,12 +250,12 @@
     width: 100%;
     padding-top: 40px;
     padding-bottom: 43px;
-    height: 404px;
+    height: 304px;
     background-color: rgb(139, 22, 22);
     overflow: scroll;
 }
 .divs-fotos-container-layont{
-    width: 3800px;
+    width: 5800px;
     height: auto;
     background-color: rgb(139, 22, 22);
 }
@@ -264,8 +264,8 @@
     border-radius: 10px;
     float: left;
     margin: 4px;
-    width: 8%;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     border:  3px solid #590a0a;
     background-color: #590a0a;
 }
@@ -281,8 +281,8 @@
     align-items: center;
     justify-content: center;
     float: left;
-    width: 55px;
-    height: 400px;
+    width: 35px;
+    height: 300px;
     margin-top: 7px;
     background-color: #590a0a;
     border-radius: 10px 0px 0px 10px;
@@ -324,17 +324,17 @@ strong{
     margin: 1.5px;
     background-color:#590a0a;
     border:  3px solid #590a0a;
-    width: 4%;
-    height: 400px ;
+    width: 300px;
+    height: 300px ;
     margin-top: 5px;
     transition: width 1.5s, transform 1.5s;   
 }
 
 
 .container-layount>.divs-fotos-container-layont> a:hover:nth-child(n+1){
-    width: 13.5%;
+    width: 300px;
     border:  3px solid beige;
-    height: 400px;
+    height: 300px;
     transition: width 1.5s, transform 1.5s;  
     /*animation: movimento linear 3s ;*/
 }
