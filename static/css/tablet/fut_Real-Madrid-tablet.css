@@ -144,13 +144,13 @@ p{
 }
 .grid-real-madrid > div:nth-child(1){
     width: 100%;
-    height: 2870px;
+    height: 3770px;
     background-color: #590a0a;
 }
 .grid-real-madrid >div:nth-child(2){
 
     width: 100%;
-    height:2870px;
+    height:3770px;
     background-color: #D4001F;
 }
 .h1-titulo-cristiano-ronaldo{
@@ -215,13 +215,13 @@ p{
 }
 
 .titulo-card{
-    font-size: 15px;
+    font-size: 25px;
     text-align: center; 
     color:  #590A0A;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.808);
 }
 .h2-premiacao{
-    font-size: 13px;
+    font-size: 20px;
     border: 1px solid #D9AD5B;
     color: #BF8339;
     background-color: #590A0A;
@@ -230,7 +230,7 @@ p{
 }
 .h3-premiacao{
     color:  #590A0A;
-    font-size: 12px;
+    font-size: 11px;
 }
 .grid-fotos >div:nth-child(2){
     border-top: 1px solid #D4001F;
@@ -260,24 +260,21 @@ p{
 }
 
 .div-estatistica{
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-bottom:5px;
-    margin-top:5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom:10px;
+    margin: 0px 20px 20px 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom:30px;
     width: auto;
     height: auto ;
     border-radius: 7px ;
-    background-color: #590a0a;
-    border: 2px solid black;
+    background-color: rgb(89, 10, 10);
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .quadro-01,.quadro-02,.quadro-03,.quadro-04,.quadro-05,.quadro-06,.quadro-07{
     display: inline-block;
     width: 100%; 
-    height: 170px;
+    height: 200px;
     margin-bottom: 15px;
     background-color:  #BF8339;
     box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.301);
@@ -285,7 +282,7 @@ p{
 
 .grid-quadro{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 150px 1fr;
 }
 .grid-quadro-2{
     width: 100%;
@@ -293,27 +290,27 @@ p{
 }
 .grid-quadro-1{ 
     width: 100%;  /*se expandde a largura do pai*/
-    height:   170px; /*se  expande a largura do pai*/
+    height:   200px; /*se  expande a largura do pai*/
     background: url(../../imagens/cristiano-ronaldo-manchester-united-champions-Gimp.webp)center;
     background-size: cover; 
 }
 
 .grid-quadro-jogos-olimpicos{
     width: 100%;  /*se expandde a largura do pai*/
-    height:  170px; /*se  expande a largura do pai*/
+    height:  200px; /*se  expande a largura do pai*/
     background: url(../../imagens/cristiano-ronaldo-real-madrid-champions-full.jpeg)center;
     background-size: cover; 
 }
 .grid-quadro-Americas-Championship{
     width: 100%;  /*se expandde a largura do pai*/
-    height:  170px;/*se  expande a largura do pai*/
+    height:  200px;/*se  expande a largura do pai*/
     background: url(../../imagens/cristiano-ronaldo-juventus-champions-gimp.webp)center;
     background-size: cover; 
 }
 
 .grid-quadro-All-NBA-Team{
     width: 100%;  /*se expandde a largura do pai*/
-    height: 170px; /*se  expande a largura do pai*/
+    height: 200px; /*se  expande a largura do pai*/
     background: url(../../imagens/cristiano-ronaldo-seleção-portuguesa-full.jpg)center;
     background-size: cover; 
 }
@@ -337,7 +334,7 @@ p{
 }
 .div-table{ 
     width: 96.4%;
-    height: 250px;
+    height: 400px;
     overflow: scroll;
     margin: 4px;
 
@@ -405,7 +402,7 @@ tr{
     font-weight: bolder;
 }
 .video{
-    height: 190px;
+    height: 320px;
 }
 
 @keyframes bola-movimento {
