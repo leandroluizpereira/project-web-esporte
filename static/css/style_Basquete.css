@@ -146,6 +146,8 @@
     justify-content: center;
     display: flex;
     background-color: rgb(139, 22, 22);
+    border-top: 7px solid #590a0a;
+    border-bottom: 7px solid #590a0a;
     width: 100%;
     /*width: 100vmax;*/
     height: auto;
@@ -256,6 +258,8 @@
     padding-bottom: 43px;
     height: 404px;
     background-color: rgb(139, 22, 22);
+    border-top: 7px solid #590a0a;
+    border-bottom: 7px solid #590a0a;
     overflow: scroll;
 }
 .divs-fotos-container-layont{
@@ -320,8 +324,8 @@ strong{
     bottom: 9%;
     width: 100%;
     height: 20px;
-    background-color: #590a0a5b;
-    border:  1px solid #590a0a;
+    background-color: #590a0a;
+    border:  1px solid #D9AD5B;
 }
 .container-layount>.divs-fotos-container-layont> a:nth-child(n+1){ 
     float: left;

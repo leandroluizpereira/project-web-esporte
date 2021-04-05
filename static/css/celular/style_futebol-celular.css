@@ -133,11 +133,12 @@
     margin-right: 25%;
     width: auto;
     height: auto;
+    
 }
 .time-01-fut{
     padding: 0%;
     margin-right: -5%;
-    margin-top: 30%;
+    margin-top: 50px;
     margin-bottom: 55%;
     width: 180px;
     height: 180px;
@@ -212,7 +213,7 @@
     margin-right: 5%;
     width: 180px;
     height: 180px;
-    margin-bottom: 28%;
+    margin-bottom: 80px;
     border-radius: 50%;
     background-color: #4F5D2F;
     z-index: 0;

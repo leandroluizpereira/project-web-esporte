@@ -162,6 +162,8 @@
     justify-content: center;
     display: flex;
     background-color:#8A8C4A;
+    border-top: 3px solid #4F5D2F;
+    border-bottom: 3px solid #4F5D2F;
     width: 100%;
     /*width: 100vmax;*/
     height: auto;
@@ -294,6 +296,8 @@ color: white;
     padding-bottom: 43px;
     height: 404px;
     background-color: #8A8C4A;
+    border-top: 3px solid #4F5D2F;
+    border-bottom: 3px solid #4F5D2F;
     overflow: scroll;
 }
 .divs-fotos-container-layont-fut{
@@ -357,7 +361,8 @@ strong{
     bottom: 9%;
     width: 100%;
     height: 20px;
-    background-color: #4F5D2F;
+    border:1px solid #acc76e ;
+    background-color: #434e28;
 }
 .frase-cristiano-ronaldo{
     width: 100%;

@@ -319,8 +319,8 @@ strong{
     bottom: 9%;
     width: 100%;
     height: 20px;
-    background-color: #590a0a5b;
-    border:  1px solid #590a0a;
+    background-color: #590a0a;
+    border:  1px solid #D9AD5B;
 }
 .container-layount>.divs-fotos-container-layont> a:nth-child(n+1){ 
     float: left;

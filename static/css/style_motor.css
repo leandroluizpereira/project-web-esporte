@@ -159,6 +159,8 @@
     justify-content: center;
     display: flex;
     background-color: #4a4a4b;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     width: 100%;
     height:auto;
    z-index: 0;
@@ -300,6 +302,8 @@
     padding-bottom: 43px;
     height: 404px;
     background-color: #4a4a4b;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     overflow: scroll;
 }
 .divs-fotos-container-layont-moto{
@@ -363,6 +367,7 @@ strong{
     bottom: 9%;
     width: 100%;
     height: 20px;
+    border: 1px solid rgb(109, 108, 108);
     background-color: black;
 }
 .divs-fotos-container-layont-moto> a:nth-child(n+1){ 

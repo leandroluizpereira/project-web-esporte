@@ -133,7 +133,7 @@
 .surf-quadro-1{
     padding: 0%;
     margin-right: -5%;
-    margin-top: 30%;
+    margin-top: 50px;
     margin-bottom: 55%;
     width: 180px;
     height: 180px;
@@ -207,7 +207,7 @@
     margin-right: 5%;
     width: 180px;
     height: 180px;
-    margin-bottom: 20%;
+    margin-bottom: 80px;
     border-radius: 50%;
     background-color: #034C8C;
     z-index: 0;
