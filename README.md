@@ -7,7 +7,7 @@
  ### lista de tarefas  
  
 - [x] Layount menu de navegaçâo 
- * - [X] 1 - lAYOUNT
+ * - [X] 1 - Layount
    * - [X] Desktop
  * - [X] 2 - Layount
    * - [X] Tablet
