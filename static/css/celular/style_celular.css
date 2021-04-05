@@ -241,34 +241,40 @@ footer{
 footer:hover{
   background-color: black;
   color: white;
-  font-size: 6px;
+  font-size: 7px;
 }
 .footer-0{
   margin-right: 25px;
   text-align: justify;
-  font-size: 6px;
+  font-size: 7px;
 
 }
 .footer-01{
   margin-right: 25px;
-  font-size: 6px;
+  font-size: 7px;
   text-align: justify;
 
 
 }
 .footer-02{
   margin-right: 25px;
-  font-size: 6px;
+  font-size: 7px;
   text-align: justify;
 
 
 }
 .footer-03{
   margin-right: 25px;
-  font-size: 6px;
+  font-size: 7px;
   text-align: justify;
 
 
+}
+a {
+  color: white;
+}
+a:hover{
+  color: #D9A25F;
 }
 /*============Formula one======================*/
 
