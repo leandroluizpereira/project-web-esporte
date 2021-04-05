@@ -234,6 +234,23 @@
     border-radius: 50%;
 }
   /*--=============Container imagens surf ====================--*/
+.h1-scroll-surf{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #034C8C;
+}
+.img-scroll-surf{
+    width: 25px;
+    margin-right: 10px;
+    animation: move-direita 1s linear infinite;
+
+
+
+}
   .container-layount-surf {
     margin-top: 0px;
     width: 100%;

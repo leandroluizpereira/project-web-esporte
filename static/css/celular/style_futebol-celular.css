@@ -241,6 +241,23 @@
     margin-bottom: 5%;
 }
 /*--=============Container imagens Futebol====================--*/
+.h1-scroll-fut{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #4F5D2F;
+}
+.img-scroll-fut{
+    width: 25px;
+    margin-right: 10px;
+    animation: move-direita 1s linear infinite;
+
+
+
+}
 .container-layount-fut {
     margin-top: 0px;
     width: 100%;

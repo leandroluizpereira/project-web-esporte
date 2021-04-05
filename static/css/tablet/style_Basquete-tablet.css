@@ -247,6 +247,22 @@
     display: inline-block;
 }
 /*--=============Container imagens====================--*/
+.h1-scroll-basquete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: #590A0A;
+}
+.img-scroll-basquete{
+
+    margin-right: 10px;
+    animation: move-direita 1s linear infinite;
+
+
+
+}
 
 .container-layount {
     margin-top: 0px;
@@ -396,6 +412,16 @@ strong{
 }
 .decimo-quinto{
     background-image:url(../../imagens/lebron-James-imagem-5.webp) ;
+}
+@keyframes move-direita{
+    from{
+        transform:translateX(-30px);
+    
+        }
+        to{
+            transform:translateX(0px);
+    
+        } 
 }
   
 

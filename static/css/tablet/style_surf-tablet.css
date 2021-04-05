@@ -236,6 +236,20 @@
     border-radius: 50%;
 }
    /*--=============Container imagens surf ====================--*/
+.h1-scroll-surf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    color: #825D84;
+}
+.img-scroll-surf{
+
+    margin-right: 10px;
+    animation: move-direita 1s linear infinite;
+
+}
    .container-layount-surf {
     margin-top: 0px;
     width: 100%;
@@ -381,6 +395,17 @@ strong{
 .decimo-quinto-surf{
     background-image:url(../../imagens/jordy-smith-imagem-5.webp) ;
 }
+@keyframes move-direita{
+    from{
+        transform:translateX(-30px);
+    
+        }
+        to{
+            transform:translateX(0px);
+    
+        } 
+}
+  
 
 
 }

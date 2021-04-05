@@ -241,6 +241,23 @@
     border-radius: 50%;
  }
    /*--=============Container imagens Motor====================--*/
+   .h1-scroll-moto{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: black;
+}
+.img-scroll-moto{
+    width: 25px;
+    margin-right: 10px;
+    animation: move-direita 1s linear infinite;
+
+
+
+}
 .container-layount-moto {
     margin-top: 0px;
     width: 100%;
