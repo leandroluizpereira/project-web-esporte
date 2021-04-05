@@ -245,12 +245,12 @@
     width: 100%;
     padding-top: 40px;
     padding-bottom: 43px;
-    height: 404px;
+    height: 304px;
     background-color: #4a4a4b;
     overflow: scroll;
 }
 .divs-fotos-container-layont-moto{
-    width: 3800px;
+    width: 5800px;
     height: auto;
     background-color: #4a4a4b;
 }
@@ -258,8 +258,8 @@
     border-radius: 10px;
     float: left;
     margin: 4px;
-    width: 8%;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     border: 3px solid  black;
     background-color:  black;
 }
@@ -271,7 +271,7 @@
     justify-content: center;
     float: left;
     width: 55px;
-    height: 400px;
+    height: 300px;
     margin-top: 7px;
     background-color:  black;
     border-radius: 10px 0px 0px 10px;
@@ -317,15 +317,15 @@ strong{
     margin: 1.5px;
     background-color:   black;
     border: 3px solid  black;
-    width: 4%;
-    height: 400px ;
+    width: 300px;
+    height: 300px ;
     margin-top: 5px;
     transition: width 1.5s, transform 1.5s;  
 }
 .divs-fotos-container-layont-moto> a:hover:nth-child(n+1){
-    width: 14%;
+    width: 300px;
     border: 3px solid beige;
-    height: 400px;
+    height: 300px;
     transition: width 1.5s, transform 1.5s;
     /*animation: movimento linear 3s ;*/
 }

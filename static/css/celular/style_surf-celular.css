@@ -81,7 +81,6 @@
     /*usando a chave da animação definindo transição linear infinito*/ 
  }
  .img-surf:hover{
-    animation: bola-movimento 0.7s infinite;
 
 }
 .img-surf{
@@ -240,12 +239,12 @@
     width: 100%;
     padding-top: 40px;
     padding-bottom: 43px;
-    height: 404px;
+    height: 304px;
     background-color: #4E8BBF;
     overflow: scroll;
 }
 .divs-fotos-container-layont-surf{
-    width: 3800px;
+    width: 5800px;
     height: auto;
     background-color: #4E8BBF;
 }
@@ -253,8 +252,8 @@
     border-radius: 10px;
     float: left;
     margin: 4px;
-    width: 8%;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     border: 3px solid #034C8C;
     background-color: #034C8C;
 }
@@ -266,7 +265,7 @@
     justify-content: center;
     float: left;
     width: 55px;
-    height:400px;
+    height:300px;
     margin-top: 7px;
     background-color: #034C8C;
     border-radius: 10px 0px 0px 10px;
@@ -312,16 +311,16 @@ strong{
     margin: 1.5px;
     background-color:  #034C8C;
     border: 3px solid #034C8C;
-    width: 4%;
-    height:400px ;
+    width: 300px;
+    height:300px ;
     margin-top: 5px;
     transition: width 1.5s, transform 1.5s;  
  
 }
 .divs-fotos-container-layont-surf> a:hover:nth-child(n+1){
-    width: 15%;
+    width: 300px;
     border: 3px solid beige;
-    height:400px;
+    height:300px;
     transition: width 1.5s, transform 1.5s;
     /*animation: movimento linear 3s ;*/
 }

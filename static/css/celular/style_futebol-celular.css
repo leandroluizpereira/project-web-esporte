@@ -246,12 +246,12 @@
     width: 100%;
     padding-top: 40px;
     padding-bottom: 43px;
-    height: 404px;
+    height: 304px;
     background-color: #8A8C4A;
     overflow: scroll;
 }
 .divs-fotos-container-layont-fut{
-    width: 3800px;
+    width: 5800px;
     height: auto;
     background-color: #8A8C4A;
 }
@@ -259,8 +259,8 @@
     border-radius: 10px;
     float: left;
     margin: 4px;
-    width: 8%;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     border: 3px solid  #4F5D2F;
     background-color:  #4F5D2F;
 }
@@ -272,7 +272,7 @@
     justify-content: center;
     float: left;
     width: 55px;
-    height: 400px;
+    height: 300px;
     margin-top: 7px;
     background-color:  #4F5D2F;
     border-radius: 10px 0px 0px 10px;
@@ -348,15 +348,15 @@ strong{
     margin: 1.5px;
     background-color:   #4F5D2F;
     border: 3px solid  #4F5D2F;
-    width: 4%;
-    height: 400px ;
+    width: 300px;
+    height: 300px ;
     margin-top: 5px;
     transition: width 1.5s, transform 1.5s;  
 }
 .divs-fotos-container-layont-fut> a:hover:nth-child(n+1){
-    width: 15%;
+    width: 300px;
     border: 3px solid beige;
-    height: 400px;
+    height: 300px;
     transition: width 1.5s, transform 1.5s;
     /*animation: movimento linear 3s ;*/
 }

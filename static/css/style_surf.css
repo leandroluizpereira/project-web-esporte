@@ -152,8 +152,6 @@
     justify-content: center;
     display: flex;
     background-color: #4E8BBF;
-    border-top: 3px solid #034C8C;
-    border-bottom: 3px solid #034C8C;
     width: 100%;
     /*width: 100vmax;*/
     height: auto;
@@ -290,8 +288,6 @@
     padding-bottom: 43px;
     height: 404px;
     background-color: #4E8BBF;
-    border-top: 3px solid #034C8C;
-    border-bottom: 3px solid #034C8C;
     overflow: scroll;
 }
 .divs-fotos-container-layont-surf{

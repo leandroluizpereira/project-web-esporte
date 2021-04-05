@@ -126,7 +126,7 @@
 .h1-destaques{
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 40px;
+    margin-top: 10px;
     font-size: 20px;
     text-align: center;
     color:#590A0A;
@@ -217,11 +217,10 @@
     margin-right: 5%;
     width: 180px;
     height: 180px;
-    margin-bottom: 20%;
     border-radius: 50%;
     background-color: #590A0A;
     z-index: 0;
-    margin-bottom: 100px;
+    margin-bottom:100px;
 }
 .h1-3-nba{
     opacity: 0;
