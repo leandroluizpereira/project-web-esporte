@@ -23,7 +23,7 @@
 
 }
 .tablet{
-    z-index: 2;
+    z-index: 1;
     position: relative;
     top: -64%;
     left: -40%;
