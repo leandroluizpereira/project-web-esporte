@@ -128,6 +128,8 @@
     margin-right: 5%;
     margin-top: 40px;
     font-size: 20px;
+    text-align: center;
+    color:#590A0A;
 }
 .nba-estatistica-time{
     display: flex;

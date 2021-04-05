@@ -2,58 +2,59 @@
 @media screen and (min-width:0px) and (max-width:450px){
 
 
-    .titulo{
-        text-align: center;
-        font-family:'Train One',cursive;
-        color:#D9A25F;
-        background-color: #f4f4f5;
-        margin-top: 5%;
-    }
-    .container-dev{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 500px; 
-    }
-    .desktop{
-        width: 500px;
-        height: 400px;
-        background-image: url(../../imagens/dev/imac-gimp.webp);
-        background-size: 500px;
-        background-position: center;  
-    
-    }
-    .tablet{
-        z-index: 2;
-        position: relative;
-        top: -64%;
-        left: -40%;
-        width: 500px;
-        height: 400px;
-        background-image: url(../../imagens/dev/tablet-gimp.webp);
-        background-size: 500px;
-        background-position: center;   
-        /*animation: opac 4s  infinite; */
-    }
-    
-    .celular{
-        z-index: 0;
-        position: relative;
-        top: 36%;
-        left: 61%;
-        width: 300px;
-        height: 257px;
-        background-image: url(../../imagens/dev/celular-gimp.webp);
-        background-size: 300px;
-        background-position: center; 
-       /* animation: opac 5s  infinite; */
-    }
-    .grid-dev{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
-    }
-    
+.titulo{
+    text-align: center;
+    font-family:'Train One',cursive;
+    color:#D9A25F;
+    background-color: #f4f4f5;
+    margin-top: 5%;
+    font-size: 18px;
+}
+.container-dev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px; 
+}
+.desktop{
+    width: 200px;
+    height: 160px;
+    background-image: url(../../imagens/dev/imac-gimp.webp);
+    background-size: 200px;
+    background-position: center;  
+
+}
+.tablet{
+    z-index: 2;
+    position: relative;
+    top: -80%;
+    left: -40%;
+    width: 200px;
+    height: 160px;
+    background-image: url(../../imagens/dev/tablet-gimp.webp);
+    background-size: 200px;
+    background-position: center;   
+    /*animation: opac 4s  infinite; */
+}
+
+.celular{
+    z-index: 0;
+    position: relative;
+    top: 23%;
+    left: 52%;
+    width: 150px;
+    height: 127px;
+    background-image: url(../../imagens/dev/celular-gimp.webp);
+    background-size: 150px;
+    background-position: center; 
+    /* animation: opac 5s  infinite; */
+}
+.grid-dev{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
 
 
 
