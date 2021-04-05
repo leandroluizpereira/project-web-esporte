@@ -7,8 +7,8 @@ body{
     overflow-x: hidden;
 }
 .navBar {
-    height: 50px;
-	position: fixed;
+  height: 50px;
+  position: fixed;
   min-width: 100%;
   z-index: 3;
   background:black;
@@ -46,8 +46,8 @@ nav ul a:hover {
   color: #AAA;
 }
 nav li {
-    font-family: 'Brandon Grotesque';
-    font-weight: normal;
+  font-family: 'Brandon Grotesque';
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -90,7 +90,7 @@ nav .wrapper {
 }
   nav ul {
     background-color: rgb(89, 10, 10);
-    display: block;
+    display: none;
     height: 0;
     list-style-type: none;
     opacity: 0;
@@ -113,6 +113,7 @@ nav .wrapper {
   }
 
   nav #menu-toggle:checked ~ ul {
+    display: block;
     opacity: 1;
     height: 100vh;
   

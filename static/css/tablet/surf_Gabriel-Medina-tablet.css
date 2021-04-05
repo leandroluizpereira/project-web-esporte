@@ -8,130 +8,130 @@ body{
 }
 .navBar {
     height: 50px;
-	position: fixed;
-  min-width: 100%;
-  z-index: 3;
-  background:black;
-}
-
-.logo {
-  color: white;
-  display: inline-block;
-  height: 13px;
-  margin: 17px 20px ;
-  width: 187px;
-}
-
-.wrapper {
-
-  margin: 0 auto;
-  max-width: 100%;
-  padding: 0 2%;
-}
-
-nav ul {
-    padding: 0px;
-    margin: 7px;
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  min-width: 40%;
-}
-nav ul a {
-  color: #FFF;
-  text-decoration: none;
-  transition: all 0.5s ease;
-}
-nav ul a:hover {
-  color: #AAA;
-}
-nav li {
-    font-family: 'Brandon Grotesque';
-    font-weight: normal;
-  font-style: normal;
-}
-
-nav ul li:last-child a{
-    padding: 6px 17px;
-    border: 2px solid;  
-    border-radius: 5px;
-    color: #f3f3f3;
-}
-
-#menu-icon { 
-    display: none; 
-    /* hide menu icon initially */
-}
-
-nav ul li:last-child a:hover{
-    color: rgb(217, 173, 91);
-}
-
-nav #menu-toggle {
-  display: none;
-}
-nav .label-toggle {
-  display: none;
-}
-nav .wrapper {
-
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-}
-nav .wrapper {
-    display: block;
-
+    position: fixed;
+    min-width: 100%;
+    z-index: 3;
+    background:black;
   }
-@media screen and (max-width: 768px) {
-  nav nav ul a {
-    color: #FFF;
+  
+  .logo {
+    color: white;
+    display: inline-block;
+    height: 13px;
+    margin: 17px 20px ;
+    width: 187px;
   }
-}
+  
+  .wrapper {
+  
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 2%;
+  }
+  
   nav ul {
-    background-color: rgb(89, 10, 10);
-    display: block;
-    height: 0;
+      padding: 0px;
+      margin: 7px;
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
-    opacity: 0;
-    text-align: center;
-    transition: all 1s ease;
-    width: 100%;
-    visibility: hidden;
-    margin: 0%;
-    margin-left: -2%;
-
+    min-width: 40%;
+  }
+  nav ul a {
+    color: #FFF;
+    text-decoration: none;
+    transition: all 0.5s ease;
+  }
+  nav ul a:hover {
+    color: #AAA;
   }
   nav li {
-    color: #53354A;
-    display: block;
-    font-size: 1.5em;
-    padding: 1em 0;
-    text-align: center;
-
-
+    font-family: 'Brandon Grotesque';
+    font-weight: normal;
+    font-style: normal;
   }
-
-  nav #menu-toggle:checked ~ ul {
-    opacity: 1;
-    height: 100vh;
   
-    visibility: visible;
-    background:rgb(89, 10, 10); 
+  nav ul li:last-child a{
+      padding: 6px 17px;
+      border: 2px solid;  
+      border-radius: 5px;
+      color: #f3f3f3;
   }
-
+  
+  #menu-icon { 
+      display: none; 
+      /* hide menu icon initially */
+  }
+  
+  nav ul li:last-child a:hover{
+      color: rgb(217, 173, 91);
+  }
+  
+  nav #menu-toggle {
+    display: none;
+  }
   nav .label-toggle {
-
-    background: linear-gradient(to bottom, #FFF 0%, #FFF 20%, transparent 20%, transparent 40%, #FFF 40%, #FFF 60%, transparent 60%, transparent 80%, #FFF 80%, #FFF 100%);
-    cursor: pointer;
-    display: block;
-    float: right;
-    height: 22px;
-    margin-top: 0.9em;
-    margin-right: 2em;
-    width: 26px;
+    display: none;
   }
-
+  nav .wrapper {
+  
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav .wrapper {
+      display: block;
+  
+    }
+  @media screen and (max-width: 768px) {
+    nav nav ul a {
+      color: #FFF;
+    }
+  }
+    nav ul {
+      background-color: rgb(89, 10, 10);
+      display: none;
+      height: 0;
+      list-style-type: none;
+      opacity: 0;
+      text-align: center;
+      transition: all 1s ease;
+      width: 100%;
+      visibility: hidden;
+      margin: 0%;
+      margin-left: -2%;
+  
+    }
+    nav li {
+      color: #53354A;
+      display: block;
+      font-size: 1.5em;
+      padding: 1em 0;
+      text-align: center;
+  
+  
+    }
+  
+    nav #menu-toggle:checked ~ ul {
+      display: block;
+      opacity: 1;
+      height: 100vh;
+    
+      visibility: visible;
+      background:rgb(89, 10, 10); 
+    }
+  
+    nav .label-toggle {
+  
+      background: linear-gradient(to bottom, #FFF 0%, #FFF 20%, transparent 20%, transparent 40%, #FFF 40%, #FFF 60%, transparent 60%, transparent 80%, #FFF 80%, #FFF 100%);
+      cursor: pointer;
+      display: block;
+      float: right;
+      height: 22px;
+      margin-top: 0.9em;
+      margin-right: 2em;
+      width: 26px;
+    }
 nav{
     z-index :2;
     position: fixed;
