@@ -6,21 +6,23 @@
  ## :books: Projeto Integrado
  ### lista de tarefas  
  
-- [x] menu de navegaçâo 
-- [x] navegaçâo interno e externo
+- [x] Layount menu de navegaçâo 
+ * - [X] 1 - Desktop
+ * - [X] 2 - Celular e tablet   
+- [x] navegaçâo de links interno e externo
 - [x] criçâo keyframe css
   * - [X] keyframe opacidade - transform - 
   * - [X] keyframe rotate - transform -
-  * - [x]  keyframe scale - transform - 
+  * - [x] keyframe scale - transform - 
 - [ ] Funçôes com Javascripts
 - [ ] PHP
 - [ ] json
 - [x] css
 - [ ] banco de dados
 - [ ] FireBase
-- [x] Responsivel Desktop
-- [ ] Responsivel tablet
-- [x] Responsivel mobile
+- [x] Responsivel Desktop - 1320px
+- [x] Responsivel tablet - 700px
+- [x] Responsivel mobile - 360px
 - [ ] versão app android studio ou flutter
 - [x] download arquivos pdfs [paletas de cores]
 - [x] Fontes externas , e internos 
