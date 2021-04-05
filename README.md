@@ -6,32 +6,37 @@
  ## :books: Projeto Integrado
  ### lista de tarefas  
  
-- [x] menu de navegaçâo 
-- [x] navegaçâo interno e externo
+- [x] Layount menu de navegaçâo 
+ * - [X] 1 - Layount
+   * - [X] Desktop
+ * - [X] 2 - Layount
+   * - [X] Tablet
+   * - [X] Celular
+- [x] navegaçâo de links interno e externo
 - [x] criçâo keyframe css
-  * - [X] keyframe opacidade - transform - 
-  * - [X] keyframe rotate - transform -
-  * - [x]  keyframe scale - transform - 
-- [ ] Funçôes com Javascripts
+ * - [X] keyframe opacidade - transform - 
+ * - [X] keyframe rotate - transform -
+ * - [x] keyframe scale - transform - 
+- [X] Funçôes com Javascripts
 - [ ] PHP
 - [ ] json
 - [x] css
 - [ ] banco de dados
 - [ ] FireBase
-- [x] Responsivel Desktop
-- [ ] Responsivel tablet
-- [x] Responsivel mobile
+- [x] Responsivel Desktop - 1320px
+- [x] Responsivel tablet - 700px
+- [x] Responsivel mobile - 360px
 - [ ] versão app android studio ou flutter
 - [x] download arquivos pdfs [paletas de cores]
 - [x] Fontes externas , e internos 
 - [X] Ferramentas utilizadas para ediçâo e redirecionamento de imagem
-     * - [X] Gimp
-     * - [X] Krita
+ * - [X] Gimp
+ * - [X] Krita
 - [x] Tratamento da formato de imagem
-     * - [x] webp
-     * - [x] jpeg
+ * - [x] webp
+ * - [x] jpeg
 - [x] Video
-     * - [x] externo "Youtube"
+ * - [x] externo "Youtube"
 - [X] imagens de lincença
 - [X] imagens sem licença
 
