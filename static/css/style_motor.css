@@ -293,6 +293,20 @@
    
    }
   /*--=============Container imagens Motor====================--*/
+  .h1-scroll-moto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+    color: black;
+}
+.img-scroll-moto{
+
+    animation: move-direita 1s linear infinite;
+    margin-right: 10px;
+
+}
 .container-layount-moto {
     margin-top: 0px;
     width: 100%;

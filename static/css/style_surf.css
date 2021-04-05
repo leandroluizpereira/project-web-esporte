@@ -281,6 +281,21 @@
     display: inline-block;
    }
    /*--=============Container imagens surf ====================--*/
+   .h1-scroll-surf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    color: #825D84;
+}
+.img-scroll-surf{
+
+    margin-right: 10px;
+    animation: move-direita 1s linear infinite;
+
+}
+   
 .container-layount-surf {
     margin-top: 0px;
     width: 100%;
