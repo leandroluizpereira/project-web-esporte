@@ -175,12 +175,12 @@ p{
 
 .grid-real-madrid > div:nth-child(1){
     width: 100%;
-    height: 2500px;
+    height: 2900px;
     background-color:#590a0a ;
 }
 .grid-real-madrid >div:nth-child(2){
     width: 100%;
-    height: 2500px;
+    height: 2900px;
     background-color: #D4001F;
 }
 
@@ -284,7 +284,7 @@ p{
     margin-left: 0.9%;
     margin-bottom: 1.6%;
     width: 96%;
-    height: 43.9vh;
+    height: 260px;
     /* fazendo degradê do lado direito com duas cores */
     background-image:linear-gradient(#590A0A,#8a0202);
     border-radius: 10px;
