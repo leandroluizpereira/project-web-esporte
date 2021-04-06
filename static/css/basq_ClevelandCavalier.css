@@ -385,9 +385,9 @@ table{
   background-color:  #590a0a; 
 }
 td{
-   
     font-size: 1rem;
-    height: 30px;
+    height: 25px;
+
     background-color: #BF8339;
     text-align: center;
     color: #942020;
@@ -411,6 +411,7 @@ td > a:hover:nth-child(n+1){
     color: #ffffff;
 }
 .td-titulo{
+    font-size: 0.7rem;
     padding: 2px;
     width: 90px;  
     background-color: #8a1111;
