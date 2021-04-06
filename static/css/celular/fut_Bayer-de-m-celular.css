@@ -283,7 +283,7 @@ p{
     margin-top: 25%;
     color: #590a0a;
     text-align: center;
-    font-size: 45px;
+    font-size: 30px;
     text-shadow: 1px 3px 3px black;
 }
 
@@ -490,6 +490,11 @@ td:hover {
     font-weight: bolder;
  
 }
+.td-time{
+    background-color: #8a1111;
+    color: #BF8339;
+    font-weight: bolder;
+}
 
 td > a:nth-child(n+1){
     color: #7e0707;
@@ -505,6 +510,11 @@ tr{
 .tr-linha-titulo{
 }
 .tr-linha-titulo > td:nth-child(n+1){
+    background-color: #8a1111;
+    color: #BF8339;
+    font-weight: bolder;
+}
+.tr-total > td:nth-child(n+1){
     background-color: #8a1111;
     color: #BF8339;
     font-weight: bolder;
