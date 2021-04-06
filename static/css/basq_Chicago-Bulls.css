@@ -384,17 +384,21 @@ p{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.808);
 }
 .div-table{
-    
+
+ 
     width: 100%;
-    overflow-x:scroll;
+    overflow: scroll;
+
 }
 table{
+ 
   width: 100%;
   background-color:  #590a0a; 
 }
 
 td{
-    height: 30px;
+    font-size: 12px;
+    height: 25px;
     background-color: #BF8339;
     text-align: center;
     color: #942020;
@@ -409,7 +413,7 @@ td:hover {
     background-color: #8a1111;
     color: #BF8339;
     font-weight: bolder;
-    width: 150px;
+    width: 95px;
 
 }
 

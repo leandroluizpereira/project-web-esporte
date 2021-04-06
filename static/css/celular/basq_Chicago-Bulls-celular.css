@@ -605,14 +605,11 @@ tr{
 }
 @keyframes sombra {
     from{
-        box-shadow: 0px 0px rgb(138, 17, 17);
-
-       
+        box-shadow: 0px 0px rgb(138, 17, 17);  
     }
     to{
         box-shadow: 0px 0px 10px rgb(191, 131, 57),
-        0px 0px 20px rgb(138, 17, 17) ;
-        
+        0px 0px 20px rgb(138, 17, 17) ;  
     }
     50%{
         box-shadow: 0px 0px 20px rgb(191, 131, 57),

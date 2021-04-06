@@ -506,18 +506,11 @@ tr{
 
 @keyframes bola-movimento {
     from{
-    
          transform: translateY(0px);
-
     }
     to{
-
        transform: translateY(-8px);
- 
     }
- 
-    
-    
 }
 /*animação circular crescente do ponto ao maximo da imagem */
 @keyframes scale {
