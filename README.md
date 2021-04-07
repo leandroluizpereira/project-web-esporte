@@ -29,6 +29,7 @@
 - [x] Responsivel tablet - 700px
 - [x] Responsivel mobile - 360px
 - [x] Hospedagem - Github Pages
+- [X] Propagandas somente na versão Desktop
 - [ ] versão app android studio ou flutter
 - [x] download arquivos pdfs [paletas de cores]
 - [x] Fontes externas , e internos 
