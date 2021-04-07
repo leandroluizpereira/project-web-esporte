@@ -57,4 +57,4 @@
  Federal n.º 9.610/98 (Lei de Direitos Autorais)
  
  ## Sobre Github Pages
- sar o GitHub Pages para hospedar um site sobre si mesmo, sda para organizar projeto ... Gravar no GitHub ... O GitHub Pages é um serviço de hospedagem de site estático que usa arquivos HTML, CSS e JavaScript ... O GitHub Pages infelizmente não aceita linguagens de servidor como PHP, Ruby ou Python
+GitHub Pages serve para hospedar um site , da para organizar projeto ... Gravar no GitHub ... O GitHub Pages é um serviço de hospedagem de site estático que usa arquivos HTML, CSS e JavaScript ... O GitHub Pages infelizmente não aceita linguagens de servidor como PHP, Ruby ou Python
