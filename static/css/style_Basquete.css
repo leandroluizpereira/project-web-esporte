@@ -125,17 +125,48 @@
     /* opacity: 0.6;*/ 
     background-size: cover;
      
- }    
+ }
+ /*=================Grid-NBA===========================*/
+.grid-nba{
+    display: grid;
+    justify-content: end;
+    grid-template-areas: "informacao-nba propagandas ";
+    grid-template-columns: 1fr 250px ;
+ 
+    
+}    
 .titulo-img-nba{
     font-size: 100px;
     color: white;
 }
+
 .informacao-nba{
-    margin-top: 3%;
-    margin-left: 11%;
-    margin-right: 11%;
-    margin-bottom: 8%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    grid-area: "informacao-nba";
+    background-color: beige;
 }   
+.propaganda-nba{
+    border-radius: 10px;
+    margin: 30px;
+    height: 1500px;
+    grid-area: "propagandas";
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+.prop-nba-1{
+    width: 150px;
+    height: 180px;
+    border: 2px solid black;
+}
+.h2-prop-nba{
+    text-align: center;
+}
 /*--==========Container BASQUETE logotipos====================*/
 .h1-destaques{
     text-align: center;
@@ -247,6 +278,7 @@
 .a-nba{
     border-radius: 50%;  
 }
+
 /*--=============Container imagens====================--*/
 .h1-scroll-basquete{
     display: flex;
