@@ -17,6 +17,7 @@
  * - [X] keyframe opacidade - transform - 
  * - [X] keyframe rotate - transform -
  * - [x] keyframe scale - transform - 
+ * - [x] keyframe sombra - transform - 
 - [X] Funçôes com Javascripts
 - [ ] PHP
 - [ ] json
