@@ -19,6 +19,7 @@
  * - [x] keyframe scale - transform - 
  * - [x] keyframe sombra - transform - 
 - [X] Funçôes com Javascripts
+- [x] Cadastro do usúario
 - [ ] PHP
 - [ ] json
 - [x] css
