@@ -37,11 +37,13 @@ margin: auto;
     margin: 10px;
 }
 .inputNome{
+    width: 180px;
 }
 .labelEndere{
     margin: 10px;
 }
 .inputEndere{
+    width: 180px;
 
 }
 
