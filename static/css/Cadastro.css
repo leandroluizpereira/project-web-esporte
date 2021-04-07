@@ -46,6 +46,13 @@ margin: auto;
     width: 180px;
 
 }
+.labelNum{
+    margin: 10px;
+}
+.inputNum{
+    width: 20px;
+
+}
 
 .btnEnviar{
     
