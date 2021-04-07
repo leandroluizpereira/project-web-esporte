@@ -1,9 +1,42 @@
 @charset "UF-8";
 
 .corpo{
-    
+    margin: auto;
+    width: 700px;
+    background-color: beige;
 }
+.h1-cadastro{
+    text-align: center;
+    color: #D9AD5B;
+}
+.hr-cadastro{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.div-corpo-form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(253, 253, 253);
 
+}
+.div-for{
+    width: 100%;
+    height: 100%;
+}
+.form{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.labelNome{
+
+}
+.inputText{
+  
+}
 
 
 
