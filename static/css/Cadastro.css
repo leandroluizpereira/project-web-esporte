@@ -32,14 +32,19 @@
    align-items: center;
 }
 .labelNome{
- 
+    margin: 10px;
 }
 .inputNome{
-  margin: 10px;
+}
+.labelEndere{
+    margin: 10px;
+}
+.inputEndere{
+
 }
 
 .btnEnviar{
-
+    margin: 10px;
     background-color: darkgreen;
     color: rgb(199, 228, 199);
 }
