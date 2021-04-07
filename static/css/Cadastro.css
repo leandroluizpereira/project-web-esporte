@@ -50,13 +50,36 @@ margin: auto;
     margin: 10px;
 }
 .inputNum{
-    width: 20px;
+    width: 40px;
+
+}
+.labelNum{
+    margin: 10px;
+}
+.inputNum{
+    width: 40px;
+
+}
+.labelSenha{
+    margin: 10px;
+}
+.inputSenha{
+    width: 240px;
+
+}
+.labelConSenha{
+    margin: 10px;
+}
+.inputConSenha{
+    width: 240px;
 
 }
 
 .btnEnviar{
-    
-   
+    margin-top: 30px;
+border-radius: 10px;
+   width: 70px;
+   height: 50px;
     background-color: darkgreen;
     color: rgb(199, 228, 199);
 }
