@@ -239,6 +239,7 @@ p{
     background-color:  rgb(89, 10, 10);
     border-radius: 50%;
     z-index:1;
+    animation: sombra linear 3s infinite;
 }
 
 .logo-01{
@@ -299,9 +300,10 @@ p{
     margin-left: 5%;
     margin-top: -3.5%;
     position: absolute;
-    width: 90%;
+    width: 89%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 15px;
+    border: 2px solid #D4001F;
     background-color: rgb(217, 173, 91);
 }
 .h2-saiba-mais{
@@ -585,6 +587,25 @@ tr{
     }
     to{
         background-color: #000000;
+    }
+}
+@keyframes sombra {
+    from{
+        box-shadow: 0px 0px rgb(138, 17, 17);
+
+       
+    }
+    to{
+        box-shadow: 0px 0px 10px rgb(191, 131, 57),
+        0px 0px 20px rgb(138, 17, 17) ;
+        
+    }
+    50%{
+        box-shadow: 0px 0px 20px rgb(191, 131, 57),
+        0px 0px 20px rgb(138, 17, 17) ;
+    }
+    100%{
+        box-shadow: 0px 0px rgb(138, 17, 17);
     }
 }
 }

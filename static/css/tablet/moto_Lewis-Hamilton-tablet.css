@@ -237,6 +237,7 @@ p{
     background-color:  #590a0a;
     border-radius: 50%;
     z-index:1;
+    animation: sombra linear 3s infinite;
 }
 
 .logo-01{
@@ -300,12 +301,14 @@ p{
     font-family: 'Sacramento', cursive;
 }
 .section-Lewis-Hamilton{
+    border-radius: 30px;
+    border: 2px solid #D4001F;
     margin-left: 5%;
     margin-top: -6.5%;
     position: absolute;
     width: 90%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: #D9AD5B;
 }
 .h2-saiba-mais{
@@ -589,6 +592,25 @@ tr{
     }
     to{
         background-color: #000000;
+    }
+}
+@keyframes sombra {
+    from{
+        box-shadow: 0px 0px rgb(138, 17, 17);
+
+       
+    }
+    to{
+        box-shadow: 0px 0px 10px rgb(191, 131, 57),
+        0px 0px 20px rgb(138, 17, 17) ;
+        
+    }
+    50%{
+        box-shadow: 0px 0px 20px rgb(191, 131, 57),
+        0px 0px 20px rgb(138, 17, 17) ;
+    }
+    100%{
+        box-shadow: 0px 0px rgb(138, 17, 17);
     }
 }
 }
