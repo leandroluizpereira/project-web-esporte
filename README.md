@@ -45,7 +45,7 @@
 - [X] imagens de lincença
 - [X] imagens sem licença
 
-## Seguraça de informaçâo ao usúario
+## Segurança de informaçâo ao usúario
 - [ ] em desenvolvimento
 - [ ] em desenvolvimento
 
