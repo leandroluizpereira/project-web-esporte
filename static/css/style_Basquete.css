@@ -305,18 +305,20 @@
 .img-scroll-basquete{
     margin-right: 10px;
     animation: move-direita 1s linear infinite;
-
 }
 .container-layount {
-    margin-top: 0px;
-    width: 100%;
-    padding-top: 40px;
-    padding-bottom: 43px;
-    height: 404px;
-    background-color: rgb(139, 22, 22);
-    overflow: scroll;
+    margin-top:0px;
+    width:100%;
+    padding-top:40px;
+    padding-bottom:43px;
+    height:404px;
+    background-color:rgb(139, 22, 22);
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+    -ms-overflow-style:-ms-autohiding-scrollbar;
 }
 .divs-fotos-container-layont{
+
     width: 3800px;
     height: auto;
     background-color: rgb(139, 22, 22);
