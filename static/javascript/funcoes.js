@@ -12,7 +12,7 @@ function deletar(){
   console.log("Deu certo!");
 }
 
-
+/*em teste*/
 function createDivAnimation(name,num,nome){
   document.getElementsByClassName(name);
   var n = num;
