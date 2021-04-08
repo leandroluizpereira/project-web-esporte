@@ -45,6 +45,10 @@
 - [X] imagens de lincença
 - [X] imagens sem licença
 
+## Segurança de informaçâo ao usúario
+- [ ] em desenvolvimento
+- [ ] em desenvolvimento
+
 ## Sobre Webp
 
  WebP é um formato de imagem desenvolvida pela Google Inc., com o objetivo de diminuir o tamanho dos arquivos e garantir uma transferência mais rápida para quem possui uma internet lenta.
