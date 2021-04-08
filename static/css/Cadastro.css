@@ -34,7 +34,11 @@ margin: auto;
 
 }
 fieldset{
+    border-color: #D9AD5B;
     margin: 15px;
+}
+legend{
+    
 }
 .labelNome{
  
