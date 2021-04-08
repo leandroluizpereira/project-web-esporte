@@ -37,11 +37,10 @@
     height: 100%;
 }
 .form{
-text-align: center;
-width: 100%;
-height: 100%;
-margin: auto;
-
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
 fieldset{
     border-radius: 8px;
@@ -63,23 +62,18 @@ legend{
 }
 .inputEndere{
     width: 240px;
-
-
-
 }
 .labelNum{
     margin: 10px;
 }
 .inputNum{
     width: 40px;
-
 }
 .labelNum{
     margin: 10px;
 }
 .inputNum{
     width: 40px;
-
 }
 .labelSenha{
     margin: 10px;
@@ -109,11 +103,9 @@ legend{
 }
 
 .btnEnviar{  
-    
-
-border-radius: 10px;
-   width: 70px;
-   height: 50px;
+    border-radius: 10px;
+    width: 70px;
+    height: 50px;
     background-color: darkgreen;
     color: rgb(199, 228, 199);
 }
