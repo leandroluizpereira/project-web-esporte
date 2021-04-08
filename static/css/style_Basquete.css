@@ -141,6 +141,7 @@
 }
 
 .informacao-nba{
+    background-color: beige;
     border-radius: 5px;
 
     margin-top: 30px;
@@ -152,16 +153,14 @@
 }   
 .propaganda-nba{
     border-radius: 5px;
-
-    margin: 30px;
-    height: 1500px;
+    margin: 20px;
     grid-area: "propagandas";
-    display: grid;
-    align-items: center;
-    justify-content: center;
- 
+    background-color: beige;
+    overflow: scroll;
 }
 .prop-nba-1{
+    margin: 25px;
+    
     width: 150px;
     height: 180px;
     border: 2px solid black;
@@ -184,7 +183,6 @@
     /*width: 100vmax;*/
     height: auto;
     z-index: 0;
-   
    }
 .container-time-nba{
     margin-left: 10%;
@@ -281,22 +279,17 @@
 .a-nba{
     border-radius: 50%;  
 }
-
 /*--=============Container imagens====================--*/
 .h1-scroll-basquete{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-
     color: #590A0A;
 }
 .img-scroll-basquete{
-
     margin-right: 10px;
     animation: move-direita 1s linear infinite;
-
-
 
 }
 .container-layount {
