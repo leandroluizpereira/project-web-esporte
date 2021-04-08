@@ -60,6 +60,7 @@
  
   as imagens que não são permitidas para uso comercial são :
    * logotipos dos times : SPN sport.
+   * Imagens dos jogadores .
  
  ## Sobre a Lei 
  
