@@ -19,6 +19,7 @@
  * - [x] keyframe scale - transform - 
  * - [x] keyframe sombra - transform - 
 - [X] Funçôes com Javascripts
+ * - [X] Function - deletar() -
 - [X] Fotos
 - [x] Tela de cadastro
 - [ ] PHP
