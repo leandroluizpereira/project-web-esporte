@@ -166,6 +166,7 @@
 
 }
 .button-prop:hover{
+    cursor: pointer;
     border-radius: 50%;
     background-color: #590A0A;
     color: #ffe8e8;
