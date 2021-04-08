@@ -2,7 +2,7 @@
 
 .corpo{
     margin: auto;
-    width: 700px;
+    width: 600px;
     background-color: beige;
 }
 .h1-cadastro{
@@ -34,19 +34,19 @@ margin: auto;
 
 }
 fieldset{
-    margin: 10px;
+    margin: 15px;
 }
 .labelNome{
-    margin: 10px;
+ 
 }
 .inputNome{
-    width: 180px;
+    width: 120px;
 }
 .labelEndere{
-    margin: 10px;
+  
 }
 .inputEndere{
-    width: 180px;
+    width: 120px;
 
 }
 .labelNum{
