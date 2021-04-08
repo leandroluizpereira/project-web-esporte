@@ -143,7 +143,6 @@
 .informacao-nba{
     background-color: beige;
     border-radius: 5px;
-
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 30px;
@@ -152,15 +151,13 @@
    
 }   
 .propaganda-nba{
-    border-radius: 5px;
     margin: 20px;
     grid-area: "propagandas";
     background-color: beige;
-    overflow: scroll;
+
 }
 .prop-nba-1{
     margin: 25px;
-    
     width: 150px;
     height: 180px;
     border: 2px solid black;
