@@ -40,13 +40,15 @@ fieldset{
  
 }
 .inputNome{
-    width: 120px;
+    width: 190px;
 }
 .labelEndere{
   
 }
 .inputEndere{
-    width: 120px;
+    width: 190px;
+    margin-bottom: 15px;
+
 
 }
 .labelNum{
@@ -80,6 +82,12 @@ fieldset{
 
 }
 .inputEmail{
+    width: 240px;
+}
+.labelBairro{
+
+}
+.inputBairro{
     width: 240px;
 }
 
