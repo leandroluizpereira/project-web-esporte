@@ -46,8 +46,8 @@
 - [X] imagens sem licença
 
 ## Seguraça de informaçâo ao usúario
-- [] em desenvolvimento
-- [] em desenvolvimento
+- [ ] em desenvolvimento
+- [ ] em desenvolvimento
 
 ## Sobre Webp
 
