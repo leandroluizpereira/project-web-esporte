@@ -9,7 +9,7 @@
 .cabecalho{
     width: 100%;
     height: 12vw;
-    background-color:rgb(177, 177, 0)  ;
+    background-color:rgb(247, 247, 166)  ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -118,7 +118,9 @@ border-radius: 10px;
     background-color: darkgreen;
     color: rgb(199, 228, 199);
 }
-
+.btnEnviar:hover{
+    background-color: rgb(41, 114, 41);
+}
 
 
 
