@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="static/css/celular/style_surf-celular.css">
     <link rel="stylesheet" href="static/css/celular/style_motor-celular.css">
     <link rel="stylesheet" href="static/css/celular/style_dev-celular.css">
+    <!--Importaçâo Javascript-->
+    <script src="static/javascript/funcoes.js"></script>
     <!--"iCONE DE FAVORITOS" para indentificaçâo na aba do site-->
     <link rel="shortcut icon" href="static/imagens/faviconIo/favicon.ico" type="image/x-icon">
     <!--Fontes Google-->
@@ -128,7 +130,7 @@
         </div><!--container-img-->
     
     
-        <div class="grid-nba">
+        <div id="grid-nba" class="grid-nba">
             <div class="informacao-nba">
             <h1><strong style="color:#D9AD5B">NBA</strong><strong style="color: rgb(139, 22, 22);"> N</strong>ational <strong  style="color: rgb(139, 22, 22);">B</strong>asketball <strong  style="color: rgb(139, 22, 22);">A</strong>ssociation </h1>
             <p>A National Basketball Association (em português: Associação Nacional de Basquetebol; abreviação oficial: NBA) é a principal liga de basquetebol profissional da América do Norte. Com 30 franquias (29 nos Estados Unidos e 1 no Canadá), a NBA também é considerada a principal liga de basquete do mundo. É um membro ativo da USA Basketball (USAB)[1], que é reconhecida pela FIBA (a Federação Internacional de Basquetebol) como a entidade máxima e organizadora do basquetebol nos Estados Unidos. A NBA é uma das 4 'major leagues' de esporte profissional na América do Norte. Os jogadores da NBA são os mais bem pagos esportistas do mundo, por salário médio anual.[2]</p>
@@ -149,8 +151,8 @@
             <p>Phil Jackson foi contratado pelo Lakers e retornou o time de Los Angeles à proeminência na liga, com Kobe Bryant e Shaquille O'Neal vencendo três campeonatos seguido entre 2000 e 2002. Em seguida o Spurs de Duncan e o técnico Gregg Popovich, mais Manu Ginóbili e o francês Tony Parker (primeiro jogador a ser escolhido melhor das finais) ganhou três campeonatos em seis anos. Contratações para a formação de supertimes levaram à títulos do Miami Heat em 2005 - reforçando Dwyane Wade com O'Neal, Gary Payton e Alonzo Mourning - e do Celtics em 2008 - acrescentando Ray Allen e Kevin Garnett à estrela do time, Paul Pierce. Em seguida Jackson se tornaria o técnico mais vitorioso da história da NBA com um bicampeonato do Lakers de Bryant, Pau Gasol e Derek Fisher.</p>
             <p>Após o título do Lakers, começou uma era dominada por LeBron James, que já tinha levado o Cleveland Cavaliers para a final de 2007 (perdida para o Spurs). Desejando ganhar títulos, assinou com o Miami Heat, que renovou com Dwyane Wade e atraiu Chris Bosh em um investimento pesado para garantir novos campeonatos. De cara alcançaram a final de 2011, perdida para o Dallas Mavericks de Dirk Nowitzki, Jason Terry e Jason Kidd. Porém em seguida o Heat venceu dois títulos consecutivos, em 2012 sobre o Thunder de Kevin Durant e Russell Westbrook (em uma temporada encurtada por mais uma greve no final de 2011)[18] e em 2013 sobre os San Antonio Spurs, após forçar uma virada no jogo 6. Em 2014, a final foi novamente Heat contra os Spurs, desta vez com vitória de San Antonio, garantindo seu quinto título. Após a derrota, James decidiu voltar ao Cavaliers, considerando que a única conquista que lhe faltava era um título para o time de sua cidade natal. Acompanhado de Kyrie Irving e Kevin Love, James se tornou o primeiro jogador desde Bill Russell na década de 60 a alcançar 5 finais consecutivas.[19] Seu adversário na final era o Golden State Warriors, que com forte elenco liderado por Stephen Curry e Klay Thompson e muitas baixas por lesão no Cavs, conseguiu o tetracampeonato 40 anos depois do último título.</p>
             </div> <!--div informacao-nba-->
-            <div class="propaganda-nba">
-            <button class="button-prop">X</button>  Fechar
+            <div id ="propaganda" class="propaganda-nba">
+            <button class="button-prop" onclick=deletar()>X</button>  Fechar
             <div class="prop-nba-1"><h2 class="h2-prop-nba"></h2>Anúncios</div>
             <div class="prop-nba-1"><h2 class="h2-prop-nba"></h2></div>
             <div class="prop-nba-1"><h2 class="h2-prop-nba"></h2></div>
