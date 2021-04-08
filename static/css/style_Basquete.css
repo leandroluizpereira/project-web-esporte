@@ -153,9 +153,22 @@
 .propaganda-nba{
     margin: 20px;
     grid-area: "propagandas";
+    border-radius: 5px;
     border: 2px dashed #D9AD5B;
     background-color: beige;
 
+}
+.button-prop{
+    border-radius: 50%;
+    background-color: #590A0A;
+    color: #ffe8e8;
+    border: 2px solid  #ebc1c1;
+}
+.button-prop:hover{
+    border-radius: 50%;
+    background-color: #ebc1c1;
+    color: #590A0A;
+    border: 2px solid #590A0A;
 }
 .prop-nba-1{
     margin: 27px;
