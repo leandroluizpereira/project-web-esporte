@@ -48,6 +48,7 @@ margin: auto;
 
 }
 fieldset{
+    border-radius: 8px;
     border-color: #D9AD5B;
     margin: 15px;
 }
@@ -65,8 +66,8 @@ legend{
   
 }
 .inputEndere{
-    width: 190px;
-    margin-bottom: 15px;
+    width: 240px;
+
 
 
 }
@@ -107,7 +108,8 @@ legend{
 
 }
 .inputBairro{
-    width: 240px;
+    width: 210px;
+    margin-bottom: 15px;
 }
 
 .btnEnviar{  
