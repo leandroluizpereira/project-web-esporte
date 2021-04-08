@@ -11,3 +11,16 @@ function deletar(){
   document.getElementById("grid-nba").style.marginLeft ="100px";
   console.log("Deu certo!");
 }
+
+
+function createDivAnimation(name,num,nome){
+  document.getElementsByClassName(name);
+  var n = num;
+  var  nome ;
+  for (i=0;i<n;i++){
+     if(name = "animation"){
+     animation.apply(Infinity).show;
+     }
+     document.createElement(nome);
+  }
+}

@@ -38,7 +38,8 @@ fieldset{
     margin: 15px;
 }
 legend{
-    
+    color: #D9AD5B;
+    font-weight: bold;
 }
 .labelNome{
  
