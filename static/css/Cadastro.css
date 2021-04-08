@@ -126,6 +126,17 @@ legend{
 .btnEnviar:hover{
     background-color: rgb(41, 114, 41);
 }
+.div-voltar{
+    background-color: #D9AD5B;
+}
+.a-voltar{
+    margin:40px;
+    border-radius:10px;
+}
+a{
+    
+    color: rgb(216, 45, 15);
+}
 
 
 
