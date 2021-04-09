@@ -13,3 +13,14 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
+
+  /*Enviar as informaçôes para firebase */
+  const auth = firebase.auth();
+
+  function signUp(){
+      var email = document.getElementById("email");
+      var senha = document.getElementById("senha");
+      const promise = auth.createUserWithEmailAndPassaword(email.Value,senha.value);
+      promise.catch(e=> alert(e.message));
+      alert("signed in cadastrado");
+  }
