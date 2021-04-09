@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="static/css/Cadastro.css">
     <!--Importaçâo Javascript-->
     <script src="static/javascript/funcoes.js"></script>
+    <script src="static/javascript/form.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-analytics.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
     <title>Cadastro</title>
 </head>
 <header class="cabecalho" id ="home">
@@ -24,37 +30,37 @@
     <legend>Dados Pessoais</legend>
     <!--Nome-->
     <label class="labelNome"for="">Nome:</label>
-    <input class="inputNome" placeholder="Nome Completo:" type="text"></input>      
+    <input class="inputNome" id="nome" placeholder="Nome Completo:" type="text"></input>      
     <!--Bairro-->
     <label class="labelBairro" for="">Bairro:</label>
-    <input class="inputBairro" placeholder="Bairro:" type="text" ></input>
+    <input class="inputBairro" id="bairro" placeholder="Bairro:" type="text" ></input>
     <!--Rua-->
     <label class="labelEndere" for="">Rua:</label>
-    <input class="inputEndere" placeholder="Rua,Avenida,Travessa:" type="text"></input>
+    <input class="inputEndere" id="endereco" placeholder="Rua,Avenida,Travessa:" type="text"></input>
     <!--Numero-->
     <label class="labelNum" for="">Número:</label>
-    <input class="inputNum" placeholder="Número da residencia:" type="number" ></input>
+    <input class="inputNum" id="numero"placeholder="Número da residencia:" type="number" ></input>
     <!--Telefone-->
     <label class="labelTel" for="">Telefone:</label>
-    <input class="inputTel" placeholder="Telefone-Fixo:" type="tel"></input>
+    <input class="inputTel"id="telefone" placeholder="Telefone-Fixo:" type="tel"></input>
     <!--Celular-->
     <label class="labelCel" for="">Celular:</label>
-    <input class="inputCel"placeholder="Celular:" type="tel" ></input>
+    <input class="inputCel" id="celular"placeholder="Celular:" type="tel" ></input>
     </fieldset>
     <fieldset >
     <!--E-mail-->
     <legend>E-mail</legend>
     <label class="labelEmail" for="">E-mail:</label>
-    <input class="inputEmail" placeholder="E-mail:" type="text"></input>
+    <input class="inputEmail"id="email" placeholder="E-mail:" type="email"></input>
     </fieldset>
     <fieldset >
     <legend>Senha</legend>
     <!--Senha-->
     <label class="labelSenha" for="">Senha:</label>
-    <input class="inputSenha" placeholder="Senha:" type="password"></input>
+    <input class="inputSenha" id="senha" placeholder="Senha:" type="password"></input>
     <!--Confirma senha-->
     <label class="labelConSenha" for="">Confirma:</label>
-    <input class="inputConSenha" placeholder="Senha:" type="password"></input>
+    <input class="inputConSenha" id="confSenha" placeholder="Senha:" type="password"></input>
     </fieldset>
     <button class="btnEnviar">Enviar</button>
     <div class="a-voltar"><a href="index.html">Voltar</a></div>
