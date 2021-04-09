@@ -1,9 +1,29 @@
 @charset "UF-8";
+@keyframes transition-0{
+    from{
+       transform: translateX(200px);
+    }
+    to{  
+        transform: translateX(0px);
 
+    }
+}
 .corpo{
     margin: auto;
     width: 600px;
     background-color: beige;
+      
+}
+@keyframes transition {
+    from{
+       transform: translateY(-150px);
+    }
+    50%{
+        
+    }
+    to{
+        transform: translateY(0px);
+    }
 }
 .cabecalho{
     width: auto;
@@ -18,6 +38,7 @@
     background-size:cover;
     background-position:center;
     border-radius: 0px 0px 20px 20px;
+    animation: transition 1.5s ease-in;
 }
 .h1-cadastro{
     text-align: center;
@@ -28,6 +49,7 @@
     margin-right: 25px;
 }
 .div-corpo-form{
+    animation: transition-0 0.3s ease-in;
     margin-top: 25px;
     margin-bottom: 25px;
     border: 1px solid black;
