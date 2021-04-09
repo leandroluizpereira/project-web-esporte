@@ -10,6 +10,10 @@
     <!--Importaçâo Javascript-->
     <script src="static/javascript/funcoes.js"></script>
     <script src="static/javascript/form.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
+
 
     
 </head>
@@ -20,12 +24,12 @@
     <hr>
     <form action="">
       <label for="" >E-mail:</label>
-      <input type="text" id="email" placeholder="E-mail">
+      <input type="email" id="email" placeholder="E-mail">
       <label for="">Senha:</label>
-      <input type="password" placeholder="password" id="password"/>
-      <button class="botao" onclick="signUp()" id="signUp" Sign Up >Sign Up</button>
-      <button class="botao" onclick="signUp()" id="signIn" Sign in >Sign In</button>
-      <button class="botao" onclick="signOut()" id="signOut" Sign in >Sign out</button>
+      <input type="password" placeholder= "password" id="password"/>
+      <button class="botao" onclick="teste()" id="signUp">Sign Up</button>
+      <button class="botao" onclick="teste2()" id="signIn">Sign In</button>
+      <button class="botao" onclick="signOut()" id="signOut">Sign out</button>
     </form>
 
   </div>
