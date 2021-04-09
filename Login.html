@@ -19,11 +19,13 @@
     <h1 style="text-align: center;">Login:</h1>
     <hr>
     <form action="">
-      <label for="">E-mail:</label>
-      <input type="text">
+      <label for="" >E-mail:</label>
+      <input type="text" id="email" placeholder="E-mail">
       <label for="">Senha:</label>
-      <input type="password">
-      <button class="botao">Confirma</button>
+      <input type="password" placeholder="password" id="password"/>
+      <button class="botao" onclick="signUp()" id="signUp" Sign Up >Sign Up</button>
+      <button class="botao" onclick="signUp()" id="signIn" Sign in >Sign In</button>
+      <button class="botao" onclick="signOut()" id="signOut" Sign in >Sign out</button>
     </form>
 
   </div>
