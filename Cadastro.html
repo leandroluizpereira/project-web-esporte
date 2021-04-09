@@ -9,13 +9,11 @@
     <!--Importaçâo Javascript-->
     <script src="static/javascript/funcoes.js"></script>
     <script src="static/javascript/form.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-analytics.js"></script>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
     
     <title>Cadastro</title>
 </head>
@@ -28,7 +26,8 @@
     <h1 class="h1-cadastro">Cadastro</h1>
     <hr class="hr-cadastro">
     <br>
-    <form class="form" action="" post="get">
+    <!--action=""  post="get"-->
+    <form class="form" >
     <fieldset >
     <legend>Dados Pessoais</legend>
     <!--Nome-->
@@ -60,12 +59,12 @@
     <legend>Senha</legend>
     <!--Senha-->
     <label class="labelSenha" for="">Senha:</label>
-    <input class="inputSenha" id="senha" placeholder="Senha:" type="password"></input>
+    <input class="inputSenha" id="password" placeholder="Senha:" type="password"></input>
     <!--Confirma senha-->
     <label class="labelConSenha" for="">Confirma:</label>
     <input class="inputConSenha" id="confSenha" placeholder="Senha:" type="password"></input>
     </fieldset>
-    <button class="btnEnviar">Enviar</button>
+    <button class="btnEnviar" onclick="signIn()" id="signUp">Enviar</button>
     <div class="a-voltar"><a href="index.html">Voltar</a></div>
     </form><!--form-->
   

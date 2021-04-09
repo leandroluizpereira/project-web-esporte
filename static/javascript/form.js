@@ -1,26 +1,24 @@
 
+
+
   // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
-    apiKey: "AIzaSyDfoIt6xZIOcvGxihOFAMeAk2l_s_24bRg",
-    authDomain: "project-web-form-86db1.firebaseapp.com",
-    projectId: "project-web-form-86db1",
-    storageBucket: "project-web-form-86db1.appspot.com",
-    messagingSenderId: "770199029775",
-    appId: "1:770199029775:web:83c33ccf9ccc7e87a77b7a",
-    measurementId: "G-G74DP6RHHK"
+    apiKey: "AIzaSyB2g-y_9gpMwgenBEzG_7aXFwgmUcR2HHc",
+    authDomain: "project-web-6daa8.firebaseapp.com",
+    projectId: "project-web-6daa8",
+    storageBucket: "project-web-6daa8.appspot.com",
+    messagingSenderId: "227416522409",
+    appId: "1:227416522409:web:44c134c5b1bfdad1efb3b8"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
 
-  /*Enviar as informaçôes para firebase */
-  const auth = firebase.auth();
-
-  function signUp(){
-      var email = document.getElementById("email");
-      var senha = document.getElementById("senha");
-      const promise = auth.createUserWithEmailAndPassaword(email.Value,senha.value);
-      promise.catch(e=> alert(e.message));
-      alert("signed in cadastrado");
-  }
+ function signIn(){
+   var email = document.getElementById("email").value;
+   if (email == ""){
+    alert("O e-mail deve ser preenchido!");
+   }
+   else{
+   alert("E-mail Cadastrado com sucesso!!!"+email);
+   }
+ }
