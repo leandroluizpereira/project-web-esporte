@@ -24,5 +24,4 @@ function createDivAnimation(name,num,nome){
      document.createElement(nome);
   }
 
-
 }
