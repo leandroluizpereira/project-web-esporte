@@ -9,6 +9,8 @@ body{
     padding: 15px;
     background-color: white;
     height: 500px;
+    border-radius: 20px;
+    border: 2px solid darkgoldenrod ;
 }
 .h1-termo{
     text-align: center;
