@@ -6,6 +6,7 @@ body{
 }
 
 .div-termo{
+    padding: 15px;
     background-color: white;
     height: 500px;
 }
