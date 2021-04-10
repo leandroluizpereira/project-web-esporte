@@ -31,5 +31,15 @@
     else{
      alert("Signed in");
     }
-   }
+  }
+    function salvar(){
+      email = document.getElementById("email").value;
+      var localemail = localStorage.setItem ("email","email");
+     alert("o email "+localemail);
+    }
+    function ler(){
+      var email = localStorage.getItem("email","email");
+      
+    }
+   
     
