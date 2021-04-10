@@ -11,11 +11,23 @@ body{
     height: 500px;
     border-radius: 20px;
     border: 2px solid darkgoldenrod ;
+    animation: move 2s linear;
 }
 .h1-termo{
     text-align: center;
     color: #D9AD5B;
+    
 }
 p{
     text-align: left;
+}
+@keyframes move{
+    from{
+        height: 0px;
+
+    }
+    to{
+        height: 500px;
+
+    }
 }
