@@ -129,25 +129,34 @@ p{
     text-shadow:4px 2px 2px #403222;
 }
 .header-titulo2{
-    display: none;
-    left: 65%;
-    top: 30%;
+    font-size: 50px;
+    left: 75%;
+    top: 40%;
     position: absolute;
     color: white;
     border-bottom: 1px solid rgba(255, 255, 255,0.3);  
 }
 .header-titulo2 h1{
     z-index: 1;
-    font-size: 35px;
+    font-size: 40px;
     color: white;
     text-shadow:4px 2px 2px #403222;
 }
 .header-titulo2 h2{
- 
-    padding-left: 10%;
+   width: 300px;
     font-size: 30px;
     color: white;
     text-shadow:4px 2px 2px #403222;
+}
+@media(max-width:1000px){
+    .header-titulo2{
+        font-size: 50px;
+        left: 55%;
+        top: 30%;
+        position: absolute;
+        color: white;
+        border-bottom: 1px solid rgba(255, 255, 255,0.3);  
+    }
 }
 .imagem-principal{
     width: auto;
