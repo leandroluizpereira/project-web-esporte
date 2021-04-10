@@ -16,10 +16,12 @@ body{
 .h1-termo{
     text-align: center;
     color: #D9AD5B;
-    
+    animation: opacity 3s linear;
+
 }
 p{
     text-align: left;
+    animation: opacity 3s linear;
 }
 @keyframes move{
     from{
@@ -28,6 +30,16 @@ p{
     }
     to{
         height: 500px;
+
+    }
+}
+@keyframes opacity {
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
 
     }
 }
