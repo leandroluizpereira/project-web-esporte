@@ -20,7 +20,7 @@
       promise.catch(e => alert(e.message));
       alert("Signed up");
    }
-   l
+   
  
    function teste2(){
     var email = document.getElementById("email").value;
