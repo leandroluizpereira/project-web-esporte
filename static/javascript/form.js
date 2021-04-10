@@ -34,12 +34,14 @@
   }
     function salvar(){
       email = document.getElementById("email").value;
-      var localemail = localStorage.setItem ("email","email");
+      var email = localStorage.setItem("email","email");
      alert("o email "+localemail);
     }
     function ler(){
-      var email = localStorage.getItem("email","email");
-      
+
+      var localemail = localStorage.getItem ("email","email");
+      document.onchange.savar();
+
     }
    
     
