@@ -4,7 +4,6 @@ body{
     height: auto;
     background-color: beige;
 }
-
 .div-termo{
     padding: 15px;
     background-color: white;
@@ -17,7 +16,6 @@ body{
     text-align: center;
     color: #D9AD5B;
     animation: opacity 3s linear;
-
 }
 p{
     text-align: left;

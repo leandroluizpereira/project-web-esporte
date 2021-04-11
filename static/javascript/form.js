@@ -2,7 +2,10 @@
     function salvar(){
       email = document.getElementById("email").value;
       var email = localStorage.setItem("email",email);
-     alert("o email "+localemail);
+      nome = document.getElementById("nome").value;
+      var nome = localStorage.setItem("nome",email);
+      alert("o email "+localemail);
+
     }
     function ler(){
 
