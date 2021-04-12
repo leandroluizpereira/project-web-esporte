@@ -21,12 +21,8 @@
       alert("o email");
       
     }
-    function ler(){
-
+      function ler(){
       var localemail = localStorage.getItem("email",+localemail);
-
-
-
      /* document.onchange.savar(); */
 
     }
