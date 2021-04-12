@@ -19,7 +19,7 @@
       confSenha=document.getElementById("confSenha").value;
       var confSenha=localStorage.setItem("confSenha",confSenha);
       alert("o email");
-    
+      
     }
     function ler(){
 
