@@ -40,6 +40,7 @@
         var password = localStorage.getItem("password",password);
         confSenha = document.getElementById("confSenha").value;
         var confSenha = localStorage.getItem("confSenha",confSenha);
+        
 
     }
    
