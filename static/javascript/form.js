@@ -41,6 +41,7 @@
         confSenha = document.getElementById("confSenha").value;
         var confSenha = localStorage.getItem("confSenha",confSenha);
         
+        
 
         
         
