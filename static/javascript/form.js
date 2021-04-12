@@ -11,11 +11,11 @@
       numero=document.getElementById("numero").value;
       var numero=localStorage.setItem("numero",numero);
       telefone=document.getElementById("telefone").value;
-      var telefone =localStorage.setItem("telefone",telefone);
+      var telefone=localStorage.setItem("telefone",telefone);
       celular=document.getElementById("celular").value;
       var celular=localStorage.setItem("celular",celular);
       password=document.getElementById("password").value;
-      var password= localStorage.setItem("password",password);
+      var password=localStorage.setItem("password",password);
       confSenha=document.getElementById("confSenha").value;
       var confSenha=localStorage.setItem("confSenha",confSenha);
       alert("o email");
