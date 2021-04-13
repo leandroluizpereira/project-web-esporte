@@ -20,34 +20,29 @@
     <!--action=""post="get"-->
     <form class="form">
 
-    <legend>Dados Pessoais</legend>
-
+    <h1>Dados Pessoais</h1>
+       <script>ler(); 
+    </script>
     <!--Nome-->
-    
-    <h1 class="labelNome" for="" id="nome">nome</h1>
+    <h1><script>document.write(localStorage.nome);</script></h1>
 
     <!--Bairro-->
-    <label class="labelBairro" for="">Bairro:</label>
+    <h2>Bairro: <script>document.write(localStorage.bairro);</script></h2>
 
     <!--Rua-->
-    <label class="labelEndere" for="">Rua:</label>
+    <h2 >Rua: <script>document.write(localStorage.endereco);</script></h2>
+
     <!--Numero-->
-    <label class="labelNum" for="">Número:</label>
+    <h2 >Número: <script>document.write(localStorage.numero);</script></h2>
 
     <!--Telefone-->
-    <label class="labelTel" for="">Telefone:</label>
+    <h2 >Telefone: <script>document.write(localStorage.telefone);</script></h2>
 
     <!--Celular-->
-    <label class="labelCel" for="">Celular:</label>
+    <h2 >Celular: <script>document.write(localStorage.celular);</script></h2>
 
-    <!--E-mail-->
-    <legend>E-mail</legend>
-    <label class="labelEmail" for="">E-mail:</label>
 
-    <legend>Senha</legend>
-    <label class="labelSenha" for="">Senha:</label>
-  
-    <label class="labelConSenha" for="">Confirma:</label>
+    <h2>E-mail: <script>document.write(localStorage.email);</script></h2>
     <div class="a-voltar"><a href="index.html">Voltar</a></div>
     </form><!--form-->
     </div> <!--div-form-->

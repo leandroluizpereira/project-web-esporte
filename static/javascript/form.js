@@ -4,7 +4,7 @@
       var email = localStorage.setItem("email",email);
       nome = document.getElementById("nome").value;
       var nome = localStorage.setItem("nome",nome);
-      bairro=document.getElementById("bairro").value;
+      bairro = document.getElementById("bairro").value;
       var bairro=localStorage.setItem("bairro",bairro);
       endereco = document.getElementById("endereco").value;
       var endereco = localStorage.setItem("endereco",endereco);
@@ -18,12 +18,17 @@
       var password = localStorage.setItem("password",password);
       confSenha=document.getElementById("confSenha").value;
       var confSenha=localStorage.setItem("confSenha",confSenha);
-      alert("o email"); 
+      alert("Salvo com sucesso"); 
     }
+
   function ler(){
-    document.getElementById('nome').localStorage.email;
+
+    alert("Bem-vindo "+localStorage.nome);
+ 
+   
   }
-    document.getElementById('nome').localStorage.email;
+
+  
       
      
    
