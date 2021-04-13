@@ -19,6 +19,8 @@
       confSenha=document.getElementById("confSenha").value;
       var confSenha=localStorage.setItem("confSenha",confSenha);
       alert("Salvo com sucesso"); 
+      
+  
     }
 
   function ler(){
@@ -27,6 +29,18 @@
  
    
   }
+
+  function signUp(){
+   var email = document.getElementById("email").value;
+    if (email == localStorage.email){
+         alert("email confere");
+    } 
+    if(document.getElementById("password").value == localStorage.getItem("password")){
+        alert("password confere");
+    }
+  }
+
+
 
   
       
