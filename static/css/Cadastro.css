@@ -11,8 +11,7 @@
 .corpo{
     margin: auto;
     width: 600px;
-    background-color: beige;
-      
+    background-color: beige;  
 }
 @keyframes transition {
     from{
@@ -26,6 +25,7 @@
     }
 }
 .cabecalho{
+
     width: auto;
     height: 36vw;
     border-left: 2px solid #D9AD5B;
