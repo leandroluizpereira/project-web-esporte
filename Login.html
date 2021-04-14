@@ -12,14 +12,12 @@
     <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
     
-
     <script src="static/javascript/form.js"></script>
     
 </head>
 <body>
   <!-- The core Firebase JS SDK is always required and must be listed first -->
 
-  <script>signUp();</script>
   <div class="div-login">
     <h1 style="text-align: center;">Login:</h1>
     <hr>
@@ -28,9 +26,10 @@
       <input type="email" id="email" placeholder="E-mail">
       <label for="">Senha:</label>
       <input type="password" placeholder= "password" id="password"/>
-      <button class="botao" onclick="signUp()" id="signUp">Sign Up</button>
-      <button class="botao" onclick="ler()" id="signIn">Sign In</button>
-      <button class="botao" onclick="signOut()" id="signOut">Sign out</button>
+      <button id ="logar" class="botao" onclick="signUp();" ><a id="a" href="telaUsuario.html">OK</a></button>
+      <!--
+      <button class="botao" onclick="ler();" id="signIn">Sign In</button>
+      <button class="botao" onclick="signOut();" >Sign out</button> -->
  
     </form>
 

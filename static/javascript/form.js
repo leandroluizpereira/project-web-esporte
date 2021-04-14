@@ -51,12 +51,16 @@
 
   function signUp(){
    var email = document.getElementById("email").value;
-    if (email == localStorage.email){
-         alert("email confere");
+   var password =document.getElementById("password").value;
+    if (email == localStorage.email && password == localStorage.password ){
+         alert("email e senha confere");
     } 
-    if(document.getElementById("password").value == localStorage.getItem("password")){
-        alert("password confere");
+    else{
+       alert("email ou senha inválido");
+       
+
     }
+  
   }
 
 
