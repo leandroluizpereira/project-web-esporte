@@ -18,7 +18,8 @@
       var password = localStorage.setItem("password",password);
       confSenha=document.getElementById("confSenha").value;
       var confSenha=localStorage.setItem("confSenha",confSenha);
-      alert("Salvo com sucesso");  
+      alert("Salvo com sucesso");
+    
   
     }
 
