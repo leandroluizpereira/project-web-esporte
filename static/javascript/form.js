@@ -57,8 +57,6 @@
     } 
     else{
        alert("email ou senha inválido");
-       
-
     }
   
   }
