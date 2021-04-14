@@ -5,9 +5,6 @@
 @media screen and (min-width:701px) and (max-width:4090px){
     /*@media screen and (min-width:430px) and (max-width:1390px)*/
     /* width */
-
-
-
 ::-webkit-scrollbar {
   width: 20px;
 }
@@ -173,8 +170,6 @@ p{
     background-size: cover;
     background-position: center ;
 }
-
-
 .cabecalho :hover{
    
 }
@@ -207,8 +202,6 @@ footer:hover{
     margin-right: 50px;
     font-size: 10px;
     text-align: justify;
-
-
 }
 .footer-02{
     margin-right: 50px;
