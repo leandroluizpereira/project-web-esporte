@@ -27,6 +27,7 @@
 - [x] css
 - [ ] banco de dados
 - [ ] FireBase
+- [X] LocalStore
 - [x] Responsivel Desktop - 1320px
 - [x] Responsivel tablet - 700px
 - [x] Responsivel mobile - 360px
