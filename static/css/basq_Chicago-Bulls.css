@@ -2,6 +2,7 @@
 /*media para responsividade de tela para desktop de 430px espandindo até 2500px */
 @media screen and (min-width:701px) and (max-width:4090px){
 /*@media screen and (min-width:430px) and (max-width:1390px)*/
+
 body{
     margin: 0%;
     width: 100%;
@@ -283,6 +284,7 @@ p{
 }
 
 .container-img-jordan{
+   
     display: inline-block;
     margin-top: -1%;
     margin-left: -6px;
@@ -295,10 +297,12 @@ p{
     border:3.5px solid black;
    /* animation: scale 2s linear , transition-color 3s ; */
    position: relative;
+
    
 }
 
 .img-michael-jordan{
+ 
     top:-63px;
     left: -230px;
     margin: 0;
