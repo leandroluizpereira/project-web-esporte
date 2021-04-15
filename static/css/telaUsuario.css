@@ -16,6 +16,9 @@ h2{
 
 }
 .div-corpo-form{
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
     background-color: white;
     padding: 30px;
 }
