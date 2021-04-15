@@ -1,4 +1,5 @@
    
+
     function salvar(){
       email = document.getElementById("email").value;
       var email = localStorage.setItem("email",email);
@@ -59,6 +60,13 @@
        alert("email ou senha inválido");
     }
   
+  }
+
+  function imagem(){
+    
+   document.querySelector("#imagem").addEventListener("change",function (){
+    console.log(this.files);
+});
   }
 
 
