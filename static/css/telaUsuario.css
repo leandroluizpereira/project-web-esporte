@@ -60,6 +60,8 @@ h2{
 #imagemUsuario{
     width: 150px;
     height: 150px;
+    background-position: center;
+    background-size: cover;
     border-radius: 50%;
     border: 2px solid black;
     animation: sombra 2s infinite linear;
