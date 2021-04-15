@@ -11,6 +11,12 @@ body{
  width: 700px;
     
 }
+.div-imagemUsuario{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
 #imagemUsuario{
     width: 150px;
     height: 150px;

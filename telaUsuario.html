@@ -20,12 +20,14 @@
     <!--action=""post="get"-->
     <form class="form">
      <script>carregarImagem();</script>
+     <div class="div-imagemUsuario">
     <img id ="imagemUsuario" src="" alt="">
+     </div>
     <h1>Dados Pessoais</h1>
        <script>ler(); 
     </script>
     <!--Nome-->
-    <h1><script>document.write(localStorage.nome);</script></h1>
+    <h1>Nome: <script>document.write(localStorage.nome);</script></h1>
 
     <!--Bairro-->
     <h2>Bairro: <script>document.write(localStorage.bairro);</script></h2>
