@@ -24,6 +24,9 @@
         transform: translateY(0px);
     }
 }
+p{
+    color: red;
+}
 .cabecalho{
 
     width: auto;

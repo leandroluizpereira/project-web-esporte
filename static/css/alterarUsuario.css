@@ -26,6 +26,10 @@
         transform: translateY(0px);
     }
 }
+h3{
+    color: #D9AD5B;
+
+}
 .cabecalho{
 
     width: auto;
@@ -79,30 +83,35 @@ legend{
     font-weight: bold;
 }
 .labelNome{
+    color: #D9AD5B;
  
 }
 .inputNome{
     width: 190px;
 }
 .labelEndere{
+    color: #D9AD5B;
   
 }
 .inputEndere{
     width: 240px;
 }
 .labelNum{
+    color: #D9AD5B;
     margin: 10px;
 }
 .inputNum{
     width: 40px;
 }
 .labelNum{
+    color: #D9AD5B;
     margin: 10px 0px 10px 10px;
 }
 .inputNum{
     width: 130px;
 }
 .labelCel{
+    color: #D9AD5B;
 
 }
 .inputCel{
@@ -110,6 +119,7 @@ legend{
     margin: 10px 10px 0px 0px;
 }
 .labelTel{
+    color: #D9AD5B;
 
 }
 .inputTel{
@@ -117,6 +127,7 @@ legend{
     margin: 10px 10px 0px 0px;
 }
 .labelSenha{
+    color: #D9AD5B;
     margin: 10px ;
 }
 .inputSenha{
@@ -124,6 +135,7 @@ legend{
 
 }
 .labelConSenha{
+    color: #D9AD5B;
     margin: 10px;
 }
 .inputConSenha{
@@ -131,17 +143,23 @@ legend{
 }
 .labelEmail{
 
+    color: #D9AD5B;
 }
 .inputEmail{
     width: 240px;
 }
 .labelBairro{
+    color: #D9AD5B;
 
 }
 .inputBairro{
     width: 210px;
     margin-bottom: 15px;
 }
+p{
+    color: red;
+}
+
 
 .btnEnviar{  
     border-radius: 10px;
