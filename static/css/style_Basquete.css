@@ -158,6 +158,75 @@
     background-color: beige;
 
 }
+.prop-nba-1,.prop-nba-2,.prop-nba-3,.prop-nba-4,.prop-nba-5,.prop-nba-6,.prop-nba-7,.prop-nba-8,.prop-nba-9{
+    margin: 27px;
+    width: 150px;
+    height: 180px;
+    border: 2px solid black;
+}
+.prop-nba-1{
+
+    background-image: url(../../static/imagens/);
+    background-size: cover;
+    background-position: center;
+
+}
+.prop-nba-2{
+
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+
+}
+.prop-nba-3{
+
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+
+}
+.prop-nba-4{
+
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+
+}
+.prop-nba-5{
+
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+
+}
+.prop-nba-6{
+
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+
+}
+.prop-nba-7{
+
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+
+}
+.prop-nba-8{
+
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+
+}
+.prop-nba-9{
+
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+
+}
 
 .button-prop{
     border-radius: 50%;
@@ -174,12 +243,7 @@
     border: 2px solid  #ebc1c1;
 }
 
-.prop-nba-1{
-    margin: 27px;
-    width: 150px;
-    height: 180px;
-    border: 2px solid black;
-}
+
 .h2-prop-nba{
     text-align: center;
     font-size: 14px;
