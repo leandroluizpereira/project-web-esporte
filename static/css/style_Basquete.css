@@ -166,16 +166,18 @@
 }
 .prop-nba-1{
 
-    background-image: url(../../static/imagens/);
+    background-image: url(../../static/imagens/propagandas/Netflix-2-full-gimp.webp);
     background-size: cover;
     background-position: center;
+    
 
 }
 .prop-nba-2{
 
-    background-image: url();
-    background-size: cover;
+    background-image: url(../../static/imagens/propagandas/espn-200px-gimp.webp);
+    background-size: contain;
     background-position: center;
+    
 
 }
 .prop-nba-3{
