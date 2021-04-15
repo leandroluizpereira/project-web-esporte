@@ -11,3 +11,22 @@ body{
  width: 700px;
     
 }
+#imagemUsuario{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    animation: sombra 2s infinite linear;
+}
+
+@keyframes sombra{
+    from {
+      box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.493);
+    }
+    to{
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.493);
+    }
+    50%{
+        box-shadow: 0px 0px 3px 5px rgba(0, 0, 0, 0.493);
+    }
+}

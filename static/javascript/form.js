@@ -65,8 +65,21 @@
   function imagem(){
     
    document.querySelector("#imagem").addEventListener("change",function (){
-    console.log(this.files);
+    const ler = new FileReader();
+     ler.addEventListener("load",() =>{
+       localStorage.setItem("Imagem-recente",ler.result);
+     });
+    ler.readAsDataURL(this.files[0]);
 });
+  }
+  function carregarImagem(){
+    document.addEventListener("DOMContentLoaded",() =>{
+      const recentImageDataUrl = localStorage.getItem("Imagem-recente");
+
+      if(recentImageDataUrl){
+        document.querySelector("#imagemUsuario").setAttribute("src", recentImageDataUrl);
+      }
+    });
   }
 
 
