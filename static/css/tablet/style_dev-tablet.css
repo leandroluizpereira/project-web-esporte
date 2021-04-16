@@ -55,7 +55,21 @@
     
 
 
-
+    .conteiner-a-dev{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: beige;
+    }
+    .a-dev{
+        padding: 15px;
+        color: red;
+        text-decoration: none;
+    }
+    .a-dev:hover{
+        text-decoration: underline;
+        color: #D9A25F;
+    }
 
 
 

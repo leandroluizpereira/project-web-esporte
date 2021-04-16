@@ -54,6 +54,23 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
 }
+.conteiner-a-dev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.a-dev{
+    font-size:10px;
+    padding: 3px;
+    color: red;
+    text-decoration: none;
+}
+.a-dev:hover{
+    text-decoration: underline;
+    color: #D9A25F;
+}
+
 
 
 
