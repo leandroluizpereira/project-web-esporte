@@ -68,6 +68,7 @@ nav ul a:hover {
   color: #AAA;
 }
 nav li {
+ 
     font-family: 'Brandon Grotesque';
     font-weight: normal;
   font-style: normal;
@@ -126,7 +127,7 @@ nav .wrapper {
   nav li {
     color: #53354A;
     display: block;
-    font-size: 1.5em;
+    font-size: 17px;
     padding: 1em 0;
     text-align: center;
 
