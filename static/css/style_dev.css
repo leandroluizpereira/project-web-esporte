@@ -51,6 +51,17 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
 }
+.conteiner-a-dev{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+.a-dev{
+    padding: 30px;
+    color: black;
+}
+
 
 
 @keyframes opac {
