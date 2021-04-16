@@ -88,7 +88,7 @@ function alterar(){
   nome = document.getElementById("nome").value;
   var nome = localStorage.setItem("nome",nome);
   bairro = document.getElementById("bairro").value;
-  var bairro=localStorage.setItem("bairro",bairro);
+  var bairro = localStorage.setItem("bairro",bairro);
   endereco = document.getElementById("endereco").value;
   var endereco = localStorage.setItem("endereco",endereco);
   numero = document.getElementById("numero").value;
@@ -99,7 +99,7 @@ function alterar(){
   var celular = localStorage.setItem("celular",celular);
   password=document.getElementById("password").value;
   var password = localStorage.setItem("password",password);
-  confSenha=document.getElementById("confSenha").value;
+  confSenha = document.getElementById("confSenha").value;
   var confSenha=localStorage.setItem("confSenha",confSenha);
   alert("alterado com sucesso");
 
