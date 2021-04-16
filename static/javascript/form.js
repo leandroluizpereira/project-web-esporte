@@ -1,6 +1,7 @@
    
 
 function salvar(){
+
   if(document.getElementById("email").value == ""){
     alert("Email deve ser cadastrado");
   }
@@ -70,11 +71,12 @@ function salvar(){
   else{
   alert("A senha está incorreto ");
   }
-  if( document.getElementById("checkTermo").checked==false ){
+  if( document.getElementById("checkTermo").checked==false){
   alert("O termo deve ser confirmado");
   }
   alert("Salvo com sucesso");
 }
+
 
 function ler(){
   alert("Bem-vindo "+localStorage.nome);
@@ -106,7 +108,7 @@ function alterar(){
 function signUp(){
   var email = document.getElementById("email").value;
   var password =document.getElementById("password").value;
-  if (email == localStorage.email && password == localStorage.password ){
+  if (email == localStorage.email && password == localStorage.password){
         alert("email e senha confere");
   } 
   else{
