@@ -50,25 +50,29 @@
       celular = document.getElementById("celular").value;
       var celular = localStorage.setItem("celular",celular);
       }
-      if(document.getElementById("password").value == ""){
-        alert("A senha deve ser informado");
+      
+      if(document.getElementById("password").value == document.getElementById("confSenha").value){
+         alert("Senha correto");
+         if(document.getElementById("password").value == ""){
+          alert("A senha deve ser informado");
+        }
+        else{
+        password=document.getElementById("password").value;
+        var password = localStorage.setItem("password",password);
+        }
+        if(document.getElementById("confSenha").value ==""){
+          alert ("precisa confirma senha");
+        }
+        else{
+        confSenha=document.getElementById("confSenha").value;
+        var confSenha=localStorage.setItem("confSenha",confSenha);
+        }
       }
       else{
-      password=document.getElementById("password").value;
-      var password = localStorage.setItem("password",password);
-      }
-      if(document.getElementById("confSenha").value ==""){
-        alert ("precisa confirma senha");
-      }
-      else{
-      confSenha=document.getElementById("confSenha").value;
-      var confSenha=localStorage.setItem("confSenha",confSenha);
-      }
+        alert("A senha está incorreto ");
+        }
       if( document.getElementById("checkTermo").checked==false ){
         alert("O termo deve ser confirmado");
-      }
-      else{
-    
       }
       alert("Salvo com sucesso");
  
