@@ -44,8 +44,10 @@
  * - [x] jpeg
 - [x] Video
  * - [x] externo "Youtube"
+- [X] PDF - paletas de cores
 - [X] imagens de lincença
 - [X] imagens sem licença
+
 
 ## Segurança de informaçâo ao usúario
 - [ ] em desenvolvimento
