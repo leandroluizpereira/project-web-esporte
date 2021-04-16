@@ -20,6 +20,9 @@
  * - [x] keyframe sombra - transform - 
 - [X] Funçôes com Javascripts
  * - [X] Function - deletar() -
+ * - [X] Function - salvar() -
+ * - [X] Function - alterar() -
+ * - [X] Function - signUp() -
 - [X] Fotos
 - [x] Tela de cadastro
 - [ ] PHP
