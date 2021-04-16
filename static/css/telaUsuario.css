@@ -1,25 +1,5 @@
 @charset "UTF-8";
-@keyframes transition {
-    from{
-       transform: translateY(-150px);
-    }
-    50%{
-        
-    }
-    to{
-        transform: translateY(0px);
-    }
-}
 
-@keyframes transition-0{
-    from{
-       transform: translateX(200px);
-    }
-    to{  
-        transform: translateX(0px);
-       
-    }
-}
 
 body{
     background-color: beige;
@@ -65,6 +45,27 @@ h2{
 }
 .a-voltar,.a-alterar{
     text-align: center;
+}
+@keyframes transition {
+    from{
+       transform: translateY(-150px);
+    }
+    50%{
+        
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes transition-0{
+    from{
+       transform: translateX(200px);
+    }
+    to{  
+        transform: translateX(0px);
+       
+    }
 }
 
 @keyframes sombra{
