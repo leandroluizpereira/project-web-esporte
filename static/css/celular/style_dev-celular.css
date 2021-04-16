@@ -70,6 +70,46 @@
     text-decoration: underline;
     color: #D9A25F;
 }
+p{
+    background-color: beige;
+    text-align: center;
+}
+.container-ball{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.anima-ball{
+    border-radius: 50%;
+    border: 3px solid rgb(112, 0, 0);
+  
+    animation:girar 2s linear infinite ;
+}
+.anima-ball:hover{
+    animation:bola-movimento 0.5s linear infinite ;
+    cursor: grab;
+}
+@keyframes bola-movimento {
+    from{
+     
+    transform: translateY(0px);
+     }
+     to{
+
+     transform: translateY(-15px);
+     }    
+     
+ }
+@keyframes girar {
+    from{
+    
+        transform: rotate(0deg);       
+    }
+    to{
+         transform: rotate(120deg);
+ 
+    }  
+}
 
 
 
