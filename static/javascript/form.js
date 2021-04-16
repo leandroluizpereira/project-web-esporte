@@ -64,6 +64,12 @@
       confSenha=document.getElementById("confSenha").value;
       var confSenha=localStorage.setItem("confSenha",confSenha);
       }
+      if( document.getElementById("checkTermo").checked==false ){
+        alert("O termo deve ser confirmado");
+      }
+      else{
+    
+      }
       alert("Salvo com sucesso");
  
     }
@@ -110,6 +116,7 @@
   function imagem(){
     
    document.querySelector("#imagem").addEventListener("change",function (){
+    //instanciando objeto do FileReader para carregar imagem
     const ler = new FileReader();
      ler.addEventListener("load",() =>{
        localStorage.setItem("Imagem-recente",ler.result);
