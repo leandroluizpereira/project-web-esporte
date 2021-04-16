@@ -9,7 +9,7 @@ function salvar(){
   email = document.getElementById("email").value;
   var email = localStorage.setItem("email",email);
   }
-  if(document.getElementById("nome").value == ""){
+  if (document.getElementById("nome").value == ""){
     alert("O nome deve ser cadastrado");
   }
   else{
@@ -133,8 +133,11 @@ function carregarImagem(){
   if(recentImageDataUrl){
   document.querySelector("#imagemUsuario").setAttribute("src", recentImageDataUrl);
   }
+ 
+  
   });
 }
+
 
 
 
