@@ -1,5 +1,11 @@
-   
-
+ function ch(){
+   if(document.getElementById('checkTermo').checked){
+   document.getElementById('btn').style.display="inline";
+   }
+   else{
+    document.getElementById('btn').style.display="none";
+   }  
+ }
 function salvar(){
 
   if(document.getElementById("email").value == ""){
@@ -71,7 +77,7 @@ function salvar(){
   else{
   alert("A senha está incorreto ");
   }
-  if( document.getElementById("checkTermo").checked==false){
+  if(document.getElementById("checkTermo").checked==false){
   alert("O termo deve ser confirmado");
   }
   alert("Salvo com sucesso");
@@ -138,6 +144,9 @@ function carregarImagem(){
   });
 }
 
+
+
+   
 
 
 
