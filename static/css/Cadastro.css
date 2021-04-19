@@ -143,9 +143,12 @@ legend{
     width: 210px;
     margin-bottom: 15px;
 }
+.inputcheck:checked{
+  margin: 30px;
+}
 
 .btnEnviar{  
-    
+
     text-align: center;
     text-justify: center;
     border-radius: 10px;
