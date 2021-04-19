@@ -1,6 +1,10 @@
 body{
     margin: auto;
+    background-image: url(../imagens/background/pasiagem-100px-gimp.webp);
     background-color: beige;
+    background-size:cover;
+ 
+   
     width: 500px;
 }
 .div-login{
