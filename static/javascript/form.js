@@ -1,10 +1,11 @@
  function ch(){
+   
    if(document.getElementById('checkTermo').checked){
     document.getElementById('btn').style.animation= "aparecer 2s linear";
    document.getElementById('btn').style.display="inline";
    }
    else {
-   document.getElementById('btn').style.animation= "esconder 2s linear";
+   document.getElementById('btn').style.animation= "esconder 1s linear";
    document.getElementById('btn').style.display="none";
    }
   
