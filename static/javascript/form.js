@@ -187,7 +187,7 @@ function alterar(){
   }
 
   alert("alterado com sucesso");
-
+  window.open('telaUsuario.html');
 }
 
 function signUp(){

@@ -165,7 +165,7 @@ legend{
 
 
 .btnEnviar{ 
-    
+    cursor: pointer;
     display: none;
     font-size: 15px;
     text-align: center;
