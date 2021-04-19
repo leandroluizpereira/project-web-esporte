@@ -14,40 +14,38 @@
 
     <div class="div-corpo-form">
     <div class="div-form">
-    <h1 class="h1-cadastro">Tela do usuário</h1>
+    <h1 class="h1-cadastro">Bem vindo <script>document.write(localStorage.nome);</script></h1>
     <hr class="hr-cadastro">
     <br>
     <!--action=""post="get"-->
     <form class="form">
-     <script>carregarImagem();</script>
-     <div class="div-imagemUsuario">
-    <img id ="imagemUsuario" src="" alt="">
-     </div>
-    <h2>Dados Pessoais</h2>
-       <script>ler(); 
-    </script>
-    <!--Nome-->
-    <h2>Nome:<script>document.write(localStorage.nome);</script></h2>
-
-    <!--Bairro-->
-    <h2>Bairro: <script>document.write(localStorage.bairro);</script></h2>
-
-    <!--Rua-->
-    <h2 >Rua: <script>document.write(localStorage.endereco);</script></h2>
-
-    <!--Numero-->
-    <h2 >Número: <script>document.write(localStorage.numero);</script></h2>
-
-    <!--Telefone-->
-    <h2 >Telefone: <script>document.write(localStorage.telefone);</script></h2>
-
-    <!--Celular-->
-    <h2 >Celular: <script>document.write(localStorage.celular);</script></h2>
-
-
-    <h2>E-mail: <script>document.write(localStorage.email);</script></h2>
-    <div class="a-voltar"><a href="index.html">Voltar a página principal</a></div>
-    <div class="a-alterar"><a href="alterarUsuario.html">Alterar dados do cadastro</a></div>
+       <div class="container-imagem">
+            
+                <script>carregarImagem();</script>
+                <div class="div-imagemUsuario">
+               <img id ="imagemUsuario" src="" alt="">
+                </div>
+       </div>
+    <div class="container-dados">
+        <h2>Dados Pessoais</h2>
+           <script>ler();
+        </script>
+        <!--Nome-->
+        <h2>Nome:<script>document.write(localStorage.nome);</script></h2>
+        <!--Bairro-->
+        <h2>Bairro: <script>document.write(localStorage.bairro);</script></h2>
+        <!--Rua-->
+        <h2 >Rua: <script>document.write(localStorage.endereco);</script></h2>
+        <!--Numero-->
+        <h2 >Número: <script>document.write(localStorage.numero);</script></h2>
+        <!--Telefone-->
+        <h2 >Telefone: <script>document.write(localStorage.telefone);</script></h2>
+        <!--Celular-->
+        <h2 >Celular: <script>document.write(localStorage.celular);</script></h2>
+        <h2>E-mail: <script>document.write(localStorage.email);</script></h2>
+        <div class="a-voltar"><a href="index.html">Voltar a página principal</a></div>
+        <div class="a-alterar"><a href="alterarUsuario.html">Alterar dados do cadastro</a></div>
+    </div><!--container-dados-->
     </form><!--form-->
     </div> <!--div-form-->
     </div> <!--div-corpo-form--> 
