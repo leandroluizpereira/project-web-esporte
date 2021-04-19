@@ -156,9 +156,12 @@ function signUp(){
   var password =document.getElementById("password").value;
   if (email == localStorage.email && password == localStorage.password){
         alert("email e senha confere");
+        window.open('telaUsuario.html');
+
   } 
   else{
       alert("email ou senha inválido");
+      window.open('login.html');
   }
 }
 
