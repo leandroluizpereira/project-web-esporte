@@ -177,3 +177,20 @@ a{
     color: rgb(216, 45, 15);
 }
 }
+.p-imagem{
+    font-size: 10px;
+}
+.inputfile:active::before{
+
+background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+.inputfile::before{
+    content: "";
+}
+
+.inputfile::-webkit-file-upload-button {
+    background-color: rgb(255, 217, 217);
+    width: 55px;
+    height: 20px;
+    font-size: 5px
+}
