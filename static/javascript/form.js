@@ -1,11 +1,15 @@
  function ch(){
    if(document.getElementById('checkTermo').checked){
+    document.getElementById('btn').style.animation= "aparecer 2s linear";
    document.getElementById('btn').style.display="inline";
    }
-   else{
-    document.getElementById('btn').style.display="none";
-   }  
+   else {
+   document.getElementById('btn').style.animation= "esconder 2s linear";
+   document.getElementById('btn').style.display="none";
+   }
+  
  }
+
 function salvar(){
 
   if(document.getElementById("email").value == ""){
