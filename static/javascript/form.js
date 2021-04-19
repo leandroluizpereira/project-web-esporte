@@ -99,7 +99,7 @@ else{
   var confSenha=localStorage.setItem("confSenha",confSenha);
   }
   if(document.getElementById("password").value == document.getElementById("confSenha").value && document.getElementById("password").value != ""){
-  alert("Senha correto");
+  alert("as duas senhas estão confere! ");
   count += 1;
   }
   else{
