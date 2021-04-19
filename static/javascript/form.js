@@ -14,25 +14,15 @@
 function salvar(){
    var count =0;
 
-  if(document.getElementById("email").value.indexOf("@") == -1 || document.getElementById("email").value.indexOf(".") == -1) {
+  if(document.getElementById("email").value.indexOf("@") == -1 || document.getElementById("email").value.indexOf(".") == -1 || "") {
     alert("Insira um email válido");
    
 }
 else{
   count += 1;
-}
-
-
-  if(document.getElementById("email").value == ""){
-    alert("Email deve ser cadastrado");
-   
-  }
- 
-  else {
-    count += 1;
   email = document.getElementById("email").value;
   var email = localStorage.setItem("email",email);
-  }
+}
   if (document.getElementById("nome").value == ""){
     alert("O nome deve ser cadastrado");
   }
@@ -110,8 +100,11 @@ else{
   alert("O termo deve ser confirmado");
  
   }
+  else{
+    count += 1;
+  }
   if(count>10){
-  window.open('telaUsuario.html',"_self");
+  window.open('telaUsuario.html');
   }
 }
 function timeot(){
@@ -121,32 +114,78 @@ function timeot(){
 }, 5000);
   
 }
-
-
-
 function ler(){
   alert("Bem-vindo "+localStorage.nome);
 }
 
 function alterar(){
+  if(document.getElementById("email").value ==""){
+     console.log('email vazio');
+  }
+  else{
   email = document.getElementById("email").value;
   var email = localStorage.setItem("email",email);
-  nome = document.getElementById("nome").value;
-  var nome = localStorage.setItem("nome",nome);
-  bairro = document.getElementById("bairro").value;
-  var bairro = localStorage.setItem("bairro",bairro);
-  endereco = document.getElementById("endereco").value;
-  var endereco = localStorage.setItem("endereco",endereco);
-  numero = document.getElementById("numero").value;
-  var numero = localStorage.setItem("numero",numero);
-  telefone = document.getElementById("telefone").value;
-  var telefone = localStorage.setItem("telefone",telefone);
-  celular = document.getElementById("celular").value;
-  var celular = localStorage.setItem("celular",celular);
-  password=document.getElementById("password").value;
-  var password = localStorage.setItem("password",password);
-  confSenha = document.getElementById("confSenha").value;
-  var confSenha=localStorage.setItem("confSenha",confSenha);
+  }
+  if(nome = document.getElementById("nome").value == ""){
+    console.log('nome vazio');
+  }
+  else{
+    nome = document.getElementById("nome").value;
+    var nome = localStorage.setItem("nome",nome);
+  }
+
+  if(bairro = document.getElementById("bairro").value == ""){
+    console.log('bairro vazio');
+  }
+  else{
+    bairro = document.getElementById("bairro").value;
+    var bairro = localStorage.setItem("bairro",bairro);
+  }
+
+  if(endereco = document.getElementById("endereco").value == ""){
+    console.log('endereço vazio');
+  }
+  else{
+    endereco = document.getElementById("endereco").value;
+    var endereco = localStorage.setItem("endereco",endereco);
+  }
+ 
+  if(  numero = document.getElementById("numero").value == ""){
+    console.log('número vazio');
+  }
+  else{
+    numero = document.getElementById("numero").value;
+    var numero = localStorage.setItem("numero",numero);
+  }
+  if(  telefone = document.getElementById("telefone").value == ""){
+    console.log('telefone vazio');
+  }
+  else{
+    telefone = document.getElementById("telefone").value;
+    var telefone = localStorage.setItem("telefone",telefone);
+  }
+   if(  celular = document.getElementById("celular").value == ""){
+    console.log('telefone vazio');
+   }
+   else{
+    celular = document.getElementById("celular").value;
+    var celular = localStorage.setItem("celular",celular);
+   }
+   if( password=document.getElementById("password").value == ""){
+    console.log('passaword vazio');
+   }
+   else{
+    password=document.getElementById("password").value;
+    var password = localStorage.setItem("password",password);
+   }
+  if(confSenha = document.getElementById("confSenha").value == ""){
+    console.log('contra senha vazio');
+  }
+  else{
+    confSenha = document.getElementById("confSenha").value;
+    var confSenha=localStorage.setItem("confSenha",confSenha);
+  }
+
   alert("alterado com sucesso");
 
 }
@@ -156,13 +195,14 @@ function signUp(){
   var password =document.getElementById("password").value;
   if (email == localStorage.email && password == localStorage.password){
         alert("email e senha confere");
-        window.open('telaUsuario.html',"_self");
+        window.open("telaUsuario.html");
 
   } 
   else{
       alert("email ou senha inválido");
-      window.open('login.html');
+      window.open('Login.html','_self');
   }
+
 }
 
 function imagem(){ 
