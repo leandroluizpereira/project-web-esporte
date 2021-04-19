@@ -217,14 +217,14 @@
 }
 .prop-nba-8{
 
-    background-image: url();
-    background-size: cover;
+    background-image: url(../imagens/propagandas/formula-one-full.webp);
+    background-size: contain;
     background-position: center;
 
 }
 .prop-nba-9{
 
-    background-image: url();
+    background-image: url(../imagens/propagandas/telecine-full.webp);
     background-size: cover;
     background-position: center;
 
