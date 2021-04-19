@@ -111,7 +111,7 @@ else{
  
   }
   if(count>10){
-  window.open('telaUsuario.html');
+  window.open('telaUsuario.html',"_self");
   }
 }
 function timeot(){
@@ -156,7 +156,7 @@ function signUp(){
   var password =document.getElementById("password").value;
   if (email == localStorage.email && password == localStorage.password){
         alert("email e senha confere");
-        window.open('telaUsuario.html');
+        window.open('telaUsuario.html',"_self");
 
   } 
   else{
