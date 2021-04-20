@@ -57,7 +57,7 @@
 - [ ] em desenvolvimento
 
 ## Protótico de desenvolvimento
--[ ] Adobe XD
+- [ ] Adobe XD
 
 
 ## Sobre Webp
