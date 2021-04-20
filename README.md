@@ -4,7 +4,7 @@
 
 
  ## :books: Projeto Integrado
- ### lista de tarefas  
+ ### Desenvolvimento do site  
  
 - [x] Layount menu de navegaçâo 
  * - [X] 1 - Layount
@@ -51,13 +51,14 @@
 - [X] imagens de lincença
 - [X] imagens sem licença
 
+## Protótico de desenvolvimento
+- [ ] Adobe XD
+
 
 ## Segurança de informaçâo ao usúario
 - [ ] em desenvolvimento
 - [ ] em desenvolvimento
 
-## Protótico de desenvolvimento
-- [ ] Adobe XD
 
 
 ## Sobre Webp
