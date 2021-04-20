@@ -180,6 +180,7 @@ a{
 .p-imagem{
     font-size: 10px;
 }
+/*
 .inputfile:active::before{
 
 background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
@@ -194,3 +195,4 @@ background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
     height: 20px;
     font-size: 5px
 }
+*/
