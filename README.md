@@ -1,6 +1,6 @@
 
  ## Acesso ao site:
- ### https://leandroluizpereira.github.io/project-web-sporte/
+ ### https://leandroluizpereira.github.io/project-web-sport/
 
 
  ## :books: Projeto Integrado
