@@ -50,8 +50,8 @@ body{
 }
 nav ul {
   font-size: 13px;
-    padding: 0px;
-    margin: 7px;
+  padding: 0px;
+  margin: 7px;
   display: flex;
   justify-content: space-between;
   list-style-type: none;

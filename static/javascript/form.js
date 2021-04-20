@@ -5,14 +5,14 @@
    document.getElementById('btn').style.display="inline";
    }
    else {
-   document.getElementById('btn').style.animation= "esconder 1s linear";
+   document.getElementById('btn').style.animation="esconder 1s linear";
    document.getElementById('btn').style.display="none";
    }
-  
+
  }
 
 function salvar(){
-   var count =0;
+   var count=0;
 
   if(document.getElementById("email").value.indexOf("@") == -1 || document.getElementById("email").value.indexOf(".") == -1 || "") {
     alert("Insira um email válido");
@@ -196,13 +196,11 @@ function signUp(){
   if (email == localStorage.email && password == localStorage.password){
         alert("email e senha confere");
         window.open("telaUsuario.html");
-
   } 
   else{
       alert("email ou senha inválido");
       window.open('Login.html','_self');
   }
-
 }
 
 function imagem(){ 
@@ -222,8 +220,6 @@ function carregarImagem(){
   if(recentImageDataUrl){
   document.querySelector("#imagemUsuario").setAttribute("src", recentImageDataUrl);
   }
- 
-  
   });
 }
 
