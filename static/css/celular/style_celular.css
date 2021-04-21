@@ -65,7 +65,7 @@ nav ul a {
   transition: all 0.5s ease;
 }
 nav ul a:hover {
-  color: #AAA;
+  color: #D9A25F;
 }
 nav li {
  
@@ -73,12 +73,15 @@ nav li {
     font-weight: normal;
   font-style: normal;
 }
+nav li:hover{
+  background-color: rgba(0, 0, 0, 0.527);
+}
 
 nav ul li:last-child a{
     padding: 6px 17px;
     border: 2px solid;  
     border-radius: 5px;
-    color: #00E4D9;
+    color: #D9A25F;
 }
 
 #menu-icon { 
@@ -87,7 +90,7 @@ nav ul li:last-child a{
 }
 
 nav ul li:last-child a:hover{
-    color: #00ABAF;
+    color: #ffffff;
 }
 
 nav #menu-toggle {
@@ -108,7 +111,9 @@ nav .wrapper {
   }
 @media screen and (max-width: 768px) {
   nav nav ul a {
-    color: #FFF;
+    color: white;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
   }
   nav ul {
     background-color: #006eff49;
@@ -125,11 +130,14 @@ nav .wrapper {
 
   }
   nav li {
-    color: #53354A;
+   
     display: block;
-    font-size: 16px;
+    font-size: 18px;
     padding: 1em 0;
     text-align: center;
+  }
+  nav li:hover{
+    background-color: #0000009d;
   }
 
   nav #menu-toggle:checked ~ ul {
