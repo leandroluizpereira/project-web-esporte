@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media screen and (min-width:451px) and (max-width:700px){
+    body{
+        margin: auto;
+        background-image: url(../../imagens/background/pasiagem-100px-gimp.webp);
+        background-color: beige;
+        background-size:contain;
+     
+       
+        width: 430px;
+    }
+    .div-login{
+       margin-top: 100px;
+        background-color: white;
+        width: 430px;
+        height: 200px;
+        padding-bottom: 60px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+    h1{
+        color: #D9AD5B;
+    }
+    form{
+        width:100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;    
+        display: flex;  
+    }
+    label{
+
+        margin-top: -70px;
+        margin-left: 10px;
+    }
+    input{
+        font-size: 10px;
+        margin-top: -70px;
+       width: 100px;
+        margin-left: 10px;
+    }
+    .botao{
+        cursor: pointer;
+        margin-top: -70px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    
+
+}

@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+@media screen and (min-width:451px) and (max-width:700px){
+
+
+    @keyframes transition-0{
+        from{
+           transform: translateX(200px);
+        }
+        to{  
+            transform: translateX(0px);
+           
+        }
+    }
+    .corpo{
+        margin: auto;
+        width: 450px;
+        background-color: beige;  
+    }
+    @keyframes transition {
+        from{
+           transform: translateY(-150px);
+        }
+        50%{
+            
+        }
+        to{
+            transform: translateY(0px);
+        }
+    }
+    p{
+        color: red;
+    }
+    .cabecalho{
+    
+        width: auto;
+        height: 70vw;
+        border-left: 2px solid #D9AD5B;
+        border-right: 2px solid #D9AD5B;
+        border-bottom: 2px solid #D9AD5B;
+        background-image:url(../../imagens/background/cadastro-full.webp);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size:cover;
+        background-position:center;
+        border-radius: 0px 0px 20px 20px;
+        animation: transition 1.5s ease-in;
+    }
+    .h1-cadastro{
+        text-align: center;
+        color: #D9AD5B;
+    }
+    .hr-cadastro{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .div-corpo-form{
+        animation: transition-0 0.3s ease-in;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        border: 1px solid black;
+        width: 100%;
+        height: auto;
+        background-color: rgb(253, 253, 253);
+    }
+    .div-for{
+        width: 100%;
+        height: 100%;
+    }
+    .form{
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    fieldset{
+        border-radius: 8px;
+        border-color: #D9AD5B;
+        margin: 15px;
+    }
+    legend{
+        color: #D9AD5B;
+        font-weight: bold;
+    }
+    .labelNome{
+     
+    }
+    .inputNome{
+        width: 130px;
+    }
+    .labelEndere{
+      
+    }
+    .inputEndere{
+        width: 160px;
+    }
+    .labelNum{
+        margin: 10px;
+    }
+    .inputNum{
+        width: 40px;
+    }
+    .labelNum{
+        margin: 10px 0px 10px 10px;
+    }
+    .inputNum{
+        width: 50px;
+    }
+    .labelCel{
+    
+    }
+    .inputCel{
+        width: 100px;
+        margin: 10px 10px 0px 0px;
+    }
+    .labelTel{
+    
+    }
+    .inputTel{
+        width: 100px;
+        margin: 10px 10px 0px 0px;
+    }
+    .labelSenha{
+        margin: 10px ;
+    }
+    .inputSenha{
+        width: 100px;
+    
+    }
+    .labelConSenha{
+        margin: 10px;
+    }
+    .inputConSenha{
+        width: 100px;
+    }
+    .labelEmail{
+    
+    }
+    .inputEmail{
+        width: 240px;
+    }
+    .labelBairro{
+    
+    }
+    .inputBairro{
+        width: 130px;
+        margin-bottom: 15px;
+    }
+    
+    @keyframes aparecer{
+        from{
+          opacity: 0;
+          transform: translateX(20px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+    @keyframes esconder{
+        from{
+          opacity: 1;
+        }
+        to{
+            opacity: 0;
+        }
+    }
+    
+    
+    .btnEnviar{ 
+        cursor: pointer;
+        display: none;
+        font-size: 15px;
+        text-align: center;
+        text-justify: center;
+        border-radius: 10px;
+        width: 80px;
+        height: 50px;
+    
+        background-color: darkgreen;
+        color: rgb(199, 228, 199);
+    }
+    .btnEnviar a {
+      text-decoration: none;
+      color: rgb(199, 228, 199);
+      width: 100%;
+      height: 100%;
+    }
+    
+    .btnEnviar:hover{
+        background-color: rgb(41, 114, 41);
+    }
+    .div-voltar{
+        background-color: #D9AD5B;
+    }
+    .a-voltar{
+        margin:40px;
+        border-radius:10px;
+    }
+    a{
+        
+        color: rgb(216, 45, 15);
+    }
+    
+
+
+
+}

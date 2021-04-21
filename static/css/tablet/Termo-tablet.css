@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@media screen and (min-width:451px) and (max-width:700px){
+
+    body{
+        margin: auto;
+        width: 400px;
+        height: auto;
+        background-color: beige;
+    }
+    .div-termo{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 15px;
+        background-color: white;
+        height: auto;
+        border-radius: 20px;
+        border: 2px solid darkgoldenrod ;
+        animation: move 0.5s linear;
+    }
+    .h1-termo{
+        text-align: center;
+        color: #D9AD5B;
+        animation: opacity 2s linear;
+    }
+    p{
+      
+        padding-left: 15px;
+        padding-left: 15px;
+        color: brown;
+        text-align: left;
+        animation: opacity 2s linear;
+    }
+    h2{
+        padding: 2px;
+        border-radius: 5px;
+        background-color: beige;
+        border: 1px solid red;
+        animation: opacity 2s linear;
+        text-align: center;
+        color:  rgb(187, 0, 0);
+    }
+    .div-container{
+        padding: 20px;
+        
+        animation: opacity 2s linear;
+    }
+    @keyframes move{
+        from{
+            height: 0px;
+    
+        }
+        to{
+            height: 500px;
+    
+        }
+    }
+    @keyframes opacity {
+        from{
+            opacity: 0;
+    
+        }
+        to{
+            opacity: 1;
+    
+        }
+    }
+}
