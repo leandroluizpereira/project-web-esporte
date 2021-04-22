@@ -7,9 +7,9 @@
  ### Desenvolvimento do site  
  
 - [x] Layount menu de navegaçâo 
- * - [X] 1 - Layount
+   [X] 1 - Layount
    * - [X] Desktop
- * - [X] 2 - Layount
+   [X] 2 - Layount
    * - [X] Tablet
    * - [X] Celular
 - [x] Tela
