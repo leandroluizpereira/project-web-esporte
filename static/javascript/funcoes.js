@@ -15,9 +15,9 @@ window.addEventListener('scroll',function(){
 }
 );
 
-
 function intervaloSplash(){
+
   setTimeout(function() {
     window.open('index.html','_self');
-  }, 6000);
+  }, 3000);
 }
