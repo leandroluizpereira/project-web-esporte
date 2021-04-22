@@ -10,6 +10,8 @@
    }
 
  }
+ 
+//Autentificaçôes do cadastro
 
 function salvar(){
    var count=0;
