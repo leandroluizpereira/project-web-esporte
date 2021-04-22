@@ -12,9 +12,13 @@
  * - [X] 2 - Layount
    * - [X] Tablet
    * - [X] Celular
-- [x] Layount de Tela
+- [x] Tela
   * - [X] Splash
   * - [X] Index
+  * - [X] Cadastro
+  * - [X] Login
+  * - [X] Aletas
+  * - [X] Dev 
 - [x] navegaçâo de links interno e externo
 - [x] criçâo keyframe css
  * - [X] keyframe opacidade - transform - 
