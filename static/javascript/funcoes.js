@@ -19,5 +19,5 @@ function intervaloSplash(){
 
   setTimeout(function() {
     window.open('index_2.html','_self');
-  }, 3000);
+  }, 5000);
 }
