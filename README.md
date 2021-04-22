@@ -12,7 +12,7 @@
  * - [X] 2 - Layount
    * - [X] Tablet
    * - [X] Celular
-- [x] Layount Tela
+- [x] Layount de Tela
   * - [X] Splash
   * - [X] Index
 - [x] navegaçâo de links interno e externo
