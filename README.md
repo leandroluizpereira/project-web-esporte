@@ -12,6 +12,9 @@
  * - [X] 2 - Layount
    * - [X] Tablet
    * - [X] Celular
+- [x] Layount Tela
+  * - [X] Splash
+  * - [X] Index
 - [x] navegaçâo de links interno e externo
 - [x] criçâo keyframe css
  * - [X] keyframe opacidade - transform - 
@@ -23,6 +26,7 @@
  * - [X] Function - salvar() -
  * - [X] Function - alterar() -
  * - [X] Function - signUp() -
+ * - [X] Function - timeout() -
 - [X] Fotos
 - [x] Tela de cadastro
 - [ ] PHP
