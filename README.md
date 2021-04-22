@@ -13,24 +13,24 @@
    * - [X] Tablet
    * - [X] Celular
 - [x] Tela
-  * - [X] Splash
-  * - [X] Index
-  * - [X] Cadastro
-  * - [X] Login
-  * - [X] Aletas
-  * - [X] Dev 
+   * - [X] Splash
+   * - [X] Index
+   * - [X] Cadastro
+   * - [X] Login
+   * - [X] Aletas
+   * - [X] Dev 
 - [x] navegaçâo de links interno e externo
 - [x] criçâo keyframe css
- * - [X] keyframe opacidade - transform - 
- * - [X] keyframe rotate - transform -
- * - [x] keyframe scale - transform - 
- * - [x] keyframe sombra - transform - 
+  * - [X] keyframe opacidade - transform - 
+  * - [X] keyframe rotate - transform -
+  * - [x] keyframe scale - transform - 
+  * - [x] keyframe sombra - transform - 
 - [X] Funçôes com Javascripts
- * - [X] Function - deletar() -
- * - [X] Function - salvar() -
- * - [X] Function - alterar() -
- * - [X] Function - signUp() -
- * - [X] Function - timeout() -
+  * - [X] Function - deletar() -
+  * - [X] Function - salvar() -
+  * - [X] Function - alterar() -
+  * - [X] Function - signUp() -
+  * - [X] Function - timeout() -
 - [X] Fotos
 - [x] Tela de cadastro
 - [ ] PHP
@@ -48,13 +48,13 @@
 - [x] download arquivos pdfs [paletas de cores]
 - [x] Fontes externas , e internos 
 - [X] Ferramentas utilizadas para ediçâo e redirecionamento de imagem
- * - [X] Gimp
- * - [X] Krita
+  * - [X] Gimp
+  * - [X] Krita
 - [x] Tratamento da formato de imagem
- * - [x] webp
- * - [x] jpeg
+  * - [x] webp
+  * - [x] jpeg
 - [x] Video
- * - [x] externo "Youtube"
+  * - [x] externo "Youtube"
 - [X] PDF - paletas de cores
 - [X] imagens de lincença
 - [X] imagens sem licença
