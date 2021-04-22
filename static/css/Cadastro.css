@@ -187,6 +187,12 @@ legend{
 .btnEnviar:hover{
     background-color: rgb(41, 114, 41);
 }
+.btnEnviar:after{
+    content: '\00bb';
+    animation: move 3s linear infinite;
+
+}
+
 .div-voltar{
     background-color: #D9AD5B;
 }
@@ -199,7 +205,15 @@ a{
     color: rgb(216, 45, 15);
 }
 
+@keyframes move {
+    to{
+    padding-left:15px;
+    }
+    from{
+        padding-left:0px;
+    }
     
+}
 
 
 
