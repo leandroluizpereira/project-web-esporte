@@ -9,4 +9,15 @@ function deletar(){
   console.log("Deu certo!");
 }
 
+window.addEventListener('scroll',function(){
+     
+  console.log("Scrool action");
+}
+);
 
+
+function intervaloSplash(){
+  setTimeout(function() {
+    window.open('index.html','_self');
+  }, 6000);
+}
