@@ -59,8 +59,9 @@
 - [X] imagens de lincença
 - [X] imagens sem licença
 
-## Protótico de desenvolvimento
-- [ ] Adobe XD
+## Escolha do Protótico de desenvolvimento
+- [x] Figma
+- [ ] Adobre XD
 
 
 ## Segurança de informaçâo ao usúario
