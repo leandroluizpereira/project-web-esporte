@@ -7,9 +7,9 @@
  ### Desenvolvimento do site  
  
 - [x] Layount menu de navegaçâo 
-   [X] 1 - Layount
+* - [X] 1 - Layount
    * - [X] Desktop
-   [X] 2 - Layount
+* - [X] 2 - Layount
    * - [X] Tablet
    * - [X] Celular
 - [x] Tela
@@ -42,7 +42,7 @@
 - [x] Responsivel Desktop - 1320px
 - [x] Responsivel tablet - 700px
 - [x] Responsivel mobile - 360px
-- [x] Hospedagem - Github Pages
+- [x] Hospedagem - Github Pages 
 - [X] Propagandas somente na versão Desktop
 - [ ] versão app android studio ou flutter
 - [x] download arquivos pdfs [paletas de cores]
@@ -59,8 +59,9 @@
 - [X] imagens de lincença
 - [X] imagens sem licença
 
-## Protótico de desenvolvimento
-- [ ] Adobe XD
+## Escolha do Protótico de desenvolvimento
+- [x] Figma
+- [ ] Adobre XD
 
 
 ## Segurança de informaçâo ao usúario
