@@ -4,7 +4,6 @@
 
     body{
         background-color: beige;
-      
     }
     main{
         display: flex;
@@ -13,9 +12,7 @@
         margin: auto;
         width: 320px;
     }
-    div{
-    
-     
+    div{ 
         border-radius: 15px;
         animation: lateral 2s linear;
         display: flex;
@@ -31,8 +28,14 @@
         color: bisque;
         animation: cima 1s linear;
     }
-    
-    
+    .imagem{
+        position: absolute;
+        background-image: url();
+    }
+    .imagem-2{
+        position: absolute;
+        background-image: url();
+    }  
     
     @keyframes lateral {
     

@@ -1,6 +1,5 @@
 body{
     background-color: beige;
-  
 }
 main{
     display: flex;
@@ -11,7 +10,6 @@ main{
 }
 div{
 
- 
     border-radius: 15px;
     animation: lateral 2s linear;
     display: flex;
@@ -23,6 +21,7 @@ div{
     background-color: brown;
 }
 h1{
+    font-weight: bold;
     width: 200px;
     text-align: center;
     font-size: 38px;
@@ -34,47 +33,36 @@ h1{
     background-color: rgba(255, 255, 255, 0);
     width: 350px;
     position: absolute;
-    background-image: url(../imagens/splash/cristiano-ronaldo.png);
+    background-image: url(../imagens/splash/cristiano-ronaldo.webp);
     background-position: center;
     background-size: 350px;
 
 }
 .imagem-2{
-
-  margin-left: 400px;
+    margin-left: 400px;
     width: 300px;
     background-color: rgba(255, 255, 255, 0);
     position: absolute;
-    background-image: url(../imagens/splash/michael-jordan.png);
+    background-image: url(../imagens/splash/michael-jordan.webp);
     background-position: center;
     background-size: 260px;
 }
 
-
-
 @keyframes lateral {
-
     from{
         transform: translateX(200px);
         opacity: 0.5;
-
     }
     to{
         transform: translateX(0px);
         opacity: 1;
-
-    }
-    
+    }  
 }
 @keyframes cima {
-
     from{
         transform: translateY(200px);
-
     }
     to{
         transform: translateY(0px);
-
-    }
-    
+    } 
 }
