@@ -33,7 +33,6 @@
   * - [X] Function - signUp() -
   * - [X] Function - timeout() -
 - [X] Fotos
-- [x] Tela de cadastro
 - [ ] PHP
 - [ ] json
 - [x] css
