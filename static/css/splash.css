@@ -36,6 +36,7 @@ h1{
     background-image: url(../imagens/splash/cristiano-ronaldo.webp);
     background-position: center;
     background-size: 350px;
+    animation: transition 2s linear ;
 
 }
 .imagem-2{
@@ -46,6 +47,7 @@ h1{
     background-image: url(../imagens/splash/michael-jordan.webp);
     background-position: center;
     background-size: 260px;
+    animation: transition-2 2s linear ;
 }
 
 @keyframes lateral {
@@ -65,4 +67,28 @@ h1{
     to{
         transform: translateY(0px);
     } 
+}
+@keyframes transition {
+    from{
+        opacity: 1;
+        margin-left: -100px;
+        z-index: 1;
+    }
+    to{
+        margin-left: -280px;
+        opacity: 1;
+        z-index: 1;
+    }
+}
+@keyframes transition-2 {
+    from{
+        opacity: 1;
+        margin-left: 300px;
+        z-index: 1;
+    }
+    to{
+        margin-left: 400px;
+        opacity: 1;
+        z-index: 1;
+    }
 }
