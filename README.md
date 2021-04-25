@@ -17,8 +17,8 @@
    * - [X] Index
    * - [X] Cadastro
    * - [X] Login
-   * - [X] Aletas
-   * - [X] Dev 
+   * - [X] Atletas
+   * - [X] Desenvolvimento 
 - [x] navegaçâo de links interno e externo
 - [x] criçâo keyframe css
   * - [X] keyframe opacidade - transform - 
