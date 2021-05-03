@@ -21,3 +21,8 @@ function intervaloSplash(){
     window.open('index_2.html','_self');
   }, 5000);
 }
+
+var elmnt = document.getElementById("")
+
+
+
