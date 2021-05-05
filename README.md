@@ -33,18 +33,14 @@
   * - [X] Function - signUp() -
   * - [X] Function - timeout() -
 - [X] Fotos
-- [ ] PHP
 - [ ] json
 - [x] css
-- [ ] banco de dados
-- [ ] FireBase
 - [X] LocalStore
 - [x] Responsivel Desktop - 1320px
 - [x] Responsivel tablet - 700px
 - [x] Responsivel mobile - 360px
 - [x] Hospedagem - Github Pages 
 - [X] Propagandas somente na versão Desktop
-- [ ] versão app android studio ou flutter
 - [x] download arquivos pdfs [paletas de cores]
 - [x] Fontes externas , e internos 
 - [X] Ferramentas utilizadas para ediçâo e redirecionamento de imagem
@@ -59,6 +55,16 @@
 - [X] imagens de lincença
 - [X] imagens sem licença
 
+### Outras versôes
+
+- [ ] PHP
+- [ ] banco de dados
+[Repositorio versão com php e mysql](https://github.com/leandroluizpereira/project-web-spot-php-mysql)
+
+### Complemento
+
+- [ ] versão app android studio ou flutter [repositorio do app]()
+- [ ] FireBase
 ## Escolha do Protótico de desenvolvimento
 - [x] Figma
 - [ ] Adobre XD
