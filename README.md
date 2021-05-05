@@ -67,7 +67,7 @@
 - [ ] versão app android studio ou flutter
 - [ ] FireBase
 
- [repositorio do app]()
+ [repositorio do app](https://github.com/leandroluizpereira/project-app-sport)
  
 ## Escolha do Protótico de desenvolvimento
 - [x] Figma
