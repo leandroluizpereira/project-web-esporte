@@ -59,12 +59,18 @@
 
 - [ ] PHP
 - [ ] banco de dados
+
+<br>
+
 [Repositorio da versão](https://github.com/leandroluizpereira/project-web-spot-php-mysql)
 
 ### Complemento
 
 - [ ] versão app android studio ou flutter
 - [ ] FireBase
+
+<br>
+
  [repositorio do app]()
  
 ## Escolha do Protótico de desenvolvimento
