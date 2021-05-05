@@ -59,12 +59,14 @@
 
 - [ ] PHP
 - [ ] banco de dados
-[Repositorio versão com php e mysql](https://github.com/leandroluizpereira/project-web-spot-php-mysql)
+[Repositorio da versão](https://github.com/leandroluizpereira/project-web-spot-php-mysql)
 
 ### Complemento
 
-- [ ] versão app android studio ou flutter [repositorio do app]()
+- [ ] versão app android studio ou flutter
 - [ ] FireBase
+ [repositorio do app]()
+ 
 ## Escolha do Protótico de desenvolvimento
 - [x] Figma
 - [ ] Adobre XD
