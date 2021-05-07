@@ -33,7 +33,6 @@
   * - [X] Function - signUp() -
   * - [X] Function - timeout() -
 - [X] Fotos
-- [ ] json
 - [x] css
 - [X] LocalStore
 - [x] Responsivel Desktop - 1320px
