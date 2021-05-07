@@ -15,7 +15,7 @@ body{
     border-radius: 50%;
     background-color: white;
     z-index: -1;
-    animation: animate 1s linear;
+    animation: animate 0.6s linear;
     /*animation: animate 1s linear,mudarcor 3s linear;*/
 
 }
