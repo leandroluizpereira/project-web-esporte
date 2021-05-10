@@ -72,16 +72,18 @@
 - [x] Figma
 - [ ] Adobre XD
 
+## Detalhes do  Protótico do figma
+- [ ] 1 - Frames layount para tela desktop
+- [ ] 2 - Comments
 ![imagem]()
+As páginas estão comentadas em ordem,para informar a localização sobre:
+- [ ] 3 - Prototype 
+Inserido todas as interações de navegação de páginas .
 ![imagem]()
-![imagem]()
-
 
 ## Segurança de informaçâo ao usúario
 - [ ] em desenvolvimento
 - [ ] em desenvolvimento
-
-
 
 ## Sobre Webp
 
