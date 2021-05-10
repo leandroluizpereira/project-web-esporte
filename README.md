@@ -88,9 +88,7 @@
 
 <br>
 
-## Segurança de informaçâo ao usúario
-- [ ] em desenvolvimento
-- [ ] em desenvolvimento
+
 
 ## Sobre Webp
 
