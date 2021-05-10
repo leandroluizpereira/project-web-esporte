@@ -54,19 +54,19 @@
 - [X] imagens de lincença
 - [X] imagens sem licença
 
-### Outras versôes
+### Outras versôes do projeto
 
 - [x] PHP
 - [x] banco de dados - Sistema que cadastre vários usuários.
 
-[Repositorio da versão](https://github.com/leandroluizpereira/project-web-spot-php-mysql)
+[project-web-spot-php-mysql](https://github.com/leandroluizpereira/project-web-spot-php-mysql)
 
 ### Complemento
 
 - [ ] versão app android studio ou flutter
 - [ ] FireBase
 
- [repositorio do app](https://github.com/leandroluizpereira/project-app-sport)
+ [project-app-sport](https://github.com/leandroluizpereira/project-app-sport)
  
 ## Escolha do Protótico de desenvolvimento
 - [x] Figma
