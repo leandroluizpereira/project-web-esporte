@@ -54,7 +54,7 @@
 - [X] imagens de lincença
 - [X] imagens sem licença
 
-### Versão de armazenamento no mysql
+### Versão php mysql
 
 - [x] PHP
 - [x] banco de dados - Sistema que cadastre vários usuários.
