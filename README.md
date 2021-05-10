@@ -54,7 +54,7 @@
 - [X] imagens de lincença
 - [X] imagens sem licença
 
-### Outras versôes do projeto
+### Versão de armazenamento no mysql
 
 - [x] PHP
 - [x] banco de dados - Sistema que cadastre vários usuários.
@@ -63,6 +63,8 @@
 
 - [ ] versão app android studio ou flutter
 - [ ] FireBase
+
+### Versão do aplicativo quizz
 
  [project-app-sport](https://github.com/leandroluizpereira/project-app-sport)
  
