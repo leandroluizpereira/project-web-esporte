@@ -79,6 +79,7 @@
 As páginas estão comentadas em ordem,para informar a localização sobre:
 - [ ] 3 - Prototype 
 Inserido todas as interações de navegação de páginas .
+<br>
 ![imagem](https://github.com/leandroluizpereira/project-web-sport/blob/main/figma1.png)
 
 ## Segurança de informaçâo ao usúario
