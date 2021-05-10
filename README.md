@@ -61,8 +61,6 @@
 
 [project-web-spot-php-mysql](https://github.com/leandroluizpereira/project-web-spot-php-mysql)
 
-### Complemento
-
 - [ ] versão app android studio ou flutter
 - [ ] FireBase
 
