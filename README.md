@@ -74,7 +74,7 @@
 
 ## Detalhes do  Protótico do figma
 - [x] 1 - Frames - layount para tela desktop.
-- [x] 2 - Comments -As páginas estão comentadas em ordem,para informar a localização sobre:
+- [x] 2 - Comments -As páginas estão comentadas em ordem,para informar a localização de cada evento e animação.
 
 <br>
 
