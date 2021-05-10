@@ -56,8 +56,8 @@
 
 ### Outras versôes
 
-- [ ] PHP
-- [ ] banco de dados
+- [x] PHP
+- [x] banco de dados - Sistema que cadastre vários usuários.
 
 [Repositorio da versão](https://github.com/leandroluizpereira/project-web-spot-php-mysql)
 
@@ -73,8 +73,8 @@
 - [ ] Adobre XD
 
 ## Detalhes do  Protótico do figma
-- [ ] 1 - Frames layount para tela desktop
-- [ ] 2 - Comments
+- [x] 1 - Frames - layount para tela desktop.
+- [x] 2 - Comments 
 
 <br>
 
@@ -86,6 +86,8 @@ Inserido todas as interações de navegação de páginas .
 <br>
 
 ![imagem](https://github.com/leandroluizpereira/project-web-sport/blob/main/figma1.png)
+
+<br>
 
 ## Segurança de informaçâo ao usúario
 - [ ] em desenvolvimento
