@@ -75,7 +75,10 @@
 ## Detalhes do  Protótico do figma
 - [ ] 1 - Frames layount para tela desktop
 - [ ] 2 - Comments
-![imagem]()
+
+<br>
+
+![imagem](https://github.com/leandroluizpereira/project-web-sport/blob/main/figma2.png)
 As páginas estão comentadas em ordem,para informar a localização sobre:
 - [ ] 3 - Prototype 
 Inserido todas as interações de navegação de páginas .
