@@ -61,10 +61,10 @@
 
 [project-web-spot-php-mysql](https://github.com/leandroluizpereira/project-web-spot-php-mysql)
 
+### Versão do aplicativo quizz
+
 - [ ] versão app android studio ou flutter
 - [ ] FireBase
-
-### Versão do aplicativo quizz
 
  [project-app-sport](https://github.com/leandroluizpereira/project-app-sport)
  
