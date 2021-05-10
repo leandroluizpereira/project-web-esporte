@@ -77,11 +77,11 @@
 - [x] 2 - Comments -As páginas estão comentadas em ordem, para informar a localização de cada evento e animação.
 - [x] 3 - Prototype - Inserido todas as interações de navegação de páginas .
 
-<br>
+
 
 ![imagem](https://github.com/leandroluizpereira/project-web-sport/blob/main/figma1.png)
 
-<br>
+
 
 ## Modelagem conceitual
 - [x] Lucidchart
