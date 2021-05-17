@@ -61,11 +61,6 @@
 
 [project-web-spot-php-mysql](https://github.com/leandroluizpereira/project-web-spot-php-mysql)
 
-### Versão do aplicativo quizz
-
-- [ ] versão app android studio ou flutter
-- [ ] FireBase
-
  [project-app-sport](https://github.com/leandroluizpereira/project-app-sport)
  
 ## Escolha do Protótico de desenvolvimento
