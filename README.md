@@ -79,7 +79,7 @@
 
 
 ## Modelagem conceitual
-- [x] Lucidchart
+- [x] brModelo
 
 
 ![imagem](https://github.com/leandroluizpereira/project-web-sport/blob/main/(Modelo%20conceitual).png)
