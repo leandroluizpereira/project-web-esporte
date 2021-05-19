@@ -61,7 +61,7 @@
 
 [project-web-spot-php-mysql](https://github.com/leandroluizpereira/project-web-spot-php-mysql)
 
- [project-app-sport](https://github.com/leandroluizpereira/project-app-sport)
+
  
 ## Escolha do Protótico de desenvolvimento
 - [x] Figma
