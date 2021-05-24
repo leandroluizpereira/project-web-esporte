@@ -82,7 +82,7 @@
 - [x] brModelo
 
 
-![imagem](https://github.com/leandroluizpereira/project-web-sport/blob/main/(Modelo%20conceitual).png)
+![imagem](https://github.com/leandroluizpereira/project-web-sport/blob/main/modelo-conceitual.png)
 
 ## Sobre Webp
 
