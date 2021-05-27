@@ -57,7 +57,7 @@
 ### Versão php mysql
 
 - [x] PHP
-- [x] banco de dados - Sistema que cadastre vários usuários.
+- [x] banco de dados - Sistema que cadastra vários usuários.
 
 [project-web-spot-php-mysql](https://github.com/leandroluizpereira/project-web-spot-php-mysql)
 
